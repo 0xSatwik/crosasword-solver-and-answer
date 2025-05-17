@@ -7,10 +7,7 @@ const nextConfig = {
   },
   experimental: {
     // Enable optimized navigation features
-    optimizeCss: true,
-    scrollRestoration: true,
-    // Optimize route prefetching
-    optimisticNavigation: true
+    scrollRestoration: true
   }
 };
 

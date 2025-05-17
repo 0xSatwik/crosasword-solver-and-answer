@@ -1,11 +1,23 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-export default function LoadingIndicator() {
-  const pathname = usePathname();
+// Component that uses search params
+function NavigationMonitor() {
   const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const [isLoading, setIsLoading] = useState(false);
+
+  // Watch for URL changes to detect navigation
+  useEffect(() => {
+    setIsLoading(false);
+  }, [pathname, searchParams]);
+
+  return null;
+}
+
+export default function LoadingIndicator() {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -32,18 +44,20 @@ export default function LoadingIndicator() {
     };
   }, []);
 
-  // Watch for URL changes to detect navigation
-  useEffect(() => {
-    setIsLoading(false);
-  }, [pathname, searchParams]);
-
-  if (!isLoading) return null;
+  if (!isLoading) return (
+    <Suspense fallback={null}>
+      <NavigationMonitor />
+    </Suspense>
+  );
 
   return (
     <div className="fixed inset-x-0 top-0 z-50">
       <div className="h-1 w-full bg-blue-50">
         <div className="animate-loading-bar h-1 bg-blue-600 transition-all"></div>
       </div>
+      <Suspense fallback={null}>
+        <NavigationMonitor />
+      </Suspense>
     </div>
   );
 }

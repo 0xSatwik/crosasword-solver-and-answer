@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Clue Solver</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .result-item {
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crossword Clue Solver</h1>
+    <div class="input-container">
+        <input type="text" id="clueInput" placeholder="Enter clue (e.g., Large bird)">
+        <input type="text" id="patternInput" placeholder="Enter pattern (optional, e.g., ???T for 4-letter word ending in T)">
+        <button onclick="solveClue()">Solve</button>
+    </div>
+    <div id="results"></div>
+
+    <script>
+        async function solveClue() {
+            const clue = document.getElementById('clueInput').value.trim();
+            const pattern = document.getElementById('patternInput').value.trim().toLowerCase();
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+
+            if (!clue) {
+                resultsDiv.innerHTML = '<div class="error">Please enter a clue.</div>';
+                return;
+            }
+
+            // Prepare API query
+            const words = clue.split(/\s+/).join('+');
+            let query = `https://api.datamuse.com/words?ml=${encodeURIComponent(words)}&max=10`;
+
+            // Add pattern to query if provided
+            if (pattern) {
+                const datamusePattern = pattern.replace(/\?/g, '*');
+                query += `&sp=${encodeURIComponent(datamusePattern)}`;
+            }
+
+            try {
+                const response = await fetch(query);
+                const data = await response.json();
+
+                // Filter out multi-word results
+                const singleWordResults = data.filter(item => !item.word.includes(' '));
+
+                if (singleWordResults.length === 0) {
+                    resultsDiv.innerHTML = '<div class="error">No matching single-word results found.</div>';
+                    return;
+                }
+
+                singleWordResults.forEach(item => {
+                    const resultItem = document.createElement('div');
+                    resultItem.className = 'result-item';
+                    resultItem.textContent = `${item.word} (Score: ${item.score})`;
+                    resultsDiv.appendChild(resultItem);
+                });
+            } catch (error) {
+                resultsDiv.innerHTML = '<div class="error">Error fetching results. Please try again.</div>';
+                console.error(error);
+            }
+        }
+
+        // Allow pressing Enter to trigger solve
+        document.getElementById('clueInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') solveClue();
+        });
+        document.getElementById('patternInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') solveClue();
+        });
+    </script>
+</body>
+</html>

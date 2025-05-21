@@ -101,10 +101,11 @@ export default function SolverPage() {
       setUsingFallback(true);
       
       if (data && data.length > 0) {
-        // Filter by length if needed
-        let filteredResults = data;
+        // Filter by length if needed and remove multi-word answers
+        let filteredResults = data.filter((item: any) => !item.word.includes(' ') && !item.word.includes('-'));
+        
         if (selectedLength && !showAll) {
-          filteredResults = data.filter((item: any) => item.word.length === selectedLength);
+          filteredResults = filteredResults.filter((item: any) => item.word.length === selectedLength);
         }
         
         // Sort results by score (higher first)

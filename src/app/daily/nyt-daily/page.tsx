@@ -10,36 +10,28 @@ import {
   ArchiveIcon
 } from 'lucide-react';
 
-// NEW: Function to fetch the latest puzzle, prioritizing today.json
-async function fetchLatestPuzzle() {
+// Fetch crossword data from today.json with cache-busting
+async function fetchTodayCrossword() {
   try {
-    // Add a cache-busting parameter to the URL
-    const timestamp = Date.now();
-    const response = await fetch(`https://crossword-solver-new.vercel.app/today.json?v=${timestamp}`, {
-      // Opt-out of caching
-      cache: 'no-store',
+    const timestamp = new Date().getTime(); // Cache-busting parameter
+    const response = await fetch(`/today.json?v=${timestamp}`, {
+      cache: 'no-store', // Instructs fetch to bypass the cache
     });
 
     if (!response.ok) {
-      throw new Error('today.json not found or invalid, falling back to API');
+      throw new Error('Failed to fetch today.json');
     }
-
-    const data = await response.json();
     
-    // Check if the file has content or is a placeholder
-    if (data.cleared || !data.puzzle) {
-        throw new Error('today.json is cleared or empty, falling back to API');
+    // Check for an empty or cleared file
+    const text = await response.text();
+    if (!text || text.trim() === '' || JSON.parse(text).cleared) {
+        throw new Error('today.json is empty or cleared');
     }
 
-    return { success: true, data };
+    return JSON.parse(text);
   } catch (error) {
-    console.warn(`Could not fetch from today.json: ${error.message}`);
-    // Fallback to the API if today.json is not available
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    return fetchCrosswordData(`${year}-${month}-${day}`);
+    console.error(`Error fetching today.json:`, error);
+    return null;
   }
 }
 
@@ -63,19 +55,23 @@ async function fetchCrosswordData(date: string) {
 
 // Try to fetch data with fallbacks
 async function fetchWithFallbacks(targetDate: string) {
-  // First try with the target date using the new function
-  let result = await fetchLatestPuzzle();
-  
+  // First, try to fetch from today.json
+  let result = await fetchTodayCrossword();
+
   // If successful, return the data
-  if (result?.success && result?.data) {
+  if (result) {
+    // The structure from today.json matches the required data structure directly
     return { 
-      data: result.data,
+      data: result,
       usingFallback: false,
-      actualDate: result.data.puzzle.date
+      actualDate: result.puzzle.date
     };
   }
   
-  // If not successful, try fallback dates using the API
+  // If today.json fails, log it and proceed to API fallbacks
+  console.log('today.json not available or invalid. Falling back to API for recent puzzles.');
+
+  // If not successful, try fallback dates from API
   const fallbackDates = [];
   const currentDate = new Date(targetDate);
   
@@ -92,13 +88,13 @@ async function fetchWithFallbacks(targetDate: string) {
   }
   
   for (const fallbackDate of fallbackDates) {
-    result = await fetchCrosswordData(fallbackDate);
+    const apiResult = await fetchCrosswordData(fallbackDate);
     
-    if (result?.success && result?.data) {
+    if (apiResult?.success && apiResult?.data) {
       return { 
-        data: result.data,
+        data: apiResult.data,
         usingFallback: true,
-        actualDate: result.data.puzzle.date
+        actualDate: fallbackDate
       };
     }
   }

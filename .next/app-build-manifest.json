@@ -21,25 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/nyt-crosswords/not-found.js"
     ],
-    "/daily/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/daily/page.js"
-    ],
     "/solver/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/solver/page.js"
     ],
-    "/nyt-crosswords/random/page": [
+    "/daily/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/nyt-crosswords/random/page.js"
-    ],
-    "/nyt-crosswords/[year]/[month]/[day]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/nyt-crosswords/[year]/[month]/[day]/page.js"
+      "static/chunks/app/daily/page.js"
     ],
     "/daily/nyt-daily/page": [
       "static/chunks/webpack.js",
@@ -55,6 +45,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/daily/nyt-archive/layout.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

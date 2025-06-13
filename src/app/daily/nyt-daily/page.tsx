@@ -10,6 +10,39 @@ import {
   ArchiveIcon
 } from 'lucide-react';
 
+// NEW: Function to fetch the latest puzzle, prioritizing today.json
+async function fetchLatestPuzzle() {
+  try {
+    // Add a cache-busting parameter to the URL
+    const timestamp = Date.now();
+    const response = await fetch(`https://crossword-solver-new.vercel.app/today.json?v=${timestamp}`, {
+      // Opt-out of caching
+      cache: 'no-store',
+    });
+
+    if (!response.ok) {
+      throw new Error('today.json not found or invalid, falling back to API');
+    }
+
+    const data = await response.json();
+    
+    // Check if the file has content or is a placeholder
+    if (data.cleared || !data.puzzle) {
+        throw new Error('today.json is cleared or empty, falling back to API');
+    }
+
+    return { success: true, data };
+  } catch (error) {
+    console.warn(`Could not fetch from today.json: ${error.message}`);
+    // Fallback to the API if today.json is not available
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return fetchCrosswordData(`${year}-${month}-${day}`);
+  }
+}
+
 // Fetch crossword data from API
 async function fetchCrosswordData(date: string) {
   try {
@@ -30,19 +63,19 @@ async function fetchCrosswordData(date: string) {
 
 // Try to fetch data with fallbacks
 async function fetchWithFallbacks(targetDate: string) {
-  // First try with the target date
-  let result = await fetchCrosswordData(targetDate);
+  // First try with the target date using the new function
+  let result = await fetchLatestPuzzle();
   
   // If successful, return the data
   if (result?.success && result?.data) {
     return { 
       data: result.data,
       usingFallback: false,
-      actualDate: targetDate
+      actualDate: result.data.puzzle.date
     };
   }
   
-  // If not successful, try fallback dates
+  // If not successful, try fallback dates using the API
   const fallbackDates = [];
   const currentDate = new Date(targetDate);
   
@@ -65,7 +98,7 @@ async function fetchWithFallbacks(targetDate: string) {
       return { 
         data: result.data,
         usingFallback: true,
-        actualDate: fallbackDate
+        actualDate: result.data.puzzle.date
       };
     }
   }

@@ -326,40 +326,51 @@ const headers = {
     return errorResponse('Endpoint not found.', 404);
   }
   
+  // NEW: Helper to get raw puzzle data from DB without formatting a response
+  async function getRawPuzzleDataByDate(date, env) {
+    // Get puzzle info
+    const puzzleData = await env.DB.prepare(`
+      SELECT * FROM puzzles WHERE date = ?
+    `).bind(date).first();
+    
+    if (!puzzleData) {
+      return null;
+    }
+    
+    // Get all clues for this puzzle
+    const clues = await env.DB.prepare(`
+      SELECT * FROM clues 
+      WHERE puzzle_id = ? 
+      ORDER BY 
+        CASE direction 
+          WHEN 'across' THEN 0 
+          WHEN 'down' THEN 1 
+          ELSE 2 
+        END, 
+        number
+    `).bind(puzzleData.puzzle_id).all();
+  
+    // Format the data into the structure needed for today.json
+    const result = {
+      puzzle: puzzleData,
+      clues: clues.results,
+      across: clues.results.filter(c => c.direction === 'across'),
+      down: clues.results.filter(c => c.direction === 'down')
+    };
+
+    return result;
+  }
+  
   // Get puzzle and all clues for a specific date
   async function getPuzzleByDate(date, env) {
     try {
-      // Get puzzle info
-      const puzzleData = await env.DB.prepare(`
-        SELECT * FROM puzzles WHERE date = ?
-      `).bind(date).first();
+      const result = await getRawPuzzleDataByDate(date, env);
       
-      if (!puzzleData) {
+      if (!result) {
         return errorResponse(`No puzzle found for date: ${date}`, 404);
       }
       
-      // Get all clues for this puzzle
-      const clues = await env.DB.prepare(`
-        SELECT * FROM clues 
-        WHERE puzzle_id = ? 
-        ORDER BY 
-          CASE direction 
-            WHEN 'across' THEN 0 
-            WHEN 'down' THEN 1 
-            ELSE 2 
-          END, 
-          number
-      `).bind(puzzleData.puzzle_id).all();
-      
-      // Format response
-      const result = {
-        puzzle: puzzleData,
-        clues: clues.results,
-        across: clues.results.filter(c => c.direction === 'across'),
-        down: clues.results.filter(c => c.direction === 'down')
-      };
-      
-      // Remove sensitive fields before returning
+      // Remove sensitive fields before returning the response
       return successResponse(removeSensitiveFields(result));
     } catch (error) {
       return errorResponse(`Database error: ${error.message}`, 500);
@@ -1001,67 +1012,78 @@ const headers = {
       const today = new Date();
       const todayStr = today.toISOString().split('T')[0];
       
-      // Check if today's puzzle exists
-      const todayExists = await puzzleExists(todayStr, env);
+      console.log(`Checking for latest puzzle on ${todayStr}.`);
       
-      console.log(`Checking for latest puzzle on ${todayStr}. Exists: ${todayExists}`);
-      
-      if (todayExists) {
-        return successResponse({
-          message: "Today's puzzle is already in the database.",
-          date: todayStr,
-          updated: false
-        });
-      }
-      
-      // Try to fetch today's puzzle
-      console.log(`Attempting to fetch puzzle for ${todayStr}`);
-      const puzzleData = await scrapePuzzleData(todayStr);
-      
-      if (!puzzleData) {
-        return successResponse({
-          message: `No puzzle available for today (${todayStr}) yet.`,
-          date: todayStr,
-          updated: false
-        });
-      }
-      
-      // Save to database
-      const result = await savePuzzleToDatabase(puzzleData, env);
-      
-      // Update today.json on GitHub
-      try {
-        const todayJson = {
-          puzzle: {
-            date: puzzleData.date,
-            formatted_date: puzzleData.formatted_date,
-            day_of_week: puzzleData.day_of_week,
-            title: puzzleData.title,
-            author: puzzleData.author,
-            editor: puzzleData.editor,
-            permalink: puzzleData.permalink
-          },
-          clues: puzzleData.clues,
-          across: puzzleData.clues.filter(c => c.direction === 'across'),
-          down: puzzleData.clues.filter(c => c.direction === 'down')
-        };
+      let puzzleDataForJson;
+      let message;
+      let updatedDb = false;
 
+      // Try to get puzzle from DB first
+      puzzleDataForJson = await getRawPuzzleDataByDate(todayStr, env);
+
+      if (puzzleDataForJson) {
+        // Puzzle is already in the database.
+        message = "Today's puzzle is already in the database.";
+        console.log(message);
+      } else {
+        // Puzzle not in DB, so scrape it
+        console.log(`Puzzle for ${todayStr} not in DB. Attempting to fetch from source.`);
+        const scrapedData = await scrapePuzzleData(todayStr);
+        
+        if (!scrapedData || !scrapedData.clues || scrapedData.clues.length === 0) {
+          return successResponse({
+            message: `No new puzzle available to scrape for today (${todayStr}) yet.`,
+            date: todayStr,
+            updated: false
+          });
+        }
+        
+        // Save to database
+        const result = await savePuzzleToDatabase(scrapedData, env);
+        updatedDb = true;
+        
+        // Structure the scraped data to match the format for our JSON file
+        puzzleDataForJson = {
+          puzzle: {
+            date: scrapedData.date,
+            formatted_date: scrapedData.formatted_date,
+            day_of_week: scrapedData.day_of_week,
+            title: scrapedData.title,
+            author: scrapedData.author,
+            editor: scrapedData.editor,
+            permalink: scrapedData.permalink
+          },
+          clues: scrapedData.clues,
+          across: scrapedData.clues.filter(c => c.direction === 'across'),
+          down: scrapedData.clues.filter(c => c.direction === 'down')
+        };
+        
+        message = `Successfully added puzzle for ${todayStr} with ${result.clue_count} clues.`;
+      }
+      
+      // At this point, we must have puzzle data to commit.
+      if (!puzzleDataForJson) {
+         return errorResponse(`Could not retrieve puzzle data for ${todayStr} for GitHub update.`, 500);
+      }
+      
+      // Always update today.json on GitHub
+      try {
         await updateGithubFile(
           'public/today.json',
-          JSON.stringify(todayJson, null, 2),
-          `feat: Update latest puzzle for ${todayStr}`,
+          JSON.stringify(puzzleDataForJson, null, 2),
+          `feat: Update puzzle for ${todayStr}`,
           env
         );
+        message += " GitHub file updated.";
       } catch (e) {
         console.error(`Failed to update today.json on GitHub: ${e.message}`);
+        message += ` Failed to update GitHub file: ${e.message}`;
       }
       
       return successResponse({
-        message: `Successfully added puzzle for ${todayStr} with ${result.clue_count} clues.`,
+        message: message,
         date: todayStr,
-        puzzle_id: result.puzzle_id,
-        clue_count: result.clue_count,
-        updated: true
+        updated: updatedDb
       });
     } catch (error) {
       return errorResponse(`Error fetching latest puzzle: ${error.message}`, 500);

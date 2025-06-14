@@ -328,36 +328,36 @@ const headers = {
   
   // NEW: Helper to get raw puzzle data from DB without formatting a response
   async function getRawPuzzleDataByDate(date, env) {
-    // Get puzzle info
-    const puzzleData = await env.DB.prepare(`
-      SELECT * FROM puzzles WHERE date = ?
-    `).bind(date).first();
-    
-    if (!puzzleData) {
+      // Get puzzle info
+      const puzzleData = await env.DB.prepare(`
+        SELECT * FROM puzzles WHERE date = ?
+      `).bind(date).first();
+      
+      if (!puzzleData) {
       return null;
-    }
-    
-    // Get all clues for this puzzle
-    const clues = await env.DB.prepare(`
-      SELECT * FROM clues 
-      WHERE puzzle_id = ? 
-      ORDER BY 
-        CASE direction 
-          WHEN 'across' THEN 0 
-          WHEN 'down' THEN 1 
-          ELSE 2 
-        END, 
-        number
-    `).bind(puzzleData.puzzle_id).all();
-  
+      }
+      
+      // Get all clues for this puzzle
+      const clues = await env.DB.prepare(`
+        SELECT * FROM clues 
+        WHERE puzzle_id = ? 
+        ORDER BY 
+          CASE direction 
+            WHEN 'across' THEN 0 
+            WHEN 'down' THEN 1 
+            ELSE 2 
+          END, 
+          number
+      `).bind(puzzleData.puzzle_id).all();
+      
     // Format the data into the structure needed for today.json
-    const result = {
-      puzzle: puzzleData,
-      clues: clues.results,
-      across: clues.results.filter(c => c.direction === 'across'),
-      down: clues.results.filter(c => c.direction === 'down')
-    };
-
+      const result = {
+        puzzle: puzzleData,
+        clues: clues.results,
+        across: clues.results.filter(c => c.direction === 'across'),
+        down: clues.results.filter(c => c.direction === 'down')
+      };
+      
     return result;
   }
   
@@ -991,7 +991,7 @@ const headers = {
           console.error(`Failed to update today.json on GitHub: ${e.message}`);
         }
       }
-
+      
       return successResponse({
         message: `Successfully added puzzle for ${date} with ${result.clue_count} clues.`,
         date: date,
@@ -1020,7 +1020,7 @@ const headers = {
 
       // Try to get puzzle from DB first
       puzzleDataForJson = await getRawPuzzleDataByDate(todayStr, env);
-
+      
       if (puzzleDataForJson) {
         // Puzzle is already in the database.
         message = "Today's puzzle is already in the database.";
@@ -1029,16 +1029,16 @@ const headers = {
         // Puzzle not in DB, so scrape it
         console.log(`Puzzle for ${todayStr} not in DB. Attempting to fetch from source.`);
         const scrapedData = await scrapePuzzleData(todayStr);
-        
+      
         if (!scrapedData || !scrapedData.clues || scrapedData.clues.length === 0) {
-          return successResponse({
+        return successResponse({
             message: `No new puzzle available to scrape for today (${todayStr}) yet.`,
-            date: todayStr,
-            updated: false
-          });
-        }
-        
-        // Save to database
+          date: todayStr,
+          updated: false
+        });
+      }
+      
+      // Save to database
         const result = await savePuzzleToDatabase(scrapedData, env);
         updatedDb = true;
         
@@ -1131,7 +1131,7 @@ const headers = {
           console.error(`Failed to clear today.json on GitHub: ${e.message}`);
         }
       }
-
+      
       return successResponse({
         message: `Successfully deleted puzzle for ${date}`,
         date: date,
@@ -1245,7 +1245,7 @@ const headers = {
       // We log the error but don't re-throw, so it doesn't fail the entire worker operation
     }
   }
-
+  
   // Main event handler
   export default {
     async fetch(request, env, ctx) {

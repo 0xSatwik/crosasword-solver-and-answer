@@ -10,31 +10,6 @@ import {
   ArchiveIcon
 } from 'lucide-react';
 
-// Fetch crossword data from today.json with cache-busting
-async function fetchTodayCrossword() {
-  try {
-    const timestamp = new Date().getTime(); // Cache-busting parameter
-    const response = await fetch(`/today.json?v=${timestamp}`, {
-      cache: 'no-store', // Instructs fetch to bypass the cache
-    });
-
-    if (!response.ok) {
-      throw new Error('Failed to fetch today.json');
-    }
-    
-    // Check for an empty or cleared file
-    const text = await response.text();
-    if (!text || text.trim() === '' || JSON.parse(text).cleared) {
-        throw new Error('today.json is empty or cleared');
-    }
-
-    return JSON.parse(text);
-  } catch (error) {
-    console.error(`Error fetching today.json:`, error);
-    return null;
-  }
-}
-
 // Fetch crossword data from API
 async function fetchCrosswordData(date: string) {
   try {
@@ -55,23 +30,19 @@ async function fetchCrosswordData(date: string) {
 
 // Try to fetch data with fallbacks
 async function fetchWithFallbacks(targetDate: string) {
-  // First, try to fetch from today.json
-  let result = await fetchTodayCrossword();
-
+  // First try with the target date
+  let result = await fetchCrosswordData(targetDate);
+  
   // If successful, return the data
-  if (result) {
-    // The structure from today.json matches the required data structure directly
+  if (result?.success && result?.data) {
     return { 
-      data: result,
+      data: result.data,
       usingFallback: false,
-      actualDate: result.puzzle.date
+      actualDate: targetDate
     };
   }
   
-  // If today.json fails, log it and proceed to API fallbacks
-  console.log('today.json not available or invalid. Falling back to API for recent puzzles.');
-
-  // If not successful, try fallback dates from API
+  // If not successful, try fallback dates
   const fallbackDates = [];
   const currentDate = new Date(targetDate);
   
@@ -88,11 +59,11 @@ async function fetchWithFallbacks(targetDate: string) {
   }
   
   for (const fallbackDate of fallbackDates) {
-    const apiResult = await fetchCrosswordData(fallbackDate);
+    result = await fetchCrosswordData(fallbackDate);
     
-    if (apiResult?.success && apiResult?.data) {
+    if (result?.success && result?.data) {
       return { 
-        data: apiResult.data,
+        data: result.data,
         usingFallback: true,
         actualDate: fallbackDate
       };

@@ -10,68 +10,45 @@ import {
   ArchiveIcon
 } from 'lucide-react';
 
-// Fetch crossword data from API
-async function fetchCrosswordData(date: string) {
+// The public URL of the site where today.json is hosted.
+// For production, it's best to set NEXT_PUBLIC_SITE_URL in your environment variables.
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://crossword-solver-new.vercel.app';
+
+// Fetch crossword data from the static today.json file
+async function fetchLatestCrossword() {
   try {
-    const response = await fetch(`https://crossword-archive-worker.mitomat.workers.dev/api/puzzle/${date}`, { 
-      next: { revalidate: 3600 } // Revalidate every hour
+    // Fetch from the public URL of the site
+    const response = await fetch(`${SITE_URL}/today.json`, { 
+      next: { revalidate: 60 } // Revalidate every minute
     });
     
     if (!response.ok) {
-      throw new Error(`Failed to fetch puzzle for ${date}`);
+      throw new Error(`Failed to fetch today.json (status: ${response.status})`);
     }
     
-    return await response.json();
+    const data = await response.json();
+
+    // Basic validation to ensure the file is not empty or malformed
+    if (!data?.puzzle?.date) {
+      console.error("Fetched today.json is invalid or empty.");
+      return null;
+    }
+    
+    // Get today's date in YYYY-MM-DD format for comparison
+    const today = new Date();
+    const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+    
+    return { 
+      data: data,
+      // A flag to indicate if the puzzle data is for a day other than today
+      isStale: data.puzzle.date !== todayStr,
+      actualDate: data.puzzle.date
+    };
+
   } catch (error) {
-    console.error(`Error fetching puzzle for ${date}:`, error);
+    console.error(`Error fetching latest crossword from today.json:`, error);
     return null;
   }
-}
-
-// Try to fetch data with fallbacks
-async function fetchWithFallbacks(targetDate: string) {
-  // First try with the target date
-  let result = await fetchCrosswordData(targetDate);
-  
-  // If successful, return the data
-  if (result?.success && result?.data) {
-    return { 
-      data: result.data,
-      usingFallback: false,
-      actualDate: targetDate
-    };
-  }
-  
-  // If not successful, try fallback dates
-  const fallbackDates = [];
-  const currentDate = new Date(targetDate);
-  
-  // Add 7 previous days as fallbacks
-  for (let i = 1; i <= 7; i++) {
-    const fallbackDate = new Date(currentDate);
-    fallbackDate.setDate(fallbackDate.getDate() - i);
-    
-    const year = fallbackDate.getFullYear();
-    const month = String(fallbackDate.getMonth() + 1).padStart(2, '0');
-    const day = String(fallbackDate.getDate()).padStart(2, '0');
-    
-    fallbackDates.push(`${year}-${month}-${day}`);
-  }
-  
-  for (const fallbackDate of fallbackDates) {
-    result = await fetchCrosswordData(fallbackDate);
-    
-    if (result?.success && result?.data) {
-      return { 
-        data: result.data,
-        usingFallback: true,
-        actualDate: fallbackDate
-      };
-    }
-  }
-  
-  // If all attempts fail, return null
-  return null;
 }
 
 // Format date for display
@@ -91,15 +68,8 @@ export const metadata: Metadata = {
 };
 
 export default async function NytDailyPage() {
-  // Get today's date
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, '0');
-  const day = String(today.getDate()).padStart(2, '0');
-  const todayFormatted = `${year}-${month}-${day}`;
-  
-  // Fetch crossword data with fallbacks
-  const result = await fetchWithFallbacks(todayFormatted);
+  // Fetch crossword data from the static file
+  const result = await fetchLatestCrossword();
   
   // If no data is available, show a message instead of 404
   if (!result) {
@@ -137,12 +107,11 @@ export default async function NytDailyPage() {
     );
   }
   
-  const { data, usingFallback, actualDate } = result;
+  const { data, isStale, actualDate } = result;
   const { puzzle, across, down } = data;
   
   // Format dates for display
   const displayDate = formatDate(puzzle.date);
-  const formattedActualDate = actualDate.replace(/-/g, '/');
   
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12">
@@ -161,10 +130,10 @@ export default async function NytDailyPage() {
 
           {/* Header with Puzzle Info */}
           <div className="mb-8 rounded-xl bg-white p-6 shadow-xl">
-            {usingFallback && (
+            {isStale && (
               <div className="mb-4 rounded-md bg-yellow-100 p-3 text-sm text-yellow-800">
                 <strong>Note:</strong> Today's crossword is not yet available. 
-                Showing the most recent available puzzle from {formatDate(actualDate)}.
+                Showing the most recent puzzle from {formatDate(actualDate)}.
               </div>
             )}
             

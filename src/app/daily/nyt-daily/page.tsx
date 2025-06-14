@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { promises as fs } from 'fs';
+import path from 'path';
 import { 
   CalendarIcon, 
   UserIcon,
@@ -10,23 +12,13 @@ import {
   ArchiveIcon
 } from 'lucide-react';
 
-// The public URL of the site where today.json is hosted.
-// For production, it's best to set NEXT_PUBLIC_SITE_URL in your environment variables.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://crossword-solver-new.vercel.app';
-
-// Fetch crossword data from the static today.json file
+// Fetch crossword data by reading the static today.json file from the filesystem
 async function fetchLatestCrossword() {
   try {
-    // Fetch from the public URL of the site
-    const response = await fetch(`${SITE_URL}/today.json`, { 
-      next: { revalidate: 60 } // Revalidate every minute
-    });
-    
-    if (!response.ok) {
-      throw new Error(`Failed to fetch today.json (status: ${response.status})`);
-    }
-    
-    const data = await response.json();
+    // In a server component, we can read the file directly. This is more reliable.
+    const filePath = path.join(process.cwd(), 'public', 'today.json');
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
 
     // Basic validation to ensure the file is not empty or malformed
     if (!data?.puzzle?.date) {
@@ -46,7 +38,8 @@ async function fetchLatestCrossword() {
     };
 
   } catch (error) {
-    console.error(`Error fetching latest crossword from today.json:`, error);
+    // This will catch file-not-found or JSON parsing errors
+    console.error(`Error reading or parsing today.json:`, error);
     return null;
   }
 }

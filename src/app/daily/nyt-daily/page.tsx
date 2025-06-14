@@ -244,8 +244,8 @@ export default async function NytDailyPage() {
           
           {/* API Source Info */}
           <div className="mt-8 text-center text-sm text-gray-500">
-            <p>Data sourced from the Crossword Archive API.</p>
-            <p className="mt-1">Updated daily at 5am IST.</p>
+            <p>Please Bookmark our website for daily answer</p>
+            <p className="mt-1">Updated daily</p>
           </div>
         </div>
       </div>

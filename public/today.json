@@ -1,1107 +1,920 @@
 {
-  "puzzle": {
-    "puzzle_id": 3848,
-    "date": "2025-07-08",
-    "formatted_date": "Tuesday, July 8, 2025",
-    "title": "New York Times, Tuesday, July 8, 2025",
-    "author": "Jesse Guzman",
-    "editor": "Will Shortz",
-    "day_of_week": "Tuesday",
-    "permalink": "",
-    "created_at": "2025-07-08 04:30:45"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-07-09",
+      "formatted_date": "Wednesday, July 9, 2025",
+      "day_of_week": "Wednesday",
+      "title": "New York Times, Wednesday, July 9, 2025",
+      "author": "Desir&#233;e Penner and Jeff Sinnock",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Top dog?",
+        "answer": "MUTT",
+        "direction": "across"
+      },
+      {
+        "number": 5,
+        "clue": "Top hat?",
+        "answer": "LID",
+        "direction": "across"
+      },
+      {
+        "number": 8,
+        "clue": "Top gun?",
+        "answer": "PISTOL",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Olympic event in which athletes wear masks",
+        "answer": "EPEE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Balmy time in Bordeaux",
+        "answer": "ETE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Squids' kin",
+        "answer": "OCTOPI",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Marilyn Monroe used eyeliner to darken the one on her cheek",
+        "answer": "MOLE",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Late actor Kilmer",
+        "answer": "VAL",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Be off the mark",
+        "answer": "MISAIM",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Cotillion V.I.P.",
+        "answer": "DEB",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Top 10 song",
+        "answer": "HIT",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Auntie ___ (food court chain)",
+        "answer": "ANNES",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Who, What or I Don't Know, to Abbott and Costello",
+        "answer": "BASEMAN",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Non-Rx",
+        "answer": "OTC",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Dance instruction",
+        "answer": "STEP",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Jason of \"How I Met Your Mother\"",
+        "answer": "SEGEL",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "One wearing a djellaba robe, typically",
+        "answer": "ARAB",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Outer boundaries, as where this puzzle's theme answers are located",
+        "answer": "EDGES",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Hospital fluids",
+        "answer": "SERA",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Pat ___, three-time N.B.A. Coach of the Year",
+        "answer": "RILEY",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Bit of litter by a theater",
+        "answer": "STUB",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "It may be picked by the picky",
+        "answer": "NIT",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Kind of Emmy",
+        "answer": "DAYTIME",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Last Supper guest",
+        "answer": "APOSTLE",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "One end of a battery",
+        "answer": "ANODE",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "State animal of Utah",
+        "answer": "ELK",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Ryder Cup org.",
+        "answer": "PGA",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Beyond belief",
+        "answer": "UNREAL",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Hunk",
+        "answer": "GOB",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "___ land",
+        "answer": "LALA",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "Repeated sounds in \"Hey Jude\"",
+        "answer": "NANANA",
+        "direction": "across"
+      },
+      {
+        "number": 71,
+        "clue": "From ___ Z",
+        "answer": "ATO",
+        "direction": "across"
+      },
+      {
+        "number": 72,
+        "clue": "Many moons",
+        "answer": "AGES",
+        "direction": "across"
+      },
+      {
+        "number": 73,
+        "clue": "Bottom feeder?",
+        "answer": "TROUGH",
+        "direction": "across"
+      },
+      {
+        "number": 74,
+        "clue": "Bottom line?",
+        "answer": "RAY",
+        "direction": "across"
+      },
+      {
+        "number": 75,
+        "clue": "Bottom dollar?",
+        "answer": "BUCK",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Side note?",
+        "answer": "MEMO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Agreed-___",
+        "answer": "UPON",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Prefix with communication",
+        "answer": "TELE",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Grow choppers",
+        "answer": "TEETHE",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Get off the ground?",
+        "answer": "LEVITATE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Singer Reese",
+        "answer": "DELLA",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "California college where the writer David Foster Wallace taught English",
+        "answer": "POMONA",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Unfriendly quality",
+        "answer": "ICINESS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Ave. crossers",
+        "answer": "STS",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Lowly sort",
+        "answer": "TOAD",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Redheaded boy of 1960s TV",
+        "answer": "OPIE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Side arm?",
+        "answer": "LIMB",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Parts of eyeglass frames",
+        "answer": "RIMS",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "First magazine to feature Steve Jobs on its cover (October 1981)",
+        "answer": "INC",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Elvis's \"___ Not You\"",
+        "answer": "SHES",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Side plank?",
+        "answer": "BOARD",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Parts of hearts",
+        "answer": "ATRIA",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Like snakes",
+        "answer": "SCALY",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Mustachioed \"Simpsons\" character",
+        "answer": "NED",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "007, for one",
+        "answer": "AGENT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Jeopardy",
+        "answer": "PERIL",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Side dish?",
+        "answer": "PLATE",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Family-friendly ratings",
+        "answer": "PGS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Onetime alternative to VHS",
+        "answer": "BETA",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Gate info",
+        "answer": "ETA",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Symbol of contrasting principles",
+        "answer": "YINYANG",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Get out of the starting gate fast",
+        "answer": "BOLT",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Bread",
+        "answer": "MOOLAH",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "End of a professor's address",
+        "answer": "EDU",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "1970s space station",
+        "answer": "SKYLAB",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "\"J. ___\" (2011 Clint Eastwood biopic)",
+        "answer": "EDGAR",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Side kick?",
+        "answer": "PUNT",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Growl",
+        "answer": "GNAR",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "River under the Ponte Vecchio",
+        "answer": "ARNO",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Itty bit",
+        "answer": "IOTA",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Prego rival",
+        "answer": "RAGU",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Guinness of \"Star Wars\"",
+        "answer": "ALEC",
+        "direction": "down"
+      },
+      {
+        "number": 65,
+        "clue": "Side job?",
+        "answer": "TASK",
+        "direction": "down"
+      },
+      {
+        "number": 67,
+        "clue": "French 101 word that sounds like a letter of the alphabet",
+        "answer": "EAU",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Top dog?",
+        "answer": "MUTT",
+        "direction": "across"
+      },
+      {
+        "number": 5,
+        "clue": "Top hat?",
+        "answer": "LID",
+        "direction": "across"
+      },
+      {
+        "number": 8,
+        "clue": "Top gun?",
+        "answer": "PISTOL",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Olympic event in which athletes wear masks",
+        "answer": "EPEE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Balmy time in Bordeaux",
+        "answer": "ETE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Squids' kin",
+        "answer": "OCTOPI",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Marilyn Monroe used eyeliner to darken the one on her cheek",
+        "answer": "MOLE",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Late actor Kilmer",
+        "answer": "VAL",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Be off the mark",
+        "answer": "MISAIM",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Cotillion V.I.P.",
+        "answer": "DEB",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Top 10 song",
+        "answer": "HIT",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Auntie ___ (food court chain)",
+        "answer": "ANNES",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Who, What or I Don't Know, to Abbott and Costello",
+        "answer": "BASEMAN",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Non-Rx",
+        "answer": "OTC",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Dance instruction",
+        "answer": "STEP",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Jason of \"How I Met Your Mother\"",
+        "answer": "SEGEL",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "One wearing a djellaba robe, typically",
+        "answer": "ARAB",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Outer boundaries, as where this puzzle's theme answers are located",
+        "answer": "EDGES",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Hospital fluids",
+        "answer": "SERA",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Pat ___, three-time N.B.A. Coach of the Year",
+        "answer": "RILEY",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Bit of litter by a theater",
+        "answer": "STUB",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "It may be picked by the picky",
+        "answer": "NIT",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Kind of Emmy",
+        "answer": "DAYTIME",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Last Supper guest",
+        "answer": "APOSTLE",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "One end of a battery",
+        "answer": "ANODE",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "State animal of Utah",
+        "answer": "ELK",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Ryder Cup org.",
+        "answer": "PGA",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Beyond belief",
+        "answer": "UNREAL",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Hunk",
+        "answer": "GOB",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "___ land",
+        "answer": "LALA",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "Repeated sounds in \"Hey Jude\"",
+        "answer": "NANANA",
+        "direction": "across"
+      },
+      {
+        "number": 71,
+        "clue": "From ___ Z",
+        "answer": "ATO",
+        "direction": "across"
+      },
+      {
+        "number": 72,
+        "clue": "Many moons",
+        "answer": "AGES",
+        "direction": "across"
+      },
+      {
+        "number": 73,
+        "clue": "Bottom feeder?",
+        "answer": "TROUGH",
+        "direction": "across"
+      },
+      {
+        "number": 74,
+        "clue": "Bottom line?",
+        "answer": "RAY",
+        "direction": "across"
+      },
+      {
+        "number": 75,
+        "clue": "Bottom dollar?",
+        "answer": "BUCK",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Side note?",
+        "answer": "MEMO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Agreed-___",
+        "answer": "UPON",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Prefix with communication",
+        "answer": "TELE",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Grow choppers",
+        "answer": "TEETHE",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Get off the ground?",
+        "answer": "LEVITATE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Singer Reese",
+        "answer": "DELLA",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "California college where the writer David Foster Wallace taught English",
+        "answer": "POMONA",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Unfriendly quality",
+        "answer": "ICINESS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Ave. crossers",
+        "answer": "STS",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Lowly sort",
+        "answer": "TOAD",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Redheaded boy of 1960s TV",
+        "answer": "OPIE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Side arm?",
+        "answer": "LIMB",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Parts of eyeglass frames",
+        "answer": "RIMS",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "First magazine to feature Steve Jobs on its cover (October 1981)",
+        "answer": "INC",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Elvis's \"___ Not You\"",
+        "answer": "SHES",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Side plank?",
+        "answer": "BOARD",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Parts of hearts",
+        "answer": "ATRIA",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Like snakes",
+        "answer": "SCALY",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Mustachioed \"Simpsons\" character",
+        "answer": "NED",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "007, for one",
+        "answer": "AGENT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Jeopardy",
+        "answer": "PERIL",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Side dish?",
+        "answer": "PLATE",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Family-friendly ratings",
+        "answer": "PGS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Onetime alternative to VHS",
+        "answer": "BETA",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Gate info",
+        "answer": "ETA",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Symbol of contrasting principles",
+        "answer": "YINYANG",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Get out of the starting gate fast",
+        "answer": "BOLT",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Bread",
+        "answer": "MOOLAH",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "End of a professor's address",
+        "answer": "EDU",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "1970s space station",
+        "answer": "SKYLAB",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "\"J. ___\" (2011 Clint Eastwood biopic)",
+        "answer": "EDGAR",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Side kick?",
+        "answer": "PUNT",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Growl",
+        "answer": "GNAR",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "River under the Ponte Vecchio",
+        "answer": "ARNO",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Itty bit",
+        "answer": "IOTA",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Prego rival",
+        "answer": "RAGU",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Guinness of \"Star Wars\"",
+        "answer": "ALEC",
+        "direction": "down"
+      },
+      {
+        "number": 65,
+        "clue": "Side job?",
+        "answer": "TASK",
+        "direction": "down"
+      },
+      {
+        "number": 67,
+        "clue": "French 101 word that sounds like a letter of the alphabet",
+        "answer": "EAU",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 315903,
-      "puzzle_id": 3848,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Main idea",
-      "answer": "GIST"
-    },
-    {
-      "clue_id": 315904,
-      "puzzle_id": 3848,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Holders of squid ink",
-      "answer": "SACS"
-    },
-    {
-      "clue_id": 315905,
-      "puzzle_id": 3848,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Quickly put (together)",
-      "answer": "SLAP"
-    },
-    {
-      "clue_id": 315906,
-      "puzzle_id": 3848,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Even once",
-      "answer": "EVER"
-    },
-    {
-      "clue_id": 315907,
-      "puzzle_id": 3848,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Acerbic humor",
-      "answer": "EDGE"
-    },
-    {
-      "clue_id": 315908,
-      "puzzle_id": 3848,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Witch's incantation",
-      "answer": "SPELL"
-    },
-    {
-      "clue_id": 315909,
-      "puzzle_id": 3848,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Airport that Captain Sully departed from",
-      "answer": "LAGUARDIA"
-    },
-    {
-      "clue_id": 315910,
-      "puzzle_id": 3848,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Fusilli or fettuccine",
-      "answer": "PASTA"
-    },
-    {
-      "clue_id": 315911,
-      "puzzle_id": 3848,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Channel with a yellow rectangle logo, informally",
-      "answer": "NATGEO"
-    },
-    {
-      "clue_id": 315912,
-      "puzzle_id": 3848,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "British celebrity restaurateur Gordon ___",
-      "answer": "RAMSAY"
-    },
-    {
-      "clue_id": 315913,
-      "puzzle_id": 3848,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Speaker of Arabic or Hebrew",
-      "answer": "SEMITE"
-    },
-    {
-      "clue_id": 315914,
-      "puzzle_id": 3848,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "One of many on a self-driving car",
-      "answer": "SENSOR"
-    },
-    {
-      "clue_id": 315915,
-      "puzzle_id": 3848,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "What colors on opposite ends of the color wheel can do",
-      "answer": "CLASH"
-    },
-    {
-      "clue_id": 315916,
-      "puzzle_id": 3848,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Went fast",
-      "answer": "SPED"
-    },
-    {
-      "clue_id": 315917,
-      "puzzle_id": 3848,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Nine months, typically, for a human pregnancy",
-      "answer": "TERM"
-    },
-    {
-      "clue_id": 315918,
-      "puzzle_id": 3848,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "\"___ me anything\"",
-      "answer": "ASK"
-    },
-    {
-      "clue_id": 315919,
-      "puzzle_id": 3848,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Crave",
-      "answer": "ACHEFOR"
-    },
-    {
-      "clue_id": 315920,
-      "puzzle_id": 3848,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "By way of",
-      "answer": "VIA"
-    },
-    {
-      "clue_id": 315921,
-      "puzzle_id": 3848,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Insects whose queens are fed royal jelly",
-      "answer": "BEES"
-    },
-    {
-      "clue_id": 315922,
-      "puzzle_id": 3848,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "His and ___",
-      "answer": "HERS"
-    },
-    {
-      "clue_id": 315923,
-      "puzzle_id": 3848,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Fails to mention",
-      "answer": "OMITS"
-    },
-    {
-      "clue_id": 315924,
-      "puzzle_id": 3848,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Long looks",
-      "answer": "STARES"
-    },
-    {
-      "clue_id": 315925,
-      "puzzle_id": 3848,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Cheddar, dough, bacon or cabbage",
-      "answer": "MOOLAH"
-    },
-    {
-      "clue_id": 315926,
-      "puzzle_id": 3848,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "\"La Traviata\" and \"La Bohème\"",
-      "answer": "OPERAS"
-    },
-    {
-      "clue_id": 315927,
-      "puzzle_id": 3848,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Capital of Canada",
-      "answer": "OTTAWA"
-    },
-    {
-      "clue_id": 315928,
-      "puzzle_id": 3848,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Alums",
-      "answer": "GRADS"
-    },
-    {
-      "clue_id": 315929,
-      "puzzle_id": 3848,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Place for a coin collection?",
-      "answer": "SOFA"
-    },
-    {
-      "clue_id": 315930,
-      "puzzle_id": 3848,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Body part covered by a cap",
-      "answer": "KNEE"
-    },
-    {
-      "clue_id": 315931,
-      "puzzle_id": 3848,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "[Um, I can hear everything you're saying, you know]",
-      "answer": "AHEM"
-    },
-    {
-      "clue_id": 315932,
-      "puzzle_id": 3848,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Obedience class command",
-      "answer": "HEEL"
-    },
-    {
-      "clue_id": 315933,
-      "puzzle_id": 3848,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Obedience class command",
-      "answer": "STAY"
-    },
-    {
-      "clue_id": 315934,
-      "puzzle_id": 3848,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Styling product",
-      "answer": "GEL"
-    },
-    {
-      "clue_id": 315935,
-      "puzzle_id": 3848,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Tennis great Lendl",
-      "answer": "IVAN"
-    },
-    {
-      "clue_id": 315936,
-      "puzzle_id": 3848,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Japanese video game giant",
-      "answer": "SEGA"
-    },
-    {
-      "clue_id": 315937,
-      "puzzle_id": 3848,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"To be honest ...\"",
-      "answer": "TRUTHIS"
-    },
-    {
-      "clue_id": 315938,
-      "puzzle_id": 3848,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Unruffled",
-      "answer": "SERENE"
-    },
-    {
-      "clue_id": 315939,
-      "puzzle_id": 3848,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Supplementary part",
-      "answer": "ADDON"
-    },
-    {
-      "clue_id": 315940,
-      "puzzle_id": 3848,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Some video effects, in brief",
-      "answer": "CGI"
-    },
-    {
-      "clue_id": 315941,
-      "puzzle_id": 3848,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Blue expanse",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 315942,
-      "puzzle_id": 3848,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Generator of junk mail",
-      "answer": "SPAMBOT"
-    },
-    {
-      "clue_id": 315943,
-      "puzzle_id": 3848,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Better choice, given the options",
-      "answer": "LESSEREVIL"
-    },
-    {
-      "clue_id": 315944,
-      "puzzle_id": 3848,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Place for baptisms and wedding vows",
-      "answer": "ALTAR"
-    },
-    {
-      "clue_id": 315945,
-      "puzzle_id": 3848,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Beach, in Spanish",
-      "answer": "PLAYA"
-    },
-    {
-      "clue_id": 315946,
-      "puzzle_id": 3848,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Crosses swords",
-      "answer": "SPARS"
-    },
-    {
-      "clue_id": 315947,
-      "puzzle_id": 3848,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Mystery writer Christie",
-      "answer": "AGATHA"
-    },
-    {
-      "clue_id": 315948,
-      "puzzle_id": 3848,
-      "number": 20,
-      "direction": "down",
-      "clue_text": "No-name",
-      "answer": "RANDO"
-    },
-    {
-      "clue_id": 315949,
-      "puzzle_id": 3848,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Bad-mouth",
-      "answer": "ASPERSE"
-    },
-    {
-      "clue_id": 315950,
-      "puzzle_id": 3848,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Disagreements",
-      "answer": "BEEFS"
-    },
-    {
-      "clue_id": 315951,
-      "puzzle_id": 3848,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Part of the healing process",
-      "answer": "SCAB"
-    },
-    {
-      "clue_id": 315952,
-      "puzzle_id": 3848,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "\"What ___ can I say?\"",
-      "answer": "ELSE"
-    },
-    {
-      "clue_id": 315953,
-      "puzzle_id": 3848,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Lets bygones be bygones",
-      "answer": "MAKESPEACE"
-    },
-    {
-      "clue_id": 315954,
-      "puzzle_id": 3848,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Lip gloss quality",
-      "answer": "SHEEN"
-    },
-    {
-      "clue_id": 315955,
-      "puzzle_id": 3848,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Pop singer Ora",
-      "answer": "RITA"
-    },
-    {
-      "clue_id": 315956,
-      "puzzle_id": 3848,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Turn to pulp",
-      "answer": "MASH"
-    },
-    {
-      "clue_id": 315957,
-      "puzzle_id": 3848,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Rock out on stage?",
-      "answer": "CHRIS"
-    },
-    {
-      "clue_id": 315958,
-      "puzzle_id": 3848,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Where hens rest in henhouses",
-      "answer": "ROOSTS"
-    },
-    {
-      "clue_id": 315959,
-      "puzzle_id": 3848,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Fame and fortune",
-      "answer": "STARDOM"
-    },
-    {
-      "clue_id": 315960,
-      "puzzle_id": 3848,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Spiky hairdos",
-      "answer": "MOHAWKS"
-    },
-    {
-      "clue_id": 315961,
-      "puzzle_id": 3848,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Build up",
-      "answer": "AMASS"
-    },
-    {
-      "clue_id": 315962,
-      "puzzle_id": 3848,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Going both ways",
-      "answer": "MUTUAL"
-    },
-    {
-      "clue_id": 315963,
-      "puzzle_id": 3848,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Set of tenets",
-      "answer": "DOGMA"
-    },
-    {
-      "clue_id": 315964,
-      "puzzle_id": 3848,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Celebrity who sometimes put gifts under her audience members' seats",
-      "answer": "OPRAH"
-    },
-    {
-      "clue_id": 315965,
-      "puzzle_id": 3848,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "John who married Pocahontas",
-      "answer": "ROLFE"
-    },
-    {
-      "clue_id": 315966,
-      "puzzle_id": 3848,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "\"It ___ be long\"",
-      "answer": "WONT"
-    },
-    {
-      "clue_id": 315967,
-      "puzzle_id": 3848,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Half of base x height, for a triangle",
-      "answer": "AREA"
-    },
-    {
-      "clue_id": 315968,
-      "puzzle_id": 3848,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Campfire residue",
-      "answer": "ASH"
-    },
-    {
-      "clue_id": 315969,
-      "puzzle_id": 3848,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "\"The Raven\" poet",
-      "answer": "POE"
-    },
-    {
-      "clue_id": 315970,
-      "puzzle_id": 3848,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Mission-critical",
-      "answer": "KEY"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 315903,
-      "puzzle_id": 3848,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Main idea",
-      "answer": "GIST"
-    },
-    {
-      "clue_id": 315904,
-      "puzzle_id": 3848,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Holders of squid ink",
-      "answer": "SACS"
-    },
-    {
-      "clue_id": 315905,
-      "puzzle_id": 3848,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Quickly put (together)",
-      "answer": "SLAP"
-    },
-    {
-      "clue_id": 315906,
-      "puzzle_id": 3848,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Even once",
-      "answer": "EVER"
-    },
-    {
-      "clue_id": 315907,
-      "puzzle_id": 3848,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Acerbic humor",
-      "answer": "EDGE"
-    },
-    {
-      "clue_id": 315908,
-      "puzzle_id": 3848,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Witch's incantation",
-      "answer": "SPELL"
-    },
-    {
-      "clue_id": 315909,
-      "puzzle_id": 3848,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Airport that Captain Sully departed from",
-      "answer": "LAGUARDIA"
-    },
-    {
-      "clue_id": 315910,
-      "puzzle_id": 3848,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Fusilli or fettuccine",
-      "answer": "PASTA"
-    },
-    {
-      "clue_id": 315911,
-      "puzzle_id": 3848,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Channel with a yellow rectangle logo, informally",
-      "answer": "NATGEO"
-    },
-    {
-      "clue_id": 315912,
-      "puzzle_id": 3848,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "British celebrity restaurateur Gordon ___",
-      "answer": "RAMSAY"
-    },
-    {
-      "clue_id": 315913,
-      "puzzle_id": 3848,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Speaker of Arabic or Hebrew",
-      "answer": "SEMITE"
-    },
-    {
-      "clue_id": 315914,
-      "puzzle_id": 3848,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "One of many on a self-driving car",
-      "answer": "SENSOR"
-    },
-    {
-      "clue_id": 315915,
-      "puzzle_id": 3848,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "What colors on opposite ends of the color wheel can do",
-      "answer": "CLASH"
-    },
-    {
-      "clue_id": 315916,
-      "puzzle_id": 3848,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Went fast",
-      "answer": "SPED"
-    },
-    {
-      "clue_id": 315917,
-      "puzzle_id": 3848,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Nine months, typically, for a human pregnancy",
-      "answer": "TERM"
-    },
-    {
-      "clue_id": 315918,
-      "puzzle_id": 3848,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "\"___ me anything\"",
-      "answer": "ASK"
-    },
-    {
-      "clue_id": 315919,
-      "puzzle_id": 3848,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Crave",
-      "answer": "ACHEFOR"
-    },
-    {
-      "clue_id": 315920,
-      "puzzle_id": 3848,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "By way of",
-      "answer": "VIA"
-    },
-    {
-      "clue_id": 315921,
-      "puzzle_id": 3848,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Insects whose queens are fed royal jelly",
-      "answer": "BEES"
-    },
-    {
-      "clue_id": 315922,
-      "puzzle_id": 3848,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "His and ___",
-      "answer": "HERS"
-    },
-    {
-      "clue_id": 315923,
-      "puzzle_id": 3848,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Fails to mention",
-      "answer": "OMITS"
-    },
-    {
-      "clue_id": 315924,
-      "puzzle_id": 3848,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Long looks",
-      "answer": "STARES"
-    },
-    {
-      "clue_id": 315925,
-      "puzzle_id": 3848,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Cheddar, dough, bacon or cabbage",
-      "answer": "MOOLAH"
-    },
-    {
-      "clue_id": 315926,
-      "puzzle_id": 3848,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "\"La Traviata\" and \"La Bohème\"",
-      "answer": "OPERAS"
-    },
-    {
-      "clue_id": 315927,
-      "puzzle_id": 3848,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Capital of Canada",
-      "answer": "OTTAWA"
-    },
-    {
-      "clue_id": 315928,
-      "puzzle_id": 3848,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Alums",
-      "answer": "GRADS"
-    },
-    {
-      "clue_id": 315929,
-      "puzzle_id": 3848,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Place for a coin collection?",
-      "answer": "SOFA"
-    },
-    {
-      "clue_id": 315930,
-      "puzzle_id": 3848,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Body part covered by a cap",
-      "answer": "KNEE"
-    },
-    {
-      "clue_id": 315931,
-      "puzzle_id": 3848,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "[Um, I can hear everything you're saying, you know]",
-      "answer": "AHEM"
-    },
-    {
-      "clue_id": 315932,
-      "puzzle_id": 3848,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Obedience class command",
-      "answer": "HEEL"
-    },
-    {
-      "clue_id": 315933,
-      "puzzle_id": 3848,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Obedience class command",
-      "answer": "STAY"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 315934,
-      "puzzle_id": 3848,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Styling product",
-      "answer": "GEL"
-    },
-    {
-      "clue_id": 315935,
-      "puzzle_id": 3848,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Tennis great Lendl",
-      "answer": "IVAN"
-    },
-    {
-      "clue_id": 315936,
-      "puzzle_id": 3848,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Japanese video game giant",
-      "answer": "SEGA"
-    },
-    {
-      "clue_id": 315937,
-      "puzzle_id": 3848,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"To be honest ...\"",
-      "answer": "TRUTHIS"
-    },
-    {
-      "clue_id": 315938,
-      "puzzle_id": 3848,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Unruffled",
-      "answer": "SERENE"
-    },
-    {
-      "clue_id": 315939,
-      "puzzle_id": 3848,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Supplementary part",
-      "answer": "ADDON"
-    },
-    {
-      "clue_id": 315940,
-      "puzzle_id": 3848,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Some video effects, in brief",
-      "answer": "CGI"
-    },
-    {
-      "clue_id": 315941,
-      "puzzle_id": 3848,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Blue expanse",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 315942,
-      "puzzle_id": 3848,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Generator of junk mail",
-      "answer": "SPAMBOT"
-    },
-    {
-      "clue_id": 315943,
-      "puzzle_id": 3848,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Better choice, given the options",
-      "answer": "LESSEREVIL"
-    },
-    {
-      "clue_id": 315944,
-      "puzzle_id": 3848,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Place for baptisms and wedding vows",
-      "answer": "ALTAR"
-    },
-    {
-      "clue_id": 315945,
-      "puzzle_id": 3848,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Beach, in Spanish",
-      "answer": "PLAYA"
-    },
-    {
-      "clue_id": 315946,
-      "puzzle_id": 3848,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Crosses swords",
-      "answer": "SPARS"
-    },
-    {
-      "clue_id": 315947,
-      "puzzle_id": 3848,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Mystery writer Christie",
-      "answer": "AGATHA"
-    },
-    {
-      "clue_id": 315948,
-      "puzzle_id": 3848,
-      "number": 20,
-      "direction": "down",
-      "clue_text": "No-name",
-      "answer": "RANDO"
-    },
-    {
-      "clue_id": 315949,
-      "puzzle_id": 3848,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Bad-mouth",
-      "answer": "ASPERSE"
-    },
-    {
-      "clue_id": 315950,
-      "puzzle_id": 3848,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Disagreements",
-      "answer": "BEEFS"
-    },
-    {
-      "clue_id": 315951,
-      "puzzle_id": 3848,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Part of the healing process",
-      "answer": "SCAB"
-    },
-    {
-      "clue_id": 315952,
-      "puzzle_id": 3848,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "\"What ___ can I say?\"",
-      "answer": "ELSE"
-    },
-    {
-      "clue_id": 315953,
-      "puzzle_id": 3848,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Lets bygones be bygones",
-      "answer": "MAKESPEACE"
-    },
-    {
-      "clue_id": 315954,
-      "puzzle_id": 3848,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Lip gloss quality",
-      "answer": "SHEEN"
-    },
-    {
-      "clue_id": 315955,
-      "puzzle_id": 3848,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Pop singer Ora",
-      "answer": "RITA"
-    },
-    {
-      "clue_id": 315956,
-      "puzzle_id": 3848,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Turn to pulp",
-      "answer": "MASH"
-    },
-    {
-      "clue_id": 315957,
-      "puzzle_id": 3848,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Rock out on stage?",
-      "answer": "CHRIS"
-    },
-    {
-      "clue_id": 315958,
-      "puzzle_id": 3848,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Where hens rest in henhouses",
-      "answer": "ROOSTS"
-    },
-    {
-      "clue_id": 315959,
-      "puzzle_id": 3848,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Fame and fortune",
-      "answer": "STARDOM"
-    },
-    {
-      "clue_id": 315960,
-      "puzzle_id": 3848,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Spiky hairdos",
-      "answer": "MOHAWKS"
-    },
-    {
-      "clue_id": 315961,
-      "puzzle_id": 3848,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Build up",
-      "answer": "AMASS"
-    },
-    {
-      "clue_id": 315962,
-      "puzzle_id": 3848,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Going both ways",
-      "answer": "MUTUAL"
-    },
-    {
-      "clue_id": 315963,
-      "puzzle_id": 3848,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Set of tenets",
-      "answer": "DOGMA"
-    },
-    {
-      "clue_id": 315964,
-      "puzzle_id": 3848,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Celebrity who sometimes put gifts under her audience members' seats",
-      "answer": "OPRAH"
-    },
-    {
-      "clue_id": 315965,
-      "puzzle_id": 3848,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "John who married Pocahontas",
-      "answer": "ROLFE"
-    },
-    {
-      "clue_id": 315966,
-      "puzzle_id": 3848,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "\"It ___ be long\"",
-      "answer": "WONT"
-    },
-    {
-      "clue_id": 315967,
-      "puzzle_id": 3848,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Half of base x height, for a triangle",
-      "answer": "AREA"
-    },
-    {
-      "clue_id": 315968,
-      "puzzle_id": 3848,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Campfire residue",
-      "answer": "ASH"
-    },
-    {
-      "clue_id": 315969,
-      "puzzle_id": 3848,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "\"The Raven\" poet",
-      "answer": "POE"
-    },
-    {
-      "clue_id": 315970,
-      "puzzle_id": 3848,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Mission-critical",
-      "answer": "KEY"
-    }
-  ]
+  "timestamp": "2025-07-09T04:30:48.981Z"
 }

@@ -1,1187 +1,872 @@
 {
-  "puzzle": {
-    "puzzle_id": 3863,
-    "date": "2025-07-23",
-    "formatted_date": "Wednesday, July 23, 2025",
-    "title": "New York Times, Wednesday, July 23, 2025",
-    "author": "Joseph Gangi",
-    "editor": "Will Shortz",
-    "day_of_week": "Wednesday",
-    "permalink": "",
-    "created_at": "2025-07-23 04:30:12"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-07-24",
+      "formatted_date": "Thursday, July 24, 2025",
+      "day_of_week": "Thursday",
+      "title": "New York Times, Thursday, July 24, 2025",
+      "author": "Ginny Too",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Beat at chess",
+        "answer": "MATED",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Speech therapists' targets",
+        "answer": "LISPS",
+        "direction": "across"
+      },
+      {
+        "number": 11,
+        "clue": "Adds to the chain, in a way",
+        "answer": "CCS",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "† symbols, on manuscripts",
+        "answer": "OBELI",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Square",
+        "answer": "UNHIP",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "It may be brown or blonde",
+        "answer": "ALE",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Something to play by",
+        "answer": "EAR",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Marching syllable",
+        "answer": "HUP",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Utter nonsense",
+        "answer": "ROT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Vocal flourish used by Lady Gaga in \"Shallow\" and \"Bad Romance\"",
+        "answer": "MELISMA",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Tries, tries again",
+        "answer": "ITERATES",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Univision article",
+        "answer": "UNA",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Cow or cobra, in yoga",
+        "answer": "ASANA",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Do it!",
+        "answer": "TASK",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Suffix with Sudan or Bhutan",
+        "answer": "ESE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "With 41-Across, a hint to this puzzle's theme",
+        "answer": "BIRD",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Stereotypical attire for tech bros",
+        "answer": "VESTS",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "See 38-Across",
+        "answer": "CALL",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Head into?",
+        "answer": "RAM",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Speak hoarsely",
+        "answer": "RASP",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "___ blanc (type of white grape)",
+        "answer": "PINOT",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Trash",
+        "answer": "DIS",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Attire for an acrobat",
+        "answer": "UNITARD",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Era in which daylight saving was introduced as a way to conserve energy, in brief",
+        "answer": "WWI",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Lion in ancient Rome",
+        "answer": "LEO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "\"omg, u r too much\"",
+        "answer": "LOL",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Love, at Wimbledon",
+        "answer": "NIL",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Softened",
+        "answer": "EASED",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Like one who might prefer platonic relationships, informally",
+        "answer": "ARO",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Fathers' last words?",
+        "answer": "AMENS",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "\"Challenge accepted!\"",
+        "answer": "ITSON",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Japanese rice cake",
+        "answer": "MOCHI",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Approximately",
+        "answer": "ABOUT",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Home for the Sun Devils",
+        "answer": "TEMPE",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "___ City (nickname for New Haven, Conn.)",
+        "answer": "ELM",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Many a Joseph Cornell artwork",
+        "answer": "DIORAMA",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Shine",
+        "answer": "LUSTER",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Tavern",
+        "answer": "INN",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "A matchbook, for a wobbly table, say",
+        "answer": "SHIM",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "\"___ down!\" (\"Shut up!\")",
+        "answer": "PIPE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Explore a cave",
+        "answer": "SPELUNK",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Like the Roman Empire around 48 B.C.",
+        "answer": "CAESAREAN",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "One might be cooked \"casino\"-style",
+        "answer": "CLAM",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Will be, in Spanish",
+        "answer": "SERA",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Musical building block",
+        "answer": "NOTE",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Company name ender",
+        "answer": "INC",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "South African currency",
+        "answer": "RAND",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Doesn't get hit, say",
+        "answer": "SITSPAT",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Hard animal to herd",
+        "answer": "CAT",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Bad ending?",
+        "answer": "ASS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Site of a Nobel Prize award ceremony every December 10",
+        "answer": "OSLO",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Lasting lash effect",
+        "answer": "WELT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "\"East of Eden\" girl",
+        "answer": "ABRA",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Setting for \"The King and I\"",
+        "answer": "SIAM",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Mammal that can roll up into a ball",
+        "answer": "ARMADILLO",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "One might help you move",
+        "answer": "VAN",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Medium capacity?",
+        "answer": "ESP",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "___ Field (M.L.B. venue since 2009)",
+        "answer": "CITI",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Major that might require International Relations and U.S. Government classes, informally",
+        "answer": "POLISCI",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Pimple",
+        "answer": "ZIT",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Ties another knot, so to speak",
+        "answer": "REWEDS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Comical growl",
+        "answer": "RAWR",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Word with cut or shot",
+        "answer": "GLASS",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Observe closely, as orders",
+        "answer": "HEWTO",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "Symbol",
+        "answer": "TOKEN",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Forearm bone",
+        "answer": "ULNA",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Genre for \"Double Indemnity\"",
+        "answer": "NOIR",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Last word in the first line of \"Home on the Range\"",
+        "answer": "ROAM",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "One tablespoon, maybe",
+        "answer": "DOSE",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Write",
+        "answer": "PEN",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Porkpie, e.g.",
+        "answer": "HAT",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Beat at chess",
+        "answer": "MATED",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Speech therapists' targets",
+        "answer": "LISPS",
+        "direction": "across"
+      },
+      {
+        "number": 11,
+        "clue": "Adds to the chain, in a way",
+        "answer": "CCS",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "† symbols, on manuscripts",
+        "answer": "OBELI",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Square",
+        "answer": "UNHIP",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "It may be brown or blonde",
+        "answer": "ALE",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Something to play by",
+        "answer": "EAR",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Marching syllable",
+        "answer": "HUP",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Utter nonsense",
+        "answer": "ROT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Vocal flourish used by Lady Gaga in \"Shallow\" and \"Bad Romance\"",
+        "answer": "MELISMA",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Tries, tries again",
+        "answer": "ITERATES",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Univision article",
+        "answer": "UNA",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Cow or cobra, in yoga",
+        "answer": "ASANA",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Do it!",
+        "answer": "TASK",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Suffix with Sudan or Bhutan",
+        "answer": "ESE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "With 41-Across, a hint to this puzzle's theme",
+        "answer": "BIRD",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Stereotypical attire for tech bros",
+        "answer": "VESTS",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "See 38-Across",
+        "answer": "CALL",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Head into?",
+        "answer": "RAM",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Speak hoarsely",
+        "answer": "RASP",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "___ blanc (type of white grape)",
+        "answer": "PINOT",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Trash",
+        "answer": "DIS",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Attire for an acrobat",
+        "answer": "UNITARD",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Era in which daylight saving was introduced as a way to conserve energy, in brief",
+        "answer": "WWI",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Lion in ancient Rome",
+        "answer": "LEO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "\"omg, u r too much\"",
+        "answer": "LOL",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Love, at Wimbledon",
+        "answer": "NIL",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Softened",
+        "answer": "EASED",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Like one who might prefer platonic relationships, informally",
+        "answer": "ARO",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Fathers' last words?",
+        "answer": "AMENS",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "\"Challenge accepted!\"",
+        "answer": "ITSON",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Japanese rice cake",
+        "answer": "MOCHI",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Approximately",
+        "answer": "ABOUT",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Home for the Sun Devils",
+        "answer": "TEMPE",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "___ City (nickname for New Haven, Conn.)",
+        "answer": "ELM",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Many a Joseph Cornell artwork",
+        "answer": "DIORAMA",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Shine",
+        "answer": "LUSTER",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Tavern",
+        "answer": "INN",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "A matchbook, for a wobbly table, say",
+        "answer": "SHIM",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "\"___ down!\" (\"Shut up!\")",
+        "answer": "PIPE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Explore a cave",
+        "answer": "SPELUNK",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Like the Roman Empire around 48 B.C.",
+        "answer": "CAESAREAN",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "One might be cooked \"casino\"-style",
+        "answer": "CLAM",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Will be, in Spanish",
+        "answer": "SERA",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Musical building block",
+        "answer": "NOTE",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Company name ender",
+        "answer": "INC",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "South African currency",
+        "answer": "RAND",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Doesn't get hit, say",
+        "answer": "SITSPAT",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Hard animal to herd",
+        "answer": "CAT",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Bad ending?",
+        "answer": "ASS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Site of a Nobel Prize award ceremony every December 10",
+        "answer": "OSLO",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Lasting lash effect",
+        "answer": "WELT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "\"East of Eden\" girl",
+        "answer": "ABRA",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Setting for \"The King and I\"",
+        "answer": "SIAM",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Mammal that can roll up into a ball",
+        "answer": "ARMADILLO",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "One might help you move",
+        "answer": "VAN",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Medium capacity?",
+        "answer": "ESP",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "___ Field (M.L.B. venue since 2009)",
+        "answer": "CITI",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Major that might require International Relations and U.S. Government classes, informally",
+        "answer": "POLISCI",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Pimple",
+        "answer": "ZIT",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Ties another knot, so to speak",
+        "answer": "REWEDS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Comical growl",
+        "answer": "RAWR",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Word with cut or shot",
+        "answer": "GLASS",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Observe closely, as orders",
+        "answer": "HEWTO",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "Symbol",
+        "answer": "TOKEN",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Forearm bone",
+        "answer": "ULNA",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Genre for \"Double Indemnity\"",
+        "answer": "NOIR",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Last word in the first line of \"Home on the Range\"",
+        "answer": "ROAM",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "One tablespoon, maybe",
+        "answer": "DOSE",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Write",
+        "answer": "PEN",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Porkpie, e.g.",
+        "answer": "HAT",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 317067,
-      "puzzle_id": 3863,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Hogwarts headmaster ___ Dumbledore",
-      "answer": "ALBUS"
-    },
-    {
-      "clue_id": 317068,
-      "puzzle_id": 3863,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Province",
-      "answer": "AREA"
-    },
-    {
-      "clue_id": 317069,
-      "puzzle_id": 3863,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "Followed move-for-move",
-      "answer": "APED"
-    },
-    {
-      "clue_id": 317070,
-      "puzzle_id": 3863,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Japanese automaker named for a river",
-      "answer": "ISUZU"
-    },
-    {
-      "clue_id": 317071,
-      "puzzle_id": 3863,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Ground transportation option",
-      "answer": "TAXI"
-    },
-    {
-      "clue_id": 317072,
-      "puzzle_id": 3863,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Ripped",
-      "answer": "TORE"
-    },
-    {
-      "clue_id": 317073,
-      "puzzle_id": 3863,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "A, B and C, but not X, Y and Z",
-      "answer": "MUSICNOTES"
-    },
-    {
-      "clue_id": 317074,
-      "puzzle_id": 3863,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Where Bengali and Burmese are spoken",
-      "answer": "ASIA"
-    },
-    {
-      "clue_id": 317075,
-      "puzzle_id": 3863,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Barely scrapes the surface",
-      "answer": "SKIMS"
-    },
-    {
-      "clue_id": 317076,
-      "puzzle_id": 3863,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Bore up",
-      "answer": "LASTED"
-    },
-    {
-      "clue_id": 317077,
-      "puzzle_id": 3863,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Persistently bother, with \"at\"",
-      "answer": "NAG"
-    },
-    {
-      "clue_id": 317078,
-      "puzzle_id": 3863,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Actress Wong of the Netflix series \"Beef\"",
-      "answer": "ALI"
-    },
-    {
-      "clue_id": 317079,
-      "puzzle_id": 3863,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "James of jazz",
-      "answer": "ETTA"
-    },
-    {
-      "clue_id": 317080,
-      "puzzle_id": 3863,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Ham-handed",
-      "answer": "INEPT"
-    },
-    {
-      "clue_id": 317081,
-      "puzzle_id": 3863,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Onetime CBS forensic drama",
-      "answer": "CSI"
-    },
-    {
-      "clue_id": 317082,
-      "puzzle_id": 3863,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Sicilian landmark",
-      "answer": "ETNA"
-    },
-    {
-      "clue_id": 317083,
-      "puzzle_id": 3863,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Seyfried of \"Mean Girls\"",
-      "answer": "AMANDA"
-    },
-    {
-      "clue_id": 317084,
-      "puzzle_id": 3863,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Tragic ending?",
-      "answer": "CEE"
-    },
-    {
-      "clue_id": 317085,
-      "puzzle_id": 3863,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "He and I, but not she and you",
-      "answer": "CHEMICALSYMBOLS"
-    },
-    {
-      "clue_id": 317086,
-      "puzzle_id": 3863,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Suffix with rocket",
-      "answer": "EER"
-    },
-    {
-      "clue_id": 317087,
-      "puzzle_id": 3863,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Highlands cryptid, affectionately",
-      "answer": "NESSIE"
-    },
-    {
-      "clue_id": 317088,
-      "puzzle_id": 3863,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Praiseful verses",
-      "answer": "ODES"
-    },
-    {
-      "clue_id": 317089,
-      "puzzle_id": 3863,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Fast-swimming shark",
-      "answer": "MAKO"
-    },
-    {
-      "clue_id": 317090,
-      "puzzle_id": 3863,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Disappointing",
-      "answer": "SAD"
-    },
-    {
-      "clue_id": 317091,
-      "puzzle_id": 3863,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Villainous animal in \"The Lion King\"",
-      "answer": "HYENA"
-    },
-    {
-      "clue_id": 317092,
-      "puzzle_id": 3863,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Add color to",
-      "answer": "TINT"
-    },
-    {
-      "clue_id": 317093,
-      "puzzle_id": 3863,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "She's a woolly one",
-      "answer": "EWE"
-    },
-    {
-      "clue_id": 317094,
-      "puzzle_id": 3863,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "\"What ___ you?\"",
-      "answer": "SAY"
-    },
-    {
-      "clue_id": 317095,
-      "puzzle_id": 3863,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "\"Beats me!\"",
-      "answer": "NOIDEA"
-    },
-    {
-      "clue_id": 317096,
-      "puzzle_id": 3863,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Toss from the game",
-      "answer": "EJECT"
-    },
-    {
-      "clue_id": 317097,
-      "puzzle_id": 3863,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "\"That's my cue!\"",
-      "answer": "IMON"
-    },
-    {
-      "clue_id": 317098,
-      "puzzle_id": 3863,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "A+ and B-, but not F",
-      "answer": "BLOODTYPES"
-    },
-    {
-      "clue_id": 317099,
-      "puzzle_id": 3863,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Forgetful actor's request",
-      "answer": "LINE"
-    },
-    {
-      "clue_id": 317100,
-      "puzzle_id": 3863,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Part of a chain",
-      "answer": "LINK"
-    },
-    {
-      "clue_id": 317101,
-      "puzzle_id": 3863,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "___ coffee (whiskey drink)",
-      "answer": "IRISH"
-    },
-    {
-      "clue_id": 317102,
-      "puzzle_id": 3863,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Crafty website",
-      "answer": "ETSY"
-    },
-    {
-      "clue_id": 317103,
-      "puzzle_id": 3863,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Day's harvest, for a fisher",
-      "answer": "CATCH"
-    },
-    {
-      "clue_id": 317104,
-      "puzzle_id": 3863,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Objective",
-      "answer": "AIM"
-    },
-    {
-      "clue_id": 317105,
-      "puzzle_id": 3863,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Sch. on the banks of the Mississippi",
-      "answer": "LSU"
-    },
-    {
-      "clue_id": 317106,
-      "puzzle_id": 3863,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Ground transportation option",
-      "answer": "BUS"
-    },
-    {
-      "clue_id": 317107,
-      "puzzle_id": 3863,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Commando weapons",
-      "answer": "UZIS"
-    },
-    {
-      "clue_id": 317108,
-      "puzzle_id": 3863,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "\"Aw, phooey!\"",
-      "answer": "RATS"
-    },
-    {
-      "clue_id": 317109,
-      "puzzle_id": 3863,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "PC file extension",
-      "answer": "EXE"
-    },
-    {
-      "clue_id": 317110,
-      "puzzle_id": 3863,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Congressional divide, literally as well as metaphorically",
-      "answer": "AISLE"
-    },
-    {
-      "clue_id": 317111,
-      "puzzle_id": 3863,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Just the slightest bit",
-      "answer": "ATASTE"
-    },
-    {
-      "clue_id": 317112,
-      "puzzle_id": 3863,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "MA and MS, but not BA and BS",
-      "answer": "POSTALCODES"
-    },
-    {
-      "clue_id": 317113,
-      "puzzle_id": 3863,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Canal with a \"low bridge\" (\"Everybody down!\")",
-      "answer": "ERIE"
-    },
-    {
-      "clue_id": 317114,
-      "puzzle_id": 3863,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Out of juice",
-      "answer": "DEAD"
-    },
-    {
-      "clue_id": 317115,
-      "puzzle_id": 3863,
-      "number": 18,
-      "direction": "down",
-      "clue_text": "Zilch",
-      "answer": "NIL"
-    },
-    {
-      "clue_id": 317116,
-      "puzzle_id": 3863,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Starting squad",
-      "answer": "ATEAM"
-    },
-    {
-      "clue_id": 317117,
-      "puzzle_id": 3863,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Many a godchild",
-      "answer": "NIECE"
-    },
-    {
-      "clue_id": 317118,
-      "puzzle_id": 3863,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Something to stand for",
-      "answer": "ANTHEM"
-    },
-    {
-      "clue_id": 317119,
-      "puzzle_id": 3863,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "\"The Office\" role",
-      "answer": "PAM"
-    },
-    {
-      "clue_id": 317120,
-      "puzzle_id": 3863,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Taco topper",
-      "answer": "SALSA"
-    },
-    {
-      "clue_id": 317121,
-      "puzzle_id": 3863,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Something only some of us will get",
-      "answer": "INSIDEJOKE"
-    },
-    {
-      "clue_id": 317122,
-      "puzzle_id": 3863,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Pop star Gomez",
-      "answer": "SELENA"
-    },
-    {
-      "clue_id": 317123,
-      "puzzle_id": 3863,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Top gun",
-      "answer": "ACE"
-    },
-    {
-      "clue_id": 317124,
-      "puzzle_id": 3863,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Word aptly hidden in \"turned yellow\"",
-      "answer": "DYE"
-    },
-    {
-      "clue_id": 317125,
-      "puzzle_id": 3863,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Writing assignment",
-      "answer": "ESSAY"
-    },
-    {
-      "clue_id": 317126,
-      "puzzle_id": 3863,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Hole-___ (singular feat)",
-      "answer": "INONE"
-    },
-    {
-      "clue_id": 317127,
-      "puzzle_id": 3863,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "\"Whew!\"",
-      "answer": "BOY"
-    },
-    {
-      "clue_id": 317128,
-      "puzzle_id": 3863,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Organ with a distinctive shape",
-      "answer": "KIDNEY"
-    },
-    {
-      "clue_id": 317129,
-      "puzzle_id": 3863,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Overwhelmingly busy",
-      "answer": "HECTIC"
-    },
-    {
-      "clue_id": 317130,
-      "puzzle_id": 3863,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Postpone for now",
-      "answer": "TABLE"
-    },
-    {
-      "clue_id": 317131,
-      "puzzle_id": 3863,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Exchanged rings with",
-      "answer": "WED"
-    },
-    {
-      "clue_id": 317132,
-      "puzzle_id": 3863,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "River through Khartoum",
-      "answer": "NILE"
-    },
-    {
-      "clue_id": 317133,
-      "puzzle_id": 3863,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Leave out",
-      "answer": "OMIT"
-    },
-    {
-      "clue_id": 317134,
-      "puzzle_id": 3863,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "A seeming eternity",
-      "answer": "EONS"
-    },
-    {
-      "clue_id": 317135,
-      "puzzle_id": 3863,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "Banks of \"America's Next Top Model\"",
-      "answer": "TYRA"
-    },
-    {
-      "clue_id": 317136,
-      "puzzle_id": 3863,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "___ Nas X",
-      "answer": "LIL"
-    },
-    {
-      "clue_id": 317137,
-      "puzzle_id": 3863,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Place to retire?",
-      "answer": "PIT"
-    },
-    {
-      "clue_id": 317138,
-      "puzzle_id": 3863,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Corner keyboard key",
-      "answer": "ESC"
-    },
-    {
-      "clue_id": 317139,
-      "puzzle_id": 3863,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "\"Keep it down!\"",
-      "answer": "SHH"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 317067,
-      "puzzle_id": 3863,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Hogwarts headmaster ___ Dumbledore",
-      "answer": "ALBUS"
-    },
-    {
-      "clue_id": 317068,
-      "puzzle_id": 3863,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Province",
-      "answer": "AREA"
-    },
-    {
-      "clue_id": 317069,
-      "puzzle_id": 3863,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "Followed move-for-move",
-      "answer": "APED"
-    },
-    {
-      "clue_id": 317070,
-      "puzzle_id": 3863,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Japanese automaker named for a river",
-      "answer": "ISUZU"
-    },
-    {
-      "clue_id": 317071,
-      "puzzle_id": 3863,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Ground transportation option",
-      "answer": "TAXI"
-    },
-    {
-      "clue_id": 317072,
-      "puzzle_id": 3863,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Ripped",
-      "answer": "TORE"
-    },
-    {
-      "clue_id": 317073,
-      "puzzle_id": 3863,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "A, B and C, but not X, Y and Z",
-      "answer": "MUSICNOTES"
-    },
-    {
-      "clue_id": 317074,
-      "puzzle_id": 3863,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Where Bengali and Burmese are spoken",
-      "answer": "ASIA"
-    },
-    {
-      "clue_id": 317075,
-      "puzzle_id": 3863,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Barely scrapes the surface",
-      "answer": "SKIMS"
-    },
-    {
-      "clue_id": 317076,
-      "puzzle_id": 3863,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Bore up",
-      "answer": "LASTED"
-    },
-    {
-      "clue_id": 317077,
-      "puzzle_id": 3863,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Persistently bother, with \"at\"",
-      "answer": "NAG"
-    },
-    {
-      "clue_id": 317078,
-      "puzzle_id": 3863,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Actress Wong of the Netflix series \"Beef\"",
-      "answer": "ALI"
-    },
-    {
-      "clue_id": 317079,
-      "puzzle_id": 3863,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "James of jazz",
-      "answer": "ETTA"
-    },
-    {
-      "clue_id": 317080,
-      "puzzle_id": 3863,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Ham-handed",
-      "answer": "INEPT"
-    },
-    {
-      "clue_id": 317081,
-      "puzzle_id": 3863,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Onetime CBS forensic drama",
-      "answer": "CSI"
-    },
-    {
-      "clue_id": 317082,
-      "puzzle_id": 3863,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Sicilian landmark",
-      "answer": "ETNA"
-    },
-    {
-      "clue_id": 317083,
-      "puzzle_id": 3863,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Seyfried of \"Mean Girls\"",
-      "answer": "AMANDA"
-    },
-    {
-      "clue_id": 317084,
-      "puzzle_id": 3863,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Tragic ending?",
-      "answer": "CEE"
-    },
-    {
-      "clue_id": 317085,
-      "puzzle_id": 3863,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "He and I, but not she and you",
-      "answer": "CHEMICALSYMBOLS"
-    },
-    {
-      "clue_id": 317086,
-      "puzzle_id": 3863,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Suffix with rocket",
-      "answer": "EER"
-    },
-    {
-      "clue_id": 317087,
-      "puzzle_id": 3863,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Highlands cryptid, affectionately",
-      "answer": "NESSIE"
-    },
-    {
-      "clue_id": 317088,
-      "puzzle_id": 3863,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Praiseful verses",
-      "answer": "ODES"
-    },
-    {
-      "clue_id": 317089,
-      "puzzle_id": 3863,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Fast-swimming shark",
-      "answer": "MAKO"
-    },
-    {
-      "clue_id": 317090,
-      "puzzle_id": 3863,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Disappointing",
-      "answer": "SAD"
-    },
-    {
-      "clue_id": 317091,
-      "puzzle_id": 3863,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Villainous animal in \"The Lion King\"",
-      "answer": "HYENA"
-    },
-    {
-      "clue_id": 317092,
-      "puzzle_id": 3863,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Add color to",
-      "answer": "TINT"
-    },
-    {
-      "clue_id": 317093,
-      "puzzle_id": 3863,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "She's a woolly one",
-      "answer": "EWE"
-    },
-    {
-      "clue_id": 317094,
-      "puzzle_id": 3863,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "\"What ___ you?\"",
-      "answer": "SAY"
-    },
-    {
-      "clue_id": 317095,
-      "puzzle_id": 3863,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "\"Beats me!\"",
-      "answer": "NOIDEA"
-    },
-    {
-      "clue_id": 317096,
-      "puzzle_id": 3863,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Toss from the game",
-      "answer": "EJECT"
-    },
-    {
-      "clue_id": 317097,
-      "puzzle_id": 3863,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "\"That's my cue!\"",
-      "answer": "IMON"
-    },
-    {
-      "clue_id": 317098,
-      "puzzle_id": 3863,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "A+ and B-, but not F",
-      "answer": "BLOODTYPES"
-    },
-    {
-      "clue_id": 317099,
-      "puzzle_id": 3863,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Forgetful actor's request",
-      "answer": "LINE"
-    },
-    {
-      "clue_id": 317100,
-      "puzzle_id": 3863,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Part of a chain",
-      "answer": "LINK"
-    },
-    {
-      "clue_id": 317101,
-      "puzzle_id": 3863,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "___ coffee (whiskey drink)",
-      "answer": "IRISH"
-    },
-    {
-      "clue_id": 317102,
-      "puzzle_id": 3863,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Crafty website",
-      "answer": "ETSY"
-    },
-    {
-      "clue_id": 317103,
-      "puzzle_id": 3863,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Day's harvest, for a fisher",
-      "answer": "CATCH"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 317104,
-      "puzzle_id": 3863,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Objective",
-      "answer": "AIM"
-    },
-    {
-      "clue_id": 317105,
-      "puzzle_id": 3863,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Sch. on the banks of the Mississippi",
-      "answer": "LSU"
-    },
-    {
-      "clue_id": 317106,
-      "puzzle_id": 3863,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Ground transportation option",
-      "answer": "BUS"
-    },
-    {
-      "clue_id": 317107,
-      "puzzle_id": 3863,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Commando weapons",
-      "answer": "UZIS"
-    },
-    {
-      "clue_id": 317108,
-      "puzzle_id": 3863,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "\"Aw, phooey!\"",
-      "answer": "RATS"
-    },
-    {
-      "clue_id": 317109,
-      "puzzle_id": 3863,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "PC file extension",
-      "answer": "EXE"
-    },
-    {
-      "clue_id": 317110,
-      "puzzle_id": 3863,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Congressional divide, literally as well as metaphorically",
-      "answer": "AISLE"
-    },
-    {
-      "clue_id": 317111,
-      "puzzle_id": 3863,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Just the slightest bit",
-      "answer": "ATASTE"
-    },
-    {
-      "clue_id": 317112,
-      "puzzle_id": 3863,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "MA and MS, but not BA and BS",
-      "answer": "POSTALCODES"
-    },
-    {
-      "clue_id": 317113,
-      "puzzle_id": 3863,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Canal with a \"low bridge\" (\"Everybody down!\")",
-      "answer": "ERIE"
-    },
-    {
-      "clue_id": 317114,
-      "puzzle_id": 3863,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Out of juice",
-      "answer": "DEAD"
-    },
-    {
-      "clue_id": 317115,
-      "puzzle_id": 3863,
-      "number": 18,
-      "direction": "down",
-      "clue_text": "Zilch",
-      "answer": "NIL"
-    },
-    {
-      "clue_id": 317116,
-      "puzzle_id": 3863,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Starting squad",
-      "answer": "ATEAM"
-    },
-    {
-      "clue_id": 317117,
-      "puzzle_id": 3863,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Many a godchild",
-      "answer": "NIECE"
-    },
-    {
-      "clue_id": 317118,
-      "puzzle_id": 3863,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Something to stand for",
-      "answer": "ANTHEM"
-    },
-    {
-      "clue_id": 317119,
-      "puzzle_id": 3863,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "\"The Office\" role",
-      "answer": "PAM"
-    },
-    {
-      "clue_id": 317120,
-      "puzzle_id": 3863,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Taco topper",
-      "answer": "SALSA"
-    },
-    {
-      "clue_id": 317121,
-      "puzzle_id": 3863,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Something only some of us will get",
-      "answer": "INSIDEJOKE"
-    },
-    {
-      "clue_id": 317122,
-      "puzzle_id": 3863,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Pop star Gomez",
-      "answer": "SELENA"
-    },
-    {
-      "clue_id": 317123,
-      "puzzle_id": 3863,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Top gun",
-      "answer": "ACE"
-    },
-    {
-      "clue_id": 317124,
-      "puzzle_id": 3863,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Word aptly hidden in \"turned yellow\"",
-      "answer": "DYE"
-    },
-    {
-      "clue_id": 317125,
-      "puzzle_id": 3863,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Writing assignment",
-      "answer": "ESSAY"
-    },
-    {
-      "clue_id": 317126,
-      "puzzle_id": 3863,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Hole-___ (singular feat)",
-      "answer": "INONE"
-    },
-    {
-      "clue_id": 317127,
-      "puzzle_id": 3863,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "\"Whew!\"",
-      "answer": "BOY"
-    },
-    {
-      "clue_id": 317128,
-      "puzzle_id": 3863,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Organ with a distinctive shape",
-      "answer": "KIDNEY"
-    },
-    {
-      "clue_id": 317129,
-      "puzzle_id": 3863,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Overwhelmingly busy",
-      "answer": "HECTIC"
-    },
-    {
-      "clue_id": 317130,
-      "puzzle_id": 3863,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Postpone for now",
-      "answer": "TABLE"
-    },
-    {
-      "clue_id": 317131,
-      "puzzle_id": 3863,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Exchanged rings with",
-      "answer": "WED"
-    },
-    {
-      "clue_id": 317132,
-      "puzzle_id": 3863,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "River through Khartoum",
-      "answer": "NILE"
-    },
-    {
-      "clue_id": 317133,
-      "puzzle_id": 3863,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Leave out",
-      "answer": "OMIT"
-    },
-    {
-      "clue_id": 317134,
-      "puzzle_id": 3863,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "A seeming eternity",
-      "answer": "EONS"
-    },
-    {
-      "clue_id": 317135,
-      "puzzle_id": 3863,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "Banks of \"America's Next Top Model\"",
-      "answer": "TYRA"
-    },
-    {
-      "clue_id": 317136,
-      "puzzle_id": 3863,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "___ Nas X",
-      "answer": "LIL"
-    },
-    {
-      "clue_id": 317137,
-      "puzzle_id": 3863,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Place to retire?",
-      "answer": "PIT"
-    },
-    {
-      "clue_id": 317138,
-      "puzzle_id": 3863,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Corner keyboard key",
-      "answer": "ESC"
-    },
-    {
-      "clue_id": 317139,
-      "puzzle_id": 3863,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "\"Keep it down!\"",
-      "answer": "SHH"
-    }
-  ]
+  "timestamp": "2025-07-24T04:31:09.720Z"
 }

@@ -1,1155 +1,920 @@
 {
-  "puzzle": {
-    "puzzle_id": 3868,
-    "date": "2025-07-28",
-    "formatted_date": "Monday, July 28, 2025",
-    "title": "New York Times, Monday, July 28, 2025",
-    "author": "Brian Callahan",
-    "editor": "Will Shortz",
-    "day_of_week": "Monday",
-    "permalink": "",
-    "created_at": "2025-07-28 00:30:12"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-07-29",
+      "formatted_date": "Tuesday, July 29, 2025",
+      "day_of_week": "Tuesday",
+      "title": "New York Times, Tuesday, July 29, 2025",
+      "author": "Peter Gorman",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "\"I give up!\"",
+        "answer": "UNCLE",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "J.F.K.'s predecessor",
+        "answer": "DDE",
+        "direction": "across"
+      },
+      {
+        "number": 9,
+        "clue": "Golden fruit that started the Trojan War, in myth",
+        "answer": "APPLE",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Permanent location?",
+        "answer": "SALON",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Charged particle",
+        "answer": "ION",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Studied, with \"over\"",
+        "answer": "PORED",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Chuckle + ___ = chortle",
+        "answer": "SNORT",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Prior to now",
+        "answer": "AGO",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Singer Mary J. ___",
+        "answer": "BLIGE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Who said \"Every great film should seem new every time you see it\"",
+        "answer": "ROGEREBERT",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "\"That's my cue!\"",
+        "answer": "IMON",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Nickname for Eleanor",
+        "answer": "NELL",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Be an agent for, informally",
+        "answer": "REP",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Introspective rock genre",
+        "answer": "EMO",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Hamlet's ill-fated love interest",
+        "answer": "OPHELIA",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Rejoinder to a doubter",
+        "answer": "ICANSO",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Mount with four faces that all face southeast",
+        "answer": "RUSHMORE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Constantly pushing forward",
+        "answer": "GOGO",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Dads",
+        "answer": "PAS",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Wide-eyed and eager",
+        "answer": "AGOG",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Argon or neon",
+        "answer": "INERTGAS",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Grilled Italian sandwich",
+        "answer": "PANINI",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Some fins",
+        "answer": "DORSALS",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Catchy song, in modern lingo",
+        "answer": "BOP",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Composer Coleman and others",
+        "answer": "CYS",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "They can be boosted or bruised",
+        "answer": "EGOS",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Setting of Switzerland's Glacier Express",
+        "answer": "ALPS",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "File format for a profile pic",
+        "answer": "JPEG",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Burr in \"Hamilton\"",
+        "answer": "AARON",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "Ctrl-Alt-___",
+        "answer": "DEL",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Think out loud",
+        "answer": "OPINE",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Adrien with Oscars",
+        "answer": "BRODY",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Miner matter",
+        "answer": "ORE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Birthplace of artist Leonardo",
+        "answer": "VINCI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Flippant",
+        "answer": "SASSY",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Holiday party pour",
+        "answer": "NOG",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Plein-air painter's prop",
+        "answer": "EASEL",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Bygone world power, for short",
+        "answer": "USSR",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Prefix meaning \"one-billionth\"",
+        "answer": "NANO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Bulky slip-on",
+        "answer": "CLOG",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Italian film star Sophia",
+        "answer": "LOREN",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Main courses",
+        "answer": "ENTREES",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "El infierno figure",
+        "answer": "DIABLO",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Modern lead-in to coin",
+        "answer": "DOGE",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Huge",
+        "answer": "ENORMOUS",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "\"Be on the lookout\" alert, in brief",
+        "answer": "APB",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Role for Erik Estrada on TV's \"CHiPs\" … as well as in real life",
+        "answer": "POLICEMAN",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Stiffly demure",
+        "answer": "PRIM",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Toy brand with theme parks on three continents",
+        "answer": "LEGO",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Unspoiled paradise",
+        "answer": "EDEN",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Muppet who's made guest appearances on \"Scrubs\" and \"The West Wing\"",
+        "answer": "ELMO",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Suggestions",
+        "answer": "TIPS",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Quiet sound?",
+        "answer": "SHH",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Inflexible",
+        "answer": "RIGID",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Low-cost, in ads",
+        "answer": "ECONO",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Handout at a busy restaurant",
+        "answer": "PAGER",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "\"___ will get you from A to B. Imagination can take you everywhere\" (statement attributed to Einstein)",
+        "answer": "LOGIC",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Humor with a twist",
+        "answer": "IRONY",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Protection",
+        "answer": "AEGIS",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Thor and Odin",
+        "answer": "NORSEGODS",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Dorm aides, for short",
+        "answer": "RAS",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Forwent",
+        "answer": "PASSEDON",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "What's touch and go?",
+        "answer": "TAG",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Hunk of melted mozzarella, e.g.",
+        "answer": "GLOB",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Sport with mallets",
+        "answer": "POLO",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Give the OK",
+        "answer": "APPROVE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Old-timey photo filter",
+        "answer": "SEPIA",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Zingers",
+        "answer": "JABS",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "Prefix with sail or glide",
+        "answer": "PARA",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Cupid's Greek counterpart",
+        "answer": "EROS",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Infamous Roman ruler",
+        "answer": "NERO",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Options for martinis",
+        "answer": "GINS",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "A single time",
+        "answer": "ONCE",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Actor ___ Patrick Harris",
+        "answer": "NEIL",
+        "direction": "down"
+      },
+      {
+        "number": 61,
+        "clue": "Subway Series squad, on scoreboards",
+        "answer": "NYY",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "\"I give up!\"",
+        "answer": "UNCLE",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "J.F.K.'s predecessor",
+        "answer": "DDE",
+        "direction": "across"
+      },
+      {
+        "number": 9,
+        "clue": "Golden fruit that started the Trojan War, in myth",
+        "answer": "APPLE",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Permanent location?",
+        "answer": "SALON",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Charged particle",
+        "answer": "ION",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Studied, with \"over\"",
+        "answer": "PORED",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Chuckle + ___ = chortle",
+        "answer": "SNORT",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Prior to now",
+        "answer": "AGO",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Singer Mary J. ___",
+        "answer": "BLIGE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Who said \"Every great film should seem new every time you see it\"",
+        "answer": "ROGEREBERT",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "\"That's my cue!\"",
+        "answer": "IMON",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Nickname for Eleanor",
+        "answer": "NELL",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Be an agent for, informally",
+        "answer": "REP",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Introspective rock genre",
+        "answer": "EMO",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Hamlet's ill-fated love interest",
+        "answer": "OPHELIA",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Rejoinder to a doubter",
+        "answer": "ICANSO",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Mount with four faces that all face southeast",
+        "answer": "RUSHMORE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Constantly pushing forward",
+        "answer": "GOGO",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Dads",
+        "answer": "PAS",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Wide-eyed and eager",
+        "answer": "AGOG",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Argon or neon",
+        "answer": "INERTGAS",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Grilled Italian sandwich",
+        "answer": "PANINI",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Some fins",
+        "answer": "DORSALS",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Catchy song, in modern lingo",
+        "answer": "BOP",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Composer Coleman and others",
+        "answer": "CYS",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "They can be boosted or bruised",
+        "answer": "EGOS",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Setting of Switzerland's Glacier Express",
+        "answer": "ALPS",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "File format for a profile pic",
+        "answer": "JPEG",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Burr in \"Hamilton\"",
+        "answer": "AARON",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "Ctrl-Alt-___",
+        "answer": "DEL",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Think out loud",
+        "answer": "OPINE",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Adrien with Oscars",
+        "answer": "BRODY",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Miner matter",
+        "answer": "ORE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Birthplace of artist Leonardo",
+        "answer": "VINCI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Flippant",
+        "answer": "SASSY",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Holiday party pour",
+        "answer": "NOG",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Plein-air painter's prop",
+        "answer": "EASEL",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Bygone world power, for short",
+        "answer": "USSR",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Prefix meaning \"one-billionth\"",
+        "answer": "NANO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Bulky slip-on",
+        "answer": "CLOG",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Italian film star Sophia",
+        "answer": "LOREN",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Main courses",
+        "answer": "ENTREES",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "El infierno figure",
+        "answer": "DIABLO",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Modern lead-in to coin",
+        "answer": "DOGE",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Huge",
+        "answer": "ENORMOUS",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "\"Be on the lookout\" alert, in brief",
+        "answer": "APB",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Role for Erik Estrada on TV's \"CHiPs\" … as well as in real life",
+        "answer": "POLICEMAN",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Stiffly demure",
+        "answer": "PRIM",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Toy brand with theme parks on three continents",
+        "answer": "LEGO",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Unspoiled paradise",
+        "answer": "EDEN",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Muppet who's made guest appearances on \"Scrubs\" and \"The West Wing\"",
+        "answer": "ELMO",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Suggestions",
+        "answer": "TIPS",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Quiet sound?",
+        "answer": "SHH",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Inflexible",
+        "answer": "RIGID",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Low-cost, in ads",
+        "answer": "ECONO",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Handout at a busy restaurant",
+        "answer": "PAGER",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "\"___ will get you from A to B. Imagination can take you everywhere\" (statement attributed to Einstein)",
+        "answer": "LOGIC",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Humor with a twist",
+        "answer": "IRONY",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Protection",
+        "answer": "AEGIS",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Thor and Odin",
+        "answer": "NORSEGODS",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Dorm aides, for short",
+        "answer": "RAS",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Forwent",
+        "answer": "PASSEDON",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "What's touch and go?",
+        "answer": "TAG",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Hunk of melted mozzarella, e.g.",
+        "answer": "GLOB",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Sport with mallets",
+        "answer": "POLO",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Give the OK",
+        "answer": "APPROVE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Old-timey photo filter",
+        "answer": "SEPIA",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Zingers",
+        "answer": "JABS",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "Prefix with sail or glide",
+        "answer": "PARA",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Cupid's Greek counterpart",
+        "answer": "EROS",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Infamous Roman ruler",
+        "answer": "NERO",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Options for martinis",
+        "answer": "GINS",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "A single time",
+        "answer": "ONCE",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Actor ___ Patrick Harris",
+        "answer": "NEIL",
+        "direction": "down"
+      },
+      {
+        "number": 61,
+        "clue": "Subway Series squad, on scoreboards",
+        "answer": "NYY",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 317466,
-      "puzzle_id": 3868,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "\"Catfish\" channel",
-      "answer": "MTV"
-    },
-    {
-      "clue_id": 317467,
-      "puzzle_id": 3868,
-      "number": 7,
-      "direction": "across",
-      "clue_text": "Cole ___ (cabbage dishes)",
-      "answer": "SLAWS"
-    },
-    {
-      "clue_id": 317468,
-      "puzzle_id": 3868,
-      "number": 12,
-      "direction": "across",
-      "clue_text": "Cry of discovery",
-      "answer": "AHA"
-    },
-    {
-      "clue_id": 317469,
-      "puzzle_id": 3868,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Cupid, to ancient Greeks",
-      "answer": "EROS"
-    },
-    {
-      "clue_id": 317470,
-      "puzzle_id": 3868,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Combustible fuel for trucks",
-      "answer": "DIESEL"
-    },
-    {
-      "clue_id": 317471,
-      "puzzle_id": 3868,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Corn, to a Midwest farmer",
-      "answer": "CASHCROP"
-    },
-    {
-      "clue_id": 317472,
-      "puzzle_id": 3868,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Canada's capital",
-      "answer": "OTTAWA"
-    },
-    {
-      "clue_id": 317473,
-      "puzzle_id": 3868,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Children's song refrain (\"Old MacDonald had a farm …\")",
-      "answer": "EIEIO"
-    },
-    {
-      "clue_id": 317474,
-      "puzzle_id": 3868,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Characteristic of a penetrating mind",
-      "answer": "KEEN"
-    },
-    {
-      "clue_id": 317475,
-      "puzzle_id": 3868,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "\"Count me as a yes!\"",
-      "answer": "IMIN"
-    },
-    {
-      "clue_id": 317476,
-      "puzzle_id": 3868,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Chapel oath",
-      "answer": "IDO"
-    },
-    {
-      "clue_id": 317477,
-      "puzzle_id": 3868,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Casual top",
-      "answer": "TEE"
-    },
-    {
-      "clue_id": 317478,
-      "puzzle_id": 3868,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Constellation part",
-      "answer": "STAR"
-    },
-    {
-      "clue_id": 317479,
-      "puzzle_id": 3868,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Cloud ___ (blissful spot, in an idiom)",
-      "answer": "NINE"
-    },
-    {
-      "clue_id": 317480,
-      "puzzle_id": 3868,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Course standard on the links",
-      "answer": "PAR"
-    },
-    {
-      "clue_id": 317481,
-      "puzzle_id": 3868,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Climaxes",
-      "answer": "PEAKS"
-    },
-    {
-      "clue_id": 317482,
-      "puzzle_id": 3868,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Childish retort",
-      "answer": "ARESO"
-    },
-    {
-      "clue_id": 317483,
-      "puzzle_id": 3868,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Chi preceder",
-      "answer": "PHI"
-    },
-    {
-      "clue_id": 317484,
-      "puzzle_id": 3868,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Comedian Fey",
-      "answer": "TINA"
-    },
-    {
-      "clue_id": 317485,
-      "puzzle_id": 3868,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Croquet locale",
-      "answer": "YARD"
-    },
-    {
-      "clue_id": 317486,
-      "puzzle_id": 3868,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Concert equipment",
-      "answer": "AMP"
-    },
-    {
-      "clue_id": 317487,
-      "puzzle_id": 3868,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Contribute",
-      "answer": "ADD"
-    },
-    {
-      "clue_id": 317488,
-      "puzzle_id": 3868,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Chain of luxury hotels",
-      "answer": "OMNI"
-    },
-    {
-      "clue_id": 317489,
-      "puzzle_id": 3868,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "City of Honolulu's island",
-      "answer": "OAHU"
-    },
-    {
-      "clue_id": 317490,
-      "puzzle_id": 3868,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Central artery",
-      "answer": "AORTA"
-    },
-    {
-      "clue_id": 317491,
-      "puzzle_id": 3868,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Cellphone's weather app, e.g.",
-      "answer": "WIDGET"
-    },
-    {
-      "clue_id": 317492,
-      "puzzle_id": 3868,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Clear sailing areas … or, homophonically, a feature of 16-, 23-, 39- and 52-Across (and every clue in this puzzle!)",
-      "answer": "OPENSEAS"
-    },
-    {
-      "clue_id": 317493,
-      "puzzle_id": 3868,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Crested wading birds",
-      "answer": "EGRETS"
-    },
-    {
-      "clue_id": 317494,
-      "puzzle_id": 3868,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Crossing guard's command",
-      "answer": "WALK"
-    },
-    {
-      "clue_id": 317495,
-      "puzzle_id": 3868,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "\"Can't believe I missed something so obvious!\"",
-      "answer": "DUH"
-    },
-    {
-      "clue_id": 317496,
-      "puzzle_id": 3868,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Crowd sounds",
-      "answer": "ROARS"
-    },
-    {
-      "clue_id": 317497,
-      "puzzle_id": 3868,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "Charlotte Brontë, to Anne and Emily, informally",
-      "answer": "SIS"
-    },
-    {
-      "clue_id": 317498,
-      "puzzle_id": 3868,
-      "number": 72,
-      "direction": "across",
-      "clue_text": "Complete dump",
-      "answer": "STY"
-    },
-    {
-      "clue_id": 317499,
-      "puzzle_id": 3868,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Ceremonial rod",
-      "answer": "MACE"
-    },
-    {
-      "clue_id": 317500,
-      "puzzle_id": 3868,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Cuisine with pad see ew",
-      "answer": "THAI"
-    },
-    {
-      "clue_id": 317501,
-      "puzzle_id": 3868,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Carnation holder",
-      "answer": "VASE"
-    },
-    {
-      "clue_id": 317502,
-      "puzzle_id": 3868,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Cover again, as with paint",
-      "answer": "RECOAT"
-    },
-    {
-      "clue_id": 317503,
-      "puzzle_id": 3868,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Calculate something incorrectly, say",
-      "answer": "ERR"
-    },
-    {
-      "clue_id": 317504,
-      "puzzle_id": 3868,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Command to a dog",
-      "answer": "SIT"
-    },
-    {
-      "clue_id": 317505,
-      "puzzle_id": 3868,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "\"Completely the same for me\"",
-      "answer": "ASAMI"
-    },
-    {
-      "clue_id": 317506,
-      "puzzle_id": 3868,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "\"Call us the champs!\"",
-      "answer": "WEWIN"
-    },
-    {
-      "clue_id": 317507,
-      "puzzle_id": 3868,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "\"Chill,\" e.g., for \"relax\"",
-      "answer": "SLANG"
-    },
-    {
-      "clue_id": 317508,
-      "puzzle_id": 3868,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Contractor's detail, in brief",
-      "answer": "SPEC"
-    },
-    {
-      "clue_id": 317509,
-      "puzzle_id": 3868,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Cousin of a cruller or bear claw",
-      "answer": "DONUT"
-    },
-    {
-      "clue_id": 317510,
-      "puzzle_id": 3868,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Cartoon sound from an intoxicated person",
-      "answer": "HIC"
-    },
-    {
-      "clue_id": 317511,
-      "puzzle_id": 3868,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "Canon camera brand named for a goddess",
-      "answer": "EOS"
-    },
-    {
-      "clue_id": 317512,
-      "puzzle_id": 3868,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Certain tow job, informally",
-      "answer": "REPO"
-    },
-    {
-      "clue_id": 317513,
-      "puzzle_id": 3868,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "California wine valley",
-      "answer": "NAPA"
-    },
-    {
-      "clue_id": 317514,
-      "puzzle_id": 3868,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Cuzco dweller of old",
-      "answer": "INCA"
-    },
-    {
-      "clue_id": 317515,
-      "puzzle_id": 3868,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Christian of fashion",
-      "answer": "DIOR"
-    },
-    {
-      "clue_id": 317516,
-      "puzzle_id": 3868,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "\"Christmas comes but ___ a year\"",
-      "answer": "ONCE"
-    },
-    {
-      "clue_id": 317517,
-      "puzzle_id": 3868,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "\"Calm down there, buddy\"",
-      "answer": "EASYTIGER"
-    },
-    {
-      "clue_id": 317518,
-      "puzzle_id": 3868,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Cardi B's genre",
-      "answer": "RAP"
-    },
-    {
-      "clue_id": 317519,
-      "puzzle_id": 3868,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "China's continent",
-      "answer": "ASIA"
-    },
-    {
-      "clue_id": 317520,
-      "puzzle_id": 3868,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Compassionate",
-      "answer": "KIND"
-    },
-    {
-      "clue_id": 317521,
-      "puzzle_id": 3868,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Copious amount",
-      "answer": "SCAD"
-    },
-    {
-      "clue_id": 317522,
-      "puzzle_id": 3868,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Christmas stocking filler for a naughty child",
-      "answer": "COAL"
-    },
-    {
-      "clue_id": 317523,
-      "puzzle_id": 3868,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Capital of Peru",
-      "answer": "LIMA"
-    },
-    {
-      "clue_id": 317524,
-      "puzzle_id": 3868,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Comical sorts",
-      "answer": "RIOTS"
-    },
-    {
-      "clue_id": 317525,
-      "puzzle_id": 3868,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Crime lab material",
-      "answer": "DNA"
-    },
-    {
-      "clue_id": 317526,
-      "puzzle_id": 3868,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Calls that may start \"Is your refrigerator running?,\" e.g.",
-      "answer": "PRANKS"
-    },
-    {
-      "clue_id": 317527,
-      "puzzle_id": 3868,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Cringe out of fear",
-      "answer": "COWER"
-    },
-    {
-      "clue_id": 317528,
-      "puzzle_id": 3868,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Compadre",
-      "answer": "AMIGO"
-    },
-    {
-      "clue_id": 317529,
-      "puzzle_id": 3868,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Chief Hindu god",
-      "answer": "INDRA"
-    },
-    {
-      "clue_id": 317530,
-      "puzzle_id": 3868,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Chicken ___ mein",
-      "answer": "CHOW"
-    },
-    {
-      "clue_id": 317531,
-      "puzzle_id": 3868,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Certain bout enders, in brief",
-      "answer": "KOS"
-    },
-    {
-      "clue_id": 317532,
-      "puzzle_id": 3868,
-      "number": 60,
-      "direction": "down",
-      "clue_text": "Cincinnati baseball team",
-      "answer": "REDS"
-    },
-    {
-      "clue_id": 317533,
-      "puzzle_id": 3868,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "Completely stretched",
-      "answer": "TAUT"
-    },
-    {
-      "clue_id": 317534,
-      "puzzle_id": 3868,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Cinder-covered",
-      "answer": "ASHY"
-    },
-    {
-      "clue_id": 317535,
-      "puzzle_id": 3868,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Coneheads, e.g., for short",
-      "answer": "ETS"
-    },
-    {
-      "clue_id": 317536,
-      "puzzle_id": 3868,
-      "number": 66,
-      "direction": "down",
-      "clue_text": "Cooper and Peyton Manning's Q.B. brother",
-      "answer": "ELI"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 317466,
-      "puzzle_id": 3868,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "\"Catfish\" channel",
-      "answer": "MTV"
-    },
-    {
-      "clue_id": 317467,
-      "puzzle_id": 3868,
-      "number": 7,
-      "direction": "across",
-      "clue_text": "Cole ___ (cabbage dishes)",
-      "answer": "SLAWS"
-    },
-    {
-      "clue_id": 317468,
-      "puzzle_id": 3868,
-      "number": 12,
-      "direction": "across",
-      "clue_text": "Cry of discovery",
-      "answer": "AHA"
-    },
-    {
-      "clue_id": 317469,
-      "puzzle_id": 3868,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Cupid, to ancient Greeks",
-      "answer": "EROS"
-    },
-    {
-      "clue_id": 317470,
-      "puzzle_id": 3868,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Combustible fuel for trucks",
-      "answer": "DIESEL"
-    },
-    {
-      "clue_id": 317471,
-      "puzzle_id": 3868,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Corn, to a Midwest farmer",
-      "answer": "CASHCROP"
-    },
-    {
-      "clue_id": 317472,
-      "puzzle_id": 3868,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Canada's capital",
-      "answer": "OTTAWA"
-    },
-    {
-      "clue_id": 317473,
-      "puzzle_id": 3868,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Children's song refrain (\"Old MacDonald had a farm …\")",
-      "answer": "EIEIO"
-    },
-    {
-      "clue_id": 317474,
-      "puzzle_id": 3868,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Characteristic of a penetrating mind",
-      "answer": "KEEN"
-    },
-    {
-      "clue_id": 317475,
-      "puzzle_id": 3868,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "\"Count me as a yes!\"",
-      "answer": "IMIN"
-    },
-    {
-      "clue_id": 317476,
-      "puzzle_id": 3868,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Chapel oath",
-      "answer": "IDO"
-    },
-    {
-      "clue_id": 317477,
-      "puzzle_id": 3868,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Casual top",
-      "answer": "TEE"
-    },
-    {
-      "clue_id": 317478,
-      "puzzle_id": 3868,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Constellation part",
-      "answer": "STAR"
-    },
-    {
-      "clue_id": 317479,
-      "puzzle_id": 3868,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Cloud ___ (blissful spot, in an idiom)",
-      "answer": "NINE"
-    },
-    {
-      "clue_id": 317480,
-      "puzzle_id": 3868,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Course standard on the links",
-      "answer": "PAR"
-    },
-    {
-      "clue_id": 317481,
-      "puzzle_id": 3868,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Climaxes",
-      "answer": "PEAKS"
-    },
-    {
-      "clue_id": 317482,
-      "puzzle_id": 3868,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Childish retort",
-      "answer": "ARESO"
-    },
-    {
-      "clue_id": 317483,
-      "puzzle_id": 3868,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Chi preceder",
-      "answer": "PHI"
-    },
-    {
-      "clue_id": 317484,
-      "puzzle_id": 3868,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Comedian Fey",
-      "answer": "TINA"
-    },
-    {
-      "clue_id": 317485,
-      "puzzle_id": 3868,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Croquet locale",
-      "answer": "YARD"
-    },
-    {
-      "clue_id": 317486,
-      "puzzle_id": 3868,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Concert equipment",
-      "answer": "AMP"
-    },
-    {
-      "clue_id": 317487,
-      "puzzle_id": 3868,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Contribute",
-      "answer": "ADD"
-    },
-    {
-      "clue_id": 317488,
-      "puzzle_id": 3868,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Chain of luxury hotels",
-      "answer": "OMNI"
-    },
-    {
-      "clue_id": 317489,
-      "puzzle_id": 3868,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "City of Honolulu's island",
-      "answer": "OAHU"
-    },
-    {
-      "clue_id": 317490,
-      "puzzle_id": 3868,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Central artery",
-      "answer": "AORTA"
-    },
-    {
-      "clue_id": 317491,
-      "puzzle_id": 3868,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Cellphone's weather app, e.g.",
-      "answer": "WIDGET"
-    },
-    {
-      "clue_id": 317492,
-      "puzzle_id": 3868,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Clear sailing areas … or, homophonically, a feature of 16-, 23-, 39- and 52-Across (and every clue in this puzzle!)",
-      "answer": "OPENSEAS"
-    },
-    {
-      "clue_id": 317493,
-      "puzzle_id": 3868,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Crested wading birds",
-      "answer": "EGRETS"
-    },
-    {
-      "clue_id": 317494,
-      "puzzle_id": 3868,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Crossing guard's command",
-      "answer": "WALK"
-    },
-    {
-      "clue_id": 317495,
-      "puzzle_id": 3868,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "\"Can't believe I missed something so obvious!\"",
-      "answer": "DUH"
-    },
-    {
-      "clue_id": 317496,
-      "puzzle_id": 3868,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Crowd sounds",
-      "answer": "ROARS"
-    },
-    {
-      "clue_id": 317497,
-      "puzzle_id": 3868,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "Charlotte Brontë, to Anne and Emily, informally",
-      "answer": "SIS"
-    },
-    {
-      "clue_id": 317498,
-      "puzzle_id": 3868,
-      "number": 72,
-      "direction": "across",
-      "clue_text": "Complete dump",
-      "answer": "STY"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 317499,
-      "puzzle_id": 3868,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Ceremonial rod",
-      "answer": "MACE"
-    },
-    {
-      "clue_id": 317500,
-      "puzzle_id": 3868,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Cuisine with pad see ew",
-      "answer": "THAI"
-    },
-    {
-      "clue_id": 317501,
-      "puzzle_id": 3868,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Carnation holder",
-      "answer": "VASE"
-    },
-    {
-      "clue_id": 317502,
-      "puzzle_id": 3868,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Cover again, as with paint",
-      "answer": "RECOAT"
-    },
-    {
-      "clue_id": 317503,
-      "puzzle_id": 3868,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Calculate something incorrectly, say",
-      "answer": "ERR"
-    },
-    {
-      "clue_id": 317504,
-      "puzzle_id": 3868,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Command to a dog",
-      "answer": "SIT"
-    },
-    {
-      "clue_id": 317505,
-      "puzzle_id": 3868,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "\"Completely the same for me\"",
-      "answer": "ASAMI"
-    },
-    {
-      "clue_id": 317506,
-      "puzzle_id": 3868,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "\"Call us the champs!\"",
-      "answer": "WEWIN"
-    },
-    {
-      "clue_id": 317507,
-      "puzzle_id": 3868,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "\"Chill,\" e.g., for \"relax\"",
-      "answer": "SLANG"
-    },
-    {
-      "clue_id": 317508,
-      "puzzle_id": 3868,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Contractor's detail, in brief",
-      "answer": "SPEC"
-    },
-    {
-      "clue_id": 317509,
-      "puzzle_id": 3868,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Cousin of a cruller or bear claw",
-      "answer": "DONUT"
-    },
-    {
-      "clue_id": 317510,
-      "puzzle_id": 3868,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Cartoon sound from an intoxicated person",
-      "answer": "HIC"
-    },
-    {
-      "clue_id": 317511,
-      "puzzle_id": 3868,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "Canon camera brand named for a goddess",
-      "answer": "EOS"
-    },
-    {
-      "clue_id": 317512,
-      "puzzle_id": 3868,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Certain tow job, informally",
-      "answer": "REPO"
-    },
-    {
-      "clue_id": 317513,
-      "puzzle_id": 3868,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "California wine valley",
-      "answer": "NAPA"
-    },
-    {
-      "clue_id": 317514,
-      "puzzle_id": 3868,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Cuzco dweller of old",
-      "answer": "INCA"
-    },
-    {
-      "clue_id": 317515,
-      "puzzle_id": 3868,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Christian of fashion",
-      "answer": "DIOR"
-    },
-    {
-      "clue_id": 317516,
-      "puzzle_id": 3868,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "\"Christmas comes but ___ a year\"",
-      "answer": "ONCE"
-    },
-    {
-      "clue_id": 317517,
-      "puzzle_id": 3868,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "\"Calm down there, buddy\"",
-      "answer": "EASYTIGER"
-    },
-    {
-      "clue_id": 317518,
-      "puzzle_id": 3868,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Cardi B's genre",
-      "answer": "RAP"
-    },
-    {
-      "clue_id": 317519,
-      "puzzle_id": 3868,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "China's continent",
-      "answer": "ASIA"
-    },
-    {
-      "clue_id": 317520,
-      "puzzle_id": 3868,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Compassionate",
-      "answer": "KIND"
-    },
-    {
-      "clue_id": 317521,
-      "puzzle_id": 3868,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Copious amount",
-      "answer": "SCAD"
-    },
-    {
-      "clue_id": 317522,
-      "puzzle_id": 3868,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Christmas stocking filler for a naughty child",
-      "answer": "COAL"
-    },
-    {
-      "clue_id": 317523,
-      "puzzle_id": 3868,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Capital of Peru",
-      "answer": "LIMA"
-    },
-    {
-      "clue_id": 317524,
-      "puzzle_id": 3868,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Comical sorts",
-      "answer": "RIOTS"
-    },
-    {
-      "clue_id": 317525,
-      "puzzle_id": 3868,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Crime lab material",
-      "answer": "DNA"
-    },
-    {
-      "clue_id": 317526,
-      "puzzle_id": 3868,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Calls that may start \"Is your refrigerator running?,\" e.g.",
-      "answer": "PRANKS"
-    },
-    {
-      "clue_id": 317527,
-      "puzzle_id": 3868,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Cringe out of fear",
-      "answer": "COWER"
-    },
-    {
-      "clue_id": 317528,
-      "puzzle_id": 3868,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Compadre",
-      "answer": "AMIGO"
-    },
-    {
-      "clue_id": 317529,
-      "puzzle_id": 3868,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Chief Hindu god",
-      "answer": "INDRA"
-    },
-    {
-      "clue_id": 317530,
-      "puzzle_id": 3868,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Chicken ___ mein",
-      "answer": "CHOW"
-    },
-    {
-      "clue_id": 317531,
-      "puzzle_id": 3868,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Certain bout enders, in brief",
-      "answer": "KOS"
-    },
-    {
-      "clue_id": 317532,
-      "puzzle_id": 3868,
-      "number": 60,
-      "direction": "down",
-      "clue_text": "Cincinnati baseball team",
-      "answer": "REDS"
-    },
-    {
-      "clue_id": 317533,
-      "puzzle_id": 3868,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "Completely stretched",
-      "answer": "TAUT"
-    },
-    {
-      "clue_id": 317534,
-      "puzzle_id": 3868,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Cinder-covered",
-      "answer": "ASHY"
-    },
-    {
-      "clue_id": 317535,
-      "puzzle_id": 3868,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Coneheads, e.g., for short",
-      "answer": "ETS"
-    },
-    {
-      "clue_id": 317536,
-      "puzzle_id": 3868,
-      "number": 66,
-      "direction": "down",
-      "clue_text": "Cooper and Peyton Manning's Q.B. brother",
-      "answer": "ELI"
-    }
-  ]
+  "timestamp": "2025-07-29T04:31:18.946Z"
 }

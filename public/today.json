@@ -1,1171 +1,908 @@
 {
-  "puzzle": {
-    "puzzle_id": 3875,
-    "date": "2025-08-04",
-    "formatted_date": "Monday, August 4, 2025",
-    "title": "New York Times, Monday, August 4, 2025",
-    "author": "Patti Varol",
-    "editor": "Will Shortz",
-    "day_of_week": "Monday",
-    "permalink": "",
-    "created_at": "2025-08-04 00:31:00"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-08-05",
+      "formatted_date": "Tuesday, August 5, 2025",
+      "day_of_week": "Tuesday",
+      "title": "New York Times, Tuesday, August 5, 2025",
+      "author": "Gary Larson and Amy Ensz",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Leftover part of a ticket",
+        "answer": "STUB",
+        "direction": "across"
+      },
+      {
+        "number": 5,
+        "clue": "Church assembly",
+        "answer": "SYNOD",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Support to which drywall is attached",
+        "answer": "STUD",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Zap, in a way",
+        "answer": "TASE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Broadcast again",
+        "answer": "REAIR",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Janis's spouse in the funny pages",
+        "answer": "ARLO",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Adorable perspective on things?",
+        "answer": "ACUTEANGLE",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Plant with tendrils",
+        "answer": "VINE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"Kinda ___\"",
+        "answer": "SORTA",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Longest key on a keyboard",
+        "answer": "SPACEBAR",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Driving force",
+        "answer": "IMPETUS",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "\"Famous\" cookie maker",
+        "answer": "AMOS",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Carrier to Sweden",
+        "answer": "SAS",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Axe or Old Spice?",
+        "answer": "ASCENTOFMAN",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "\"Lift\"",
+        "answer": "STEAL",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Satchel in Cooperstown",
+        "answer": "PAIGE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Something an employee wouldn't want to be given",
+        "answer": "BOOT",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Mascara mishap",
+        "answer": "SMEAR",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Posse",
+        "answer": "CREW",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Competition that offers a lot of bucks?",
+        "answer": "RODEO",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "\"You're getting warmer!\"",
+        "answer": "CLOSE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Major newsmagazine's C.E.O.?",
+        "answer": "AHEADOFTIME",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Messy class for kindergartners",
+        "answer": "ART",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Flaky rock",
+        "answer": "MICA",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Member of the myrtle family that's the source of an essential oil",
+        "answer": "TEATREE",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Funny outtake compilations",
+        "answer": "GAGREELS",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Angry with",
+        "answer": "MADAT",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Cookie that's readily stackable",
+        "answer": "OREO",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Fred Flintstone's pet",
+        "answer": "DINO",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "\"Really!\"",
+        "answer": "NOLIE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "\"I'm buying this round\"",
+        "answer": "ONME",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Come across as",
+        "answer": "SEEM",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Nose-in-the-air type",
+        "answer": "SNOOT",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Website whose sellers are crafty",
+        "answer": "ETSY",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Equilibrium",
+        "answer": "STASIS",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "City that shares an international airport with Seattle",
+        "answer": "TACOMA",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Seizes, as control",
+        "answer": "USURPS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "___ Midler a.k.a. \"The Divine Miss M\"",
+        "answer": "BETTE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Hankering",
+        "answer": "YEN",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Gives orders yet again, say",
+        "answer": "NAGS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Bottom of a crankcase",
+        "answer": "OILPAN",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Imagined",
+        "answer": "DREAMT",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Maintains one's dignity",
+        "answer": "SAVESFACE",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Chicago paper, for short",
+        "answer": "TRIB",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Arm bone on the pinkie finger side",
+        "answer": "ULNA",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Go-getter",
+        "answer": "DOER",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Bother immensely",
+        "answer": "EATAT",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Certain apartment (with a hyphen) or farm housing (without one)",
+        "answer": "COOP",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Employs",
+        "answer": "USES",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Deal that's too good to be true, often",
+        "answer": "SCAM",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Choose",
+        "answer": "ELECT",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "First modular space station",
+        "answer": "MIR",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Let develop over time",
+        "answer": "AGE",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Unfamiliar",
+        "answer": "NEW",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Spot to sit and sweat",
+        "answer": "STEAMROOM",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Garment with cups",
+        "answer": "BRA",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"That's so interesting!\"",
+        "answer": "OOH",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Poetic tribute",
+        "answer": "ODE",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Came down to the ground",
+        "answer": "ALIT",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "World capital that's home to the Spanish Steps",
+        "answer": "ROME",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "\"Garfield\" pooch",
+        "answer": "ODIE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Sewer lines?",
+        "answer": "SEAMS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "About 71% of the earth's surface",
+        "answer": "OCEANS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Bird with exceptional vision",
+        "answer": "FALCON",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Gung-ho",
+        "answer": "ARDENT",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "Kingdoms",
+        "answer": "REALMS",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Brand for a cuppa",
+        "answer": "TETLEY",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Chevy model whose name references a body of water",
+        "answer": "TAHOE",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Mercury and Mars, for instance",
+        "answer": "GODS",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Singer India.___",
+        "answer": "ARIE",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Good name for a biomedical researcher?",
+        "answer": "GENE",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "How Slovenia's Benka Pulko motorcycled over 111,800 miles, according to Guinness",
+        "answer": "SOLO",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Kia model whose name references a body of water",
+        "answer": "RIO",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Bring home",
+        "answer": "NET",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Leftover part of a ticket",
+        "answer": "STUB",
+        "direction": "across"
+      },
+      {
+        "number": 5,
+        "clue": "Church assembly",
+        "answer": "SYNOD",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Support to which drywall is attached",
+        "answer": "STUD",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Zap, in a way",
+        "answer": "TASE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Broadcast again",
+        "answer": "REAIR",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Janis's spouse in the funny pages",
+        "answer": "ARLO",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Adorable perspective on things?",
+        "answer": "ACUTEANGLE",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Plant with tendrils",
+        "answer": "VINE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"Kinda ___\"",
+        "answer": "SORTA",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Longest key on a keyboard",
+        "answer": "SPACEBAR",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Driving force",
+        "answer": "IMPETUS",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "\"Famous\" cookie maker",
+        "answer": "AMOS",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Carrier to Sweden",
+        "answer": "SAS",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Axe or Old Spice?",
+        "answer": "ASCENTOFMAN",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "\"Lift\"",
+        "answer": "STEAL",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Satchel in Cooperstown",
+        "answer": "PAIGE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Something an employee wouldn't want to be given",
+        "answer": "BOOT",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Mascara mishap",
+        "answer": "SMEAR",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Posse",
+        "answer": "CREW",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Competition that offers a lot of bucks?",
+        "answer": "RODEO",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "\"You're getting warmer!\"",
+        "answer": "CLOSE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Major newsmagazine's C.E.O.?",
+        "answer": "AHEADOFTIME",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Messy class for kindergartners",
+        "answer": "ART",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Flaky rock",
+        "answer": "MICA",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Member of the myrtle family that's the source of an essential oil",
+        "answer": "TEATREE",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Funny outtake compilations",
+        "answer": "GAGREELS",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Angry with",
+        "answer": "MADAT",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Cookie that's readily stackable",
+        "answer": "OREO",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Fred Flintstone's pet",
+        "answer": "DINO",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "\"Really!\"",
+        "answer": "NOLIE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "\"I'm buying this round\"",
+        "answer": "ONME",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Come across as",
+        "answer": "SEEM",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Nose-in-the-air type",
+        "answer": "SNOOT",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Website whose sellers are crafty",
+        "answer": "ETSY",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Equilibrium",
+        "answer": "STASIS",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "City that shares an international airport with Seattle",
+        "answer": "TACOMA",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Seizes, as control",
+        "answer": "USURPS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "___ Midler a.k.a. \"The Divine Miss M\"",
+        "answer": "BETTE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Hankering",
+        "answer": "YEN",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Gives orders yet again, say",
+        "answer": "NAGS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Bottom of a crankcase",
+        "answer": "OILPAN",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Imagined",
+        "answer": "DREAMT",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Maintains one's dignity",
+        "answer": "SAVESFACE",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Chicago paper, for short",
+        "answer": "TRIB",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Arm bone on the pinkie finger side",
+        "answer": "ULNA",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Go-getter",
+        "answer": "DOER",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Bother immensely",
+        "answer": "EATAT",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Certain apartment (with a hyphen) or farm housing (without one)",
+        "answer": "COOP",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Employs",
+        "answer": "USES",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Deal that's too good to be true, often",
+        "answer": "SCAM",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Choose",
+        "answer": "ELECT",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "First modular space station",
+        "answer": "MIR",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Let develop over time",
+        "answer": "AGE",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Unfamiliar",
+        "answer": "NEW",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Spot to sit and sweat",
+        "answer": "STEAMROOM",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Garment with cups",
+        "answer": "BRA",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"That's so interesting!\"",
+        "answer": "OOH",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Poetic tribute",
+        "answer": "ODE",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Came down to the ground",
+        "answer": "ALIT",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "World capital that's home to the Spanish Steps",
+        "answer": "ROME",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "\"Garfield\" pooch",
+        "answer": "ODIE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Sewer lines?",
+        "answer": "SEAMS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "About 71% of the earth's surface",
+        "answer": "OCEANS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Bird with exceptional vision",
+        "answer": "FALCON",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Gung-ho",
+        "answer": "ARDENT",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "Kingdoms",
+        "answer": "REALMS",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Brand for a cuppa",
+        "answer": "TETLEY",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Chevy model whose name references a body of water",
+        "answer": "TAHOE",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Mercury and Mars, for instance",
+        "answer": "GODS",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Singer India.___",
+        "answer": "ARIE",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Good name for a biomedical researcher?",
+        "answer": "GENE",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "How Slovenia's Benka Pulko motorcycled over 111,800 miles, according to Guinness",
+        "answer": "SOLO",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Kia model whose name references a body of water",
+        "answer": "RIO",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Bring home",
+        "answer": "NET",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 318006,
-      "puzzle_id": 3875,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Letters on a radio switch",
-      "answer": "AMFM"
-    },
-    {
-      "clue_id": 318007,
-      "puzzle_id": 3875,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "\"Cómo está ___?\" (\"How are you?,\" in Spanish)",
-      "answer": "USTED"
-    },
-    {
-      "clue_id": 318008,
-      "puzzle_id": 3875,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "Indian tourist city on the Taj Express route",
-      "answer": "AGRA"
-    },
-    {
-      "clue_id": 318009,
-      "puzzle_id": 3875,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Garment seen in Hindi cinema",
-      "answer": "SARI"
-    },
-    {
-      "clue_id": 318010,
-      "puzzle_id": 3875,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Glistened",
-      "answer": "SHONE"
-    },
-    {
-      "clue_id": 318011,
-      "puzzle_id": 3875,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Like a grade of B+, say",
-      "answer": "GOOD"
-    },
-    {
-      "clue_id": 318012,
-      "puzzle_id": 3875,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Seed covering",
-      "answer": "ARIL"
-    },
-    {
-      "clue_id": 318013,
-      "puzzle_id": 3875,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Rotary phone feature",
-      "answer": "DIAL"
-    },
-    {
-      "clue_id": 318014,
-      "puzzle_id": 3875,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Garment from Playtex or Maidenform",
-      "answer": "BRA"
-    },
-    {
-      "clue_id": 318015,
-      "puzzle_id": 3875,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "\"Meet the Press\" group",
-      "answer": "PANEL"
-    },
-    {
-      "clue_id": 318016,
-      "puzzle_id": 3875,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Image from a drone",
-      "answer": "AERIALPHOTO"
-    },
-    {
-      "clue_id": 318017,
-      "puzzle_id": 3875,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Metal from a mine",
-      "answer": "ORE"
-    },
-    {
-      "clue_id": 318018,
-      "puzzle_id": 3875,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Bills with George Washington's face",
-      "answer": "ONES"
-    },
-    {
-      "clue_id": 318019,
-      "puzzle_id": 3875,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Small dish served in Spain",
-      "answer": "TAPA"
-    },
-    {
-      "clue_id": 318020,
-      "puzzle_id": 3875,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Accra's country",
-      "answer": "GHANA"
-    },
-    {
-      "clue_id": 318021,
-      "puzzle_id": 3875,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Path of a baseball pop-up",
-      "answer": "ARC"
-    },
-    {
-      "clue_id": 318022,
-      "puzzle_id": 3875,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Doozy",
-      "answer": "LULU"
-    },
-    {
-      "clue_id": 318023,
-      "puzzle_id": 3875,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "\"Keep dreaming!\"",
-      "answer": "AINTGONNAHAPPEN"
-    },
-    {
-      "clue_id": 318024,
-      "puzzle_id": 3875,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Opposite of \"nope\"",
-      "answer": "YEAH"
-    },
-    {
-      "clue_id": 318025,
-      "puzzle_id": 3875,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "\"Star Wars\" saga heroine",
-      "answer": "REY"
-    },
-    {
-      "clue_id": 318026,
-      "puzzle_id": 3875,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Desert plants",
-      "answer": "CACTI"
-    },
-    {
-      "clue_id": 318027,
-      "puzzle_id": 3875,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Home of the New York Mets until 2008",
-      "answer": "SHEA"
-    },
-    {
-      "clue_id": 318028,
-      "puzzle_id": 3875,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "College mil. program",
-      "answer": "ROTC"
-    },
-    {
-      "clue_id": 318029,
-      "puzzle_id": 3875,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "\"___, amas, amat …\" (Latin 101 conjugation)",
-      "answer": "AMO"
-    },
-    {
-      "clue_id": 318030,
-      "puzzle_id": 3875,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Dance to \"The Blue Danube,\" e.g.",
-      "answer": "WALTZ"
-    },
-    {
-      "clue_id": 318031,
-      "puzzle_id": 3875,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "E.P.A.-banned pesticide",
-      "answer": "DDT"
-    },
-    {
-      "clue_id": 318032,
-      "puzzle_id": 3875,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Get an F",
-      "answer": "FAIL"
-    },
-    {
-      "clue_id": 318033,
-      "puzzle_id": 3875,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Poet with the essay collection \"Sister Outsider\"",
-      "answer": "AUDRELORDE"
-    },
-    {
-      "clue_id": 318034,
-      "puzzle_id": 3875,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Home services app that lists local vendors",
-      "answer": "ANGI"
-    },
-    {
-      "clue_id": 318035,
-      "puzzle_id": 3875,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Jumping-off point for an inventor",
-      "answer": "IDEA"
-    },
-    {
-      "clue_id": 318036,
-      "puzzle_id": 3875,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Grown-up",
-      "answer": "ADULT"
-    },
-    {
-      "clue_id": 318037,
-      "puzzle_id": 3875,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Pest control brand",
-      "answer": "RAID"
-    },
-    {
-      "clue_id": 318038,
-      "puzzle_id": 3875,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Four years, for a U.S. president",
-      "answer": "TERM"
-    },
-    {
-      "clue_id": 318039,
-      "puzzle_id": 3875,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Trait transmitters",
-      "answer": "GENES"
-    },
-    {
-      "clue_id": 318040,
-      "puzzle_id": 3875,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "One of 26, approximately, in a marathon",
-      "answer": "MILE"
-    },
-    {
-      "clue_id": 318041,
-      "puzzle_id": 3875,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Carne ___ (grilled meat dish)",
-      "answer": "ASADA"
-    },
-    {
-      "clue_id": 318042,
-      "puzzle_id": 3875,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Decluttering maven Kondo",
-      "answer": "MARIE"
-    },
-    {
-      "clue_id": 318043,
-      "puzzle_id": 3875,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Monastery resident",
-      "answer": "FRIAR"
-    },
-    {
-      "clue_id": 318044,
-      "puzzle_id": 3875,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Very, very small fractions",
-      "answer": "MILLIONTHS"
-    },
-    {
-      "clue_id": 318045,
-      "puzzle_id": 3875,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "In working order",
-      "answer": "USABLE"
-    },
-    {
-      "clue_id": 318046,
-      "puzzle_id": 3875,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Musical counterparts of flats",
-      "answer": "SHARPS"
-    },
-    {
-      "clue_id": 318047,
-      "puzzle_id": 3875,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Bat mitzvah reading",
-      "answer": "TORAH"
-    },
-    {
-      "clue_id": 318048,
-      "puzzle_id": 3875,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Musician Brian who has an asteroid named after him",
-      "answer": "ENO"
-    },
-    {
-      "clue_id": 318049,
-      "puzzle_id": 3875,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "TV room",
-      "answer": "DEN"
-    },
-    {
-      "clue_id": 318050,
-      "puzzle_id": 3875,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "H2O, in Mexico",
-      "answer": "AGUA"
-    },
-    {
-      "clue_id": 318051,
-      "puzzle_id": 3875,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Emphatic rejection",
-      "answer": "GODNO"
-    },
-    {
-      "clue_id": 318052,
-      "puzzle_id": 3875,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Slugger Maris",
-      "answer": "ROGER"
-    },
-    {
-      "clue_id": 318053,
-      "puzzle_id": 3875,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "\"Skyfall\" singer",
-      "answer": "ADELE"
-    },
-    {
-      "clue_id": 318054,
-      "puzzle_id": 3875,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Music genre from Tokyo",
-      "answer": "JPOP"
-    },
-    {
-      "clue_id": 318055,
-      "puzzle_id": 3875,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "R.p.m. indicator",
-      "answer": "TACH"
-    },
-    {
-      "clue_id": 318056,
-      "puzzle_id": 3875,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Merry",
-      "answer": "GAY"
-    },
-    {
-      "clue_id": 318057,
-      "puzzle_id": 3875,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Go quickly, quaintly",
-      "answer": "HIE"
-    },
-    {
-      "clue_id": 318058,
-      "puzzle_id": 3875,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Actress de Armas",
-      "answer": "ANA"
-    },
-    {
-      "clue_id": 318059,
-      "puzzle_id": 3875,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "___ port in a storm",
-      "answer": "ANY"
-    },
-    {
-      "clue_id": 318060,
-      "puzzle_id": 3875,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Short lines at the register?",
-      "answer": "UPC"
-    },
-    {
-      "clue_id": 318061,
-      "puzzle_id": 3875,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Permit",
-      "answer": "LET"
-    },
-    {
-      "clue_id": 318062,
-      "puzzle_id": 3875,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Prefix with cycle or code",
-      "answer": "UNI"
-    },
-    {
-      "clue_id": 318063,
-      "puzzle_id": 3875,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Black-and-white cookie",
-      "answer": "OREO"
-    },
-    {
-      "clue_id": 318064,
-      "puzzle_id": 3875,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "In the neighborhood",
-      "answer": "NEAR"
-    },
-    {
-      "clue_id": 318065,
-      "puzzle_id": 3875,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "When Hamlet duels with Laertes in \"Hamlet\"",
-      "answer": "ACTV"
-    },
-    {
-      "clue_id": 318066,
-      "puzzle_id": 3875,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Smog, e.g.",
-      "answer": "HAZE"
-    },
-    {
-      "clue_id": 318067,
-      "puzzle_id": 3875,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Enigma",
-      "answer": "RIDDLE"
-    },
-    {
-      "clue_id": 318068,
-      "puzzle_id": 3875,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Groups of eight musicians",
-      "answer": "OCTETS"
-    },
-    {
-      "clue_id": 318069,
-      "puzzle_id": 3875,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Hang around for",
-      "answer": "AWAIT"
-    },
-    {
-      "clue_id": 318070,
-      "puzzle_id": 3875,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "\"Harold and ___\" (1971 black comedy)",
-      "answer": "MAUDE"
-    },
-    {
-      "clue_id": 318071,
-      "puzzle_id": 3875,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "From further in the past",
-      "answer": "OLDER"
-    },
-    {
-      "clue_id": 318072,
-      "puzzle_id": 3875,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Hawaiian porch",
-      "answer": "LANAI"
-    },
-    {
-      "clue_id": 318073,
-      "puzzle_id": 3875,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Prayer ___",
-      "answer": "VIGIL"
-    },
-    {
-      "clue_id": 318074,
-      "puzzle_id": 3875,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Skip over, as the \"i\" in \"family\"",
-      "answer": "ELIDE"
-    },
-    {
-      "clue_id": 318075,
-      "puzzle_id": 3875,
-      "number": 59,
-      "direction": "down",
-      "clue_text": "Transit option to N.Y.C.'s Roosevelt Island",
-      "answer": "TRAM"
-    },
-    {
-      "clue_id": 318076,
-      "puzzle_id": 3875,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Fall behind",
-      "answer": "LAG"
-    },
-    {
-      "clue_id": 318077,
-      "puzzle_id": 3875,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Beethoven's \"___ to Joy\"",
-      "answer": "ODE"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 318006,
-      "puzzle_id": 3875,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Letters on a radio switch",
-      "answer": "AMFM"
-    },
-    {
-      "clue_id": 318007,
-      "puzzle_id": 3875,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "\"Cómo está ___?\" (\"How are you?,\" in Spanish)",
-      "answer": "USTED"
-    },
-    {
-      "clue_id": 318008,
-      "puzzle_id": 3875,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "Indian tourist city on the Taj Express route",
-      "answer": "AGRA"
-    },
-    {
-      "clue_id": 318009,
-      "puzzle_id": 3875,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Garment seen in Hindi cinema",
-      "answer": "SARI"
-    },
-    {
-      "clue_id": 318010,
-      "puzzle_id": 3875,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "Glistened",
-      "answer": "SHONE"
-    },
-    {
-      "clue_id": 318011,
-      "puzzle_id": 3875,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Like a grade of B+, say",
-      "answer": "GOOD"
-    },
-    {
-      "clue_id": 318012,
-      "puzzle_id": 3875,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Seed covering",
-      "answer": "ARIL"
-    },
-    {
-      "clue_id": 318013,
-      "puzzle_id": 3875,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Rotary phone feature",
-      "answer": "DIAL"
-    },
-    {
-      "clue_id": 318014,
-      "puzzle_id": 3875,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Garment from Playtex or Maidenform",
-      "answer": "BRA"
-    },
-    {
-      "clue_id": 318015,
-      "puzzle_id": 3875,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "\"Meet the Press\" group",
-      "answer": "PANEL"
-    },
-    {
-      "clue_id": 318016,
-      "puzzle_id": 3875,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Image from a drone",
-      "answer": "AERIALPHOTO"
-    },
-    {
-      "clue_id": 318017,
-      "puzzle_id": 3875,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Metal from a mine",
-      "answer": "ORE"
-    },
-    {
-      "clue_id": 318018,
-      "puzzle_id": 3875,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Bills with George Washington's face",
-      "answer": "ONES"
-    },
-    {
-      "clue_id": 318019,
-      "puzzle_id": 3875,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Small dish served in Spain",
-      "answer": "TAPA"
-    },
-    {
-      "clue_id": 318020,
-      "puzzle_id": 3875,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Accra's country",
-      "answer": "GHANA"
-    },
-    {
-      "clue_id": 318021,
-      "puzzle_id": 3875,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Path of a baseball pop-up",
-      "answer": "ARC"
-    },
-    {
-      "clue_id": 318022,
-      "puzzle_id": 3875,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Doozy",
-      "answer": "LULU"
-    },
-    {
-      "clue_id": 318023,
-      "puzzle_id": 3875,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "\"Keep dreaming!\"",
-      "answer": "AINTGONNAHAPPEN"
-    },
-    {
-      "clue_id": 318024,
-      "puzzle_id": 3875,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Opposite of \"nope\"",
-      "answer": "YEAH"
-    },
-    {
-      "clue_id": 318025,
-      "puzzle_id": 3875,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "\"Star Wars\" saga heroine",
-      "answer": "REY"
-    },
-    {
-      "clue_id": 318026,
-      "puzzle_id": 3875,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Desert plants",
-      "answer": "CACTI"
-    },
-    {
-      "clue_id": 318027,
-      "puzzle_id": 3875,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Home of the New York Mets until 2008",
-      "answer": "SHEA"
-    },
-    {
-      "clue_id": 318028,
-      "puzzle_id": 3875,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "College mil. program",
-      "answer": "ROTC"
-    },
-    {
-      "clue_id": 318029,
-      "puzzle_id": 3875,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "\"___, amas, amat …\" (Latin 101 conjugation)",
-      "answer": "AMO"
-    },
-    {
-      "clue_id": 318030,
-      "puzzle_id": 3875,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Dance to \"The Blue Danube,\" e.g.",
-      "answer": "WALTZ"
-    },
-    {
-      "clue_id": 318031,
-      "puzzle_id": 3875,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "E.P.A.-banned pesticide",
-      "answer": "DDT"
-    },
-    {
-      "clue_id": 318032,
-      "puzzle_id": 3875,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Get an F",
-      "answer": "FAIL"
-    },
-    {
-      "clue_id": 318033,
-      "puzzle_id": 3875,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Poet with the essay collection \"Sister Outsider\"",
-      "answer": "AUDRELORDE"
-    },
-    {
-      "clue_id": 318034,
-      "puzzle_id": 3875,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Home services app that lists local vendors",
-      "answer": "ANGI"
-    },
-    {
-      "clue_id": 318035,
-      "puzzle_id": 3875,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Jumping-off point for an inventor",
-      "answer": "IDEA"
-    },
-    {
-      "clue_id": 318036,
-      "puzzle_id": 3875,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Grown-up",
-      "answer": "ADULT"
-    },
-    {
-      "clue_id": 318037,
-      "puzzle_id": 3875,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Pest control brand",
-      "answer": "RAID"
-    },
-    {
-      "clue_id": 318038,
-      "puzzle_id": 3875,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Four years, for a U.S. president",
-      "answer": "TERM"
-    },
-    {
-      "clue_id": 318039,
-      "puzzle_id": 3875,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Trait transmitters",
-      "answer": "GENES"
-    },
-    {
-      "clue_id": 318040,
-      "puzzle_id": 3875,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "One of 26, approximately, in a marathon",
-      "answer": "MILE"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 318041,
-      "puzzle_id": 3875,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Carne ___ (grilled meat dish)",
-      "answer": "ASADA"
-    },
-    {
-      "clue_id": 318042,
-      "puzzle_id": 3875,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Decluttering maven Kondo",
-      "answer": "MARIE"
-    },
-    {
-      "clue_id": 318043,
-      "puzzle_id": 3875,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Monastery resident",
-      "answer": "FRIAR"
-    },
-    {
-      "clue_id": 318044,
-      "puzzle_id": 3875,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Very, very small fractions",
-      "answer": "MILLIONTHS"
-    },
-    {
-      "clue_id": 318045,
-      "puzzle_id": 3875,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "In working order",
-      "answer": "USABLE"
-    },
-    {
-      "clue_id": 318046,
-      "puzzle_id": 3875,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Musical counterparts of flats",
-      "answer": "SHARPS"
-    },
-    {
-      "clue_id": 318047,
-      "puzzle_id": 3875,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Bat mitzvah reading",
-      "answer": "TORAH"
-    },
-    {
-      "clue_id": 318048,
-      "puzzle_id": 3875,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Musician Brian who has an asteroid named after him",
-      "answer": "ENO"
-    },
-    {
-      "clue_id": 318049,
-      "puzzle_id": 3875,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "TV room",
-      "answer": "DEN"
-    },
-    {
-      "clue_id": 318050,
-      "puzzle_id": 3875,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "H2O, in Mexico",
-      "answer": "AGUA"
-    },
-    {
-      "clue_id": 318051,
-      "puzzle_id": 3875,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Emphatic rejection",
-      "answer": "GODNO"
-    },
-    {
-      "clue_id": 318052,
-      "puzzle_id": 3875,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Slugger Maris",
-      "answer": "ROGER"
-    },
-    {
-      "clue_id": 318053,
-      "puzzle_id": 3875,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "\"Skyfall\" singer",
-      "answer": "ADELE"
-    },
-    {
-      "clue_id": 318054,
-      "puzzle_id": 3875,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Music genre from Tokyo",
-      "answer": "JPOP"
-    },
-    {
-      "clue_id": 318055,
-      "puzzle_id": 3875,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "R.p.m. indicator",
-      "answer": "TACH"
-    },
-    {
-      "clue_id": 318056,
-      "puzzle_id": 3875,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Merry",
-      "answer": "GAY"
-    },
-    {
-      "clue_id": 318057,
-      "puzzle_id": 3875,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Go quickly, quaintly",
-      "answer": "HIE"
-    },
-    {
-      "clue_id": 318058,
-      "puzzle_id": 3875,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Actress de Armas",
-      "answer": "ANA"
-    },
-    {
-      "clue_id": 318059,
-      "puzzle_id": 3875,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "___ port in a storm",
-      "answer": "ANY"
-    },
-    {
-      "clue_id": 318060,
-      "puzzle_id": 3875,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Short lines at the register?",
-      "answer": "UPC"
-    },
-    {
-      "clue_id": 318061,
-      "puzzle_id": 3875,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Permit",
-      "answer": "LET"
-    },
-    {
-      "clue_id": 318062,
-      "puzzle_id": 3875,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Prefix with cycle or code",
-      "answer": "UNI"
-    },
-    {
-      "clue_id": 318063,
-      "puzzle_id": 3875,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Black-and-white cookie",
-      "answer": "OREO"
-    },
-    {
-      "clue_id": 318064,
-      "puzzle_id": 3875,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "In the neighborhood",
-      "answer": "NEAR"
-    },
-    {
-      "clue_id": 318065,
-      "puzzle_id": 3875,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "When Hamlet duels with Laertes in \"Hamlet\"",
-      "answer": "ACTV"
-    },
-    {
-      "clue_id": 318066,
-      "puzzle_id": 3875,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Smog, e.g.",
-      "answer": "HAZE"
-    },
-    {
-      "clue_id": 318067,
-      "puzzle_id": 3875,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Enigma",
-      "answer": "RIDDLE"
-    },
-    {
-      "clue_id": 318068,
-      "puzzle_id": 3875,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Groups of eight musicians",
-      "answer": "OCTETS"
-    },
-    {
-      "clue_id": 318069,
-      "puzzle_id": 3875,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Hang around for",
-      "answer": "AWAIT"
-    },
-    {
-      "clue_id": 318070,
-      "puzzle_id": 3875,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "\"Harold and ___\" (1971 black comedy)",
-      "answer": "MAUDE"
-    },
-    {
-      "clue_id": 318071,
-      "puzzle_id": 3875,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "From further in the past",
-      "answer": "OLDER"
-    },
-    {
-      "clue_id": 318072,
-      "puzzle_id": 3875,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Hawaiian porch",
-      "answer": "LANAI"
-    },
-    {
-      "clue_id": 318073,
-      "puzzle_id": 3875,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Prayer ___",
-      "answer": "VIGIL"
-    },
-    {
-      "clue_id": 318074,
-      "puzzle_id": 3875,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Skip over, as the \"i\" in \"family\"",
-      "answer": "ELIDE"
-    },
-    {
-      "clue_id": 318075,
-      "puzzle_id": 3875,
-      "number": 59,
-      "direction": "down",
-      "clue_text": "Transit option to N.Y.C.'s Roosevelt Island",
-      "answer": "TRAM"
-    },
-    {
-      "clue_id": 318076,
-      "puzzle_id": 3875,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Fall behind",
-      "answer": "LAG"
-    },
-    {
-      "clue_id": 318077,
-      "puzzle_id": 3875,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Beethoven's \"___ to Joy\"",
-      "answer": "ODE"
-    }
-  ]
+  "timestamp": "2025-08-05T04:30:51.341Z"
 }

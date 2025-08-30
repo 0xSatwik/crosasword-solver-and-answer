@@ -1,1059 +1,764 @@
 {
-  "puzzle": {
-    "puzzle_id": 3900,
-    "date": "2025-08-29",
-    "formatted_date": "Friday, August 29, 2025",
-    "title": "New York Times, Friday, August 29, 2025",
-    "author": "Jesse Cohn",
-    "editor": "Will Shortz",
-    "day_of_week": "Friday",
-    "permalink": "",
-    "created_at": "2025-08-29 04:31:00"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-08-30",
+      "formatted_date": "Saturday, August 30, 2025",
+      "day_of_week": "Saturday",
+      "title": "New York Times, Saturday, August 30, 2025",
+      "author": "Maddy Ziegler",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Title typically abbreviated to its first and last letters",
+        "answer": "SENOR",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Storied stargazers",
+        "answer": "MAGI",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Another name for ESPN8, with \"the\"",
+        "answer": "OCHO",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "___ Perry, award-winning author of 2022's \"South to America\"",
+        "answer": "IMANI",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "___ the Holy, canonized Norwegian king",
+        "answer": "OLAF",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Way out, say",
+        "answer": "DOOR",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Targets for bark beetles",
+        "answer": "ELMS",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "A&W or L&M",
+        "answer": "BRANDNAME",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Botanical joint",
+        "answer": "NODE",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Jerk",
+        "answer": "ASS",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Cell service inits.",
+        "answer": "LTE",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Neighbor of Baja California",
+        "answer": "SONORA",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "\"Funny how that works\"",
+        "answer": "HEH",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Heat setting, perhaps",
+        "answer": "MEET",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "\"The Santa Clause\" or \"Legally Blonde\"",
+        "answer": "PUN",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Kick-starter program?",
+        "answer": "KARATELESSONS",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"To All the Boys ___ Loved Before\" (best-selling young adult novel)",
+        "answer": "IVE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Campus building",
+        "answer": "HALL",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "\"Big\" digit",
+        "answer": "TOE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Not say something in jest",
+        "answer": "MEANIT",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "\"Toy Story\" bully",
+        "answer": "SID",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "___ tov (Jewish holiday)",
+        "answer": "YOM",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "\"I'm afraid ...\"",
+        "answer": "ALAS",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Noted resident of \"Little Lhasa\" in the Indian state of Himachal Pradesh",
+        "answer": "DALAILAMA",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Library catalog ID",
+        "answer": "ISBN",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "What dilapidated buildings and rampant graffiti may be a sign of",
+        "answer": "URBANDECAY",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Director Johnson",
+        "answer": "RIAN",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Veteran of the seas",
+        "answer": "SALT",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Prefix with musicology or linguistics",
+        "answer": "ETHNO",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Moving well over 60, perhaps?",
+        "answer": "SPRY",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Leaves speechless",
+        "answer": "AWES",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Moving",
+        "answer": "ASTIR",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Swahili for \"lion\"",
+        "answer": "SIMBA",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Heads of state in Qatar and Kuwait",
+        "answer": "EMIRS",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Grams",
+        "answer": "NANAS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"Come ___!\"",
+        "answer": "ONIN",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Janelle of \"Hidden Figures\"",
+        "answer": "MONAE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "'22 or '23",
+        "answer": "ALUM",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Stadium sales",
+        "answer": "GATE",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "They may or may not happen",
+        "answer": "IFS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Classical theater",
+        "answer": "ODEON",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Major successes, so to speak",
+        "answer": "HOMERUNS",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Spots for scrubs, for short",
+        "answer": "ORS",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Viola's twin brother in \"Twelfth Night\"",
+        "answer": "SEBASTIAN",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "\"Soooo …?\"",
+        "answer": "AND",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Wedding reception highlight, maybe",
+        "answer": "HORA",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Fashion plate, maybe",
+        "answer": "MODEL",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Old-fashioned TV antenna, jocularly",
+        "answer": "EARS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Giveaway",
+        "answer": "TELL",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "___ deal",
+        "answer": "DONE",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Tasteful invitation?",
+        "answer": "HAVEASIP",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Family name of three BTS members",
+        "answer": "KIM",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "One tending kids",
+        "answer": "NANNY",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Bits of wood paneling",
+        "answer": "SLATS",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Vessel with two silent letters",
+        "answer": "YACHT",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Like the Mideast's Bahla Fort",
+        "answer": "OMANI",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Head to town?",
+        "answer": "MAYOR",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Capture the attention of",
+        "answer": "DRAW",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Free (to)",
+        "answer": "ABLE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "\"Count me in!\"",
+        "answer": "LETS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Org. concerned with reporting",
+        "answer": "IRS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Host nation of the 2028 Olympics",
+        "answer": "USA",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Title typically abbreviated to its first and last letters",
+        "answer": "SENOR",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Storied stargazers",
+        "answer": "MAGI",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Another name for ESPN8, with \"the\"",
+        "answer": "OCHO",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "___ Perry, award-winning author of 2022's \"South to America\"",
+        "answer": "IMANI",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "___ the Holy, canonized Norwegian king",
+        "answer": "OLAF",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Way out, say",
+        "answer": "DOOR",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Targets for bark beetles",
+        "answer": "ELMS",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "A&W or L&M",
+        "answer": "BRANDNAME",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Botanical joint",
+        "answer": "NODE",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Jerk",
+        "answer": "ASS",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Cell service inits.",
+        "answer": "LTE",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Neighbor of Baja California",
+        "answer": "SONORA",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "\"Funny how that works\"",
+        "answer": "HEH",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Heat setting, perhaps",
+        "answer": "MEET",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "\"The Santa Clause\" or \"Legally Blonde\"",
+        "answer": "PUN",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Kick-starter program?",
+        "answer": "KARATELESSONS",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"To All the Boys ___ Loved Before\" (best-selling young adult novel)",
+        "answer": "IVE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Campus building",
+        "answer": "HALL",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "\"Big\" digit",
+        "answer": "TOE",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Not say something in jest",
+        "answer": "MEANIT",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "\"Toy Story\" bully",
+        "answer": "SID",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "___ tov (Jewish holiday)",
+        "answer": "YOM",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "\"I'm afraid ...\"",
+        "answer": "ALAS",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Noted resident of \"Little Lhasa\" in the Indian state of Himachal Pradesh",
+        "answer": "DALAILAMA",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Library catalog ID",
+        "answer": "ISBN",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "What dilapidated buildings and rampant graffiti may be a sign of",
+        "answer": "URBANDECAY",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Director Johnson",
+        "answer": "RIAN",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Veteran of the seas",
+        "answer": "SALT",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Prefix with musicology or linguistics",
+        "answer": "ETHNO",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Moving well over 60, perhaps?",
+        "answer": "SPRY",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Leaves speechless",
+        "answer": "AWES",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Moving",
+        "answer": "ASTIR",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Swahili for \"lion\"",
+        "answer": "SIMBA",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Heads of state in Qatar and Kuwait",
+        "answer": "EMIRS",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Grams",
+        "answer": "NANAS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"Come ___!\"",
+        "answer": "ONIN",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Janelle of \"Hidden Figures\"",
+        "answer": "MONAE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "'22 or '23",
+        "answer": "ALUM",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Stadium sales",
+        "answer": "GATE",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "They may or may not happen",
+        "answer": "IFS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Classical theater",
+        "answer": "ODEON",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Major successes, so to speak",
+        "answer": "HOMERUNS",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Spots for scrubs, for short",
+        "answer": "ORS",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Viola's twin brother in \"Twelfth Night\"",
+        "answer": "SEBASTIAN",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "\"Soooo …?\"",
+        "answer": "AND",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Wedding reception highlight, maybe",
+        "answer": "HORA",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Fashion plate, maybe",
+        "answer": "MODEL",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Old-fashioned TV antenna, jocularly",
+        "answer": "EARS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Giveaway",
+        "answer": "TELL",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "___ deal",
+        "answer": "DONE",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Tasteful invitation?",
+        "answer": "HAVEASIP",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Family name of three BTS members",
+        "answer": "KIM",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "One tending kids",
+        "answer": "NANNY",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Bits of wood paneling",
+        "answer": "SLATS",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Vessel with two silent letters",
+        "answer": "YACHT",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Like the Mideast's Bahla Fort",
+        "answer": "OMANI",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Head to town?",
+        "answer": "MAYOR",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Capture the attention of",
+        "answer": "DRAW",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Free (to)",
+        "answer": "ABLE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "\"Count me in!\"",
+        "answer": "LETS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Org. concerned with reporting",
+        "answer": "IRS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Host nation of the 2028 Olympics",
+        "answer": "USA",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 319881,
-      "puzzle_id": 3900,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Coaster, usually",
-      "answer": "DISC"
-    },
-    {
-      "clue_id": 319882,
-      "puzzle_id": 3900,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Start of some temple names",
-      "answer": "BNAI"
-    },
-    {
-      "clue_id": 319883,
-      "puzzle_id": 3900,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Bug spray ingredient",
-      "answer": "DEET"
-    },
-    {
-      "clue_id": 319884,
-      "puzzle_id": 3900,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Kind of rover",
-      "answer": "LUNAR"
-    },
-    {
-      "clue_id": 319885,
-      "puzzle_id": 3900,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Figure with two tails",
-      "answer": "BELLCURVE"
-    },
-    {
-      "clue_id": 319886,
-      "puzzle_id": 3900,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Habitation",
-      "answer": "ABODE"
-    },
-    {
-      "clue_id": 319887,
-      "puzzle_id": 3900,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Queen's guard?",
-      "answer": "KILLERBEE"
-    },
-    {
-      "clue_id": 319888,
-      "puzzle_id": 3900,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Language whose name consists of four consecutive U.S. state postal abbreviations",
-      "answer": "MANDARIN"
-    },
-    {
-      "clue_id": 319889,
-      "puzzle_id": 3900,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Genre for 5-Down",
-      "answer": "BLUES"
-    },
-    {
-      "clue_id": 319890,
-      "puzzle_id": 3900,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Certain graph shape",
-      "answer": "PIE"
-    },
-    {
-      "clue_id": 319891,
-      "puzzle_id": 3900,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Word with Man or can",
-      "answer": "TIN"
-    },
-    {
-      "clue_id": 319892,
-      "puzzle_id": 3900,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Per ___",
-      "answer": "DIEM"
-    },
-    {
-      "clue_id": 319893,
-      "puzzle_id": 3900,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Evidence of a fire",
-      "answer": "ASH"
-    },
-    {
-      "clue_id": 319894,
-      "puzzle_id": 3900,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Christmas story villain",
-      "answer": "HEROD"
-    },
-    {
-      "clue_id": 319895,
-      "puzzle_id": 3900,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Plot device in many a rom-com",
-      "answer": "MEETCUTE"
-    },
-    {
-      "clue_id": 319896,
-      "puzzle_id": 3900,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Samurai with no master",
-      "answer": "RONIN"
-    },
-    {
-      "clue_id": 319897,
-      "puzzle_id": 3900,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Big bust",
-      "answer": "DUD"
-    },
-    {
-      "clue_id": 319898,
-      "puzzle_id": 3900,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Little pieces",
-      "answer": "IOTAS"
-    },
-    {
-      "clue_id": 319899,
-      "puzzle_id": 3900,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Welcome sight for a business",
-      "answer": "CUSTOMER"
-    },
-    {
-      "clue_id": 319900,
-      "puzzle_id": 3900,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "What fan fiction is not",
-      "answer": "CANON"
-    },
-    {
-      "clue_id": 319901,
-      "puzzle_id": 3900,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "\"Odds\" follower",
-      "answer": "ARE"
-    },
-    {
-      "clue_id": 319902,
-      "puzzle_id": 3900,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Loaded with excitement",
-      "answer": "FUNFILLED"
-    },
-    {
-      "clue_id": 319903,
-      "puzzle_id": 3900,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Blow off steam, say",
-      "answer": "RANT"
-    },
-    {
-      "clue_id": 319904,
-      "puzzle_id": 3900,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Start to do?",
-      "answer": "DEE"
-    },
-    {
-      "clue_id": 319905,
-      "puzzle_id": 3900,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Some Slack convos",
-      "answer": "IMS"
-    },
-    {
-      "clue_id": 319906,
-      "puzzle_id": 3900,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Happiness and excitement, for two",
-      "answer": "MOODS"
-    },
-    {
-      "clue_id": 319907,
-      "puzzle_id": 3900,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Four-star review, say",
-      "answer": "ILOVEDIT"
-    },
-    {
-      "clue_id": 319908,
-      "puzzle_id": 3900,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Spitting contest?",
-      "answer": "RAPBATTLE"
-    },
-    {
-      "clue_id": 319909,
-      "puzzle_id": 3900,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Manage to lose",
-      "answer": "EVADE"
-    },
-    {
-      "clue_id": 319910,
-      "puzzle_id": 3900,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "\"Seriously!,\" in slang",
-      "answer": "NOCAP"
-    },
-    {
-      "clue_id": 319911,
-      "puzzle_id": 3900,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Fighters on the beach in 2023's \"Barbie\"",
-      "answer": "KENS"
-    },
-    {
-      "clue_id": 319912,
-      "puzzle_id": 3900,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Old car concern",
-      "answer": "RUST"
-    },
-    {
-      "clue_id": 319913,
-      "puzzle_id": 3900,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Preschoolers, e.g.",
-      "answer": "TOTS"
-    },
-    {
-      "clue_id": 319914,
-      "puzzle_id": 3900,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Home to the torus-shaped Museum of the Future",
-      "answer": "DUBAI"
-    },
-    {
-      "clue_id": 319915,
-      "puzzle_id": 3900,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "By some measure",
-      "answer": "INONESENSE"
-    },
-    {
-      "clue_id": 319916,
-      "puzzle_id": 3900,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Safety org. for young people",
-      "answer": "SADD"
-    },
-    {
-      "clue_id": 319917,
-      "puzzle_id": 3900,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "\"The Thrill Is Gone\" musician, 1970",
-      "answer": "BBKING"
-    },
-    {
-      "clue_id": 319918,
-      "puzzle_id": 3900,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Kant's \"no\"",
-      "answer": "NEIN"
-    },
-    {
-      "clue_id": 319919,
-      "puzzle_id": 3900,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Even more than most",
-      "answer": "ALL"
-    },
-    {
-      "clue_id": 319920,
-      "puzzle_id": 3900,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "\"OK, now you've got me intrigued ...\"",
-      "answer": "ILLBITE"
-    },
-    {
-      "clue_id": 319921,
-      "puzzle_id": 3900,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Macaroni wheat",
-      "answer": "DURUM"
-    },
-    {
-      "clue_id": 319922,
-      "puzzle_id": 3900,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Anticipatory times",
-      "answer": "EVES"
-    },
-    {
-      "clue_id": 319923,
-      "puzzle_id": 3900,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Anger, with \"off\"",
-      "answer": "TEE"
-    },
-    {
-      "clue_id": 319924,
-      "puzzle_id": 3900,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Lantern, e.g.",
-      "answer": "LAMP"
-    },
-    {
-      "clue_id": 319925,
-      "puzzle_id": 3900,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Peel",
-      "answer": "RIND"
-    },
-    {
-      "clue_id": 319926,
-      "puzzle_id": 3900,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Proof of a plot",
-      "answer": "DEED"
-    },
-    {
-      "clue_id": 319927,
-      "puzzle_id": 3900,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Order in the court",
-      "answer": "WRIT"
-    },
-    {
-      "clue_id": 319928,
-      "puzzle_id": 3900,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "1980s cartoon foe of Gargamel",
-      "answer": "SMURF"
-    },
-    {
-      "clue_id": 319929,
-      "puzzle_id": 3900,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Library regular, perhaps",
-      "answer": "AUTODIDACT"
-    },
-    {
-      "clue_id": 319930,
-      "puzzle_id": 3900,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Eminem song that samples Dido",
-      "answer": "STAN"
-    },
-    {
-      "clue_id": 319931,
-      "puzzle_id": 3900,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "\"___ a real nowhere man ...\"",
-      "answer": "HES"
-    },
-    {
-      "clue_id": 319932,
-      "puzzle_id": 3900,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Billing unit",
-      "answer": "HOUR"
-    },
-    {
-      "clue_id": 319933,
-      "puzzle_id": 3900,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Dog's post-op wear",
-      "answer": "CONE"
-    },
-    {
-      "clue_id": 319934,
-      "puzzle_id": 3900,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Label that sold the first 33 1/3 r.p.m. records",
-      "answer": "RCA"
-    },
-    {
-      "clue_id": 319935,
-      "puzzle_id": 3900,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Make an impression on",
-      "answer": "DENT"
-    },
-    {
-      "clue_id": 319936,
-      "puzzle_id": 3900,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Geppetto's pet goldfish in Disney's \"Pinocchio\"",
-      "answer": "CLEO"
-    },
-    {
-      "clue_id": 319937,
-      "puzzle_id": 3900,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Least active",
-      "answer": "IDLEST"
-    },
-    {
-      "clue_id": 319938,
-      "puzzle_id": 3900,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "They might hang out in a hotel room",
-      "answer": "ROBES"
-    },
-    {
-      "clue_id": 319939,
-      "puzzle_id": 3900,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Big name in mufflers",
-      "answer": "MIDAS"
-    },
-    {
-      "clue_id": 319940,
-      "puzzle_id": 3900,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Bit of a how-to",
-      "answer": "STEP"
-    },
-    {
-      "clue_id": 319941,
-      "puzzle_id": 3900,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Stable mate",
-      "answer": "MARE"
-    },
-    {
-      "clue_id": 319942,
-      "puzzle_id": 3900,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Move the first pawn, say",
-      "answer": "OPEN"
-    },
-    {
-      "clue_id": 319943,
-      "puzzle_id": 3900,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Troubles",
-      "answer": "ILLS"
-    },
-    {
-      "clue_id": 319944,
-      "puzzle_id": 3900,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Inits. of the statesman who said \"Only those who dare to fail greatly can ever achieve greatly\"",
-      "answer": "RFK"
-    },
-    {
-      "clue_id": 319945,
-      "puzzle_id": 3900,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Time constant symbol in physics",
-      "answer": "TAU"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 319881,
-      "puzzle_id": 3900,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Coaster, usually",
-      "answer": "DISC"
-    },
-    {
-      "clue_id": 319882,
-      "puzzle_id": 3900,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Start of some temple names",
-      "answer": "BNAI"
-    },
-    {
-      "clue_id": 319883,
-      "puzzle_id": 3900,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Bug spray ingredient",
-      "answer": "DEET"
-    },
-    {
-      "clue_id": 319884,
-      "puzzle_id": 3900,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Kind of rover",
-      "answer": "LUNAR"
-    },
-    {
-      "clue_id": 319885,
-      "puzzle_id": 3900,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Figure with two tails",
-      "answer": "BELLCURVE"
-    },
-    {
-      "clue_id": 319886,
-      "puzzle_id": 3900,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Habitation",
-      "answer": "ABODE"
-    },
-    {
-      "clue_id": 319887,
-      "puzzle_id": 3900,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Queen's guard?",
-      "answer": "KILLERBEE"
-    },
-    {
-      "clue_id": 319888,
-      "puzzle_id": 3900,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Language whose name consists of four consecutive U.S. state postal abbreviations",
-      "answer": "MANDARIN"
-    },
-    {
-      "clue_id": 319889,
-      "puzzle_id": 3900,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Genre for 5-Down",
-      "answer": "BLUES"
-    },
-    {
-      "clue_id": 319890,
-      "puzzle_id": 3900,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Certain graph shape",
-      "answer": "PIE"
-    },
-    {
-      "clue_id": 319891,
-      "puzzle_id": 3900,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Word with Man or can",
-      "answer": "TIN"
-    },
-    {
-      "clue_id": 319892,
-      "puzzle_id": 3900,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Per ___",
-      "answer": "DIEM"
-    },
-    {
-      "clue_id": 319893,
-      "puzzle_id": 3900,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Evidence of a fire",
-      "answer": "ASH"
-    },
-    {
-      "clue_id": 319894,
-      "puzzle_id": 3900,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Christmas story villain",
-      "answer": "HEROD"
-    },
-    {
-      "clue_id": 319895,
-      "puzzle_id": 3900,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Plot device in many a rom-com",
-      "answer": "MEETCUTE"
-    },
-    {
-      "clue_id": 319896,
-      "puzzle_id": 3900,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Samurai with no master",
-      "answer": "RONIN"
-    },
-    {
-      "clue_id": 319897,
-      "puzzle_id": 3900,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Big bust",
-      "answer": "DUD"
-    },
-    {
-      "clue_id": 319898,
-      "puzzle_id": 3900,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Little pieces",
-      "answer": "IOTAS"
-    },
-    {
-      "clue_id": 319899,
-      "puzzle_id": 3900,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Welcome sight for a business",
-      "answer": "CUSTOMER"
-    },
-    {
-      "clue_id": 319900,
-      "puzzle_id": 3900,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "What fan fiction is not",
-      "answer": "CANON"
-    },
-    {
-      "clue_id": 319901,
-      "puzzle_id": 3900,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "\"Odds\" follower",
-      "answer": "ARE"
-    },
-    {
-      "clue_id": 319902,
-      "puzzle_id": 3900,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Loaded with excitement",
-      "answer": "FUNFILLED"
-    },
-    {
-      "clue_id": 319903,
-      "puzzle_id": 3900,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Blow off steam, say",
-      "answer": "RANT"
-    },
-    {
-      "clue_id": 319904,
-      "puzzle_id": 3900,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Start to do?",
-      "answer": "DEE"
-    },
-    {
-      "clue_id": 319905,
-      "puzzle_id": 3900,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "Some Slack convos",
-      "answer": "IMS"
-    },
-    {
-      "clue_id": 319906,
-      "puzzle_id": 3900,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Happiness and excitement, for two",
-      "answer": "MOODS"
-    },
-    {
-      "clue_id": 319907,
-      "puzzle_id": 3900,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Four-star review, say",
-      "answer": "ILOVEDIT"
-    },
-    {
-      "clue_id": 319908,
-      "puzzle_id": 3900,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Spitting contest?",
-      "answer": "RAPBATTLE"
-    },
-    {
-      "clue_id": 319909,
-      "puzzle_id": 3900,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Manage to lose",
-      "answer": "EVADE"
-    },
-    {
-      "clue_id": 319910,
-      "puzzle_id": 3900,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "\"Seriously!,\" in slang",
-      "answer": "NOCAP"
-    },
-    {
-      "clue_id": 319911,
-      "puzzle_id": 3900,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Fighters on the beach in 2023's \"Barbie\"",
-      "answer": "KENS"
-    },
-    {
-      "clue_id": 319912,
-      "puzzle_id": 3900,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Old car concern",
-      "answer": "RUST"
-    },
-    {
-      "clue_id": 319913,
-      "puzzle_id": 3900,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "Preschoolers, e.g.",
-      "answer": "TOTS"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 319914,
-      "puzzle_id": 3900,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Home to the torus-shaped Museum of the Future",
-      "answer": "DUBAI"
-    },
-    {
-      "clue_id": 319915,
-      "puzzle_id": 3900,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "By some measure",
-      "answer": "INONESENSE"
-    },
-    {
-      "clue_id": 319916,
-      "puzzle_id": 3900,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Safety org. for young people",
-      "answer": "SADD"
-    },
-    {
-      "clue_id": 319917,
-      "puzzle_id": 3900,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "\"The Thrill Is Gone\" musician, 1970",
-      "answer": "BBKING"
-    },
-    {
-      "clue_id": 319918,
-      "puzzle_id": 3900,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Kant's \"no\"",
-      "answer": "NEIN"
-    },
-    {
-      "clue_id": 319919,
-      "puzzle_id": 3900,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Even more than most",
-      "answer": "ALL"
-    },
-    {
-      "clue_id": 319920,
-      "puzzle_id": 3900,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "\"OK, now you've got me intrigued ...\"",
-      "answer": "ILLBITE"
-    },
-    {
-      "clue_id": 319921,
-      "puzzle_id": 3900,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Macaroni wheat",
-      "answer": "DURUM"
-    },
-    {
-      "clue_id": 319922,
-      "puzzle_id": 3900,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Anticipatory times",
-      "answer": "EVES"
-    },
-    {
-      "clue_id": 319923,
-      "puzzle_id": 3900,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Anger, with \"off\"",
-      "answer": "TEE"
-    },
-    {
-      "clue_id": 319924,
-      "puzzle_id": 3900,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Lantern, e.g.",
-      "answer": "LAMP"
-    },
-    {
-      "clue_id": 319925,
-      "puzzle_id": 3900,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Peel",
-      "answer": "RIND"
-    },
-    {
-      "clue_id": 319926,
-      "puzzle_id": 3900,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Proof of a plot",
-      "answer": "DEED"
-    },
-    {
-      "clue_id": 319927,
-      "puzzle_id": 3900,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Order in the court",
-      "answer": "WRIT"
-    },
-    {
-      "clue_id": 319928,
-      "puzzle_id": 3900,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "1980s cartoon foe of Gargamel",
-      "answer": "SMURF"
-    },
-    {
-      "clue_id": 319929,
-      "puzzle_id": 3900,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Library regular, perhaps",
-      "answer": "AUTODIDACT"
-    },
-    {
-      "clue_id": 319930,
-      "puzzle_id": 3900,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Eminem song that samples Dido",
-      "answer": "STAN"
-    },
-    {
-      "clue_id": 319931,
-      "puzzle_id": 3900,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "\"___ a real nowhere man ...\"",
-      "answer": "HES"
-    },
-    {
-      "clue_id": 319932,
-      "puzzle_id": 3900,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Billing unit",
-      "answer": "HOUR"
-    },
-    {
-      "clue_id": 319933,
-      "puzzle_id": 3900,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Dog's post-op wear",
-      "answer": "CONE"
-    },
-    {
-      "clue_id": 319934,
-      "puzzle_id": 3900,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Label that sold the first 33 1/3 r.p.m. records",
-      "answer": "RCA"
-    },
-    {
-      "clue_id": 319935,
-      "puzzle_id": 3900,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Make an impression on",
-      "answer": "DENT"
-    },
-    {
-      "clue_id": 319936,
-      "puzzle_id": 3900,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Geppetto's pet goldfish in Disney's \"Pinocchio\"",
-      "answer": "CLEO"
-    },
-    {
-      "clue_id": 319937,
-      "puzzle_id": 3900,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Least active",
-      "answer": "IDLEST"
-    },
-    {
-      "clue_id": 319938,
-      "puzzle_id": 3900,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "They might hang out in a hotel room",
-      "answer": "ROBES"
-    },
-    {
-      "clue_id": 319939,
-      "puzzle_id": 3900,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Big name in mufflers",
-      "answer": "MIDAS"
-    },
-    {
-      "clue_id": 319940,
-      "puzzle_id": 3900,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Bit of a how-to",
-      "answer": "STEP"
-    },
-    {
-      "clue_id": 319941,
-      "puzzle_id": 3900,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Stable mate",
-      "answer": "MARE"
-    },
-    {
-      "clue_id": 319942,
-      "puzzle_id": 3900,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Move the first pawn, say",
-      "answer": "OPEN"
-    },
-    {
-      "clue_id": 319943,
-      "puzzle_id": 3900,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Troubles",
-      "answer": "ILLS"
-    },
-    {
-      "clue_id": 319944,
-      "puzzle_id": 3900,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Inits. of the statesman who said \"Only those who dare to fail greatly can ever achieve greatly\"",
-      "answer": "RFK"
-    },
-    {
-      "clue_id": 319945,
-      "puzzle_id": 3900,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Time constant symbol in physics",
-      "answer": "TAU"
-    }
-  ]
+  "timestamp": "2025-08-30T04:31:26.501Z"
 }

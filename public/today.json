@@ -1,1171 +1,872 @@
 {
-  "puzzle": {
-    "puzzle_id": 3904,
-    "date": "2025-09-02",
-    "formatted_date": "Tuesday, September 2, 2025",
-    "title": "New York Times, Tuesday, September 2, 2025",
-    "author": "Rena Cohen",
-    "editor": "Will Shortz",
-    "day_of_week": "Tuesday",
-    "permalink": "",
-    "created_at": "2025-09-02 04:30:41"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-09-03",
+      "formatted_date": "Wednesday, September 3, 2025",
+      "day_of_week": "Wednesday",
+      "title": "New York Times, Wednesday, September 3, 2025",
+      "author": "Michael B. Berg",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Project for a beginning knitter",
+        "answer": "SCARF",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Petri dish medium",
+        "answer": "AGAR",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Niecy ___ of \"Clean House\"",
+        "answer": "NASH",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Exposed, as one's dirty laundry",
+        "answer": "AIRED",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Protein in a niçoise salad",
+        "answer": "TUNA",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Guthrie who sang \"Alice's Restaurant\"",
+        "answer": "ARLO",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "One getting top billing",
+        "answer": "STAR",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Just OK",
+        "answer": "SOSO",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Break in the action",
+        "answer": "LULL",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Censures",
+        "answer": "DAMNS",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "[Is this thing on?]",
+        "answer": "TAPTAP",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Fish feared by dragons in \"How to Train Your Dragon\"",
+        "answer": "EELS",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Cry of defeat",
+        "answer": "ILOST",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Chess piece that can be promoted",
+        "answer": "PAWN",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Creature of Sherpa folklore",
+        "answer": "YETI",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Chop (off)",
+        "answer": "LOP",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Stalling sounds",
+        "answer": "UHS",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Tolkien trilogy, to fans",
+        "answer": "LOTR",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Word after latch or glom",
+        "answer": "ONTO",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "\"Death of a Salesman\" salesman",
+        "answer": "LOMAN",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "A half-filled auditorium, per Robert Frost",
+        "answer": "HELL",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Puts the pedal to the metal",
+        "answer": "GUNSIT",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Pair of cymbals with a foot pedal",
+        "answer": "HIHAT",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Gain",
+        "answer": "EARN",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "World's most-watched television franchise, informally",
+        "answer": "IDOL",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "School within both Princeton and Carleton?",
+        "answer": "ETON",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "No longer applicable",
+        "answer": "MOOT",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Feel sore",
+        "answer": "ACHE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Console for the game Pitfall!",
+        "answer": "ATARI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Partner of odds",
+        "answer": "ENDS",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Rhyming word after speed",
+        "answer": "READ",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Loses color",
+        "answer": "PALES",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Exams that are often optional",
+        "answer": "SATS",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Florence farewell",
+        "answer": "CIAO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Munitions",
+        "answer": "ARMS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Spreads on social media",
+        "answer": "REPOSTS",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Cosmetics-regulating org.",
+        "answer": "FDA",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Couldn't get enough of",
+        "answer": "ATEUP",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Reason for a tucked tail, perhaps",
+        "answer": "GUILT",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "___-Saxon",
+        "answer": "ANGLO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Issa of \"Insecure\"",
+        "answer": "RAE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "How a Dylan impersonator might sing",
+        "answer": "NASALLY",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "\"That slaps,\" for something good, e.g.",
+        "answer": "SLANG",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "One might be mounted",
+        "answer": "HORSE",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Tiny deviation from a general trend",
+        "answer": "BLIP",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Product from Rit",
+        "answer": "DYE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "New York City deli name",
+        "answer": "KATZ",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "It might be fixed at a chef's table",
+        "answer": "MENU",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Cashier's tray",
+        "answer": "TILL",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "___ gobi (potato curry)",
+        "answer": "ALOO",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "\"The shoddy sandwich knife couldn't cut the mustard,\" e.g.",
+        "answer": "PUN",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Early H.I.V. med",
+        "answer": "AZT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "\"___ knows?\"",
+        "answer": "WHO",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Phuket native",
+        "answer": "THAI",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"___ she lovely?\" (Stevie Wonder question)",
+        "answer": "ISNT",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Greeting that becomes another greeting if you add an A at the front and reverse it",
+        "answer": "HOLA",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Promote",
+        "answer": "PLUG",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Stinging insects",
+        "answer": "REDANTS",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "The least amount a person might give",
+        "answer": "ONEIOTA",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Tennis umpire's call",
+        "answer": "LET",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Rowlands of \"A Woman Under the Influence\"",
+        "answer": "GENA",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "Subject",
+        "answer": "THEME",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Discover by chance",
+        "answer": "HITON",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Two in a hand",
+        "answer": "DEUCE",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "___ Baron Cohen, \"The Trial of the Chicago 7\" actor",
+        "answer": "SACHA",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Ticked off",
+        "answer": "IRKED",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Twofold",
+        "answer": "DUAL",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Fairy tale baddie",
+        "answer": "OGRE",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "Some island rings",
+        "answer": "LEIS",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Setting for many a joke with a priest, a pastor and a rabbi",
+        "answer": "BAR",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Sharp knock",
+        "answer": "RAP",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Project for a beginning knitter",
+        "answer": "SCARF",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Petri dish medium",
+        "answer": "AGAR",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "Niecy ___ of \"Clean House\"",
+        "answer": "NASH",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Exposed, as one's dirty laundry",
+        "answer": "AIRED",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Protein in a niçoise salad",
+        "answer": "TUNA",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Guthrie who sang \"Alice's Restaurant\"",
+        "answer": "ARLO",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "One getting top billing",
+        "answer": "STAR",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Just OK",
+        "answer": "SOSO",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Break in the action",
+        "answer": "LULL",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Censures",
+        "answer": "DAMNS",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "[Is this thing on?]",
+        "answer": "TAPTAP",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Fish feared by dragons in \"How to Train Your Dragon\"",
+        "answer": "EELS",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Cry of defeat",
+        "answer": "ILOST",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Chess piece that can be promoted",
+        "answer": "PAWN",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Creature of Sherpa folklore",
+        "answer": "YETI",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Chop (off)",
+        "answer": "LOP",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Stalling sounds",
+        "answer": "UHS",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Tolkien trilogy, to fans",
+        "answer": "LOTR",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Word after latch or glom",
+        "answer": "ONTO",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "\"Death of a Salesman\" salesman",
+        "answer": "LOMAN",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "A half-filled auditorium, per Robert Frost",
+        "answer": "HELL",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Puts the pedal to the metal",
+        "answer": "GUNSIT",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Pair of cymbals with a foot pedal",
+        "answer": "HIHAT",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Gain",
+        "answer": "EARN",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "World's most-watched television franchise, informally",
+        "answer": "IDOL",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "School within both Princeton and Carleton?",
+        "answer": "ETON",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "No longer applicable",
+        "answer": "MOOT",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Feel sore",
+        "answer": "ACHE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Console for the game Pitfall!",
+        "answer": "ATARI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Partner of odds",
+        "answer": "ENDS",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Rhyming word after speed",
+        "answer": "READ",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Loses color",
+        "answer": "PALES",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Exams that are often optional",
+        "answer": "SATS",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Florence farewell",
+        "answer": "CIAO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Munitions",
+        "answer": "ARMS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Spreads on social media",
+        "answer": "REPOSTS",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Cosmetics-regulating org.",
+        "answer": "FDA",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Couldn't get enough of",
+        "answer": "ATEUP",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Reason for a tucked tail, perhaps",
+        "answer": "GUILT",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "___-Saxon",
+        "answer": "ANGLO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Issa of \"Insecure\"",
+        "answer": "RAE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "How a Dylan impersonator might sing",
+        "answer": "NASALLY",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "\"That slaps,\" for something good, e.g.",
+        "answer": "SLANG",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "One might be mounted",
+        "answer": "HORSE",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Tiny deviation from a general trend",
+        "answer": "BLIP",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Product from Rit",
+        "answer": "DYE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "New York City deli name",
+        "answer": "KATZ",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "It might be fixed at a chef's table",
+        "answer": "MENU",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Cashier's tray",
+        "answer": "TILL",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "___ gobi (potato curry)",
+        "answer": "ALOO",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "\"The shoddy sandwich knife couldn't cut the mustard,\" e.g.",
+        "answer": "PUN",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Early H.I.V. med",
+        "answer": "AZT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "\"___ knows?\"",
+        "answer": "WHO",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Phuket native",
+        "answer": "THAI",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"___ she lovely?\" (Stevie Wonder question)",
+        "answer": "ISNT",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Greeting that becomes another greeting if you add an A at the front and reverse it",
+        "answer": "HOLA",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Promote",
+        "answer": "PLUG",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Stinging insects",
+        "answer": "REDANTS",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "The least amount a person might give",
+        "answer": "ONEIOTA",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Tennis umpire's call",
+        "answer": "LET",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Rowlands of \"A Woman Under the Influence\"",
+        "answer": "GENA",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "Subject",
+        "answer": "THEME",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Discover by chance",
+        "answer": "HITON",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Two in a hand",
+        "answer": "DEUCE",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "___ Baron Cohen, \"The Trial of the Chicago 7\" actor",
+        "answer": "SACHA",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Ticked off",
+        "answer": "IRKED",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Twofold",
+        "answer": "DUAL",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "Fairy tale baddie",
+        "answer": "OGRE",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "Some island rings",
+        "answer": "LEIS",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Setting for many a joke with a priest, a pastor and a rabbi",
+        "answer": "BAR",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Sharp knock",
+        "answer": "RAP",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 320213,
-      "puzzle_id": 3904,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Número to tango",
-      "answer": "DOS"
-    },
-    {
-      "clue_id": 320214,
-      "puzzle_id": 3904,
-      "number": 4,
-      "direction": "across",
-      "clue_text": "Sailboat's post",
-      "answer": "MAST"
-    },
-    {
-      "clue_id": 320215,
-      "puzzle_id": 3904,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Holiday Inn competitor",
-      "answer": "RAMADA"
-    },
-    {
-      "clue_id": 320216,
-      "puzzle_id": 3904,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Scrape (by)",
-      "answer": "EKE"
-    },
-    {
-      "clue_id": 320217,
-      "puzzle_id": 3904,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "All over again",
-      "answer": "ANEW"
-    },
-    {
-      "clue_id": 320218,
-      "puzzle_id": 3904,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "\"All ___!\" (conductor's call)",
-      "answer": "ABOARD"
-    },
-    {
-      "clue_id": 320219,
-      "puzzle_id": 3904,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "\"Grey's Anatomy\" network",
-      "answer": "ABC"
-    },
-    {
-      "clue_id": 320220,
-      "puzzle_id": 3904,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Line in a song",
-      "answer": "LYRIC"
-    },
-    {
-      "clue_id": 320221,
-      "puzzle_id": 3904,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Rejections",
-      "answer": "NOS"
-    },
-    {
-      "clue_id": 320222,
-      "puzzle_id": 3904,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Duolingo and DoorDash",
-      "answer": "APPS"
-    },
-    {
-      "clue_id": 320223,
-      "puzzle_id": 3904,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Smidgen",
-      "answer": "TRACE"
-    },
-    {
-      "clue_id": 320224,
-      "puzzle_id": 3904,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "\"This is more than a want!\"",
-      "answer": "INEEDIT"
-    },
-    {
-      "clue_id": 320225,
-      "puzzle_id": 3904,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "\"Best Comeback Athlete,\" for one",
-      "answer": "ESPY"
-    },
-    {
-      "clue_id": 320226,
-      "puzzle_id": 3904,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Brian of electronica",
-      "answer": "ENO"
-    },
-    {
-      "clue_id": 320227,
-      "puzzle_id": 3904,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Caribbean hot spot",
-      "answer": "ARUBA"
-    },
-    {
-      "clue_id": 320228,
-      "puzzle_id": 3904,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Eensy",
-      "answer": "LIL"
-    },
-    {
-      "clue_id": 320229,
-      "puzzle_id": 3904,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Salty snack whose varieties are found at the ends of 18-, 24-, 52- and 61-Across",
-      "answer": "PRETZEL"
-    },
-    {
-      "clue_id": 320230,
-      "puzzle_id": 3904,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Relatives",
-      "answer": "KIN"
-    },
-    {
-      "clue_id": 320231,
-      "puzzle_id": 3904,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Astonished",
-      "answer": "INAWE"
-    },
-    {
-      "clue_id": 320232,
-      "puzzle_id": 3904,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Khan of Khan Academy",
-      "answer": "SAL"
-    },
-    {
-      "clue_id": 320233,
-      "puzzle_id": 3904,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Loch ___ monster",
-      "answer": "NESS"
-    },
-    {
-      "clue_id": 320234,
-      "puzzle_id": 3904,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Ladies in Lima",
-      "answer": "SENORAS"
-    },
-    {
-      "clue_id": 320235,
-      "puzzle_id": 3904,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Flowers in a Valentine's Day bouquet",
-      "answer": "ROSES"
-    },
-    {
-      "clue_id": 320236,
-      "puzzle_id": 3904,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Greenland native",
-      "answer": "INUK"
-    },
-    {
-      "clue_id": 320237,
-      "puzzle_id": 3904,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Anderson Cooper's channel",
-      "answer": "CNN"
-    },
-    {
-      "clue_id": 320238,
-      "puzzle_id": 3904,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "River critter",
-      "answer": "OTTER"
-    },
-    {
-      "clue_id": 320239,
-      "puzzle_id": 3904,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Travel blogger's gadget",
-      "answer": "SELFIESTICK"
-    },
-    {
-      "clue_id": 320240,
-      "puzzle_id": 3904,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Countdown ender",
-      "answer": "ONE"
-    },
-    {
-      "clue_id": 320241,
-      "puzzle_id": 3904,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "\"This decision is hard!\"",
-      "answer": "IMTORN"
-    },
-    {
-      "clue_id": 320242,
-      "puzzle_id": 3904,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Nobel laureate Wiesel",
-      "answer": "ELIE"
-    },
-    {
-      "clue_id": 320243,
-      "puzzle_id": 3904,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Patriotic chant",
-      "answer": "USA"
-    },
-    {
-      "clue_id": 320244,
-      "puzzle_id": 3904,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Rose quickly, as prices",
-      "answer": "SOARED"
-    },
-    {
-      "clue_id": 320245,
-      "puzzle_id": 3904,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Its symbol is Pb",
-      "answer": "LEAD"
-    },
-    {
-      "clue_id": 320246,
-      "puzzle_id": 3904,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "Vietnamese New Year",
-      "answer": "TET"
-    },
-    {
-      "clue_id": 320247,
-      "puzzle_id": 3904,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Passed out cards",
-      "answer": "DEALT"
-    },
-    {
-      "clue_id": 320248,
-      "puzzle_id": 3904,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "\"I'm leaving now!\"",
-      "answer": "OKBYE"
-    },
-    {
-      "clue_id": 320249,
-      "puzzle_id": 3904,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "What a schemer schemes",
-      "answer": "SECRETPLAN"
-    },
-    {
-      "clue_id": 320250,
-      "puzzle_id": 3904,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Green tea variety",
-      "answer": "MATCHA"
-    },
-    {
-      "clue_id": 320251,
-      "puzzle_id": 3904,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "What makes a pan a pain?",
-      "answer": "ANI"
-    },
-    {
-      "clue_id": 320252,
-      "puzzle_id": 3904,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Bump, ___, spike (volleyball trio)",
-      "answer": "SET"
-    },
-    {
-      "clue_id": 320253,
-      "puzzle_id": 3904,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Part of many Southern accents",
-      "answer": "TWANG"
-    },
-    {
-      "clue_id": 320254,
-      "puzzle_id": 3904,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Granola morsel",
-      "answer": "RAISIN"
-    },
-    {
-      "clue_id": 320255,
-      "puzzle_id": 3904,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "___ Dhabi",
-      "answer": "ABU"
-    },
-    {
-      "clue_id": 320256,
-      "puzzle_id": 3904,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Org. for senior citizens",
-      "answer": "AARP"
-    },
-    {
-      "clue_id": 320257,
-      "puzzle_id": 3904,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Roller coaster element",
-      "answer": "DROP"
-    },
-    {
-      "clue_id": 320258,
-      "puzzle_id": 3904,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Does some math",
-      "answer": "ADDS"
-    },
-    {
-      "clue_id": 320259,
-      "puzzle_id": 3904,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Seaweed for sushi",
-      "answer": "NORI"
-    },
-    {
-      "clue_id": 320260,
-      "puzzle_id": 3904,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "\"Just doing my best\"",
-      "answer": "ITRY"
-    },
-    {
-      "clue_id": 320261,
-      "puzzle_id": 3904,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Bakery worker",
-      "answer": "ICER"
-    },
-    {
-      "clue_id": 320262,
-      "puzzle_id": 3904,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Hawaiian goose",
-      "answer": "NENE"
-    },
-    {
-      "clue_id": 320263,
-      "puzzle_id": 3904,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Young adult novelist Shusterman",
-      "answer": "NEAL"
-    },
-    {
-      "clue_id": 320264,
-      "puzzle_id": 3904,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Long-legged wader",
-      "answer": "IBIS"
-    },
-    {
-      "clue_id": 320265,
-      "puzzle_id": 3904,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Sunbathes",
-      "answer": "TANS"
-    },
-    {
-      "clue_id": 320266,
-      "puzzle_id": 3904,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Some Ivy Leaguers",
-      "answer": "ELIS"
-    },
-    {
-      "clue_id": 320267,
-      "puzzle_id": 3904,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Kind of wave",
-      "answer": "SINE"
-    },
-    {
-      "clue_id": 320268,
-      "puzzle_id": 3904,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Tiebreaker periods, in brief",
-      "answer": "OTS"
-    },
-    {
-      "clue_id": 320269,
-      "puzzle_id": 3904,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Andean nation",
-      "answer": "PERU"
-    },
-    {
-      "clue_id": 320270,
-      "puzzle_id": 3904,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Fashion retailer headquartered in Spain",
-      "answer": "ZARA"
-    },
-    {
-      "clue_id": 320271,
-      "puzzle_id": 3904,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "North Carolina's ___ University",
-      "answer": "ELON"
-    },
-    {
-      "clue_id": 320272,
-      "puzzle_id": 3904,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Small salamander",
-      "answer": "NEWT"
-    },
-    {
-      "clue_id": 320273,
-      "puzzle_id": 3904,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Climb",
-      "answer": "ASCEND"
-    },
-    {
-      "clue_id": 320274,
-      "puzzle_id": 3904,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "IDs on W-2s",
-      "answer": "SSNS"
-    },
-    {
-      "clue_id": 320275,
-      "puzzle_id": 3904,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Enthusiastic, informally",
-      "answer": "STOKED"
-    },
-    {
-      "clue_id": 320276,
-      "puzzle_id": 3904,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Spy's gathering",
-      "answer": "INTEL"
-    },
-    {
-      "clue_id": 320277,
-      "puzzle_id": 3904,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Perceive",
-      "answer": "SENSE"
-    },
-    {
-      "clue_id": 320278,
-      "puzzle_id": 3904,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Reward for Rover",
-      "answer": "TREAT"
-    },
-    {
-      "clue_id": 320279,
-      "puzzle_id": 3904,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Egyptian goddess of healing",
-      "answer": "ISIS"
-    },
-    {
-      "clue_id": 320280,
-      "puzzle_id": 3904,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Dory's friend, in film",
-      "answer": "NEMO"
-    },
-    {
-      "clue_id": 320281,
-      "puzzle_id": 3904,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "Chain with in-store salons",
-      "answer": "ULTA"
-    },
-    {
-      "clue_id": 320282,
-      "puzzle_id": 3904,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Rage",
-      "answer": "IRE"
-    },
-    {
-      "clue_id": 320283,
-      "puzzle_id": 3904,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Martinique, par exemple",
-      "answer": "ILE"
-    },
-    {
-      "clue_id": 320284,
-      "puzzle_id": 3904,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Org. that requires polygraph tests for all applicants",
-      "answer": "CIA"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 320213,
-      "puzzle_id": 3904,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Número to tango",
-      "answer": "DOS"
-    },
-    {
-      "clue_id": 320214,
-      "puzzle_id": 3904,
-      "number": 4,
-      "direction": "across",
-      "clue_text": "Sailboat's post",
-      "answer": "MAST"
-    },
-    {
-      "clue_id": 320215,
-      "puzzle_id": 3904,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Holiday Inn competitor",
-      "answer": "RAMADA"
-    },
-    {
-      "clue_id": 320216,
-      "puzzle_id": 3904,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Scrape (by)",
-      "answer": "EKE"
-    },
-    {
-      "clue_id": 320217,
-      "puzzle_id": 3904,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "All over again",
-      "answer": "ANEW"
-    },
-    {
-      "clue_id": 320218,
-      "puzzle_id": 3904,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "\"All ___!\" (conductor's call)",
-      "answer": "ABOARD"
-    },
-    {
-      "clue_id": 320219,
-      "puzzle_id": 3904,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "\"Grey's Anatomy\" network",
-      "answer": "ABC"
-    },
-    {
-      "clue_id": 320220,
-      "puzzle_id": 3904,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Line in a song",
-      "answer": "LYRIC"
-    },
-    {
-      "clue_id": 320221,
-      "puzzle_id": 3904,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Rejections",
-      "answer": "NOS"
-    },
-    {
-      "clue_id": 320222,
-      "puzzle_id": 3904,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Duolingo and DoorDash",
-      "answer": "APPS"
-    },
-    {
-      "clue_id": 320223,
-      "puzzle_id": 3904,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Smidgen",
-      "answer": "TRACE"
-    },
-    {
-      "clue_id": 320224,
-      "puzzle_id": 3904,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "\"This is more than a want!\"",
-      "answer": "INEEDIT"
-    },
-    {
-      "clue_id": 320225,
-      "puzzle_id": 3904,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "\"Best Comeback Athlete,\" for one",
-      "answer": "ESPY"
-    },
-    {
-      "clue_id": 320226,
-      "puzzle_id": 3904,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Brian of electronica",
-      "answer": "ENO"
-    },
-    {
-      "clue_id": 320227,
-      "puzzle_id": 3904,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Caribbean hot spot",
-      "answer": "ARUBA"
-    },
-    {
-      "clue_id": 320228,
-      "puzzle_id": 3904,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Eensy",
-      "answer": "LIL"
-    },
-    {
-      "clue_id": 320229,
-      "puzzle_id": 3904,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Salty snack whose varieties are found at the ends of 18-, 24-, 52- and 61-Across",
-      "answer": "PRETZEL"
-    },
-    {
-      "clue_id": 320230,
-      "puzzle_id": 3904,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Relatives",
-      "answer": "KIN"
-    },
-    {
-      "clue_id": 320231,
-      "puzzle_id": 3904,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Astonished",
-      "answer": "INAWE"
-    },
-    {
-      "clue_id": 320232,
-      "puzzle_id": 3904,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Khan of Khan Academy",
-      "answer": "SAL"
-    },
-    {
-      "clue_id": 320233,
-      "puzzle_id": 3904,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Loch ___ monster",
-      "answer": "NESS"
-    },
-    {
-      "clue_id": 320234,
-      "puzzle_id": 3904,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Ladies in Lima",
-      "answer": "SENORAS"
-    },
-    {
-      "clue_id": 320235,
-      "puzzle_id": 3904,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Flowers in a Valentine's Day bouquet",
-      "answer": "ROSES"
-    },
-    {
-      "clue_id": 320236,
-      "puzzle_id": 3904,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Greenland native",
-      "answer": "INUK"
-    },
-    {
-      "clue_id": 320237,
-      "puzzle_id": 3904,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Anderson Cooper's channel",
-      "answer": "CNN"
-    },
-    {
-      "clue_id": 320238,
-      "puzzle_id": 3904,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "River critter",
-      "answer": "OTTER"
-    },
-    {
-      "clue_id": 320239,
-      "puzzle_id": 3904,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Travel blogger's gadget",
-      "answer": "SELFIESTICK"
-    },
-    {
-      "clue_id": 320240,
-      "puzzle_id": 3904,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Countdown ender",
-      "answer": "ONE"
-    },
-    {
-      "clue_id": 320241,
-      "puzzle_id": 3904,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "\"This decision is hard!\"",
-      "answer": "IMTORN"
-    },
-    {
-      "clue_id": 320242,
-      "puzzle_id": 3904,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Nobel laureate Wiesel",
-      "answer": "ELIE"
-    },
-    {
-      "clue_id": 320243,
-      "puzzle_id": 3904,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Patriotic chant",
-      "answer": "USA"
-    },
-    {
-      "clue_id": 320244,
-      "puzzle_id": 3904,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Rose quickly, as prices",
-      "answer": "SOARED"
-    },
-    {
-      "clue_id": 320245,
-      "puzzle_id": 3904,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Its symbol is Pb",
-      "answer": "LEAD"
-    },
-    {
-      "clue_id": 320246,
-      "puzzle_id": 3904,
-      "number": 71,
-      "direction": "across",
-      "clue_text": "Vietnamese New Year",
-      "answer": "TET"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 320247,
-      "puzzle_id": 3904,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Passed out cards",
-      "answer": "DEALT"
-    },
-    {
-      "clue_id": 320248,
-      "puzzle_id": 3904,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "\"I'm leaving now!\"",
-      "answer": "OKBYE"
-    },
-    {
-      "clue_id": 320249,
-      "puzzle_id": 3904,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "What a schemer schemes",
-      "answer": "SECRETPLAN"
-    },
-    {
-      "clue_id": 320250,
-      "puzzle_id": 3904,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Green tea variety",
-      "answer": "MATCHA"
-    },
-    {
-      "clue_id": 320251,
-      "puzzle_id": 3904,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "What makes a pan a pain?",
-      "answer": "ANI"
-    },
-    {
-      "clue_id": 320252,
-      "puzzle_id": 3904,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Bump, ___, spike (volleyball trio)",
-      "answer": "SET"
-    },
-    {
-      "clue_id": 320253,
-      "puzzle_id": 3904,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Part of many Southern accents",
-      "answer": "TWANG"
-    },
-    {
-      "clue_id": 320254,
-      "puzzle_id": 3904,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Granola morsel",
-      "answer": "RAISIN"
-    },
-    {
-      "clue_id": 320255,
-      "puzzle_id": 3904,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "___ Dhabi",
-      "answer": "ABU"
-    },
-    {
-      "clue_id": 320256,
-      "puzzle_id": 3904,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Org. for senior citizens",
-      "answer": "AARP"
-    },
-    {
-      "clue_id": 320257,
-      "puzzle_id": 3904,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Roller coaster element",
-      "answer": "DROP"
-    },
-    {
-      "clue_id": 320258,
-      "puzzle_id": 3904,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Does some math",
-      "answer": "ADDS"
-    },
-    {
-      "clue_id": 320259,
-      "puzzle_id": 3904,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Seaweed for sushi",
-      "answer": "NORI"
-    },
-    {
-      "clue_id": 320260,
-      "puzzle_id": 3904,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "\"Just doing my best\"",
-      "answer": "ITRY"
-    },
-    {
-      "clue_id": 320261,
-      "puzzle_id": 3904,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Bakery worker",
-      "answer": "ICER"
-    },
-    {
-      "clue_id": 320262,
-      "puzzle_id": 3904,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Hawaiian goose",
-      "answer": "NENE"
-    },
-    {
-      "clue_id": 320263,
-      "puzzle_id": 3904,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Young adult novelist Shusterman",
-      "answer": "NEAL"
-    },
-    {
-      "clue_id": 320264,
-      "puzzle_id": 3904,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Long-legged wader",
-      "answer": "IBIS"
-    },
-    {
-      "clue_id": 320265,
-      "puzzle_id": 3904,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Sunbathes",
-      "answer": "TANS"
-    },
-    {
-      "clue_id": 320266,
-      "puzzle_id": 3904,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Some Ivy Leaguers",
-      "answer": "ELIS"
-    },
-    {
-      "clue_id": 320267,
-      "puzzle_id": 3904,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Kind of wave",
-      "answer": "SINE"
-    },
-    {
-      "clue_id": 320268,
-      "puzzle_id": 3904,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Tiebreaker periods, in brief",
-      "answer": "OTS"
-    },
-    {
-      "clue_id": 320269,
-      "puzzle_id": 3904,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Andean nation",
-      "answer": "PERU"
-    },
-    {
-      "clue_id": 320270,
-      "puzzle_id": 3904,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Fashion retailer headquartered in Spain",
-      "answer": "ZARA"
-    },
-    {
-      "clue_id": 320271,
-      "puzzle_id": 3904,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "North Carolina's ___ University",
-      "answer": "ELON"
-    },
-    {
-      "clue_id": 320272,
-      "puzzle_id": 3904,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Small salamander",
-      "answer": "NEWT"
-    },
-    {
-      "clue_id": 320273,
-      "puzzle_id": 3904,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Climb",
-      "answer": "ASCEND"
-    },
-    {
-      "clue_id": 320274,
-      "puzzle_id": 3904,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "IDs on W-2s",
-      "answer": "SSNS"
-    },
-    {
-      "clue_id": 320275,
-      "puzzle_id": 3904,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Enthusiastic, informally",
-      "answer": "STOKED"
-    },
-    {
-      "clue_id": 320276,
-      "puzzle_id": 3904,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Spy's gathering",
-      "answer": "INTEL"
-    },
-    {
-      "clue_id": 320277,
-      "puzzle_id": 3904,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Perceive",
-      "answer": "SENSE"
-    },
-    {
-      "clue_id": 320278,
-      "puzzle_id": 3904,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Reward for Rover",
-      "answer": "TREAT"
-    },
-    {
-      "clue_id": 320279,
-      "puzzle_id": 3904,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Egyptian goddess of healing",
-      "answer": "ISIS"
-    },
-    {
-      "clue_id": 320280,
-      "puzzle_id": 3904,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Dory's friend, in film",
-      "answer": "NEMO"
-    },
-    {
-      "clue_id": 320281,
-      "puzzle_id": 3904,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "Chain with in-store salons",
-      "answer": "ULTA"
-    },
-    {
-      "clue_id": 320282,
-      "puzzle_id": 3904,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Rage",
-      "answer": "IRE"
-    },
-    {
-      "clue_id": 320283,
-      "puzzle_id": 3904,
-      "number": 63,
-      "direction": "down",
-      "clue_text": "Martinique, par exemple",
-      "answer": "ILE"
-    },
-    {
-      "clue_id": 320284,
-      "puzzle_id": 3904,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Org. that requires polygraph tests for all applicants",
-      "answer": "CIA"
-    }
-  ]
+  "timestamp": "2025-09-03T04:31:12.240Z"
 }

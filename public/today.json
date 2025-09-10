@@ -1,1139 +1,824 @@
 {
-  "puzzle": {
-    "puzzle_id": 3911,
-    "date": "2025-09-09",
-    "formatted_date": "Tuesday, September 9, 2025",
-    "title": "New York Times, Tuesday, September 9, 2025",
-    "author": "Marshal Herrmann",
-    "editor": "Will Shortz",
-    "day_of_week": "Tuesday",
-    "permalink": "",
-    "created_at": "2025-09-09 04:30:02"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-09-10",
+      "formatted_date": "Wednesday, September 10, 2025",
+      "day_of_week": "Wednesday",
+      "title": "New York Times, Wednesday, September 10, 2025",
+      "author": "Cole Vandenberg and Harit Raghunathan",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Spiritual principle symbolized by an endless knot",
+        "answer": "KARMA",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Rock, for one",
+        "answer": "COMIC",
+        "direction": "across"
+      },
+      {
+        "number": 11,
+        "clue": "Bit of cream",
+        "answer": "DAB",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Change, as a legislative bill",
+        "answer": "AMEND",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Carne ___",
+        "answer": "ASADA",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Bird whose males incubate the eggs",
+        "answer": "EMU",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "San Francisco/Oakland separator",
+        "answer": "BAY",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Otis's love interest on Netflix's \"Sex Education\"",
+        "answer": "MAEVE",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Some dressing in an operating room",
+        "answer": "GAUZE",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Billy Joel's \"___ From an Italian Restaurant\"",
+        "answer": "SCENES",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Glass in a frame",
+        "answer": "PANE",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Opening on a stage?",
+        "answer": "ACTI",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Certain tennis shot",
+        "answer": "SLICE",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Ave. crossers",
+        "answer": "STS",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Ice cream maker Joseph",
+        "answer": "EDY",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Remark to the audience",
+        "answer": "ASIDE",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Prefix in aviation",
+        "answer": "AERO",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Place to wear a mitt",
+        "answer": "OVEN",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "With skepticism",
+        "answer": "ASKANT",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Pack animal related to camels",
+        "answer": "LLAMA",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Trailing behind",
+        "answer": "INTOW",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "\"After ___ …\"",
+        "answer": "ALL",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "God, in Italian",
+        "answer": "DIO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Hallmark of a typical Greek tragedy",
+        "answer": "IRONY",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Something gotten by a scapegoat",
+        "answer": "BLAME",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "¥",
+        "answer": "YEN",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Nerve-racking",
+        "answer": "TENSE",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "\"Get what I'm sayin'?\"",
+        "answer": "YKNOW",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "___-El (Superman's birth name)",
+        "answer": "KAL",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Pal in Paris",
+        "answer": "AMI",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Intensify, with \"up\"",
+        "answer": "REV",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"Richard of York gave battle in vain,\" for the colors of the rainbow",
+        "answer": "MNEMONIC",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Quote from a magazine rep",
+        "answer": "ADRATE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Have a cow?",
+        "answer": "CALVE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Willow whose twigs are used in basketry",
+        "answer": "OSIER",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Dallas baller",
+        "answer": "MAV",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Suffix with sulf-",
+        "answer": "IDE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Mesh for securing items in transport",
+        "answer": "CARGONET",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "When a star is first seen",
+        "answer": "DEBUT",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Knock over",
+        "answer": "AMAZE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Retailer's counterpart",
+        "answer": "BUYER",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Women's professional tennis matches have three of them",
+        "answer": "SETS",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Had a nosh",
+        "answer": "ATE",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Small-minded",
+        "answer": "PETTY",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Certain volleyball hit",
+        "answer": "SPIKE",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Engage in a bit of back-and-forth?",
+        "answer": "PACE",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Purpose",
+        "answer": "SAKE",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Included in correspondence, in a way",
+        "answer": "CCED",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Feeling of dizziness, with \"the\"",
+        "answer": "SPINS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Alternative to mushrooms",
+        "answer": "LSD",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "___ Madness, punny name for a barbershop",
+        "answer": "SHEAR",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Bad thing to try to do from the middle lane",
+        "answer": "TURN",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Stereotypical name for a Dalmatian",
+        "answer": "SPOT",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"You try!\"",
+        "answer": "HAVEATIT",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Password creator",
+        "answer": "USER",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Absurdly easy task",
+        "answer": "CAKEWALK",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Physicist who built upon Volta's work",
+        "answer": "OHM",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Flew past",
+        "answer": "SHOTBY",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Skateboard jump",
+        "answer": "OLLIE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Raven claw",
+        "answer": "TALON",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Demeanors",
+        "answer": "MIENS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Like corned beef in a Reuben sandwich",
+        "answer": "ONRYE",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "\"There you ___!\"",
+        "answer": "ARE",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Boatload",
+        "answer": "TON",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Color akin to caramel",
+        "answer": "TAN",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Genre that punk rock paved the way for",
+        "answer": "EMO",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "FF's opposite",
+        "answer": "REW",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Spiritual principle symbolized by an endless knot",
+        "answer": "KARMA",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Rock, for one",
+        "answer": "COMIC",
+        "direction": "across"
+      },
+      {
+        "number": 11,
+        "clue": "Bit of cream",
+        "answer": "DAB",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Change, as a legislative bill",
+        "answer": "AMEND",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Carne ___",
+        "answer": "ASADA",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Bird whose males incubate the eggs",
+        "answer": "EMU",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "San Francisco/Oakland separator",
+        "answer": "BAY",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Otis's love interest on Netflix's \"Sex Education\"",
+        "answer": "MAEVE",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Some dressing in an operating room",
+        "answer": "GAUZE",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Billy Joel's \"___ From an Italian Restaurant\"",
+        "answer": "SCENES",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Glass in a frame",
+        "answer": "PANE",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Opening on a stage?",
+        "answer": "ACTI",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Certain tennis shot",
+        "answer": "SLICE",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Ave. crossers",
+        "answer": "STS",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Ice cream maker Joseph",
+        "answer": "EDY",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Remark to the audience",
+        "answer": "ASIDE",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "Prefix in aviation",
+        "answer": "AERO",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Place to wear a mitt",
+        "answer": "OVEN",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "With skepticism",
+        "answer": "ASKANT",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Pack animal related to camels",
+        "answer": "LLAMA",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Trailing behind",
+        "answer": "INTOW",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "\"After ___ …\"",
+        "answer": "ALL",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "God, in Italian",
+        "answer": "DIO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Hallmark of a typical Greek tragedy",
+        "answer": "IRONY",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Something gotten by a scapegoat",
+        "answer": "BLAME",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "¥",
+        "answer": "YEN",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Nerve-racking",
+        "answer": "TENSE",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "\"Get what I'm sayin'?\"",
+        "answer": "YKNOW",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "___-El (Superman's birth name)",
+        "answer": "KAL",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Pal in Paris",
+        "answer": "AMI",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Intensify, with \"up\"",
+        "answer": "REV",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"Richard of York gave battle in vain,\" for the colors of the rainbow",
+        "answer": "MNEMONIC",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Quote from a magazine rep",
+        "answer": "ADRATE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Have a cow?",
+        "answer": "CALVE",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Willow whose twigs are used in basketry",
+        "answer": "OSIER",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Dallas baller",
+        "answer": "MAV",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Suffix with sulf-",
+        "answer": "IDE",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Mesh for securing items in transport",
+        "answer": "CARGONET",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "When a star is first seen",
+        "answer": "DEBUT",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Knock over",
+        "answer": "AMAZE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Retailer's counterpart",
+        "answer": "BUYER",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Women's professional tennis matches have three of them",
+        "answer": "SETS",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Had a nosh",
+        "answer": "ATE",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Small-minded",
+        "answer": "PETTY",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Certain volleyball hit",
+        "answer": "SPIKE",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Engage in a bit of back-and-forth?",
+        "answer": "PACE",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Purpose",
+        "answer": "SAKE",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Included in correspondence, in a way",
+        "answer": "CCED",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Feeling of dizziness, with \"the\"",
+        "answer": "SPINS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Alternative to mushrooms",
+        "answer": "LSD",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "___ Madness, punny name for a barbershop",
+        "answer": "SHEAR",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Bad thing to try to do from the middle lane",
+        "answer": "TURN",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Stereotypical name for a Dalmatian",
+        "answer": "SPOT",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "\"You try!\"",
+        "answer": "HAVEATIT",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Password creator",
+        "answer": "USER",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Absurdly easy task",
+        "answer": "CAKEWALK",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Physicist who built upon Volta's work",
+        "answer": "OHM",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Flew past",
+        "answer": "SHOTBY",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Skateboard jump",
+        "answer": "OLLIE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Raven claw",
+        "answer": "TALON",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Demeanors",
+        "answer": "MIENS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Like corned beef in a Reuben sandwich",
+        "answer": "ONRYE",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "\"There you ___!\"",
+        "answer": "ARE",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Boatload",
+        "answer": "TON",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Color akin to caramel",
+        "answer": "TAN",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Genre that punk rock paved the way for",
+        "answer": "EMO",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "FF's opposite",
+        "answer": "REW",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 320755,
-      "puzzle_id": 3911,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Home in Havana",
-      "answer": "CASA"
-    },
-    {
-      "clue_id": 320756,
-      "puzzle_id": 3911,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Cheese town in northern Holland",
-      "answer": "EDAM"
-    },
-    {
-      "clue_id": 320757,
-      "puzzle_id": 3911,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "One on Santa's team",
-      "answer": "CUPID"
-    },
-    {
-      "clue_id": 320758,
-      "puzzle_id": 3911,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Too fanciful",
-      "answer": "OVERIMAGINATIVE"
-    },
-    {
-      "clue_id": 320759,
-      "puzzle_id": 3911,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Chicago's ___ B. Wells Drive",
-      "answer": "IDA"
-    },
-    {
-      "clue_id": 320760,
-      "puzzle_id": 3911,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Singles",
-      "answer": "ONES"
-    },
-    {
-      "clue_id": 320761,
-      "puzzle_id": 3911,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Bit of writing of Nathaniel Hawthorne",
-      "answer": "TALE"
-    },
-    {
-      "clue_id": 320762,
-      "puzzle_id": 3911,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "They bite",
-      "answer": "CANINES"
-    },
-    {
-      "clue_id": 320763,
-      "puzzle_id": 3911,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "\"No problem!\"",
-      "answer": "SURECAN"
-    },
-    {
-      "clue_id": 320764,
-      "puzzle_id": 3911,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Viewing spot for the Grand Canyon",
-      "answer": "RIM"
-    },
-    {
-      "clue_id": 320765,
-      "puzzle_id": 3911,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Hookup for an undercover agent",
-      "answer": "WIRE"
-    },
-    {
-      "clue_id": 320766,
-      "puzzle_id": 3911,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Cry accompanying a flamenco dance",
-      "answer": "OLE"
-    },
-    {
-      "clue_id": 320767,
-      "puzzle_id": 3911,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Like volume measures",
-      "answer": "CUBIC"
-    },
-    {
-      "clue_id": 320768,
-      "puzzle_id": 3911,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Film title character from the \"glorious nation of Kazakhstan\"",
-      "answer": "BORAT"
-    },
-    {
-      "clue_id": 320769,
-      "puzzle_id": 3911,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Overrule",
-      "answer": "NIX"
-    },
-    {
-      "clue_id": 320770,
-      "puzzle_id": 3911,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Redding who wrote the song \"Respect\"",
-      "answer": "OTIS"
-    },
-    {
-      "clue_id": 320771,
-      "puzzle_id": 3911,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Purchase on \"Wheel of Fortune\" ... or every other letter of this puzzle's grid",
-      "answer": "VOWEL"
-    },
-    {
-      "clue_id": 320772,
-      "puzzle_id": 3911,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "One may be drop-down",
-      "answer": "MENU"
-    },
-    {
-      "clue_id": 320773,
-      "puzzle_id": 3911,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Brooks with an EGOT",
-      "answer": "MEL"
-    },
-    {
-      "clue_id": 320774,
-      "puzzle_id": 3911,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Put on the payroll",
-      "answer": "HIRED"
-    },
-    {
-      "clue_id": 320775,
-      "puzzle_id": 3911,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Bonds tightly",
-      "answer": "FUSES"
-    },
-    {
-      "clue_id": 320776,
-      "puzzle_id": 3911,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Disco ___ (1970s)",
-      "answer": "ERA"
-    },
-    {
-      "clue_id": 320777,
-      "puzzle_id": 3911,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Like some coffee and hockey pucks",
-      "answer": "ICED"
-    },
-    {
-      "clue_id": 320778,
-      "puzzle_id": 3911,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Rabbit's residence",
-      "answer": "DEN"
-    },
-    {
-      "clue_id": 320779,
-      "puzzle_id": 3911,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Beyond repair, say",
-      "answer": "TOTALED"
-    },
-    {
-      "clue_id": 320780,
-      "puzzle_id": 3911,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Hercules, e.g.",
-      "answer": "DEMIGOD"
-    },
-    {
-      "clue_id": 320781,
-      "puzzle_id": 3911,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Country singer Church",
-      "answer": "ERIC"
-    },
-    {
-      "clue_id": 320782,
-      "puzzle_id": 3911,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Hawaiian dance",
-      "answer": "HULA"
-    },
-    {
-      "clue_id": 320783,
-      "puzzle_id": 3911,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "In the manner of",
-      "answer": "ALA"
-    },
-    {
-      "clue_id": 320784,
-      "puzzle_id": 3911,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Blush or rose",
-      "answer": "COLOR"
-    },
-    {
-      "clue_id": 320785,
-      "puzzle_id": 3911,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "First, second or third",
-      "answer": "BASE"
-    },
-    {
-      "clue_id": 320786,
-      "puzzle_id": 3911,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "401(k) alternatives",
-      "answer": "IRAS"
-    },
-    {
-      "clue_id": 320787,
-      "puzzle_id": 3911,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Crack expert?",
-      "answer": "COMIC"
-    },
-    {
-      "clue_id": 320788,
-      "puzzle_id": 3911,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Cosmetics brand",
-      "answer": "AVEDA"
-    },
-    {
-      "clue_id": 320789,
-      "puzzle_id": 3911,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Four-door, typically",
-      "answer": "SEDAN"
-    },
-    {
-      "clue_id": 320790,
-      "puzzle_id": 3911,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"The Beat With ___ Melber\"",
-      "answer": "ARI"
-    },
-    {
-      "clue_id": 320791,
-      "puzzle_id": 3911,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Who rapped \"I've created a monster, 'cause nobody wants to see Marshall no more\"",
-      "answer": "EMINEM"
-    },
-    {
-      "clue_id": 320792,
-      "puzzle_id": 3911,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Some \"Beowulf\" characters",
-      "answer": "DANES"
-    },
-    {
-      "clue_id": 320793,
-      "puzzle_id": 3911,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Develops, as bourbon in a barrel",
-      "answer": "AGES"
-    },
-    {
-      "clue_id": 320794,
-      "puzzle_id": 3911,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "___ drop",
-      "answer": "MIC"
-    },
-    {
-      "clue_id": 320795,
-      "puzzle_id": 3911,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Club with dinner and dancing",
-      "answer": "CABARET"
-    },
-    {
-      "clue_id": 320796,
-      "puzzle_id": 3911,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Handy",
-      "answer": "UTILE"
-    },
-    {
-      "clue_id": 320797,
-      "puzzle_id": 3911,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Some winter decorations",
-      "answer": "PINECONES"
-    },
-    {
-      "clue_id": 320798,
-      "puzzle_id": 3911,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "\"What ___ Done\" (Linkin Park song)",
-      "answer": "IVE"
-    },
-    {
-      "clue_id": 320799,
-      "puzzle_id": 3911,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "The Motor City, on scoreboards",
-      "answer": "DET"
-    },
-    {
-      "clue_id": 320800,
-      "puzzle_id": 3911,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Well-known by everyone",
-      "answer": "ICONIC"
-    },
-    {
-      "clue_id": 320801,
-      "puzzle_id": 3911,
-      "number": 16,
-      "direction": "down",
-      "clue_text": "Not taught",
-      "answer": "NATURAL"
-    },
-    {
-      "clue_id": 320802,
-      "puzzle_id": 3911,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Body part that might be blue",
-      "answer": "IRIS"
-    },
-    {
-      "clue_id": 320803,
-      "puzzle_id": 3911,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Begat",
-      "answer": "SIRED"
-    },
-    {
-      "clue_id": 320804,
-      "puzzle_id": 3911,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Skirt style",
-      "answer": "ALINE"
-    },
-    {
-      "clue_id": 320805,
-      "puzzle_id": 3911,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Hub",
-      "answer": "NEXUS"
-    },
-    {
-      "clue_id": 320806,
-      "puzzle_id": 3911,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Blew away",
-      "answer": "WOWED"
-    },
-    {
-      "clue_id": 320807,
-      "puzzle_id": 3911,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "One on Santa's team",
-      "answer": "COMET"
-    },
-    {
-      "clue_id": 320808,
-      "puzzle_id": 3911,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "In ___ (not yet born)",
-      "answer": "UTERO"
-    },
-    {
-      "clue_id": 320809,
-      "puzzle_id": 3911,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Like some treaties",
-      "answer": "BILATERAL"
-    },
-    {
-      "clue_id": 320810,
-      "puzzle_id": 3911,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Daydreaming, say",
-      "answer": "BORED"
-    },
-    {
-      "clue_id": 320811,
-      "puzzle_id": 3911,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Local bond, informally",
-      "answer": "MUNI"
-    },
-    {
-      "clue_id": 320812,
-      "puzzle_id": 3911,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Brand of neon markers",
-      "answer": "HILITER"
-    },
-    {
-      "clue_id": 320813,
-      "puzzle_id": 3911,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "F on a biology quiz?",
-      "answer": "FEMALE"
-    },
-    {
-      "clue_id": 320814,
-      "puzzle_id": 3911,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Erase",
-      "answer": "DELETE"
-    },
-    {
-      "clue_id": 320815,
-      "puzzle_id": 3911,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Playground retort",
-      "answer": "ARESO"
-    },
-    {
-      "clue_id": 320816,
-      "puzzle_id": 3911,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "\"The Count of Monte Cristo\" author",
-      "answer": "DUMAS"
-    },
-    {
-      "clue_id": 320817,
-      "puzzle_id": 3911,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "It bites",
-      "answer": "GATOR"
-    },
-    {
-      "clue_id": 320818,
-      "puzzle_id": 3911,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Soul singer Adams",
-      "answer": "OLETA"
-    },
-    {
-      "clue_id": 320819,
-      "puzzle_id": 3911,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Starts of some pranks",
-      "answer": "DARES"
-    },
-    {
-      "clue_id": 320820,
-      "puzzle_id": 3911,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Jewish wedding dance",
-      "answer": "HORA"
-    },
-    {
-      "clue_id": 320821,
-      "puzzle_id": 3911,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Comfy bit of footwear",
-      "answer": "MOC"
-    },
-    {
-      "clue_id": 320822,
-      "puzzle_id": 3911,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Plastic ___ Band",
-      "answer": "ONO"
-    },
-    {
-      "clue_id": 320823,
-      "puzzle_id": 3911,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Taxi",
-      "answer": "CAB"
-    },
-    {
-      "clue_id": 320824,
-      "puzzle_id": 3911,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "What might precede Phone, commercially?",
-      "answer": "ANI"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 320755,
-      "puzzle_id": 3911,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Home in Havana",
-      "answer": "CASA"
-    },
-    {
-      "clue_id": 320756,
-      "puzzle_id": 3911,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Cheese town in northern Holland",
-      "answer": "EDAM"
-    },
-    {
-      "clue_id": 320757,
-      "puzzle_id": 3911,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "One on Santa's team",
-      "answer": "CUPID"
-    },
-    {
-      "clue_id": 320758,
-      "puzzle_id": 3911,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Too fanciful",
-      "answer": "OVERIMAGINATIVE"
-    },
-    {
-      "clue_id": 320759,
-      "puzzle_id": 3911,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Chicago's ___ B. Wells Drive",
-      "answer": "IDA"
-    },
-    {
-      "clue_id": 320760,
-      "puzzle_id": 3911,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Singles",
-      "answer": "ONES"
-    },
-    {
-      "clue_id": 320761,
-      "puzzle_id": 3911,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Bit of writing of Nathaniel Hawthorne",
-      "answer": "TALE"
-    },
-    {
-      "clue_id": 320762,
-      "puzzle_id": 3911,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "They bite",
-      "answer": "CANINES"
-    },
-    {
-      "clue_id": 320763,
-      "puzzle_id": 3911,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "\"No problem!\"",
-      "answer": "SURECAN"
-    },
-    {
-      "clue_id": 320764,
-      "puzzle_id": 3911,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Viewing spot for the Grand Canyon",
-      "answer": "RIM"
-    },
-    {
-      "clue_id": 320765,
-      "puzzle_id": 3911,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Hookup for an undercover agent",
-      "answer": "WIRE"
-    },
-    {
-      "clue_id": 320766,
-      "puzzle_id": 3911,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Cry accompanying a flamenco dance",
-      "answer": "OLE"
-    },
-    {
-      "clue_id": 320767,
-      "puzzle_id": 3911,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Like volume measures",
-      "answer": "CUBIC"
-    },
-    {
-      "clue_id": 320768,
-      "puzzle_id": 3911,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Film title character from the \"glorious nation of Kazakhstan\"",
-      "answer": "BORAT"
-    },
-    {
-      "clue_id": 320769,
-      "puzzle_id": 3911,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Overrule",
-      "answer": "NIX"
-    },
-    {
-      "clue_id": 320770,
-      "puzzle_id": 3911,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Redding who wrote the song \"Respect\"",
-      "answer": "OTIS"
-    },
-    {
-      "clue_id": 320771,
-      "puzzle_id": 3911,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Purchase on \"Wheel of Fortune\" ... or every other letter of this puzzle's grid",
-      "answer": "VOWEL"
-    },
-    {
-      "clue_id": 320772,
-      "puzzle_id": 3911,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "One may be drop-down",
-      "answer": "MENU"
-    },
-    {
-      "clue_id": 320773,
-      "puzzle_id": 3911,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Brooks with an EGOT",
-      "answer": "MEL"
-    },
-    {
-      "clue_id": 320774,
-      "puzzle_id": 3911,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Put on the payroll",
-      "answer": "HIRED"
-    },
-    {
-      "clue_id": 320775,
-      "puzzle_id": 3911,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Bonds tightly",
-      "answer": "FUSES"
-    },
-    {
-      "clue_id": 320776,
-      "puzzle_id": 3911,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Disco ___ (1970s)",
-      "answer": "ERA"
-    },
-    {
-      "clue_id": 320777,
-      "puzzle_id": 3911,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Like some coffee and hockey pucks",
-      "answer": "ICED"
-    },
-    {
-      "clue_id": 320778,
-      "puzzle_id": 3911,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Rabbit's residence",
-      "answer": "DEN"
-    },
-    {
-      "clue_id": 320779,
-      "puzzle_id": 3911,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "Beyond repair, say",
-      "answer": "TOTALED"
-    },
-    {
-      "clue_id": 320780,
-      "puzzle_id": 3911,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Hercules, e.g.",
-      "answer": "DEMIGOD"
-    },
-    {
-      "clue_id": 320781,
-      "puzzle_id": 3911,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Country singer Church",
-      "answer": "ERIC"
-    },
-    {
-      "clue_id": 320782,
-      "puzzle_id": 3911,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Hawaiian dance",
-      "answer": "HULA"
-    },
-    {
-      "clue_id": 320783,
-      "puzzle_id": 3911,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "In the manner of",
-      "answer": "ALA"
-    },
-    {
-      "clue_id": 320784,
-      "puzzle_id": 3911,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Blush or rose",
-      "answer": "COLOR"
-    },
-    {
-      "clue_id": 320785,
-      "puzzle_id": 3911,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "First, second or third",
-      "answer": "BASE"
-    },
-    {
-      "clue_id": 320786,
-      "puzzle_id": 3911,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "401(k) alternatives",
-      "answer": "IRAS"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 320787,
-      "puzzle_id": 3911,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Crack expert?",
-      "answer": "COMIC"
-    },
-    {
-      "clue_id": 320788,
-      "puzzle_id": 3911,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Cosmetics brand",
-      "answer": "AVEDA"
-    },
-    {
-      "clue_id": 320789,
-      "puzzle_id": 3911,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Four-door, typically",
-      "answer": "SEDAN"
-    },
-    {
-      "clue_id": 320790,
-      "puzzle_id": 3911,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"The Beat With ___ Melber\"",
-      "answer": "ARI"
-    },
-    {
-      "clue_id": 320791,
-      "puzzle_id": 3911,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Who rapped \"I've created a monster, 'cause nobody wants to see Marshall no more\"",
-      "answer": "EMINEM"
-    },
-    {
-      "clue_id": 320792,
-      "puzzle_id": 3911,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Some \"Beowulf\" characters",
-      "answer": "DANES"
-    },
-    {
-      "clue_id": 320793,
-      "puzzle_id": 3911,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Develops, as bourbon in a barrel",
-      "answer": "AGES"
-    },
-    {
-      "clue_id": 320794,
-      "puzzle_id": 3911,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "___ drop",
-      "answer": "MIC"
-    },
-    {
-      "clue_id": 320795,
-      "puzzle_id": 3911,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Club with dinner and dancing",
-      "answer": "CABARET"
-    },
-    {
-      "clue_id": 320796,
-      "puzzle_id": 3911,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Handy",
-      "answer": "UTILE"
-    },
-    {
-      "clue_id": 320797,
-      "puzzle_id": 3911,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Some winter decorations",
-      "answer": "PINECONES"
-    },
-    {
-      "clue_id": 320798,
-      "puzzle_id": 3911,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "\"What ___ Done\" (Linkin Park song)",
-      "answer": "IVE"
-    },
-    {
-      "clue_id": 320799,
-      "puzzle_id": 3911,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "The Motor City, on scoreboards",
-      "answer": "DET"
-    },
-    {
-      "clue_id": 320800,
-      "puzzle_id": 3911,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Well-known by everyone",
-      "answer": "ICONIC"
-    },
-    {
-      "clue_id": 320801,
-      "puzzle_id": 3911,
-      "number": 16,
-      "direction": "down",
-      "clue_text": "Not taught",
-      "answer": "NATURAL"
-    },
-    {
-      "clue_id": 320802,
-      "puzzle_id": 3911,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Body part that might be blue",
-      "answer": "IRIS"
-    },
-    {
-      "clue_id": 320803,
-      "puzzle_id": 3911,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Begat",
-      "answer": "SIRED"
-    },
-    {
-      "clue_id": 320804,
-      "puzzle_id": 3911,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Skirt style",
-      "answer": "ALINE"
-    },
-    {
-      "clue_id": 320805,
-      "puzzle_id": 3911,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Hub",
-      "answer": "NEXUS"
-    },
-    {
-      "clue_id": 320806,
-      "puzzle_id": 3911,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Blew away",
-      "answer": "WOWED"
-    },
-    {
-      "clue_id": 320807,
-      "puzzle_id": 3911,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "One on Santa's team",
-      "answer": "COMET"
-    },
-    {
-      "clue_id": 320808,
-      "puzzle_id": 3911,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "In ___ (not yet born)",
-      "answer": "UTERO"
-    },
-    {
-      "clue_id": 320809,
-      "puzzle_id": 3911,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Like some treaties",
-      "answer": "BILATERAL"
-    },
-    {
-      "clue_id": 320810,
-      "puzzle_id": 3911,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Daydreaming, say",
-      "answer": "BORED"
-    },
-    {
-      "clue_id": 320811,
-      "puzzle_id": 3911,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Local bond, informally",
-      "answer": "MUNI"
-    },
-    {
-      "clue_id": 320812,
-      "puzzle_id": 3911,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Brand of neon markers",
-      "answer": "HILITER"
-    },
-    {
-      "clue_id": 320813,
-      "puzzle_id": 3911,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "F on a biology quiz?",
-      "answer": "FEMALE"
-    },
-    {
-      "clue_id": 320814,
-      "puzzle_id": 3911,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Erase",
-      "answer": "DELETE"
-    },
-    {
-      "clue_id": 320815,
-      "puzzle_id": 3911,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Playground retort",
-      "answer": "ARESO"
-    },
-    {
-      "clue_id": 320816,
-      "puzzle_id": 3911,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "\"The Count of Monte Cristo\" author",
-      "answer": "DUMAS"
-    },
-    {
-      "clue_id": 320817,
-      "puzzle_id": 3911,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "It bites",
-      "answer": "GATOR"
-    },
-    {
-      "clue_id": 320818,
-      "puzzle_id": 3911,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Soul singer Adams",
-      "answer": "OLETA"
-    },
-    {
-      "clue_id": 320819,
-      "puzzle_id": 3911,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "Starts of some pranks",
-      "answer": "DARES"
-    },
-    {
-      "clue_id": 320820,
-      "puzzle_id": 3911,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Jewish wedding dance",
-      "answer": "HORA"
-    },
-    {
-      "clue_id": 320821,
-      "puzzle_id": 3911,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Comfy bit of footwear",
-      "answer": "MOC"
-    },
-    {
-      "clue_id": 320822,
-      "puzzle_id": 3911,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Plastic ___ Band",
-      "answer": "ONO"
-    },
-    {
-      "clue_id": 320823,
-      "puzzle_id": 3911,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Taxi",
-      "answer": "CAB"
-    },
-    {
-      "clue_id": 320824,
-      "puzzle_id": 3911,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "What might precede Phone, commercially?",
-      "answer": "ANI"
-    }
-  ]
+  "timestamp": "2025-09-10T04:31:17.660Z"
 }

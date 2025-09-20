@@ -1,1043 +1,740 @@
 {
-  "puzzle": {
-    "puzzle_id": 3921,
-    "date": "2025-09-19",
-    "formatted_date": "Friday, September 19, 2025",
-    "title": "New York Times, Friday, September 19, 2025",
-    "author": "Erica Hsiung Wojcik",
-    "editor": "Will Shortz",
-    "day_of_week": "Friday",
-    "permalink": "",
-    "created_at": "2025-09-19 04:30:47"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-09-20",
+      "formatted_date": "Saturday, September 20, 2025",
+      "day_of_week": "Saturday",
+      "title": "New York Times, Saturday, September 20, 2025",
+      "author": "Katie Hoody",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 10,
+        "clue": "Group that believes in Gelassenheit (submission to God's will)",
+        "answer": "AMISH",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Verso's counterpart",
+        "answer": "RECTO",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Prime",
+        "answer": "IDEAL",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Free of typos, say",
+        "answer": "EMEND",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Hill folk, informally",
+        "answer": "POLS",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Lay off",
+        "answer": "IDLE",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Special ___",
+        "answer": "OPS",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Secure over",
+        "answer": "RETIE",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "M.L.B. third baseman ___ Bohm",
+        "answer": "ALEC",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Chilling",
+        "answer": "FEARSOME",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Sports org. in a 1976 merger",
+        "answer": "ABA",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Loose sheets in a program, e.g.",
+        "answer": "INSERTS",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "More constricting",
+        "answer": "TIGHTER",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Sullen sorts",
+        "answer": "MOPERS",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Hit the horn",
+        "answer": "TOOTED",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Kate and Allie of 1980s TV, e.g.",
+        "answer": "MOTHERS",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Conference acronym",
+        "answer": "TED",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"Seems like it\"",
+        "answer": "RECKONSO",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Typically exaggerated length of time",
+        "answer": "AGES",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Have a standout performance",
+        "answer": "SHINE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Keep to oneself",
+        "answer": "HOG",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Watch unseen",
+        "answer": "LURK",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Typically exaggerated quantity",
+        "answer": "TONS",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Strip of wood from which a bow is carved",
+        "answer": "STAVE",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "___ acid (staining agent used in electron microscopy)",
+        "answer": "OSMIC",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "Big names",
+        "answer": "STARS",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Blow it!",
+        "answer": "SMOKERING",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Famous around-the-world traveler",
+        "answer": "SANTA",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Slower, musically",
+        "answer": "MENOMOSSO",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Catholic university in Florida or its home town",
+        "answer": "STLEO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Kink",
+        "answer": "CRIMP",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "\"Love, love, love!\" and the like",
+        "answer": "RAVES",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Original plot",
+        "answer": "EDEN",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Connect with a flame",
+        "answer": "WELD",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Carrier that offered pioneering coast-to-coast service beginning in the 1930s",
+        "answer": "TWA",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Monthly magazine of politics and culture since 1850",
+        "answer": "HARPERS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Specialized languages",
+        "answer": "ARGOTS",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Who wrote \"Humankind cannot bear very much reality\"",
+        "answer": "TSELIOT",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Actor Millen of BBC America's \"Orphan Black\"",
+        "answer": "ARI",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Charcoal and wood, for two",
+        "answer": "MEDIA",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Beverage sometimes topped with whipped cream",
+        "answer": "ICEDLATTE",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "B to C, but not A to B",
+        "answer": "SEMITONE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Big mess",
+        "answer": "RATSNEST",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Word after chicken or breast",
+        "answer": "FEED",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "What's wrong?",
+        "answer": "ERROR",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Rare showbiz collections",
+        "answer": "EGOTS",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "\"Hmm, no idea\"",
+        "answer": "IMATALOSS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "\"I don't like it,\" in Spanish",
+        "answer": "NOMEGUSTA",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Web master?",
+        "answer": "SPIDERMAN",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Sounds from 59-Across",
+        "answer": "HOHO",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Phenomenon brought about by seasonal wind shifts",
+        "answer": "MONSOON",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Demand upon reaching an \"enemy border\"",
+        "answer": "KINGME",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Bottom of many an ensemble",
+        "answer": "SKIRT",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Some pilgrims",
+        "answer": "HAJIS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Sheets might be placed in them",
+        "answer": "OVENS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Commencement",
+        "answer": "GETGO",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Apple attachment",
+        "answer": "STEM",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Powdered ingredient in sweet teas and smoothies",
+        "answer": "TARO",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Farmer's market alternative, in brief",
+        "answer": "CSA",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Result of the '64 Clay/Liston fight",
+        "answer": "TKO",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 10,
+        "clue": "Group that believes in Gelassenheit (submission to God's will)",
+        "answer": "AMISH",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Verso's counterpart",
+        "answer": "RECTO",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Prime",
+        "answer": "IDEAL",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Free of typos, say",
+        "answer": "EMEND",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Hill folk, informally",
+        "answer": "POLS",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Lay off",
+        "answer": "IDLE",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Special ___",
+        "answer": "OPS",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Secure over",
+        "answer": "RETIE",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "M.L.B. third baseman ___ Bohm",
+        "answer": "ALEC",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Chilling",
+        "answer": "FEARSOME",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Sports org. in a 1976 merger",
+        "answer": "ABA",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "Loose sheets in a program, e.g.",
+        "answer": "INSERTS",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "More constricting",
+        "answer": "TIGHTER",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Sullen sorts",
+        "answer": "MOPERS",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Hit the horn",
+        "answer": "TOOTED",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Kate and Allie of 1980s TV, e.g.",
+        "answer": "MOTHERS",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Conference acronym",
+        "answer": "TED",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"Seems like it\"",
+        "answer": "RECKONSO",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Typically exaggerated length of time",
+        "answer": "AGES",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Have a standout performance",
+        "answer": "SHINE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Keep to oneself",
+        "answer": "HOG",
+        "direction": "across"
+      },
+      {
+        "number": 49,
+        "clue": "Watch unseen",
+        "answer": "LURK",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Typically exaggerated quantity",
+        "answer": "TONS",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Strip of wood from which a bow is carved",
+        "answer": "STAVE",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "___ acid (staining agent used in electron microscopy)",
+        "answer": "OSMIC",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "Big names",
+        "answer": "STARS",
+        "direction": "across"
+      },
+      {
+        "number": 58,
+        "clue": "Blow it!",
+        "answer": "SMOKERING",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "Famous around-the-world traveler",
+        "answer": "SANTA",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Slower, musically",
+        "answer": "MENOMOSSO",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Catholic university in Florida or its home town",
+        "answer": "STLEO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Kink",
+        "answer": "CRIMP",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "\"Love, love, love!\" and the like",
+        "answer": "RAVES",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Original plot",
+        "answer": "EDEN",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Connect with a flame",
+        "answer": "WELD",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Carrier that offered pioneering coast-to-coast service beginning in the 1930s",
+        "answer": "TWA",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Monthly magazine of politics and culture since 1850",
+        "answer": "HARPERS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Specialized languages",
+        "answer": "ARGOTS",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Who wrote \"Humankind cannot bear very much reality\"",
+        "answer": "TSELIOT",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Actor Millen of BBC America's \"Orphan Black\"",
+        "answer": "ARI",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Charcoal and wood, for two",
+        "answer": "MEDIA",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Beverage sometimes topped with whipped cream",
+        "answer": "ICEDLATTE",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "B to C, but not A to B",
+        "answer": "SEMITONE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Big mess",
+        "answer": "RATSNEST",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Word after chicken or breast",
+        "answer": "FEED",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "What's wrong?",
+        "answer": "ERROR",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Rare showbiz collections",
+        "answer": "EGOTS",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "\"Hmm, no idea\"",
+        "answer": "IMATALOSS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "\"I don't like it,\" in Spanish",
+        "answer": "NOMEGUSTA",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Web master?",
+        "answer": "SPIDERMAN",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Sounds from 59-Across",
+        "answer": "HOHO",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Phenomenon brought about by seasonal wind shifts",
+        "answer": "MONSOON",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Demand upon reaching an \"enemy border\"",
+        "answer": "KINGME",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Bottom of many an ensemble",
+        "answer": "SKIRT",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Some pilgrims",
+        "answer": "HAJIS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Sheets might be placed in them",
+        "answer": "OVENS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Commencement",
+        "answer": "GETGO",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Apple attachment",
+        "answer": "STEM",
+        "direction": "down"
+      },
+      {
+        "number": 52,
+        "clue": "Powdered ingredient in sweet teas and smoothies",
+        "answer": "TARO",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Farmer's market alternative, in brief",
+        "answer": "CSA",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Result of the '64 Clay/Liston fight",
+        "answer": "TKO",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 321492,
-      "puzzle_id": 3921,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Take over",
-      "answer": "ADOPT"
-    },
-    {
-      "clue_id": 321493,
-      "puzzle_id": 3921,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Engage in magniloquence",
-      "answer": "BRAG"
-    },
-    {
-      "clue_id": 321494,
-      "puzzle_id": 3921,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "A double might get you some, for short",
-      "answer": "RBIS"
-    },
-    {
-      "clue_id": 321495,
-      "puzzle_id": 3921,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Actress Chaplin",
-      "answer": "OONA"
-    },
-    {
-      "clue_id": 321496,
-      "puzzle_id": 3921,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "It \"smiles on the frowning night,\" in \"Romeo and Juliet\"",
-      "answer": "MORN"
-    },
-    {
-      "clue_id": 321497,
-      "puzzle_id": 3921,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "___ milk",
-      "answer": "OAT"
-    },
-    {
-      "clue_id": 321498,
-      "puzzle_id": 3921,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "___ Seymour, third wife of King Henry VIII",
-      "answer": "JANE"
-    },
-    {
-      "clue_id": 321499,
-      "puzzle_id": 3921,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Added (on)",
-      "answer": "TACKED"
-    },
-    {
-      "clue_id": 321500,
-      "puzzle_id": 3921,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "One of four for a bat or a cat",
-      "answer": "FANG"
-    },
-    {
-      "clue_id": 321501,
-      "puzzle_id": 3921,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "\"Moulin Rouge\" co-star, 1952",
-      "answer": "GABOR"
-    },
-    {
-      "clue_id": 321502,
-      "puzzle_id": 3921,
-      "number": 25,
-      "direction": "across",
-      "clue_text": "Not with it",
-      "answer": "BEHINDTHETIMES"
-    },
-    {
-      "clue_id": 321503,
-      "puzzle_id": 3921,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "With (it)",
-      "answer": "INON"
-    },
-    {
-      "clue_id": 321504,
-      "puzzle_id": 3921,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "In tandem",
-      "answer": "JOINED"
-    },
-    {
-      "clue_id": 321505,
-      "puzzle_id": 3921,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Way out in space",
-      "answer": "POD"
-    },
-    {
-      "clue_id": 321506,
-      "puzzle_id": 3921,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Biker role in \"The Rocky Horror Picture Show\"",
-      "answer": "EDDIE"
-    },
-    {
-      "clue_id": 321507,
-      "puzzle_id": 3921,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Pull-up target, for short",
-      "answer": "LAT"
-    },
-    {
-      "clue_id": 321508,
-      "puzzle_id": 3921,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Let it all out, in a way",
-      "answer": "EMOTE"
-    },
-    {
-      "clue_id": 321509,
-      "puzzle_id": 3921,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Nutmeg-flavored quaff, informally",
-      "answer": "NOG"
-    },
-    {
-      "clue_id": 321510,
-      "puzzle_id": 3921,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Ribbed silk material",
-      "answer": "FAILLE"
-    },
-    {
-      "clue_id": 321511,
-      "puzzle_id": 3921,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "The \"A\" in STEAM",
-      "answer": "ARTS"
-    },
-    {
-      "clue_id": 321512,
-      "puzzle_id": 3921,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Bring the receipts for, as they say",
-      "answer": "PROVE"
-    },
-    {
-      "clue_id": 321513,
-      "puzzle_id": 3921,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Figs. on a 4-point scale",
-      "answer": "GPAS"
-    },
-    {
-      "clue_id": 321514,
-      "puzzle_id": 3921,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Tennis star Stephens who won the 2017 U.S. Open",
-      "answer": "SLOANE"
-    },
-    {
-      "clue_id": 321515,
-      "puzzle_id": 3921,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Berth place",
-      "answer": "PIER"
-    },
-    {
-      "clue_id": 321516,
-      "puzzle_id": 3921,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "A.L. East team, on scoreboards",
-      "answer": "BOS"
-    },
-    {
-      "clue_id": 321517,
-      "puzzle_id": 3921,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Car whose name means \"listen\" in Latin",
-      "answer": "AUDI"
-    },
-    {
-      "clue_id": 321518,
-      "puzzle_id": 3921,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Ordered clubs, for example",
-      "answer": "ROYALFLUSH"
-    },
-    {
-      "clue_id": 321519,
-      "puzzle_id": 3921,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Quickly assembles, with \"up\"",
-      "answer": "RIGS"
-    },
-    {
-      "clue_id": 321520,
-      "puzzle_id": 3921,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Frees",
-      "answer": "TURNSLOOSE"
-    },
-    {
-      "clue_id": 321521,
-      "puzzle_id": 3921,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "\"Gotcha\"",
-      "answer": "ISEE"
-    },
-    {
-      "clue_id": 321522,
-      "puzzle_id": 3921,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Editor's marking",
-      "answer": "STET"
-    },
-    {
-      "clue_id": 321523,
-      "puzzle_id": 3921,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "According to experiments, they can't \"sleep\" in space",
-      "answer": "YOYOS"
-    },
-    {
-      "clue_id": 321524,
-      "puzzle_id": 3921,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Lead-in to stratus or cumulus",
-      "answer": "ALTO"
-    },
-    {
-      "clue_id": 321525,
-      "puzzle_id": 3921,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "___ mater (brain protector)",
-      "answer": "DURA"
-    },
-    {
-      "clue_id": 321526,
-      "puzzle_id": 3921,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Handling things",
-      "answer": "ONIT"
-    },
-    {
-      "clue_id": 321527,
-      "puzzle_id": 3921,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Bud",
-      "answer": "PAL"
-    },
-    {
-      "clue_id": 321528,
-      "puzzle_id": 3921,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Memorial Coliseum athlete",
-      "answer": "TROJAN"
-    },
-    {
-      "clue_id": 321529,
-      "puzzle_id": 3921,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "You may have learned your times tables by it",
-      "answer": "ROTE"
-    },
-    {
-      "clue_id": 321530,
-      "puzzle_id": 3921,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Fin",
-      "answer": "ABE"
-    },
-    {
-      "clue_id": 321531,
-      "puzzle_id": 3921,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Develop over time",
-      "answer": "GESTATE"
-    },
-    {
-      "clue_id": 321532,
-      "puzzle_id": 3921,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "\"50 First Dates\" or \"(500) Days of Summer\"",
-      "answer": "ROMCOM"
-    },
-    {
-      "clue_id": 321533,
-      "puzzle_id": 3921,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Concerning",
-      "answer": "INRE"
-    },
-    {
-      "clue_id": 321534,
-      "puzzle_id": 3921,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "It might be picked up from a trip to the beach",
-      "answer": "SAND"
-    },
-    {
-      "clue_id": 321535,
-      "puzzle_id": 3921,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Classic lunchbox staple, informally",
-      "answer": "PBANDJ"
-    },
-    {
-      "clue_id": 321536,
-      "puzzle_id": 3921,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Tolerate",
-      "answer": "ABIDE"
-    },
-    {
-      "clue_id": 321537,
-      "puzzle_id": 3921,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Word of approval, in French and Spanish",
-      "answer": "BIEN"
-    },
-    {
-      "clue_id": 321538,
-      "puzzle_id": 3921,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Finance",
-      "answer": "ENDOW"
-    },
-    {
-      "clue_id": 321539,
-      "puzzle_id": 3921,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "A little of this, a little of that",
-      "answer": "HODGEPODGE"
-    },
-    {
-      "clue_id": 321540,
-      "puzzle_id": 3921,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Salutation for a mass email",
-      "answer": "HIALL"
-    },
-    {
-      "clue_id": 321541,
-      "puzzle_id": 3921,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Lower than, on a score",
-      "answer": "SOTTO"
-    },
-    {
-      "clue_id": 321542,
-      "puzzle_id": 3921,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Learning center?",
-      "answer": "DESK"
-    },
-    {
-      "clue_id": 321543,
-      "puzzle_id": 3921,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Zac of \"The Iron Claw\"",
-      "answer": "EFRON"
-    },
-    {
-      "clue_id": 321544,
-      "puzzle_id": 3921,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Pulitzer-winning graphic novel by Art Spiegelman",
-      "answer": "MAUS"
-    },
-    {
-      "clue_id": 321545,
-      "puzzle_id": 3921,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Throws out",
-      "answer": "EXPELS"
-    },
-    {
-      "clue_id": 321546,
-      "puzzle_id": 3921,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Declaration that might come from a bluffer",
-      "answer": "IRAISE"
-    },
-    {
-      "clue_id": 321547,
-      "puzzle_id": 3921,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Spirited sort?",
-      "answer": "BARFLY"
-    },
-    {
-      "clue_id": 321548,
-      "puzzle_id": 3921,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Wrapped dress",
-      "answer": "SARI"
-    },
-    {
-      "clue_id": 321549,
-      "puzzle_id": 3921,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Author Jorge ___ Borges",
-      "answer": "LUIS"
-    },
-    {
-      "clue_id": 321550,
-      "puzzle_id": 3921,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Apt rhyme for fire",
-      "answer": "PYRE"
-    },
-    {
-      "clue_id": 321551,
-      "puzzle_id": 3921,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Object marked with the speed limit, sometimes",
-      "answer": "BUOY"
-    },
-    {
-      "clue_id": 321552,
-      "puzzle_id": 3921,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Word in an Italian veal dish",
-      "answer": "OSSO"
-    },
-    {
-      "clue_id": 321553,
-      "puzzle_id": 3921,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "\"___ the Man\" (2006 film inspired by \"Twelfth Night\")",
-      "answer": "SHES"
-    },
-    {
-      "clue_id": 321554,
-      "puzzle_id": 3921,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "On the newsstand, say",
-      "answer": "OUT"
-    },
-    {
-      "clue_id": 321555,
-      "puzzle_id": 3921,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "John",
-      "answer": "LOO"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 321492,
-      "puzzle_id": 3921,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Take over",
-      "answer": "ADOPT"
-    },
-    {
-      "clue_id": 321493,
-      "puzzle_id": 3921,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Engage in magniloquence",
-      "answer": "BRAG"
-    },
-    {
-      "clue_id": 321494,
-      "puzzle_id": 3921,
-      "number": 10,
-      "direction": "across",
-      "clue_text": "A double might get you some, for short",
-      "answer": "RBIS"
-    },
-    {
-      "clue_id": 321495,
-      "puzzle_id": 3921,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Actress Chaplin",
-      "answer": "OONA"
-    },
-    {
-      "clue_id": 321496,
-      "puzzle_id": 3921,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "It \"smiles on the frowning night,\" in \"Romeo and Juliet\"",
-      "answer": "MORN"
-    },
-    {
-      "clue_id": 321497,
-      "puzzle_id": 3921,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "___ milk",
-      "answer": "OAT"
-    },
-    {
-      "clue_id": 321498,
-      "puzzle_id": 3921,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "___ Seymour, third wife of King Henry VIII",
-      "answer": "JANE"
-    },
-    {
-      "clue_id": 321499,
-      "puzzle_id": 3921,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "Added (on)",
-      "answer": "TACKED"
-    },
-    {
-      "clue_id": 321500,
-      "puzzle_id": 3921,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "One of four for a bat or a cat",
-      "answer": "FANG"
-    },
-    {
-      "clue_id": 321501,
-      "puzzle_id": 3921,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "\"Moulin Rouge\" co-star, 1952",
-      "answer": "GABOR"
-    },
-    {
-      "clue_id": 321502,
-      "puzzle_id": 3921,
-      "number": 25,
-      "direction": "across",
-      "clue_text": "Not with it",
-      "answer": "BEHINDTHETIMES"
-    },
-    {
-      "clue_id": 321503,
-      "puzzle_id": 3921,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "With (it)",
-      "answer": "INON"
-    },
-    {
-      "clue_id": 321504,
-      "puzzle_id": 3921,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "In tandem",
-      "answer": "JOINED"
-    },
-    {
-      "clue_id": 321505,
-      "puzzle_id": 3921,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Way out in space",
-      "answer": "POD"
-    },
-    {
-      "clue_id": 321506,
-      "puzzle_id": 3921,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Biker role in \"The Rocky Horror Picture Show\"",
-      "answer": "EDDIE"
-    },
-    {
-      "clue_id": 321507,
-      "puzzle_id": 3921,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Pull-up target, for short",
-      "answer": "LAT"
-    },
-    {
-      "clue_id": 321508,
-      "puzzle_id": 3921,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "Let it all out, in a way",
-      "answer": "EMOTE"
-    },
-    {
-      "clue_id": 321509,
-      "puzzle_id": 3921,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Nutmeg-flavored quaff, informally",
-      "answer": "NOG"
-    },
-    {
-      "clue_id": 321510,
-      "puzzle_id": 3921,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Ribbed silk material",
-      "answer": "FAILLE"
-    },
-    {
-      "clue_id": 321511,
-      "puzzle_id": 3921,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "The \"A\" in STEAM",
-      "answer": "ARTS"
-    },
-    {
-      "clue_id": 321512,
-      "puzzle_id": 3921,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Bring the receipts for, as they say",
-      "answer": "PROVE"
-    },
-    {
-      "clue_id": 321513,
-      "puzzle_id": 3921,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Figs. on a 4-point scale",
-      "answer": "GPAS"
-    },
-    {
-      "clue_id": 321514,
-      "puzzle_id": 3921,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Tennis star Stephens who won the 2017 U.S. Open",
-      "answer": "SLOANE"
-    },
-    {
-      "clue_id": 321515,
-      "puzzle_id": 3921,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Berth place",
-      "answer": "PIER"
-    },
-    {
-      "clue_id": 321516,
-      "puzzle_id": 3921,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "A.L. East team, on scoreboards",
-      "answer": "BOS"
-    },
-    {
-      "clue_id": 321517,
-      "puzzle_id": 3921,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Car whose name means \"listen\" in Latin",
-      "answer": "AUDI"
-    },
-    {
-      "clue_id": 321518,
-      "puzzle_id": 3921,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Ordered clubs, for example",
-      "answer": "ROYALFLUSH"
-    },
-    {
-      "clue_id": 321519,
-      "puzzle_id": 3921,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Quickly assembles, with \"up\"",
-      "answer": "RIGS"
-    },
-    {
-      "clue_id": 321520,
-      "puzzle_id": 3921,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Frees",
-      "answer": "TURNSLOOSE"
-    },
-    {
-      "clue_id": 321521,
-      "puzzle_id": 3921,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "\"Gotcha\"",
-      "answer": "ISEE"
-    },
-    {
-      "clue_id": 321522,
-      "puzzle_id": 3921,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Editor's marking",
-      "answer": "STET"
-    },
-    {
-      "clue_id": 321523,
-      "puzzle_id": 3921,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "According to experiments, they can't \"sleep\" in space",
-      "answer": "YOYOS"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 321524,
-      "puzzle_id": 3921,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Lead-in to stratus or cumulus",
-      "answer": "ALTO"
-    },
-    {
-      "clue_id": 321525,
-      "puzzle_id": 3921,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "___ mater (brain protector)",
-      "answer": "DURA"
-    },
-    {
-      "clue_id": 321526,
-      "puzzle_id": 3921,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Handling things",
-      "answer": "ONIT"
-    },
-    {
-      "clue_id": 321527,
-      "puzzle_id": 3921,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Bud",
-      "answer": "PAL"
-    },
-    {
-      "clue_id": 321528,
-      "puzzle_id": 3921,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Memorial Coliseum athlete",
-      "answer": "TROJAN"
-    },
-    {
-      "clue_id": 321529,
-      "puzzle_id": 3921,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "You may have learned your times tables by it",
-      "answer": "ROTE"
-    },
-    {
-      "clue_id": 321530,
-      "puzzle_id": 3921,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Fin",
-      "answer": "ABE"
-    },
-    {
-      "clue_id": 321531,
-      "puzzle_id": 3921,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Develop over time",
-      "answer": "GESTATE"
-    },
-    {
-      "clue_id": 321532,
-      "puzzle_id": 3921,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "\"50 First Dates\" or \"(500) Days of Summer\"",
-      "answer": "ROMCOM"
-    },
-    {
-      "clue_id": 321533,
-      "puzzle_id": 3921,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Concerning",
-      "answer": "INRE"
-    },
-    {
-      "clue_id": 321534,
-      "puzzle_id": 3921,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "It might be picked up from a trip to the beach",
-      "answer": "SAND"
-    },
-    {
-      "clue_id": 321535,
-      "puzzle_id": 3921,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Classic lunchbox staple, informally",
-      "answer": "PBANDJ"
-    },
-    {
-      "clue_id": 321536,
-      "puzzle_id": 3921,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Tolerate",
-      "answer": "ABIDE"
-    },
-    {
-      "clue_id": 321537,
-      "puzzle_id": 3921,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Word of approval, in French and Spanish",
-      "answer": "BIEN"
-    },
-    {
-      "clue_id": 321538,
-      "puzzle_id": 3921,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Finance",
-      "answer": "ENDOW"
-    },
-    {
-      "clue_id": 321539,
-      "puzzle_id": 3921,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "A little of this, a little of that",
-      "answer": "HODGEPODGE"
-    },
-    {
-      "clue_id": 321540,
-      "puzzle_id": 3921,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Salutation for a mass email",
-      "answer": "HIALL"
-    },
-    {
-      "clue_id": 321541,
-      "puzzle_id": 3921,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Lower than, on a score",
-      "answer": "SOTTO"
-    },
-    {
-      "clue_id": 321542,
-      "puzzle_id": 3921,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Learning center?",
-      "answer": "DESK"
-    },
-    {
-      "clue_id": 321543,
-      "puzzle_id": 3921,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Zac of \"The Iron Claw\"",
-      "answer": "EFRON"
-    },
-    {
-      "clue_id": 321544,
-      "puzzle_id": 3921,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Pulitzer-winning graphic novel by Art Spiegelman",
-      "answer": "MAUS"
-    },
-    {
-      "clue_id": 321545,
-      "puzzle_id": 3921,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Throws out",
-      "answer": "EXPELS"
-    },
-    {
-      "clue_id": 321546,
-      "puzzle_id": 3921,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Declaration that might come from a bluffer",
-      "answer": "IRAISE"
-    },
-    {
-      "clue_id": 321547,
-      "puzzle_id": 3921,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Spirited sort?",
-      "answer": "BARFLY"
-    },
-    {
-      "clue_id": 321548,
-      "puzzle_id": 3921,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Wrapped dress",
-      "answer": "SARI"
-    },
-    {
-      "clue_id": 321549,
-      "puzzle_id": 3921,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Author Jorge ___ Borges",
-      "answer": "LUIS"
-    },
-    {
-      "clue_id": 321550,
-      "puzzle_id": 3921,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Apt rhyme for fire",
-      "answer": "PYRE"
-    },
-    {
-      "clue_id": 321551,
-      "puzzle_id": 3921,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Object marked with the speed limit, sometimes",
-      "answer": "BUOY"
-    },
-    {
-      "clue_id": 321552,
-      "puzzle_id": 3921,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Word in an Italian veal dish",
-      "answer": "OSSO"
-    },
-    {
-      "clue_id": 321553,
-      "puzzle_id": 3921,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "\"___ the Man\" (2006 film inspired by \"Twelfth Night\")",
-      "answer": "SHES"
-    },
-    {
-      "clue_id": 321554,
-      "puzzle_id": 3921,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "On the newsstand, say",
-      "answer": "OUT"
-    },
-    {
-      "clue_id": 321555,
-      "puzzle_id": 3921,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "John",
-      "answer": "LOO"
-    }
-  ]
+  "timestamp": "2025-09-20T04:31:14.145Z"
 }

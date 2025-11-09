@@ -1,1059 +1,1520 @@
 {
-  "puzzle": {
-    "puzzle_id": 3971,
-    "date": "2025-11-08",
-    "formatted_date": "Saturday, November 8, 2025",
-    "title": "New York Times, Saturday, November 8, 2025",
-    "author": "Ryan Judge",
-    "editor": "Will Shortz",
-    "day_of_week": "Saturday",
-    "permalink": "",
-    "created_at": "2025-11-08 04:30:08"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-11-09",
+      "formatted_date": "Sunday, November 9, 2025",
+      "day_of_week": "Sunday",
+      "title": "Swing States",
+      "author": "Amie Walker",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Prepares for baking, as flour",
+        "answer": "SIFTS",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Joan of Arc, for one",
+        "answer": "MARTYR",
+        "direction": "across"
+      },
+      {
+        "number": 12,
+        "clue": "Aruba or Jamaica",
+        "answer": "ISLE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Pinochle action",
+        "answer": "BID",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Popular Japanese beer",
+        "answer": "ASAHI",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"Sort of\"",
+        "answer": "INAWAY",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Exam for a future OB/GYN",
+        "answer": "MCAT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "www.asu.___",
+        "answer": "EDU",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Iconic line from Robert De Niro in \"Taxi Driver\"",
+        "answer": "YOUTALKINTOME",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Have a little snack",
+        "answer": "NOSH",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "End-of-Ramadan feast",
+        "answer": "EID",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "\"No other option for me\"",
+        "answer": "IGOTTA",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Early chat app with a Buddy List, in brief",
+        "answer": "AIM",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Challenges",
+        "answer": "CONTESTS",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "What distinguishes \"bet\" from \"vet\" in Hebrew",
+        "answer": "DOT",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Reminder to oneself",
+        "answer": "MENTALNOTE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "M.L.B. shortstop Miguel",
+        "answer": "ROJAS",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "\"Don't see this movie\" rating",
+        "answer": "ONESTAR",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"I've had it!\"",
+        "answer": "ENOUGHISENOUGH",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Seasoned rice dish",
+        "answer": "PILAF",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Prefix meaning \"all\"",
+        "answer": "OMNI",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Call it a night",
+        "answer": "RETIRE",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Something a majorette twirls",
+        "answer": "BATON",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Part of STEM, for short",
+        "answer": "TECH",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Incompatibility",
+        "answer": "BADFIT",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Animation sheet",
+        "answer": "CEL",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Form a clump",
+        "answer": "CLOT",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "Certain expectant parent",
+        "answer": "MOMTOBE",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "A.P. math subj.",
+        "answer": "CALC",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Intuitive sense",
+        "answer": "FEEL",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Woulda-shoulda connector",
+        "answer": "COULDA",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Very lite",
+        "answer": "NOCAL",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Sam of \"Jurassic Park\"",
+        "answer": "NEILL",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Was gone in a flash?",
+        "answer": "STREAKED",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "G.I. entertainment grp.",
+        "answer": "USO",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "\"... you get the picture\"",
+        "answer": "YADAYADA",
+        "direction": "across"
+      },
+      {
+        "number": 74,
+        "clue": "Elevated seabed",
+        "answer": "SHELF",
+        "direction": "across"
+      },
+      {
+        "number": 75,
+        "clue": "Moisturizing product",
+        "answer": "SERUM",
+        "direction": "across"
+      },
+      {
+        "number": 77,
+        "clue": "Meme feline",
+        "answer": "LOLCAT",
+        "direction": "across"
+      },
+      {
+        "number": 78,
+        "clue": "Emergency alerts, for short",
+        "answer": "APBS",
+        "direction": "across"
+      },
+      {
+        "number": 81,
+        "clue": "\"Don't dillydally!\"",
+        "answer": "ASAP",
+        "direction": "across"
+      },
+      {
+        "number": 83,
+        "clue": "Gymnast Biles",
+        "answer": "SIMONE",
+        "direction": "across"
+      },
+      {
+        "number": 85,
+        "clue": "\"Sorry, I don't think so\"",
+        "answer": "UHNO",
+        "direction": "across"
+      },
+      {
+        "number": 86,
+        "clue": "Phillipa of the original \"Hamilton\" cast",
+        "answer": "SOO",
+        "direction": "across"
+      },
+      {
+        "number": 89,
+        "clue": "Wrapped garment",
+        "answer": "SARI",
+        "direction": "across"
+      },
+      {
+        "number": 90,
+        "clue": "Wear for just a moment, say",
+        "answer": "TRYON",
+        "direction": "across"
+      },
+      {
+        "number": 91,
+        "clue": "\"Put your wallet away\"",
+        "answer": "ITSONME",
+        "direction": "across"
+      },
+      {
+        "number": 93,
+        "clue": "Tournament advantages",
+        "answer": "BYES",
+        "direction": "across"
+      },
+      {
+        "number": 95,
+        "clue": "Show host",
+        "answer": "EMCEE",
+        "direction": "across"
+      },
+      {
+        "number": 105,
+        "clue": "Circus prop",
+        "answer": "STILT",
+        "direction": "across"
+      },
+      {
+        "number": 106,
+        "clue": "Crate & Barrel product",
+        "answer": "STORAGEBIN",
+        "direction": "across"
+      },
+      {
+        "number": 108,
+        "clue": "Home shopping channel",
+        "answer": "QVC",
+        "direction": "across"
+      },
+      {
+        "number": 109,
+        "clue": "1990s ABC sitcom about kids growing up without their parents",
+        "answer": "ONOUROWN",
+        "direction": "across"
+      },
+      {
+        "number": 111,
+        "clue": "___ pal (rhyming friend)",
+        "answer": "GAL",
+        "direction": "across"
+      },
+      {
+        "number": 112,
+        "clue": "Leave with no doubt",
+        "answer": "ASSURE",
+        "direction": "across"
+      },
+      {
+        "number": 115,
+        "clue": "Homer Simpson's dad",
+        "answer": "ABE",
+        "direction": "across"
+      },
+      {
+        "number": 116,
+        "clue": "Repetitive way of learning",
+        "answer": "ROTE",
+        "direction": "across"
+      },
+      {
+        "number": 117,
+        "clue": "Telegraph pioneer, or a description of four squares in this puzzle",
+        "answer": "WESTERNUNION",
+        "direction": "across"
+      },
+      {
+        "number": 120,
+        "clue": "Do a restaurant job",
+        "answer": "BUS",
+        "direction": "across"
+      },
+      {
+        "number": 121,
+        "clue": "The \"N\" in E.N.T.",
+        "answer": "NOSE",
+        "direction": "across"
+      },
+      {
+        "number": 123,
+        "clue": "Wine specialty of the Burgundy region",
+        "answer": "PINOT",
+        "direction": "across"
+      },
+      {
+        "number": 124,
+        "clue": "Sponsored spots",
+        "answer": "ADS",
+        "direction": "across"
+      },
+      {
+        "number": 125,
+        "clue": "Hide",
+        "answer": "SKIN",
+        "direction": "across"
+      },
+      {
+        "number": 126,
+        "clue": "___ Cucamonga, Calif.",
+        "answer": "RANCHO",
+        "direction": "across"
+      },
+      {
+        "number": 127,
+        "clue": "Features of some wineglasses",
+        "answer": "STEMS",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Tie the knot",
+        "answer": "SAYIDO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Figure with equal angles",
+        "answer": "ISOGON",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"You can say ___ again!\"",
+        "answer": "THAT",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "River deposit",
+        "answer": "SILT",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "1,002, in old Rome",
+        "answer": "MII",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Peace Nobelist Kofi",
+        "answer": "ANNAN",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Kiwi or ostrich",
+        "answer": "RATITE",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Like the teams of Starsky & Hutch and Cheech & Chong",
+        "answer": "TWOMAN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "West African crop",
+        "answer": "YAM",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Bread for a corned beef sandwich",
+        "answer": "RYE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Servings at teas",
+        "answer": "SCONES",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Hold up well",
+        "answer": "LAST",
+        "direction": "down"
+      },
+      {
+        "number": 15,
+        "clue": "Way to get online",
+        "answer": "ETHERNET",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Disappointing firework",
+        "answer": "DUD",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "\"The ___ Smith Show\" (Apple TV offering)",
+        "answer": "KAMAL",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "After-dinner brandy",
+        "answer": "COGNAC",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Residue on Santa's suit",
+        "answer": "SOOT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Muse of lyric poetry",
+        "answer": "ERATO",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Bathroom, to Mary Poppins",
+        "answer": "LOO",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Like a foot that's fallen asleep",
+        "answer": "NUMB",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Pistachio eater's discard",
+        "answer": "SHELL",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Pristine",
+        "answer": "SPOTLESS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Cookie container",
+        "answer": "TIN",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "\"Spamalot\" co-creator",
+        "answer": "ERICIDLE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Emails discreetly",
+        "answer": "BCCS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Bunches and bunches",
+        "answer": "ALOT",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Sightseeing excursion",
+        "answer": "TOUR",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Whisper affectionately",
+        "answer": "COO",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Pet-biting pest",
+        "answer": "FLEA",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Wager",
+        "answer": "MAKEABET",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Reduces, as anxiety",
+        "answer": "EASES",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "\"Lah-di-___!\"",
+        "answer": "DAH",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Nocturnal primate of the Indian forest",
+        "answer": "LORIS",
+        "direction": "down"
+      },
+      {
+        "number": 66,
+        "clue": "Language in which \"one, two, three\" is \"neung, song, sam\"",
+        "answer": "LAO",
+        "direction": "down"
+      },
+      {
+        "number": 68,
+        "clue": "\"Frozen\" queen",
+        "answer": "ELSA",
+        "direction": "down"
+      },
+      {
+        "number": 71,
+        "clue": "\"___ Breaky Heart\"",
+        "answer": "ACHY",
+        "direction": "down"
+      },
+      {
+        "number": 72,
+        "clue": "Paul ___, \"There Will Be Blood\" actor",
+        "answer": "DANO",
+        "direction": "down"
+      },
+      {
+        "number": 73,
+        "clue": "Bunches and bunches",
+        "answer": "ATON",
+        "direction": "down"
+      },
+      {
+        "number": 76,
+        "clue": "Actress Thurman",
+        "answer": "UMA",
+        "direction": "down"
+      },
+      {
+        "number": 78,
+        "clue": "New Balance competitor",
+        "answer": "ASICS",
+        "direction": "down"
+      },
+      {
+        "number": 82,
+        "clue": "Former QB Manning",
+        "answer": "PEYTON",
+        "direction": "down"
+      },
+      {
+        "number": 84,
+        "clue": "Rain clouds",
+        "answer": "NIMBI",
+        "direction": "down"
+      },
+      {
+        "number": 88,
+        "clue": "Phobia",
+        "answer": "FEAR",
+        "direction": "down"
+      },
+      {
+        "number": 92,
+        "clue": "City that's home to the Munch Museum",
+        "answer": "OSLO",
+        "direction": "down"
+      },
+      {
+        "number": 94,
+        "clue": "Beauty spot",
+        "answer": "SPA",
+        "direction": "down"
+      },
+      {
+        "number": 96,
+        "clue": "Funny O'Brien",
+        "answer": "CONAN",
+        "direction": "down"
+      },
+      {
+        "number": 98,
+        "clue": "Athol Fugard novel adapted as an Academy Award-winning film",
+        "answer": "TSOTSI",
+        "direction": "down"
+      },
+      {
+        "number": 99,
+        "clue": "Goads into action",
+        "answer": "EGGSON",
+        "direction": "down"
+      },
+      {
+        "number": 100,
+        "clue": "Airport near Puget Sound",
+        "answer": "SEATAC",
+        "direction": "down"
+      },
+      {
+        "number": 102,
+        "clue": "Like onagers and zebras",
+        "answer": "EQUINE",
+        "direction": "down"
+      },
+      {
+        "number": 103,
+        "clue": "Where you might put on a show?",
+        "answer": "TVROOM",
+        "direction": "down"
+      },
+      {
+        "number": 104,
+        "clue": "Air freshener choices",
+        "answer": "SCENTS",
+        "direction": "down"
+      },
+      {
+        "number": 107,
+        "clue": "\"Yuck!\"",
+        "answer": "BLECH",
+        "direction": "down"
+      },
+      {
+        "number": 110,
+        "clue": "Corner chess piece",
+        "answer": "ROOK",
+        "direction": "down"
+      },
+      {
+        "number": 113,
+        "clue": "Has an evening meal",
+        "answer": "SUPS",
+        "direction": "down"
+      },
+      {
+        "number": 114,
+        "clue": "Grumpy mood",
+        "answer": "SNIT",
+        "direction": "down"
+      },
+      {
+        "number": 115,
+        "clue": "Org. for lawyers",
+        "answer": "ABA",
+        "direction": "down"
+      },
+      {
+        "number": 117,
+        "clue": "Luck-based card game",
+        "answer": "WAR",
+        "direction": "down"
+      },
+      {
+        "number": 118,
+        "clue": "\"The Life of a Showgirl,\" for Taylor Swift",
+        "answer": "ERA",
+        "direction": "down"
+      },
+      {
+        "number": 119,
+        "clue": "Rock's ___ Speedwagon",
+        "answer": "REO",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Prepares for baking, as flour",
+        "answer": "SIFTS",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Joan of Arc, for one",
+        "answer": "MARTYR",
+        "direction": "across"
+      },
+      {
+        "number": 12,
+        "clue": "Aruba or Jamaica",
+        "answer": "ISLE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Pinochle action",
+        "answer": "BID",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Popular Japanese beer",
+        "answer": "ASAHI",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"Sort of\"",
+        "answer": "INAWAY",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Exam for a future OB/GYN",
+        "answer": "MCAT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "www.asu.___",
+        "answer": "EDU",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Iconic line from Robert De Niro in \"Taxi Driver\"",
+        "answer": "YOUTALKINTOME",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Have a little snack",
+        "answer": "NOSH",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "End-of-Ramadan feast",
+        "answer": "EID",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "\"No other option for me\"",
+        "answer": "IGOTTA",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Early chat app with a Buddy List, in brief",
+        "answer": "AIM",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Challenges",
+        "answer": "CONTESTS",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "What distinguishes \"bet\" from \"vet\" in Hebrew",
+        "answer": "DOT",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Reminder to oneself",
+        "answer": "MENTALNOTE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "M.L.B. shortstop Miguel",
+        "answer": "ROJAS",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "\"Don't see this movie\" rating",
+        "answer": "ONESTAR",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"I've had it!\"",
+        "answer": "ENOUGHISENOUGH",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Seasoned rice dish",
+        "answer": "PILAF",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Prefix meaning \"all\"",
+        "answer": "OMNI",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Call it a night",
+        "answer": "RETIRE",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Something a majorette twirls",
+        "answer": "BATON",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Part of STEM, for short",
+        "answer": "TECH",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Incompatibility",
+        "answer": "BADFIT",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Animation sheet",
+        "answer": "CEL",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Form a clump",
+        "answer": "CLOT",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "Certain expectant parent",
+        "answer": "MOMTOBE",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "A.P. math subj.",
+        "answer": "CALC",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Intuitive sense",
+        "answer": "FEEL",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Woulda-shoulda connector",
+        "answer": "COULDA",
+        "direction": "across"
+      },
+      {
+        "number": 63,
+        "clue": "Very lite",
+        "answer": "NOCAL",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Sam of \"Jurassic Park\"",
+        "answer": "NEILL",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Was gone in a flash?",
+        "answer": "STREAKED",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "G.I. entertainment grp.",
+        "answer": "USO",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "\"... you get the picture\"",
+        "answer": "YADAYADA",
+        "direction": "across"
+      },
+      {
+        "number": 74,
+        "clue": "Elevated seabed",
+        "answer": "SHELF",
+        "direction": "across"
+      },
+      {
+        "number": 75,
+        "clue": "Moisturizing product",
+        "answer": "SERUM",
+        "direction": "across"
+      },
+      {
+        "number": 77,
+        "clue": "Meme feline",
+        "answer": "LOLCAT",
+        "direction": "across"
+      },
+      {
+        "number": 78,
+        "clue": "Emergency alerts, for short",
+        "answer": "APBS",
+        "direction": "across"
+      },
+      {
+        "number": 81,
+        "clue": "\"Don't dillydally!\"",
+        "answer": "ASAP",
+        "direction": "across"
+      },
+      {
+        "number": 83,
+        "clue": "Gymnast Biles",
+        "answer": "SIMONE",
+        "direction": "across"
+      },
+      {
+        "number": 85,
+        "clue": "\"Sorry, I don't think so\"",
+        "answer": "UHNO",
+        "direction": "across"
+      },
+      {
+        "number": 86,
+        "clue": "Phillipa of the original \"Hamilton\" cast",
+        "answer": "SOO",
+        "direction": "across"
+      },
+      {
+        "number": 89,
+        "clue": "Wrapped garment",
+        "answer": "SARI",
+        "direction": "across"
+      },
+      {
+        "number": 90,
+        "clue": "Wear for just a moment, say",
+        "answer": "TRYON",
+        "direction": "across"
+      },
+      {
+        "number": 91,
+        "clue": "\"Put your wallet away\"",
+        "answer": "ITSONME",
+        "direction": "across"
+      },
+      {
+        "number": 93,
+        "clue": "Tournament advantages",
+        "answer": "BYES",
+        "direction": "across"
+      },
+      {
+        "number": 95,
+        "clue": "Show host",
+        "answer": "EMCEE",
+        "direction": "across"
+      },
+      {
+        "number": 105,
+        "clue": "Circus prop",
+        "answer": "STILT",
+        "direction": "across"
+      },
+      {
+        "number": 106,
+        "clue": "Crate & Barrel product",
+        "answer": "STORAGEBIN",
+        "direction": "across"
+      },
+      {
+        "number": 108,
+        "clue": "Home shopping channel",
+        "answer": "QVC",
+        "direction": "across"
+      },
+      {
+        "number": 109,
+        "clue": "1990s ABC sitcom about kids growing up without their parents",
+        "answer": "ONOUROWN",
+        "direction": "across"
+      },
+      {
+        "number": 111,
+        "clue": "___ pal (rhyming friend)",
+        "answer": "GAL",
+        "direction": "across"
+      },
+      {
+        "number": 112,
+        "clue": "Leave with no doubt",
+        "answer": "ASSURE",
+        "direction": "across"
+      },
+      {
+        "number": 115,
+        "clue": "Homer Simpson's dad",
+        "answer": "ABE",
+        "direction": "across"
+      },
+      {
+        "number": 116,
+        "clue": "Repetitive way of learning",
+        "answer": "ROTE",
+        "direction": "across"
+      },
+      {
+        "number": 117,
+        "clue": "Telegraph pioneer, or a description of four squares in this puzzle",
+        "answer": "WESTERNUNION",
+        "direction": "across"
+      },
+      {
+        "number": 120,
+        "clue": "Do a restaurant job",
+        "answer": "BUS",
+        "direction": "across"
+      },
+      {
+        "number": 121,
+        "clue": "The \"N\" in E.N.T.",
+        "answer": "NOSE",
+        "direction": "across"
+      },
+      {
+        "number": 123,
+        "clue": "Wine specialty of the Burgundy region",
+        "answer": "PINOT",
+        "direction": "across"
+      },
+      {
+        "number": 124,
+        "clue": "Sponsored spots",
+        "answer": "ADS",
+        "direction": "across"
+      },
+      {
+        "number": 125,
+        "clue": "Hide",
+        "answer": "SKIN",
+        "direction": "across"
+      },
+      {
+        "number": 126,
+        "clue": "___ Cucamonga, Calif.",
+        "answer": "RANCHO",
+        "direction": "across"
+      },
+      {
+        "number": 127,
+        "clue": "Features of some wineglasses",
+        "answer": "STEMS",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Tie the knot",
+        "answer": "SAYIDO",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Figure with equal angles",
+        "answer": "ISOGON",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "\"You can say ___ again!\"",
+        "answer": "THAT",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "River deposit",
+        "answer": "SILT",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "1,002, in old Rome",
+        "answer": "MII",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Peace Nobelist Kofi",
+        "answer": "ANNAN",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Kiwi or ostrich",
+        "answer": "RATITE",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Like the teams of Starsky & Hutch and Cheech & Chong",
+        "answer": "TWOMAN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "West African crop",
+        "answer": "YAM",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Bread for a corned beef sandwich",
+        "answer": "RYE",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Servings at teas",
+        "answer": "SCONES",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Hold up well",
+        "answer": "LAST",
+        "direction": "down"
+      },
+      {
+        "number": 15,
+        "clue": "Way to get online",
+        "answer": "ETHERNET",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Disappointing firework",
+        "answer": "DUD",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "\"The ___ Smith Show\" (Apple TV offering)",
+        "answer": "KAMAL",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "After-dinner brandy",
+        "answer": "COGNAC",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Residue on Santa's suit",
+        "answer": "SOOT",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Muse of lyric poetry",
+        "answer": "ERATO",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Bathroom, to Mary Poppins",
+        "answer": "LOO",
+        "direction": "down"
+      },
+      {
+        "number": 35,
+        "clue": "Like a foot that's fallen asleep",
+        "answer": "NUMB",
+        "direction": "down"
+      },
+      {
+        "number": 37,
+        "clue": "Pistachio eater's discard",
+        "answer": "SHELL",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Pristine",
+        "answer": "SPOTLESS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Cookie container",
+        "answer": "TIN",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "\"Spamalot\" co-creator",
+        "answer": "ERICIDLE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Emails discreetly",
+        "answer": "BCCS",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Bunches and bunches",
+        "answer": "ALOT",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Sightseeing excursion",
+        "answer": "TOUR",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Whisper affectionately",
+        "answer": "COO",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Pet-biting pest",
+        "answer": "FLEA",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Wager",
+        "answer": "MAKEABET",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Reduces, as anxiety",
+        "answer": "EASES",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "\"Lah-di-___!\"",
+        "answer": "DAH",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Nocturnal primate of the Indian forest",
+        "answer": "LORIS",
+        "direction": "down"
+      },
+      {
+        "number": 66,
+        "clue": "Language in which \"one, two, three\" is \"neung, song, sam\"",
+        "answer": "LAO",
+        "direction": "down"
+      },
+      {
+        "number": 68,
+        "clue": "\"Frozen\" queen",
+        "answer": "ELSA",
+        "direction": "down"
+      },
+      {
+        "number": 71,
+        "clue": "\"___ Breaky Heart\"",
+        "answer": "ACHY",
+        "direction": "down"
+      },
+      {
+        "number": 72,
+        "clue": "Paul ___, \"There Will Be Blood\" actor",
+        "answer": "DANO",
+        "direction": "down"
+      },
+      {
+        "number": 73,
+        "clue": "Bunches and bunches",
+        "answer": "ATON",
+        "direction": "down"
+      },
+      {
+        "number": 76,
+        "clue": "Actress Thurman",
+        "answer": "UMA",
+        "direction": "down"
+      },
+      {
+        "number": 78,
+        "clue": "New Balance competitor",
+        "answer": "ASICS",
+        "direction": "down"
+      },
+      {
+        "number": 82,
+        "clue": "Former QB Manning",
+        "answer": "PEYTON",
+        "direction": "down"
+      },
+      {
+        "number": 84,
+        "clue": "Rain clouds",
+        "answer": "NIMBI",
+        "direction": "down"
+      },
+      {
+        "number": 88,
+        "clue": "Phobia",
+        "answer": "FEAR",
+        "direction": "down"
+      },
+      {
+        "number": 92,
+        "clue": "City that's home to the Munch Museum",
+        "answer": "OSLO",
+        "direction": "down"
+      },
+      {
+        "number": 94,
+        "clue": "Beauty spot",
+        "answer": "SPA",
+        "direction": "down"
+      },
+      {
+        "number": 96,
+        "clue": "Funny O'Brien",
+        "answer": "CONAN",
+        "direction": "down"
+      },
+      {
+        "number": 98,
+        "clue": "Athol Fugard novel adapted as an Academy Award-winning film",
+        "answer": "TSOTSI",
+        "direction": "down"
+      },
+      {
+        "number": 99,
+        "clue": "Goads into action",
+        "answer": "EGGSON",
+        "direction": "down"
+      },
+      {
+        "number": 100,
+        "clue": "Airport near Puget Sound",
+        "answer": "SEATAC",
+        "direction": "down"
+      },
+      {
+        "number": 102,
+        "clue": "Like onagers and zebras",
+        "answer": "EQUINE",
+        "direction": "down"
+      },
+      {
+        "number": 103,
+        "clue": "Where you might put on a show?",
+        "answer": "TVROOM",
+        "direction": "down"
+      },
+      {
+        "number": 104,
+        "clue": "Air freshener choices",
+        "answer": "SCENTS",
+        "direction": "down"
+      },
+      {
+        "number": 107,
+        "clue": "\"Yuck!\"",
+        "answer": "BLECH",
+        "direction": "down"
+      },
+      {
+        "number": 110,
+        "clue": "Corner chess piece",
+        "answer": "ROOK",
+        "direction": "down"
+      },
+      {
+        "number": 113,
+        "clue": "Has an evening meal",
+        "answer": "SUPS",
+        "direction": "down"
+      },
+      {
+        "number": 114,
+        "clue": "Grumpy mood",
+        "answer": "SNIT",
+        "direction": "down"
+      },
+      {
+        "number": 115,
+        "clue": "Org. for lawyers",
+        "answer": "ABA",
+        "direction": "down"
+      },
+      {
+        "number": 117,
+        "clue": "Luck-based card game",
+        "answer": "WAR",
+        "direction": "down"
+      },
+      {
+        "number": 118,
+        "clue": "\"The Life of a Showgirl,\" for Taylor Swift",
+        "answer": "ERA",
+        "direction": "down"
+      },
+      {
+        "number": 119,
+        "clue": "Rock's ___ Speedwagon",
+        "answer": "REO",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 325249,
-      "puzzle_id": 3971,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Where Caitlin Clark played college hoops",
-      "answer": "IOWA"
-    },
-    {
-      "clue_id": 325250,
-      "puzzle_id": 3971,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "R-V guy?",
-      "answer": "STU"
-    },
-    {
-      "clue_id": 325251,
-      "puzzle_id": 3971,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Adds to a timeline, say",
-      "answer": "POSTS"
-    },
-    {
-      "clue_id": 325252,
-      "puzzle_id": 3971,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "One who's off-base?",
-      "answer": "SHORTSTOP"
-    },
-    {
-      "clue_id": 325253,
-      "puzzle_id": 3971,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "See 41-Across",
-      "answer": "ALPHA"
-    },
-    {
-      "clue_id": 325254,
-      "puzzle_id": 3971,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "\"To repeat ...\"",
-      "answer": "ISAID"
-    },
-    {
-      "clue_id": 325255,
-      "puzzle_id": 3971,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Unacceptable",
-      "answer": "NOTOKAY"
-    },
-    {
-      "clue_id": 325256,
-      "puzzle_id": 3971,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "They're not up to much",
-      "answer": "IDLERS"
-    },
-    {
-      "clue_id": 325257,
-      "puzzle_id": 3971,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Player — or piece of equipment — at Barclays Center",
-      "answer": "NET"
-    },
-    {
-      "clue_id": 325258,
-      "puzzle_id": 3971,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Instrument with a neck, informally",
-      "answer": "UKE"
-    },
-    {
-      "clue_id": 325259,
-      "puzzle_id": 3971,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Supreme Court justice Gorsuch",
-      "answer": "NEIL"
-    },
-    {
-      "clue_id": 325260,
-      "puzzle_id": 3971,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "General with orders?",
-      "answer": "TSO"
-    },
-    {
-      "clue_id": 325261,
-      "puzzle_id": 3971,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "\"Magnum, P.I.\" setting",
-      "answer": "OAHU"
-    },
-    {
-      "clue_id": 325262,
-      "puzzle_id": 3971,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Saver's asset",
-      "answer": "THRIFT"
-    },
-    {
-      "clue_id": 325263,
-      "puzzle_id": 3971,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Dude who might be in a row",
-      "answer": "FRATBRO"
-    },
-    {
-      "clue_id": 325264,
-      "puzzle_id": 3971,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "\"You're not just imagining that tone\"",
-      "answer": "IHEARIT"
-    },
-    {
-      "clue_id": 325265,
-      "puzzle_id": 3971,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Makes sense",
-      "answer": "ADDSUP"
-    },
-    {
-      "clue_id": 325266,
-      "puzzle_id": 3971,
-      "number": 39,
-      "direction": "across",
-      "clue_text": ".pdf alternative",
-      "answer": "DOC"
-    },
-    {
-      "clue_id": 325267,
-      "puzzle_id": 3971,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "City between Sacramento and Salt Lake City on I-80",
-      "answer": "RENO"
-    },
-    {
-      "clue_id": 325268,
-      "puzzle_id": 3971,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "With 16-Across, group that began in the 2010s, familiarly",
-      "answer": "GEN"
-    },
-    {
-      "clue_id": 325269,
-      "puzzle_id": 3971,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Roquefort, e.g.",
-      "answer": "BLUECHEESE"
-    },
-    {
-      "clue_id": 325270,
-      "puzzle_id": 3971,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Book of Mormon figure",
-      "answer": "ENOS"
-    },
-    {
-      "clue_id": 325271,
-      "puzzle_id": 3971,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "C.I.A. forerunner",
-      "answer": "OSS"
-    },
-    {
-      "clue_id": 325272,
-      "puzzle_id": 3971,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "___ Technica (news site)",
-      "answer": "ARS"
-    },
-    {
-      "clue_id": 325273,
-      "puzzle_id": 3971,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Something often hit without you seeing it",
-      "answer": "PINATA"
-    },
-    {
-      "clue_id": 325274,
-      "puzzle_id": 3971,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Liverpudlians, e.g.",
-      "answer": "BRITONS"
-    },
-    {
-      "clue_id": 325275,
-      "puzzle_id": 3971,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Burdened",
-      "answer": "LADEN"
-    },
-    {
-      "clue_id": 325276,
-      "puzzle_id": 3971,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Job for a driller",
-      "answer": "ROOTCANAL"
-    },
-    {
-      "clue_id": 325277,
-      "puzzle_id": 3971,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "___ au poivre (entree that's often flambéed)",
-      "answer": "STEAK"
-    },
-    {
-      "clue_id": 325278,
-      "puzzle_id": 3971,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Largest Bengali-speaking city in the world",
-      "answer": "DHAKA"
-    },
-    {
-      "clue_id": 325279,
-      "puzzle_id": 3971,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Financial report abbr.",
-      "answer": "YTD"
-    },
-    {
-      "clue_id": 325280,
-      "puzzle_id": 3971,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Exam with a max score of 1520",
-      "answer": "PSAT"
-    },
-    {
-      "clue_id": 325281,
-      "puzzle_id": 3971,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Library fig.",
-      "answer": "ISBN"
-    },
-    {
-      "clue_id": 325282,
-      "puzzle_id": 3971,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Red state?",
-      "answer": "OHIO"
-    },
-    {
-      "clue_id": 325283,
-      "puzzle_id": 3971,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Refuses to",
-      "answer": "WONT"
-    },
-    {
-      "clue_id": 325284,
-      "puzzle_id": 3971,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Cephalopods with a name derived from Greek mythology",
-      "answer": "ARGONAUTS"
-    },
-    {
-      "clue_id": 325285,
-      "puzzle_id": 3971,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Visit",
-      "answer": "STAY"
-    },
-    {
-      "clue_id": 325286,
-      "puzzle_id": 3971,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Shortening for a city that omits \"onto\"",
-      "answer": "TOR"
-    },
-    {
-      "clue_id": 325287,
-      "puzzle_id": 3971,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "John who won a National Book Award for his novel \"The Centaur\"",
-      "answer": "UPDIKE"
-    },
-    {
-      "clue_id": 325288,
-      "puzzle_id": 3971,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Tool used in building some castles",
-      "answer": "PAIL"
-    },
-    {
-      "clue_id": 325289,
-      "puzzle_id": 3971,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Elizabeth of \"WandaVision\"",
-      "answer": "OLSEN"
-    },
-    {
-      "clue_id": 325290,
-      "puzzle_id": 3971,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Fifth wheels?",
-      "answer": "SPARETIRES"
-    },
-    {
-      "clue_id": 325291,
-      "puzzle_id": 3971,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Unfortunate",
-      "answer": "SAD"
-    },
-    {
-      "clue_id": 325292,
-      "puzzle_id": 3971,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Show, as of appreciation",
-      "answer": "TOKEN"
-    },
-    {
-      "clue_id": 325293,
-      "puzzle_id": 3971,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Graph type with sets of points",
-      "answer": "SCATTERPLOT"
-    },
-    {
-      "clue_id": 325294,
-      "puzzle_id": 3971,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Sport ___",
-      "answer": "UTE"
-    },
-    {
-      "clue_id": 325295,
-      "puzzle_id": 3971,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Game that aptly draws millions each day?",
-      "answer": "LOTTO"
-    },
-    {
-      "clue_id": 325296,
-      "puzzle_id": 3971,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "\"Who knew?!\"",
-      "answer": "IHADNOIDEA"
-    },
-    {
-      "clue_id": 325297,
-      "puzzle_id": 3971,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Sellout letters",
-      "answer": "SRO"
-    },
-    {
-      "clue_id": 325298,
-      "puzzle_id": 3971,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "2019 Harry Styles song whose subject \"lives in daydreams with me\"",
-      "answer": "SHE"
-    },
-    {
-      "clue_id": 325299,
-      "puzzle_id": 3971,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Grown-up",
-      "answer": "OFAGE"
-    },
-    {
-      "clue_id": 325300,
-      "puzzle_id": 3971,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Philatelist's prize",
-      "answer": "RARESTAMP"
-    },
-    {
-      "clue_id": 325301,
-      "puzzle_id": 3971,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Fella",
-      "answer": "BUB"
-    },
-    {
-      "clue_id": 325302,
-      "puzzle_id": 3971,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Games-organizing org.",
-      "answer": "IOC"
-    },
-    {
-      "clue_id": 325303,
-      "puzzle_id": 3971,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Comme ___ Garçons (fashion label)",
-      "answer": "DES"
-    },
-    {
-      "clue_id": 325304,
-      "puzzle_id": 3971,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Outfit for G.I. Joe",
-      "answer": "USARMY"
-    },
-    {
-      "clue_id": 325305,
-      "puzzle_id": 3971,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Lucas's younger sister on \"Stranger Things\"",
-      "answer": "ERICA"
-    },
-    {
-      "clue_id": 325306,
-      "puzzle_id": 3971,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Pussyfoot",
-      "answer": "SNEAK"
-    },
-    {
-      "clue_id": 325307,
-      "puzzle_id": 3971,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Singer Paul",
-      "answer": "ANKA"
-    },
-    {
-      "clue_id": 325308,
-      "puzzle_id": 3971,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Strong connection",
-      "answer": "BOND"
-    },
-    {
-      "clue_id": 325309,
-      "puzzle_id": 3971,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Encumbrance",
-      "answer": "ONUS"
-    },
-    {
-      "clue_id": 325310,
-      "puzzle_id": 3971,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Overseer of Artemis",
-      "answer": "NASA"
-    },
-    {
-      "clue_id": 325311,
-      "puzzle_id": 3971,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Bedframe part",
-      "answer": "SLAT"
-    },
-    {
-      "clue_id": 325312,
-      "puzzle_id": 3971,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "The F.D.A. approved a form of this to treat anxiety in 2024, for short",
-      "answer": "LSD"
-    },
-    {
-      "clue_id": 325313,
-      "puzzle_id": 3971,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Kind of milk",
-      "answer": "OAT"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 325249,
-      "puzzle_id": 3971,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Where Caitlin Clark played college hoops",
-      "answer": "IOWA"
-    },
-    {
-      "clue_id": 325250,
-      "puzzle_id": 3971,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "R-V guy?",
-      "answer": "STU"
-    },
-    {
-      "clue_id": 325251,
-      "puzzle_id": 3971,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Adds to a timeline, say",
-      "answer": "POSTS"
-    },
-    {
-      "clue_id": 325252,
-      "puzzle_id": 3971,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "One who's off-base?",
-      "answer": "SHORTSTOP"
-    },
-    {
-      "clue_id": 325253,
-      "puzzle_id": 3971,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "See 41-Across",
-      "answer": "ALPHA"
-    },
-    {
-      "clue_id": 325254,
-      "puzzle_id": 3971,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "\"To repeat ...\"",
-      "answer": "ISAID"
-    },
-    {
-      "clue_id": 325255,
-      "puzzle_id": 3971,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Unacceptable",
-      "answer": "NOTOKAY"
-    },
-    {
-      "clue_id": 325256,
-      "puzzle_id": 3971,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "They're not up to much",
-      "answer": "IDLERS"
-    },
-    {
-      "clue_id": 325257,
-      "puzzle_id": 3971,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Player — or piece of equipment — at Barclays Center",
-      "answer": "NET"
-    },
-    {
-      "clue_id": 325258,
-      "puzzle_id": 3971,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Instrument with a neck, informally",
-      "answer": "UKE"
-    },
-    {
-      "clue_id": 325259,
-      "puzzle_id": 3971,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Supreme Court justice Gorsuch",
-      "answer": "NEIL"
-    },
-    {
-      "clue_id": 325260,
-      "puzzle_id": 3971,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "General with orders?",
-      "answer": "TSO"
-    },
-    {
-      "clue_id": 325261,
-      "puzzle_id": 3971,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "\"Magnum, P.I.\" setting",
-      "answer": "OAHU"
-    },
-    {
-      "clue_id": 325262,
-      "puzzle_id": 3971,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Saver's asset",
-      "answer": "THRIFT"
-    },
-    {
-      "clue_id": 325263,
-      "puzzle_id": 3971,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Dude who might be in a row",
-      "answer": "FRATBRO"
-    },
-    {
-      "clue_id": 325264,
-      "puzzle_id": 3971,
-      "number": 37,
-      "direction": "across",
-      "clue_text": "\"You're not just imagining that tone\"",
-      "answer": "IHEARIT"
-    },
-    {
-      "clue_id": 325265,
-      "puzzle_id": 3971,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Makes sense",
-      "answer": "ADDSUP"
-    },
-    {
-      "clue_id": 325266,
-      "puzzle_id": 3971,
-      "number": 39,
-      "direction": "across",
-      "clue_text": ".pdf alternative",
-      "answer": "DOC"
-    },
-    {
-      "clue_id": 325267,
-      "puzzle_id": 3971,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "City between Sacramento and Salt Lake City on I-80",
-      "answer": "RENO"
-    },
-    {
-      "clue_id": 325268,
-      "puzzle_id": 3971,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "With 16-Across, group that began in the 2010s, familiarly",
-      "answer": "GEN"
-    },
-    {
-      "clue_id": 325269,
-      "puzzle_id": 3971,
-      "number": 42,
-      "direction": "across",
-      "clue_text": "Roquefort, e.g.",
-      "answer": "BLUECHEESE"
-    },
-    {
-      "clue_id": 325270,
-      "puzzle_id": 3971,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Book of Mormon figure",
-      "answer": "ENOS"
-    },
-    {
-      "clue_id": 325271,
-      "puzzle_id": 3971,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "C.I.A. forerunner",
-      "answer": "OSS"
-    },
-    {
-      "clue_id": 325272,
-      "puzzle_id": 3971,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "___ Technica (news site)",
-      "answer": "ARS"
-    },
-    {
-      "clue_id": 325273,
-      "puzzle_id": 3971,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Something often hit without you seeing it",
-      "answer": "PINATA"
-    },
-    {
-      "clue_id": 325274,
-      "puzzle_id": 3971,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Liverpudlians, e.g.",
-      "answer": "BRITONS"
-    },
-    {
-      "clue_id": 325275,
-      "puzzle_id": 3971,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Burdened",
-      "answer": "LADEN"
-    },
-    {
-      "clue_id": 325276,
-      "puzzle_id": 3971,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Job for a driller",
-      "answer": "ROOTCANAL"
-    },
-    {
-      "clue_id": 325277,
-      "puzzle_id": 3971,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "___ au poivre (entree that's often flambéed)",
-      "answer": "STEAK"
-    },
-    {
-      "clue_id": 325278,
-      "puzzle_id": 3971,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Largest Bengali-speaking city in the world",
-      "answer": "DHAKA"
-    },
-    {
-      "clue_id": 325279,
-      "puzzle_id": 3971,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Financial report abbr.",
-      "answer": "YTD"
-    },
-    {
-      "clue_id": 325280,
-      "puzzle_id": 3971,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Exam with a max score of 1520",
-      "answer": "PSAT"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 325281,
-      "puzzle_id": 3971,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Library fig.",
-      "answer": "ISBN"
-    },
-    {
-      "clue_id": 325282,
-      "puzzle_id": 3971,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Red state?",
-      "answer": "OHIO"
-    },
-    {
-      "clue_id": 325283,
-      "puzzle_id": 3971,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Refuses to",
-      "answer": "WONT"
-    },
-    {
-      "clue_id": 325284,
-      "puzzle_id": 3971,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Cephalopods with a name derived from Greek mythology",
-      "answer": "ARGONAUTS"
-    },
-    {
-      "clue_id": 325285,
-      "puzzle_id": 3971,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Visit",
-      "answer": "STAY"
-    },
-    {
-      "clue_id": 325286,
-      "puzzle_id": 3971,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Shortening for a city that omits \"onto\"",
-      "answer": "TOR"
-    },
-    {
-      "clue_id": 325287,
-      "puzzle_id": 3971,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "John who won a National Book Award for his novel \"The Centaur\"",
-      "answer": "UPDIKE"
-    },
-    {
-      "clue_id": 325288,
-      "puzzle_id": 3971,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Tool used in building some castles",
-      "answer": "PAIL"
-    },
-    {
-      "clue_id": 325289,
-      "puzzle_id": 3971,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Elizabeth of \"WandaVision\"",
-      "answer": "OLSEN"
-    },
-    {
-      "clue_id": 325290,
-      "puzzle_id": 3971,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Fifth wheels?",
-      "answer": "SPARETIRES"
-    },
-    {
-      "clue_id": 325291,
-      "puzzle_id": 3971,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Unfortunate",
-      "answer": "SAD"
-    },
-    {
-      "clue_id": 325292,
-      "puzzle_id": 3971,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Show, as of appreciation",
-      "answer": "TOKEN"
-    },
-    {
-      "clue_id": 325293,
-      "puzzle_id": 3971,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Graph type with sets of points",
-      "answer": "SCATTERPLOT"
-    },
-    {
-      "clue_id": 325294,
-      "puzzle_id": 3971,
-      "number": 23,
-      "direction": "down",
-      "clue_text": "Sport ___",
-      "answer": "UTE"
-    },
-    {
-      "clue_id": 325295,
-      "puzzle_id": 3971,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Game that aptly draws millions each day?",
-      "answer": "LOTTO"
-    },
-    {
-      "clue_id": 325296,
-      "puzzle_id": 3971,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "\"Who knew?!\"",
-      "answer": "IHADNOIDEA"
-    },
-    {
-      "clue_id": 325297,
-      "puzzle_id": 3971,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Sellout letters",
-      "answer": "SRO"
-    },
-    {
-      "clue_id": 325298,
-      "puzzle_id": 3971,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "2019 Harry Styles song whose subject \"lives in daydreams with me\"",
-      "answer": "SHE"
-    },
-    {
-      "clue_id": 325299,
-      "puzzle_id": 3971,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Grown-up",
-      "answer": "OFAGE"
-    },
-    {
-      "clue_id": 325300,
-      "puzzle_id": 3971,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Philatelist's prize",
-      "answer": "RARESTAMP"
-    },
-    {
-      "clue_id": 325301,
-      "puzzle_id": 3971,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Fella",
-      "answer": "BUB"
-    },
-    {
-      "clue_id": 325302,
-      "puzzle_id": 3971,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Games-organizing org.",
-      "answer": "IOC"
-    },
-    {
-      "clue_id": 325303,
-      "puzzle_id": 3971,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Comme ___ Garçons (fashion label)",
-      "answer": "DES"
-    },
-    {
-      "clue_id": 325304,
-      "puzzle_id": 3971,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Outfit for G.I. Joe",
-      "answer": "USARMY"
-    },
-    {
-      "clue_id": 325305,
-      "puzzle_id": 3971,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Lucas's younger sister on \"Stranger Things\"",
-      "answer": "ERICA"
-    },
-    {
-      "clue_id": 325306,
-      "puzzle_id": 3971,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "Pussyfoot",
-      "answer": "SNEAK"
-    },
-    {
-      "clue_id": 325307,
-      "puzzle_id": 3971,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Singer Paul",
-      "answer": "ANKA"
-    },
-    {
-      "clue_id": 325308,
-      "puzzle_id": 3971,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Strong connection",
-      "answer": "BOND"
-    },
-    {
-      "clue_id": 325309,
-      "puzzle_id": 3971,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Encumbrance",
-      "answer": "ONUS"
-    },
-    {
-      "clue_id": 325310,
-      "puzzle_id": 3971,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Overseer of Artemis",
-      "answer": "NASA"
-    },
-    {
-      "clue_id": 325311,
-      "puzzle_id": 3971,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Bedframe part",
-      "answer": "SLAT"
-    },
-    {
-      "clue_id": 325312,
-      "puzzle_id": 3971,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "The F.D.A. approved a form of this to treat anxiety in 2024, for short",
-      "answer": "LSD"
-    },
-    {
-      "clue_id": 325313,
-      "puzzle_id": 3971,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Kind of milk",
-      "answer": "OAT"
-    }
-  ]
+  "timestamp": "2025-11-09T00:31:14.253Z"
 }

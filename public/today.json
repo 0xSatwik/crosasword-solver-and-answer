@@ -1,995 +1,716 @@
 {
-  "puzzle": {
-    "puzzle_id": 3991,
-    "date": "2025-11-28",
-    "formatted_date": "Friday, November 28, 2025",
-    "title": "New York Times, Friday, November 28, 2025",
-    "author": "Jacob McDermott",
-    "editor": "Will Shortz",
-    "day_of_week": "Friday",
-    "permalink": "",
-    "created_at": "2025-11-28 04:30:24"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-11-29",
+      "formatted_date": "Saturday, November 29, 2025",
+      "day_of_week": "Saturday",
+      "title": "New York Times, Saturday, November 29, 2025",
+      "author": "Adrian Johnson",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 12,
+        "clue": "Company that made the world's first two-nanometer chip in 2021",
+        "answer": "IBM",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Might",
+        "answer": "MAY",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Pitcher's output",
+        "answer": "ADS",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Cytologists' study",
+        "answer": "CELLS",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Preferred piece of commercial real estate",
+        "answer": "CORNERLOT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Civil rights activist Baker",
+        "answer": "ELLA",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Drummer Peart",
+        "answer": "NEIL",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Dish of stuffed grape leaves",
+        "answer": "DOLMA",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Groan-worthy, say, as a joke",
+        "answer": "CORNY",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Know-it-all who might have a ball?",
+        "answer": "SEER",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Equilibrium",
+        "answer": "STASIS",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Nissan Stadium team",
+        "answer": "TITANS",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Viva voce",
+        "answer": "SPOKEN",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Devices for disc jockeys",
+        "answer": "FADERS",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "So-called \"father of macroeconomics\"",
+        "answer": "KEYNES",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "They're protected by scabbards",
+        "answer": "SABERS",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Minor crashes?",
+        "answer": "NAPS",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Blows a mean horn",
+        "answer": "WAILS",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "1988 Best Country Song Grammy winner for \"Hold Me\"",
+        "answer": "OSLIN",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Staff addition",
+        "answer": "HIRE",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Word with flat or tax",
+        "answer": "RATE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Voguing sequence",
+        "answer": "POSES",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Babe",
+        "answer": "HON",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "\"Man, that's loud!\"",
+        "answer": "WHATARACKET",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Valuable city-building resource in Catan",
+        "answer": "ORE",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Take it back!",
+        "answer": "TIMEMACHINE",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Jazz guitarist Montgomery",
+        "answer": "WES",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Intuitive alarm bells, informally",
+        "answer": "SPIDEYSENSE",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Leave no ___ (camping tenet)",
+        "answer": "TRACE",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Put off",
+        "answer": "REPEL",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "One of 32 in the country of Kiribati",
+        "answer": "ATOLL",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Country rental",
+        "answer": "VILLA",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Biblical figure said to have fathered Kenan at age 90",
+        "answer": "ENOS",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Gamer's frustration",
+        "answer": "LAG",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Compound in some soaps",
+        "answer": "GLYCERIN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Tend to, as some holes",
+        "answer": "DARN",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Wrapped",
+        "answer": "ENDED",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "\"Start talking\"",
+        "answer": "IMALLEARS",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "\"Dearie me!\"",
+        "answer": "MYSTARS",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Play list?",
+        "answer": "ROSTER",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Prominent features on goblin sharks",
+        "answer": "NOSES",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "What sfouf is, in Lebanese cuisine",
+        "answer": "CAKE",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Neighbor of the uvula",
+        "answer": "TONSIL",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Put off",
+        "answer": "TABLE",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Midmonth marker",
+        "answer": "IDES",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Coast",
+        "answer": "SEASHORE",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "It's up for grabs",
+        "answer": "FAIRGAME",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Skillfulness",
+        "answer": "KNOWHOW",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Like John, Paul or George, but not Ringo",
+        "answer": "SAINTED",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Existentialist's inquiry",
+        "answer": "WHOAMI",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Axolotl lookalikes",
+        "answer": "NEWTS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Tamiflu manufacturer",
+        "answer": "ROCHE",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Welcome to one's home",
+        "answer": "ASKIN",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Many first-time voters",
+        "answer": "TEENS",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "The \"E\" of the New York Stock Exchange's \"EL\"",
+        "answer": "ESTEE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Transport",
+        "answer": "SHIP",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Orgs. with \"war chests\"",
+        "answer": "PACS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "2004 biopic for which Jamie Foxx won an Oscar",
+        "answer": "RAY",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 12,
+        "clue": "Company that made the world's first two-nanometer chip in 2021",
+        "answer": "IBM",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Might",
+        "answer": "MAY",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Pitcher's output",
+        "answer": "ADS",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Cytologists' study",
+        "answer": "CELLS",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Preferred piece of commercial real estate",
+        "answer": "CORNERLOT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Civil rights activist Baker",
+        "answer": "ELLA",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Drummer Peart",
+        "answer": "NEIL",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Dish of stuffed grape leaves",
+        "answer": "DOLMA",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Groan-worthy, say, as a joke",
+        "answer": "CORNY",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Know-it-all who might have a ball?",
+        "answer": "SEER",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Equilibrium",
+        "answer": "STASIS",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Nissan Stadium team",
+        "answer": "TITANS",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Viva voce",
+        "answer": "SPOKEN",
+        "direction": "across"
+      },
+      {
+        "number": 32,
+        "clue": "Devices for disc jockeys",
+        "answer": "FADERS",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "So-called \"father of macroeconomics\"",
+        "answer": "KEYNES",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "They're protected by scabbards",
+        "answer": "SABERS",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Minor crashes?",
+        "answer": "NAPS",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Blows a mean horn",
+        "answer": "WAILS",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "1988 Best Country Song Grammy winner for \"Hold Me\"",
+        "answer": "OSLIN",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Staff addition",
+        "answer": "HIRE",
+        "direction": "across"
+      },
+      {
+        "number": 40,
+        "clue": "Word with flat or tax",
+        "answer": "RATE",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Voguing sequence",
+        "answer": "POSES",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "Babe",
+        "answer": "HON",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "\"Man, that's loud!\"",
+        "answer": "WHATARACKET",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Valuable city-building resource in Catan",
+        "answer": "ORE",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Take it back!",
+        "answer": "TIMEMACHINE",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Jazz guitarist Montgomery",
+        "answer": "WES",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Intuitive alarm bells, informally",
+        "answer": "SPIDEYSENSE",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Leave no ___ (camping tenet)",
+        "answer": "TRACE",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Put off",
+        "answer": "REPEL",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "One of 32 in the country of Kiribati",
+        "answer": "ATOLL",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Country rental",
+        "answer": "VILLA",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Biblical figure said to have fathered Kenan at age 90",
+        "answer": "ENOS",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Gamer's frustration",
+        "answer": "LAG",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Compound in some soaps",
+        "answer": "GLYCERIN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Tend to, as some holes",
+        "answer": "DARN",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Wrapped",
+        "answer": "ENDED",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "\"Start talking\"",
+        "answer": "IMALLEARS",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "\"Dearie me!\"",
+        "answer": "MYSTARS",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Play list?",
+        "answer": "ROSTER",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Prominent features on goblin sharks",
+        "answer": "NOSES",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "What sfouf is, in Lebanese cuisine",
+        "answer": "CAKE",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Neighbor of the uvula",
+        "answer": "TONSIL",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Put off",
+        "answer": "TABLE",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Midmonth marker",
+        "answer": "IDES",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Coast",
+        "answer": "SEASHORE",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "It's up for grabs",
+        "answer": "FAIRGAME",
+        "direction": "down"
+      },
+      {
+        "number": 33,
+        "clue": "Skillfulness",
+        "answer": "KNOWHOW",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Like John, Paul or George, but not Ringo",
+        "answer": "SAINTED",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Existentialist's inquiry",
+        "answer": "WHOAMI",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Axolotl lookalikes",
+        "answer": "NEWTS",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Tamiflu manufacturer",
+        "answer": "ROCHE",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Welcome to one's home",
+        "answer": "ASKIN",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Many first-time voters",
+        "answer": "TEENS",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "The \"E\" of the New York Stock Exchange's \"EL\"",
+        "answer": "ESTEE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Transport",
+        "answer": "SHIP",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Orgs. with \"war chests\"",
+        "answer": "PACS",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "2004 biopic for which Jamie Foxx won an Oscar",
+        "answer": "RAY",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 326798,
-      "puzzle_id": 3991,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Pension alternatives, for short",
-      "answer": "IRAS"
-    },
-    {
-      "clue_id": 326799,
-      "puzzle_id": 3991,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Hustle",
-      "answer": "SCAM"
-    },
-    {
-      "clue_id": 326800,
-      "puzzle_id": 3991,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "\"Odds are ...\"",
-      "answer": "IDBET"
-    },
-    {
-      "clue_id": 326801,
-      "puzzle_id": 3991,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Drive around the office?",
-      "answer": "WORKETHIC"
-    },
-    {
-      "clue_id": 326802,
-      "puzzle_id": 3991,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Actress Watts of \"Mulholland Drive\"",
-      "answer": "NAOMI"
-    },
-    {
-      "clue_id": 326803,
-      "puzzle_id": 3991,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Bahamians and Bahrainis",
-      "answer": "ISLANDERS"
-    },
-    {
-      "clue_id": 326804,
-      "puzzle_id": 3991,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Speedboat's speed",
-      "answer": "KNOTS"
-    },
-    {
-      "clue_id": 326805,
-      "puzzle_id": 3991,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Fake account",
-      "answer": "LIE"
-    },
-    {
-      "clue_id": 326806,
-      "puzzle_id": 3991,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Dead ends?",
-      "answer": "DEES"
-    },
-    {
-      "clue_id": 326807,
-      "puzzle_id": 3991,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "James in the National Rhythm & Blues Hall of Fame",
-      "answer": "RICK"
-    },
-    {
-      "clue_id": 326808,
-      "puzzle_id": 3991,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Piano études, essentially",
-      "answer": "LESSONS"
-    },
-    {
-      "clue_id": 326809,
-      "puzzle_id": 3991,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Not above",
-      "answer": "BENEATH"
-    },
-    {
-      "clue_id": 326810,
-      "puzzle_id": 3991,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Trusty",
-      "answer": "TRIEDANDTRUE"
-    },
-    {
-      "clue_id": 326811,
-      "puzzle_id": 3991,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Alternative to a fingerprint, maybe",
-      "answer": "PASSCODE"
-    },
-    {
-      "clue_id": 326812,
-      "puzzle_id": 3991,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Golfer McIlroy, the first European male to achieve a career Grand Slam",
-      "answer": "RORY"
-    },
-    {
-      "clue_id": 326813,
-      "puzzle_id": 3991,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Actress ___ Marsay of Disney+'s \"Andor\"",
-      "answer": "FAYE"
-    },
-    {
-      "clue_id": 326814,
-      "puzzle_id": 3991,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "The Jazz, on sports tickers",
-      "answer": "UTA"
-    },
-    {
-      "clue_id": 326815,
-      "puzzle_id": 3991,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Coming ___",
-      "answer": "SOON"
-    },
-    {
-      "clue_id": 326816,
-      "puzzle_id": 3991,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Small band",
-      "answer": "TRIO"
-    },
-    {
-      "clue_id": 326817,
-      "puzzle_id": 3991,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Jazz pianist with a memorable recording of \"Tea for Two\"",
-      "answer": "ARTTATUM"
-    },
-    {
-      "clue_id": 326818,
-      "puzzle_id": 3991,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "What the British call people who make crosswords",
-      "answer": "SETTERS"
-    },
-    {
-      "clue_id": 326819,
-      "puzzle_id": 3991,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Prepared statement?",
-      "answer": "IMREADY"
-    },
-    {
-      "clue_id": 326820,
-      "puzzle_id": 3991,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "One-named rock idol who was born Paul David Hewson",
-      "answer": "BONO"
-    },
-    {
-      "clue_id": 326821,
-      "puzzle_id": 3991,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Locking horns",
-      "answer": "ATIT"
-    },
-    {
-      "clue_id": 326822,
-      "puzzle_id": 3991,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Guess alternative",
-      "answer": "LEE"
-    },
-    {
-      "clue_id": 326823,
-      "puzzle_id": 3991,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Vegges out",
-      "answer": "LOAFS"
-    },
-    {
-      "clue_id": 326824,
-      "puzzle_id": 3991,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Foundational skateboard trick",
-      "answer": "OLLIE"
-    },
-    {
-      "clue_id": 326825,
-      "puzzle_id": 3991,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Sings (out)",
-      "answer": "BELTS"
-    },
-    {
-      "clue_id": 326826,
-      "puzzle_id": 3991,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Stereotypical eye-roller",
-      "answer": "TEEN"
-    },
-    {
-      "clue_id": 326827,
-      "puzzle_id": 3991,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Informal get-together",
-      "answer": "SESH"
-    },
-    {
-      "clue_id": 326828,
-      "puzzle_id": 3991,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Words of affirmation",
-      "answer": "IWILL"
-    },
-    {
-      "clue_id": 326829,
-      "puzzle_id": 3991,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Sam's wife in \"The Lord of the Rings\"",
-      "answer": "ROSIE"
-    },
-    {
-      "clue_id": 326830,
-      "puzzle_id": 3991,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Setting of the 1888 painting \"Café Terrace at Night\"",
-      "answer": "ARLES"
-    },
-    {
-      "clue_id": 326831,
-      "puzzle_id": 3991,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Genre for Toots and the Maytals",
-      "answer": "SKA"
-    },
-    {
-      "clue_id": 326832,
-      "puzzle_id": 3991,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Bishop for whom a neighborhood in Paris is named",
-      "answer": "STDENIS"
-    },
-    {
-      "clue_id": 326833,
-      "puzzle_id": 3991,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Junk food that, ironically, has an exercise in its name",
-      "answer": "CHEESECURLS"
-    },
-    {
-      "clue_id": 326834,
-      "puzzle_id": 3991,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Runs",
-      "answer": "AIRS"
-    },
-    {
-      "clue_id": 326835,
-      "puzzle_id": 3991,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Rap figures, for short",
-      "answer": "MCS"
-    },
-    {
-      "clue_id": 326836,
-      "puzzle_id": 3991,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Similarly",
-      "answer": "INKIND"
-    },
-    {
-      "clue_id": 326837,
-      "puzzle_id": 3991,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "One wearing the Star of Life emblem, for short",
-      "answer": "EMT"
-    },
-    {
-      "clue_id": 326838,
-      "puzzle_id": 3991,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "\"Quite so\"",
-      "answer": "TIS"
-    },
-    {
-      "clue_id": 326839,
-      "puzzle_id": 3991,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Back in the race?",
-      "answer": "ENDORSE"
-    },
-    {
-      "clue_id": 326840,
-      "puzzle_id": 3991,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "French name meaning \"born again\"",
-      "answer": "RENE"
-    },
-    {
-      "clue_id": 326841,
-      "puzzle_id": 3991,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Game division",
-      "answer": "TURN"
-    },
-    {
-      "clue_id": 326842,
-      "puzzle_id": 3991,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "\"I saw that!\"",
-      "answer": "HEY"
-    },
-    {
-      "clue_id": 326843,
-      "puzzle_id": 3991,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Eccentric",
-      "answer": "DOTTY"
-    },
-    {
-      "clue_id": 326844,
-      "puzzle_id": 3991,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Colorful capsule that splatters",
-      "answer": "PAINTBALL"
-    },
-    {
-      "clue_id": 326845,
-      "puzzle_id": 3991,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Like samples",
-      "answer": "FREE"
-    },
-    {
-      "clue_id": 326846,
-      "puzzle_id": 3991,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Appetizer",
-      "answer": "STARTER"
-    },
-    {
-      "clue_id": 326847,
-      "puzzle_id": 3991,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Anchors might be seen on them",
-      "answer": "TVS"
-    },
-    {
-      "clue_id": 326848,
-      "puzzle_id": 3991,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "___-Latino",
-      "answer": "AFRO"
-    },
-    {
-      "clue_id": 326849,
-      "puzzle_id": 3991,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Funny Fred",
-      "answer": "ARMISEN"
-    },
-    {
-      "clue_id": 326850,
-      "puzzle_id": 3991,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Picks up",
-      "answer": "SENSES"
-    },
-    {
-      "clue_id": 326851,
-      "puzzle_id": 3991,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Literary protagonist who \"generally gave herself very good advice (though she very seldom followed it)\"",
-      "answer": "ALICE"
-    },
-    {
-      "clue_id": 326852,
-      "puzzle_id": 3991,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Some hailstone \"souvenirs\"",
-      "answer": "DENTS"
-    },
-    {
-      "clue_id": 326853,
-      "puzzle_id": 3991,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "\"Oof, sounds terrible!\"",
-      "answer": "YEESH"
-    },
-    {
-      "clue_id": 326854,
-      "puzzle_id": 3991,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Top-tier",
-      "answer": "AONE"
-    },
-    {
-      "clue_id": 326855,
-      "puzzle_id": 3991,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Softball question",
-      "answer": "LOB"
-    },
-    {
-      "clue_id": 326856,
-      "puzzle_id": 3991,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "José ___ (Mexican food brand)",
-      "answer": "OLE"
-    },
-    {
-      "clue_id": 326857,
-      "puzzle_id": 3991,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Humble dwelling",
-      "answer": "HUT"
-    },
-    {
-      "clue_id": 326858,
-      "puzzle_id": 3991,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Served as",
-      "answer": "WAS"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 326798,
-      "puzzle_id": 3991,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Pension alternatives, for short",
-      "answer": "IRAS"
-    },
-    {
-      "clue_id": 326799,
-      "puzzle_id": 3991,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "Hustle",
-      "answer": "SCAM"
-    },
-    {
-      "clue_id": 326800,
-      "puzzle_id": 3991,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "\"Odds are ...\"",
-      "answer": "IDBET"
-    },
-    {
-      "clue_id": 326801,
-      "puzzle_id": 3991,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Drive around the office?",
-      "answer": "WORKETHIC"
-    },
-    {
-      "clue_id": 326802,
-      "puzzle_id": 3991,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Actress Watts of \"Mulholland Drive\"",
-      "answer": "NAOMI"
-    },
-    {
-      "clue_id": 326803,
-      "puzzle_id": 3991,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Bahamians and Bahrainis",
-      "answer": "ISLANDERS"
-    },
-    {
-      "clue_id": 326804,
-      "puzzle_id": 3991,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Speedboat's speed",
-      "answer": "KNOTS"
-    },
-    {
-      "clue_id": 326805,
-      "puzzle_id": 3991,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Fake account",
-      "answer": "LIE"
-    },
-    {
-      "clue_id": 326806,
-      "puzzle_id": 3991,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Dead ends?",
-      "answer": "DEES"
-    },
-    {
-      "clue_id": 326807,
-      "puzzle_id": 3991,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "James in the National Rhythm & Blues Hall of Fame",
-      "answer": "RICK"
-    },
-    {
-      "clue_id": 326808,
-      "puzzle_id": 3991,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Piano études, essentially",
-      "answer": "LESSONS"
-    },
-    {
-      "clue_id": 326809,
-      "puzzle_id": 3991,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Not above",
-      "answer": "BENEATH"
-    },
-    {
-      "clue_id": 326810,
-      "puzzle_id": 3991,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Trusty",
-      "answer": "TRIEDANDTRUE"
-    },
-    {
-      "clue_id": 326811,
-      "puzzle_id": 3991,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Alternative to a fingerprint, maybe",
-      "answer": "PASSCODE"
-    },
-    {
-      "clue_id": 326812,
-      "puzzle_id": 3991,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Golfer McIlroy, the first European male to achieve a career Grand Slam",
-      "answer": "RORY"
-    },
-    {
-      "clue_id": 326813,
-      "puzzle_id": 3991,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Actress ___ Marsay of Disney+'s \"Andor\"",
-      "answer": "FAYE"
-    },
-    {
-      "clue_id": 326814,
-      "puzzle_id": 3991,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "The Jazz, on sports tickers",
-      "answer": "UTA"
-    },
-    {
-      "clue_id": 326815,
-      "puzzle_id": 3991,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Coming ___",
-      "answer": "SOON"
-    },
-    {
-      "clue_id": 326816,
-      "puzzle_id": 3991,
-      "number": 34,
-      "direction": "across",
-      "clue_text": "Small band",
-      "answer": "TRIO"
-    },
-    {
-      "clue_id": 326817,
-      "puzzle_id": 3991,
-      "number": 35,
-      "direction": "across",
-      "clue_text": "Jazz pianist with a memorable recording of \"Tea for Two\"",
-      "answer": "ARTTATUM"
-    },
-    {
-      "clue_id": 326818,
-      "puzzle_id": 3991,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "What the British call people who make crosswords",
-      "answer": "SETTERS"
-    },
-    {
-      "clue_id": 326819,
-      "puzzle_id": 3991,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Prepared statement?",
-      "answer": "IMREADY"
-    },
-    {
-      "clue_id": 326820,
-      "puzzle_id": 3991,
-      "number": 44,
-      "direction": "across",
-      "clue_text": "One-named rock idol who was born Paul David Hewson",
-      "answer": "BONO"
-    },
-    {
-      "clue_id": 326821,
-      "puzzle_id": 3991,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Locking horns",
-      "answer": "ATIT"
-    },
-    {
-      "clue_id": 326822,
-      "puzzle_id": 3991,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "Guess alternative",
-      "answer": "LEE"
-    },
-    {
-      "clue_id": 326823,
-      "puzzle_id": 3991,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Vegges out",
-      "answer": "LOAFS"
-    },
-    {
-      "clue_id": 326824,
-      "puzzle_id": 3991,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "Foundational skateboard trick",
-      "answer": "OLLIE"
-    },
-    {
-      "clue_id": 326825,
-      "puzzle_id": 3991,
-      "number": 53,
-      "direction": "across",
-      "clue_text": "Sings (out)",
-      "answer": "BELTS"
-    },
-    {
-      "clue_id": 326826,
-      "puzzle_id": 3991,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Stereotypical eye-roller",
-      "answer": "TEEN"
-    },
-    {
-      "clue_id": 326827,
-      "puzzle_id": 3991,
-      "number": 55,
-      "direction": "across",
-      "clue_text": "Informal get-together",
-      "answer": "SESH"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 326828,
-      "puzzle_id": 3991,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Words of affirmation",
-      "answer": "IWILL"
-    },
-    {
-      "clue_id": 326829,
-      "puzzle_id": 3991,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Sam's wife in \"The Lord of the Rings\"",
-      "answer": "ROSIE"
-    },
-    {
-      "clue_id": 326830,
-      "puzzle_id": 3991,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Setting of the 1888 painting \"Café Terrace at Night\"",
-      "answer": "ARLES"
-    },
-    {
-      "clue_id": 326831,
-      "puzzle_id": 3991,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Genre for Toots and the Maytals",
-      "answer": "SKA"
-    },
-    {
-      "clue_id": 326832,
-      "puzzle_id": 3991,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Bishop for whom a neighborhood in Paris is named",
-      "answer": "STDENIS"
-    },
-    {
-      "clue_id": 326833,
-      "puzzle_id": 3991,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Junk food that, ironically, has an exercise in its name",
-      "answer": "CHEESECURLS"
-    },
-    {
-      "clue_id": 326834,
-      "puzzle_id": 3991,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Runs",
-      "answer": "AIRS"
-    },
-    {
-      "clue_id": 326835,
-      "puzzle_id": 3991,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Rap figures, for short",
-      "answer": "MCS"
-    },
-    {
-      "clue_id": 326836,
-      "puzzle_id": 3991,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Similarly",
-      "answer": "INKIND"
-    },
-    {
-      "clue_id": 326837,
-      "puzzle_id": 3991,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "One wearing the Star of Life emblem, for short",
-      "answer": "EMT"
-    },
-    {
-      "clue_id": 326838,
-      "puzzle_id": 3991,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "\"Quite so\"",
-      "answer": "TIS"
-    },
-    {
-      "clue_id": 326839,
-      "puzzle_id": 3991,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Back in the race?",
-      "answer": "ENDORSE"
-    },
-    {
-      "clue_id": 326840,
-      "puzzle_id": 3991,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "French name meaning \"born again\"",
-      "answer": "RENE"
-    },
-    {
-      "clue_id": 326841,
-      "puzzle_id": 3991,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "Game division",
-      "answer": "TURN"
-    },
-    {
-      "clue_id": 326842,
-      "puzzle_id": 3991,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "\"I saw that!\"",
-      "answer": "HEY"
-    },
-    {
-      "clue_id": 326843,
-      "puzzle_id": 3991,
-      "number": 28,
-      "direction": "down",
-      "clue_text": "Eccentric",
-      "answer": "DOTTY"
-    },
-    {
-      "clue_id": 326844,
-      "puzzle_id": 3991,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Colorful capsule that splatters",
-      "answer": "PAINTBALL"
-    },
-    {
-      "clue_id": 326845,
-      "puzzle_id": 3991,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Like samples",
-      "answer": "FREE"
-    },
-    {
-      "clue_id": 326846,
-      "puzzle_id": 3991,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "Appetizer",
-      "answer": "STARTER"
-    },
-    {
-      "clue_id": 326847,
-      "puzzle_id": 3991,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Anchors might be seen on them",
-      "answer": "TVS"
-    },
-    {
-      "clue_id": 326848,
-      "puzzle_id": 3991,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "___-Latino",
-      "answer": "AFRO"
-    },
-    {
-      "clue_id": 326849,
-      "puzzle_id": 3991,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Funny Fred",
-      "answer": "ARMISEN"
-    },
-    {
-      "clue_id": 326850,
-      "puzzle_id": 3991,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Picks up",
-      "answer": "SENSES"
-    },
-    {
-      "clue_id": 326851,
-      "puzzle_id": 3991,
-      "number": 41,
-      "direction": "down",
-      "clue_text": "Literary protagonist who \"generally gave herself very good advice (though she very seldom followed it)\"",
-      "answer": "ALICE"
-    },
-    {
-      "clue_id": 326852,
-      "puzzle_id": 3991,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Some hailstone \"souvenirs\"",
-      "answer": "DENTS"
-    },
-    {
-      "clue_id": 326853,
-      "puzzle_id": 3991,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "\"Oof, sounds terrible!\"",
-      "answer": "YEESH"
-    },
-    {
-      "clue_id": 326854,
-      "puzzle_id": 3991,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Top-tier",
-      "answer": "AONE"
-    },
-    {
-      "clue_id": 326855,
-      "puzzle_id": 3991,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Softball question",
-      "answer": "LOB"
-    },
-    {
-      "clue_id": 326856,
-      "puzzle_id": 3991,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "José ___ (Mexican food brand)",
-      "answer": "OLE"
-    },
-    {
-      "clue_id": 326857,
-      "puzzle_id": 3991,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Humble dwelling",
-      "answer": "HUT"
-    },
-    {
-      "clue_id": 326858,
-      "puzzle_id": 3991,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Served as",
-      "answer": "WAS"
-    }
-  ]
+  "timestamp": "2025-11-29T04:30:49.958Z"
 }

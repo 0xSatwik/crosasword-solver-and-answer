@@ -62,7 +62,7 @@ export default function Footer() {
                                 </div>
                                 <span className="text-2xl font-bold">
                                     <span className="text-blue-400">Crossword</span>
-                                    <span className="text-amber-400">Central</span>
+                                    <span className="text-amber-400">Solver</span>
                                 </span>
                             </div>
                         </Link>
@@ -147,11 +147,11 @@ export default function Footer() {
                         {/* Contact info */}
                         <div className="mt-6 pt-6 border-t border-white/10">
                             <a
-                                href="mailto:contact@crosswordcentral.com"
+                                href="mailto:contact@crosswordsolver.com"
                                 className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-300"
                             >
                                 <Mail className="w-4 h-4" />
-                                <span className="text-sm">contact@crosswordcentral.com</span>
+                                <span className="text-sm">contact@crosswordsolver.com</span>
                             </a>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-white/10">
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                         <p className="text-gray-500 text-sm text-center sm:text-left">
-                            © {currentYear} Crossword Central. All rights reserved.
+                            © {currentYear} Crossword Solver. All rights reserved.
                         </p>
                         <p className="text-gray-600 text-xs">
                             Made with <span className="text-red-400">♥</span> for crossword enthusiasts

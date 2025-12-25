@@ -2,12 +2,10 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { promises as fs } from 'fs';
 import path from 'path';
-import { 
-  CalendarIcon, 
+import {
+  CalendarIcon,
   UserIcon,
   EditIcon,
-  InfoIcon,
-  PlayIcon,
   ArrowLeftIcon,
   ArchiveIcon
 } from 'lucide-react';
@@ -25,12 +23,12 @@ async function fetchLatestCrossword() {
       console.error("Fetched today.json is invalid or empty.");
       return null;
     }
-    
+
     // Get today's date in YYYY-MM-DD format for comparison
     const today = new Date();
     const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-    
-    return { 
+
+    return {
       data: data,
       // A flag to indicate if the puzzle data is for a day other than today
       isStale: data.puzzle.date !== todayStr,
@@ -47,23 +45,23 @@ async function fetchLatestCrossword() {
 // Format date for display
 function formatDate(dateString: string) {
   const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', { 
-    weekday: 'long', 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
+  return date.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
   });
 }
 
 export const metadata: Metadata = {
-  title: 'NYT Daily Crossword | Crossword Central',
+  title: 'NYT Daily Crossword | Crossword Solver',
   description: 'Today\'s New York Times crossword puzzle with solutions - updated daily at 5am IST.',
 };
 
 export default async function NytDailyPage() {
   // Fetch crossword data from the static file
   const result = await fetchLatestCrossword();
-  
+
   // If no data is available, show a message instead of 404
   if (!result) {
     return (
@@ -71,7 +69,7 @@ export default async function NytDailyPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl">
             <div className="mb-6">
-              <Link 
+              <Link
                 href="/daily"
                 className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800"
               >
@@ -79,14 +77,14 @@ export default async function NytDailyPage() {
                 Back to Daily Crosswords
               </Link>
             </div>
-            
+
             <div className="rounded-xl bg-white p-6 shadow-xl text-center">
               <h1 className="text-3xl font-bold text-gray-900 mb-4">NYT Daily Crossword</h1>
               <div className="p-8 bg-gray-50 rounded-lg mb-6">
                 <p className="text-gray-700 mb-4">Sorry, we couldn't load today's crossword puzzle.</p>
                 <p className="text-gray-600">Our system automatically checks for new puzzles at 5am IST daily.</p>
               </div>
-              <Link 
+              <Link
                 href="/daily/nyt-archive"
                 className="inline-flex items-center rounded-full bg-blue-600 px-5 py-2 text-sm font-medium text-white shadow-md transition-all hover:bg-blue-700 hover:shadow-lg"
               >
@@ -99,20 +97,20 @@ export default async function NytDailyPage() {
       </div>
     );
   }
-  
+
   const { data, isStale, actualDate } = result;
   const { puzzle, across, down } = data;
-  
+
   // Format dates for display
   const displayDate = formatDate(puzzle.date);
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-5xl">
           {/* Back to Daily */}
           <div className="mb-6">
-            <Link 
+            <Link
               href="/daily"
               className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800"
             >
@@ -125,11 +123,11 @@ export default async function NytDailyPage() {
           <div className="mb-8 rounded-xl bg-white p-6 shadow-xl">
             {isStale && (
               <div className="mb-4 rounded-md bg-yellow-100 p-3 text-sm text-yellow-800">
-                <strong>Note:</strong> Today's crossword is not yet available. 
+                <strong>Note:</strong> Today's crossword is not yet available.
                 Showing the most recent puzzle from {formatDate(actualDate)}.
               </div>
             )}
-            
+
             <div className="text-center">
               <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-0.5 text-sm font-medium text-blue-800">
                 New York Times
@@ -144,7 +142,7 @@ export default async function NytDailyPage() {
                 <span>{puzzle.day_of_week}</span>
               </div>
             </div>
-            
+
             <div className="mt-6 grid grid-cols-1 gap-6 border-t border-gray-100 pt-6 md:grid-cols-2">
               <div className="flex items-start space-x-3">
                 <UserIcon className="h-5 w-5 text-blue-600" />
@@ -153,7 +151,7 @@ export default async function NytDailyPage() {
                   <p className="text-gray-900">{puzzle.author}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <EditIcon className="h-5 w-5 text-blue-600" />
                 <div>
@@ -163,26 +161,18 @@ export default async function NytDailyPage() {
               </div>
             </div>
           </div>
-          
+
           {/* Action Buttons */}
-          <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:items-center sm:justify-center sm:space-y-0 sm:space-x-4">
+          <div className="mb-8 flex justify-center">
             <Link
               href="/daily/nyt-archive"
-              className="flex items-center rounded-full bg-purple-600 px-5 py-2 text-sm font-medium text-white shadow-md transition-all hover:bg-purple-700 hover:shadow-lg"
+              className="flex items-center rounded-full bg-purple-600 px-6 py-3 text-sm font-medium text-white shadow-md transition-all hover:bg-purple-700 hover:shadow-lg"
             >
               <ArchiveIcon className="mr-2 h-4 w-4" />
               Browse Puzzle Archive
             </Link>
-            
-            <Link
-              href={`/nyt-crosswords/${actualDate.split('-')[0]}/${actualDate.split('-')[1]}/${actualDate.split('-')[2]}`}
-              className="flex items-center rounded-full bg-blue-600 px-5 py-2 text-sm font-medium text-white shadow-md transition-all hover:bg-blue-700 hover:shadow-lg"
-            >
-              <PlayIcon className="mr-2 h-4 w-4" />
-              Play This Puzzle
-            </Link>
           </div>
-          
+
           {/* Clues Section */}
           <div className="mb-8 grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* Across Clues */}
@@ -191,7 +181,7 @@ export default async function NytDailyPage() {
                 Across
               </h3>
               <div className="space-y-3">
-                {across.map((clue, idx) => (
+                {across.map((clue: { number: number; clue_text: string; answer?: string }, idx: number) => (
                   <div key={`across-${idx}`} className="rounded-md bg-white p-3 shadow-sm transition-all hover:shadow-md">
                     <div className="flex flex-col">
                       <div className="flex items-start">
@@ -212,14 +202,14 @@ export default async function NytDailyPage() {
                 ))}
               </div>
             </div>
-            
+
             {/* Down Clues */}
             <div className="rounded-lg bg-green-50 p-4 shadow-inner">
               <h3 className="mb-4 border-b border-green-200 pb-2 text-xl font-semibold text-green-900">
                 Down
               </h3>
               <div className="space-y-3">
-                {down.map((clue, idx) => (
+                {down.map((clue: { number: number; clue_text: string; answer?: string }, idx: number) => (
                   <div key={`down-${idx}`} className="rounded-md bg-white p-3 shadow-sm transition-all hover:shadow-md">
                     <div className="flex flex-col">
                       <div className="flex items-start">
@@ -241,14 +231,14 @@ export default async function NytDailyPage() {
               </div>
             </div>
           </div>
-          
-          {/* API Source Info */}
+
+          {/* Footer Info */}
           <div className="mt-8 text-center text-sm text-gray-500">
-            <p>Please Bookmark our website for daily answer</p>
-            <p className="mt-1">Updated daily</p>
+            <p>Please Bookmark our website for daily answers</p>
+            <p className="mt-1">Updated daily at 5am IST</p>
           </div>
         </div>
       </div>
     </div>
   );
-} 
+}

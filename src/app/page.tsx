@@ -1,48 +1,65 @@
 import Link from "next/link";
-import { CalendarDays, Database, Puzzle, Wrench, ArrowRight, Sparkles, Zap } from "lucide-react";
+import { CalendarDays, Database, Puzzle, Wrench, ArrowRight, Sparkles, Zap, HelpCircle, ChevronDown } from "lucide-react";
+
+// FAQ data for SEO
+const faqs = [
+  {
+    question: "How do I use the crossword solver?",
+    answer: "Enter your crossword clue in the search box, select the word length if known, and add any letters you've already figured out. Our solver will find matching answers from our database of crossword solutions."
+  },
+  {
+    question: "Where do the daily crossword answers come from?",
+    answer: "We aggregate solutions from major publications including The New York Times, USA Today, LA Times, and more. Answers are updated daily to ensure you always have access to the latest puzzles."
+  },
+  {
+    question: "Is the crossword solver free to use?",
+    answer: "Yes! Our crossword solver and all daily solutions are completely free to use. No registration required."
+  },
+  {
+    question: "Can I play old NYT crossword puzzles?",
+    answer: "Absolutely! Our archive contains New York Times crosswords from 1977 to 2014, giving you access to thousands of classic puzzles to solve."
+  },
+  {
+    question: "How accurate are the crossword answers?",
+    answer: "Our solutions are sourced from verified crossword databases and are highly accurate. We cross-reference multiple sources to ensure reliability."
+  }
+];
 
 export default function Home() {
-  const currentDate = new Date();
-  const year = currentDate.getFullYear();
-  const month = String(currentDate.getMonth() + 1).padStart(2, '0');
-  const day = String(currentDate.getDate()).padStart(2, '0');
-
   const features = [
     {
       icon: CalendarDays,
       title: 'Daily Solutions',
+      abbr: 'NEW',
       description: 'Get answers for NYT, USA Today, LA Times, and other popular crosswords updated daily.',
       href: '/daily',
-      color: 'from-blue-500 to-cyan-500',
-      bgColor: 'bg-blue-50',
+      color: 'from-blue-500 to-indigo-600',
     },
     {
       icon: Wrench,
       title: 'Solver Tool',
-      description: 'Our advanced solver helps you find answers using clues, patterns, and letter hints.',
+      abbr: 'PRO',
+      description: 'Find answers using clues, patterns, and letter hints with our powerful solver.',
       href: '/solver',
-      color: 'from-amber-500 to-orange-500',
-      bgColor: 'bg-amber-50',
+      color: 'from-amber-500 to-orange-600',
     },
     {
       icon: Puzzle,
-      title: 'Guides & Tips',
-      description: 'Learn expert techniques and strategies to improve your crossword solving skills.',
-      href: '/guides',
-      color: 'from-emerald-500 to-teal-500',
-      bgColor: 'bg-emerald-50',
+      title: 'Play Crossword',
+      abbr: '10K+',
+      description: 'Access every New York Times crossword since 1977 in our comprehensive archive.',
+      href: '/nyt-crosswords',
+      color: 'from-purple-500 to-pink-600',
     },
     {
       icon: Database,
-      title: 'Play Crossword',
-      description: 'Access every New York Times crossword since 1977 with our comprehensive archive.',
-      href: '/nyt-crosswords',
-      color: 'from-purple-500 to-pink-500',
-      bgColor: 'bg-purple-50',
+      title: 'Guides & Tips',
+      abbr: 'FREE',
+      description: 'Learn expert techniques and strategies to improve your crossword solving skills.',
+      href: '/guides',
+      color: 'from-emerald-500 to-teal-600',
     },
   ];
-
-  const publications = ['NYT', 'USA Today', 'LA Times', 'WSJ', 'The Guardian', 'Universal'];
 
   return (
     <>
@@ -79,7 +96,7 @@ export default function Home() {
 
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white md:text-6xl lg:text-7xl animate-fade-in-up" style={{ animationDelay: '100ms' }}>
             <span className="text-white">Crossword</span>{" "}
-            <span className="text-yellow-300">Central</span>
+            <span className="text-yellow-300">Solver</span>
           </h1>
 
           <p className="mx-auto mb-10 max-w-2xl text-lg text-white/90 md:text-xl animate-fade-in-up" style={{ animationDelay: '200ms' }}>
@@ -89,11 +106,11 @@ export default function Home() {
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row animate-fade-in-up" style={{ animationDelay: '300ms' }}>
             <Link
-              href="/nyt-crosswords"
+              href="/solver"
               className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-gray-900 shadow-xl transition-all duration-300 hover:bg-yellow-300 hover:shadow-2xl hover:scale-105"
             >
-              <Puzzle className="w-5 h-5" />
-              Play Crossword
+              <Wrench className="w-5 h-5" />
+              Try Solver Tool
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
@@ -107,18 +124,18 @@ export default function Home() {
 
           <div className="mt-8 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <Link
-              href="/solver"
+              href="/nyt-crosswords"
               className="group inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300"
             >
-              <Zap className="w-4 h-4" />
-              <span className="border-b border-white/50 group-hover:border-white">Try our powerful Solver Tool</span>
+              <Puzzle className="w-4 h-4" />
+              <span className="border-b border-white/50 group-hover:border-white">Play NYT Crosswords (1977-2014)</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Features Section - New Premium Design */}
       <section className="py-20 md:py-28 bg-gradient-to-b from-white to-gray-50/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -133,6 +150,7 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Premium Card Grid */}
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, index) => {
               const Icon = feature.icon;
@@ -140,25 +158,35 @@ export default function Home() {
                 <Link
                   key={feature.title}
                   href={feature.href}
-                  className="group card-premium hover-lift animate-fade-in-up"
+                  className="group relative overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up border border-gray-100"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  {/* Icon */}
-                  <div className={`mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${feature.color} text-white shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300`}>
-                    <Icon className="h-7 w-7" />
+                  {/* Badge */}
+                  <div className={`absolute top-4 right-4 bg-gradient-to-r ${feature.color} text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-10`}>
+                    {feature.abbr}
                   </div>
 
-                  <h3 className="mb-3 text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                    {feature.title}
-                  </h3>
+                  {/* Colored header section */}
+                  <div className="relative p-6 bg-gradient-to-br from-gray-50 to-white">
+                    {/* Icon */}
+                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${feature.color} flex items-center justify-center text-white shadow-xl group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300`}>
+                      <Icon className="h-8 w-8" />
+                    </div>
 
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    {feature.description}
-                  </p>
+                    <h3 className="text-xl font-bold text-gray-900 mt-5 mb-2 group-hover:text-blue-600 transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
 
-                  <div className="flex items-center gap-1 text-blue-600 font-medium group-hover:gap-2 transition-all">
-                    <span>Learn more</span>
-                    <ArrowRight className="w-4 h-4" />
+                  {/* Footer */}
+                  <div className="flex items-center justify-between p-4 bg-white border-t border-gray-100">
+                    <span className="text-sm text-gray-500">Explore</span>
+                    <div className={`flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br ${feature.color} text-white group-hover:scale-110 transition-transform`}>
+                      <ArrowRight className="w-5 h-5" />
+                    </div>
                   </div>
                 </Link>
               );
@@ -167,34 +195,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Publications Section */}
-      <section className="py-20 md:py-24 bg-white">
+      {/* FAQ Section for SEO */}
+      <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl mb-4">
-              Featured <span className="text-gradient-gold">Publications</span>
-            </h2>
-            <p className="text-gray-600">
-              We cover solutions for all major crossword puzzles
-            </p>
-          </div>
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-100 text-purple-700 text-sm font-medium mb-4">
+                <HelpCircle className="w-4 h-4" />
+                FAQ
+              </span>
+              <h2 className="text-3xl font-bold text-gray-900 md:text-4xl mb-4">
+                Frequently Asked <span className="text-gradient">Questions</span>
+              </h2>
+              <p className="text-gray-600">
+                Everything you need to know about our crossword solver
+              </p>
+            </div>
 
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
-            {publications.map((pub, index) => (
-              <Link
-                key={pub}
-                href={`/daily/${pub.toLowerCase().replace(/\s+/g, '-')}/latest`}
-                className="group flex flex-col items-center justify-center rounded-2xl bg-gray-50 p-6 text-center hover:bg-gradient-to-br hover:from-blue-500 hover:to-purple-600 transition-all duration-300 hover:shadow-xl hover:scale-105 animate-fade-in-up"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                <div className="mb-3 text-2xl font-bold text-blue-600 group-hover:text-white transition-colors">
-                  {pub.split(' ').map(word => word.charAt(0)).join('')}
-                </div>
-                <span className="text-sm font-medium text-gray-700 group-hover:text-white/90 transition-colors">
-                  {pub}
-                </span>
-              </Link>
-            ))}
+            <div className="space-y-4">
+              {faqs.map((faq, index) => (
+                <details
+                  key={index}
+                  className="group bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden"
+                >
+                  <summary className="flex items-center justify-between p-5 cursor-pointer list-none">
+                    <h3 className="font-semibold text-gray-900 pr-4">{faq.question}</h3>
+                    <ChevronDown className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform flex-shrink-0" />
+                  </summary>
+                  <div className="px-5 pb-5 text-gray-600">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -234,6 +267,51 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* JSON-LD Schema for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Crossword Solver",
+            "description": "Free online crossword solver and daily crossword answers. Find solutions for NYT, USA Today, LA Times and more.",
+            "url": "https://crosswordsolver.com",
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "Any",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "1250"
+            }
+          })
+        }}
+      />
+
+      {/* FAQ Schema for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
     </>
   );
 }

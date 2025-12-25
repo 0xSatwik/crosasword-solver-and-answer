@@ -5,8 +5,8 @@ import Footer from './components/Footer';
 import LoadingIndicator from './components/LoadingIndicator';
 
 export const metadata = {
-  title: 'Crossword Central - Solutions, Tools & Guides',
-  description: 'Your one-stop destination for daily crossword solutions, solving tools, and expert crossword guides.',
+  title: 'Crossword Solver - Free Daily Solutions & Answers',
+  description: 'Free online crossword solver and daily answers for NYT, USA Today, LA Times and more. Find solutions with our powerful solver tool.',
 };
 
 export default function RootLayout({

@@ -227,10 +227,6 @@ export default function SolverPage() {
       <div className="container mx-auto px-4">
         {/* Page Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-amber-100 to-orange-100 text-amber-700 text-sm font-medium">
-            <Sparkles className="w-4 h-4" />
-            Powered by Advanced AI
-          </div>
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             Crossword <span className="text-gradient">Solver</span>
           </h1>

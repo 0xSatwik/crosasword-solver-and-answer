@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { Calendar, NewspaperIcon, Clock, Sparkles, ArrowRight, Shuffle } from 'lucide-react';
+import { Calendar, NewspaperIcon, Sparkles, ArrowRight, Shuffle, Trophy, Clock, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Daily Crosswords | Crossword Central',
+  title: 'Daily Crosswords | Crossword Solver',
   description: 'Access today\'s crossword puzzles from NYT, USA Today, LA Times and more - updated daily at 5am IST.',
 };
 
@@ -17,40 +17,43 @@ export default function DailyCrosswordsPage() {
     day: 'numeric'
   });
 
-  // Format for URL
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, '0');
-  const day = String(today.getDate()).padStart(2, '0');
-  const dateUrl = `${year}/${month}/${day}`;
-
   const crosswordSources = [
     {
       title: 'NYT Daily',
-      description: 'The New York Times daily crossword puzzle',
+      description: 'The New York Times daily crossword puzzle with answers',
       icon: NewspaperIcon,
-      gradient: 'from-blue-500 to-cyan-500',
-      bgGradient: 'from-blue-50 to-cyan-50',
+      gradient: 'from-blue-500 to-indigo-600',
+      bgGradient: 'from-blue-50 to-indigo-50',
       href: '/daily/nyt-daily',
-      updated: 'Updated daily at 5am IST',
+      badge: 'Most Popular',
+      badgeColor: 'bg-amber-500',
     },
     {
       title: 'NYT Archive',
-      description: 'Browse historical New York Times crossword puzzles',
+      description: 'Browse puzzles from 1977 to present',
       icon: Calendar,
-      gradient: 'from-emerald-500 to-teal-500',
+      gradient: 'from-emerald-500 to-teal-600',
       bgGradient: 'from-emerald-50 to-teal-50',
       href: '/daily/nyt-archive',
-      updated: 'Puzzles from 1977 to present',
+      badge: '45+ Years',
+      badgeColor: 'bg-emerald-500',
     },
     {
-      title: 'Play Random Puzzle',
-      description: 'Try a random crossword puzzle from our archives',
+      title: 'Random Puzzle',
+      description: 'Challenge yourself with a random puzzle',
       icon: Shuffle,
-      gradient: 'from-purple-500 to-pink-500',
+      gradient: 'from-purple-500 to-pink-600',
       bgGradient: 'from-purple-50 to-pink-50',
       href: '/nyt-crosswords/random',
-      updated: 'Thousands of puzzles available',
+      badge: '10K+ Puzzles',
+      badgeColor: 'bg-purple-500',
     },
+  ];
+
+  const stats = [
+    { icon: Trophy, value: '45+', label: 'Years of Archives', color: 'text-amber-500' },
+    { icon: Users, value: '10K+', label: 'Puzzles Available', color: 'text-blue-500' },
+    { icon: Clock, value: '5 AM', label: 'Daily Updates IST', color: 'text-emerald-500' },
   ];
 
   return (
@@ -62,17 +65,18 @@ export default function DailyCrosswordsPage() {
           <div className="mb-12 text-center animate-fade-in-up">
             <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 text-sm font-medium">
               <Sparkles className="w-4 h-4" />
-              Updated Daily
+              Fresh Puzzles Every Day
             </div>
             <h1 className="text-4xl font-bold text-gray-900 md:text-5xl mb-4">
               Daily <span className="text-gradient">Crosswords</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-2">
-              Today's crossword puzzles from top publishers
+            <p className="text-lg text-gray-600 mb-4">
+              Access today's crossword puzzles from top publishers
             </p>
-            <p className="text-sm text-gray-500 bg-white/60 backdrop-blur-sm inline-block px-4 py-2 rounded-full border border-gray-200">
-              📅 {formattedDate}
-            </p>
+            <div className="inline-flex items-center gap-2 text-sm text-gray-500 bg-white/80 backdrop-blur-sm px-5 py-2.5 rounded-full border border-gray-200 shadow-sm">
+              <Calendar className="w-4 h-4 text-blue-500" />
+              {formattedDate}
+            </div>
           </div>
 
           {/* Crossword Sources Grid */}
@@ -83,26 +87,30 @@ export default function DailyCrosswordsPage() {
                 <Link
                   href={source.href}
                   key={index}
-                  className="group card-premium overflow-hidden hover-lift animate-fade-in-up"
+                  className="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up border border-gray-100"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  {/* Colored header */}
-                  <div className={`relative p-6 bg-gradient-to-br ${source.bgGradient} -m-6 mb-0`}>
+                  {/* Badge */}
+                  <div className={`absolute top-4 right-4 ${source.badgeColor} text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-10`}>
+                    {source.badge}
+                  </div>
+
+                  {/* Colored header section */}
+                  <div className={`relative p-8 bg-gradient-to-br ${source.bgGradient}`}>
                     {/* Icon */}
-                    <div className={`absolute right-4 top-4 w-14 h-14 rounded-2xl bg-gradient-to-br ${source.gradient} flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform`}>
-                      <Icon className="h-7 w-7" />
+                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${source.gradient} flex items-center justify-center text-white shadow-xl group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300`}>
+                      <Icon className="h-8 w-8" />
                     </div>
 
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{source.title}</h3>
-                    <p className="text-sm text-gray-600 pr-16">{source.description}</p>
+                    <h3 className="text-2xl font-bold text-gray-900 mt-5 mb-2">{source.title}</h3>
+                    <p className="text-gray-600">{source.description}</p>
                   </div>
 
                   {/* Footer */}
-                  <div className="flex items-center justify-between p-6 -m-6 mt-4 bg-white">
-                    <p className="text-xs text-gray-500">{source.updated}</p>
-                    <div className={`flex items-center gap-1 text-sm font-semibold bg-gradient-to-r ${source.gradient} bg-clip-text text-transparent group-hover:gap-2 transition-all`}>
-                      <span>View</span>
-                      <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-blue-500 transition-colors" />
+                  <div className="flex items-center justify-between p-5 bg-white border-t border-gray-100">
+                    <span className="text-sm text-gray-500">View puzzles</span>
+                    <div className={`flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br ${source.gradient} text-white group-hover:scale-110 transition-transform`}>
+                      <ArrowRight className="w-5 h-5" />
                     </div>
                   </div>
                 </Link>
@@ -110,43 +118,32 @@ export default function DailyCrosswordsPage() {
             })}
           </div>
 
-          {/* API Information */}
-          <div className="card-glass rounded-3xl p-8 text-center animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 text-white mb-6 shadow-lg">
-              <Sparkles className="w-8 h-8" />
+          {/* Stats Section */}
+          <div className="card-glass rounded-3xl p-8 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                Your Crossword <span className="text-gradient">Destination</span>
+              </h2>
+              <p className="text-gray-600">
+                The most comprehensive crossword archive on the web
+              </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Automatic Updates
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-              All crosswords are automatically updated daily at 5am IST using our Crossword Archive API.
-              If today's puzzle is unavailable, we'll display the most recent available puzzle.
-            </p>
-
-            <div className="bg-gray-900 rounded-xl p-4 max-w-xl mx-auto">
-              <code className="text-sm text-emerald-400 break-all">
-                https://crossword-archive-worker.mitomat.workers.dev/api/puzzle/{dateUrl}
-              </code>
+            <div className="grid grid-cols-3 gap-6">
+              {stats.map((stat, index) => {
+                const Icon = stat.icon;
+                return (
+                  <div
+                    key={index}
+                    className="text-center p-4 rounded-2xl bg-white/50 border border-gray-100"
+                  >
+                    <Icon className={`w-8 h-8 mx-auto mb-3 ${stat.color}`} />
+                    <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
+                    <div className="text-sm text-gray-500">{stat.label}</div>
+                  </div>
+                );
+              })}
             </div>
-          </div>
-
-          {/* Quick Stats */}
-          <div className="mt-12 grid grid-cols-3 gap-4 text-center">
-            {[
-              { value: '45+', label: 'Years of Archives' },
-              { value: '10K+', label: 'Puzzles Available' },
-              { value: '24/7', label: 'Always Updated' },
-            ].map((stat, index) => (
-              <div
-                key={index}
-                className="bg-white/60 backdrop-blur-sm rounded-xl p-4 border border-gray-100 shadow-sm animate-fade-in-up"
-                style={{ animationDelay: `${400 + index * 100}ms` }}
-              >
-                <div className="text-2xl font-bold text-gradient">{stat.value}</div>
-                <div className="text-sm text-gray-500">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </div>

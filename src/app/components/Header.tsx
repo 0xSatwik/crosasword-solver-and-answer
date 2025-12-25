@@ -19,8 +19,8 @@ export default function Header() {
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
-          ? 'bg-white/90 backdrop-blur-xl shadow-lg border-b border-gray-100'
-          : 'bg-white/80 backdrop-blur-md'
+        ? 'bg-white/90 backdrop-blur-xl shadow-lg border-b border-gray-100'
+        : 'bg-white/80 backdrop-blur-md'
         }`}
     >
       {/* Decorative gradient line at top */}
@@ -52,7 +52,7 @@ export default function Header() {
           {/* Logo text */}
           <span className="text-2xl font-bold tracking-tight">
             <span className="text-gradient">Crossword</span>
-            <span className="text-gradient-gold">Central</span>
+            <span className="text-gradient-gold">Solver</span>
           </span>
         </Link>
 

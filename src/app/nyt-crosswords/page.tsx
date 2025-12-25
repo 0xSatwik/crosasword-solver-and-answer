@@ -69,21 +69,13 @@ export default function NYTCrosswordsPage() {
           <div className="mt-10 rounded-xl border border-gray-200 bg-white p-6 shadow-lg">
             <h2 className="mb-4 text-xl font-semibold text-gray-900">About the Archive</h2>
             <p className="mb-4 text-gray-700">
-              This archive contains data for every New York Times crossword from January 1, 1977 to December 31, 2014. 
-              The puzzles are sourced from the open-source NYT Crosswords repository in JSON format.
+              This archive contains every New York Times crossword from January 1, 1977 to December 31, 2014.
+              Enjoy exploring over 35 years of classic puzzles!
             </p>
-            
-            <div className="mb-4 overflow-x-auto rounded-md bg-gray-50 p-4">
-              <code className="block text-sm text-gray-800">
-                https://raw.githubusercontent.com/doshea/nyt_crosswords/master/YYYY/MM/DD.json
-              </code>
-            </div>
-            
+
             <div className="text-sm text-gray-600">
-              <p className="font-medium">Known gaps in coverage:</p>
-              <ul className="ml-5 mt-2 list-disc">
-                <li>1978: August 10 - November 5</li>
-              </ul>
+              <p className="font-medium">Note:</p>
+              <p className="mt-1">Some puzzles from August 10 - November 5, 1978 may be unavailable.</p>
             </div>
           </div>
         </div>

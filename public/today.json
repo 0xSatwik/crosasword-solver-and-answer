@@ -1,1011 +1,800 @@
 {
-  "puzzle": {
-    "puzzle_id": 4018,
-    "date": "2025-12-25",
-    "formatted_date": "Thursday, December 25, 2025",
-    "title": "New York Times, Thursday, December 25, 2025",
-    "author": "Sam Ezersky",
-    "editor": "Will Shortz",
-    "day_of_week": "Thursday",
-    "permalink": "",
-    "created_at": "2025-12-25 04:30:14"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2025-12-26",
+      "formatted_date": "Friday, December 26, 2025",
+      "day_of_week": "Friday",
+      "title": "New York Times, Friday, December 26, 2025",
+      "author": "Andrew Spooner",
+      "editor": "Will Shortz"
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Dawdler",
+        "answer": "SLOWPOKE",
+        "direction": "across"
+      },
+      {
+        "number": 9,
+        "clue": "Cuts short",
+        "answer": "ABORTS",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Typical sight in a bank robbery cartoon",
+        "answer": "MONEYBAG",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Kitsch",
+        "answer": "LOWART",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Doing some theater work",
+        "answer": "USHERING",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "One whose beauty is on the inside",
+        "answer": "GEODE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Whole kit and caboodle",
+        "answer": "GAMUT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "___-Latin (like some modern coinages)",
+        "answer": "NEO",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Plant that's toxic to cats",
+        "answer": "LILY",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Some babysitters",
+        "answer": "NANAS",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "A cold one is unexpected (and usually unappreciated)",
+        "answer": "CALL",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Since Jan. 1, on a pay stub",
+        "answer": "YTD",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Tuesday, in French",
+        "answer": "MARDI",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Song commonly performed outdoors",
+        "answer": "CAROL",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Food that can be prepared de canasta",
+        "answer": "TACOS",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "___ Tuesday (end of the pre-Lenten season)",
+        "answer": "SHROVE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Individually",
+        "answer": "APIECE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Editorialize",
+        "answer": "OPINE",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Overly self-assertive",
+        "answer": "BRASH",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Like a good sponge cake",
+        "answer": "MOIST",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Down Under bird that scientists are working to \"de-extinct\"",
+        "answer": "MOA",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Singular, with or without its first letter",
+        "answer": "LONE",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Origin story family in DC Comics",
+        "answer": "KENTS",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Facility",
+        "answer": "GIFT",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Certain care provider, for short",
+        "answer": "EMT",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Re-fresh?",
+        "answer": "RETRO",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "It might be marked with an X",
+        "answer": "PORNO",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Linked (with)",
+        "answer": "TIEDIN",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Drive",
+        "answer": "AMBITION",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Harden and become resistant to change",
+        "answer": "OSSIFY",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Life partner, perhaps?",
+        "answer": "CELLMATE",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Old coin with a picture of Generalissimo Franco",
+        "answer": "PESETA",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Treated with respect",
+        "answer": "ESTEEMED",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "How a supervillain might brag",
+        "answer": "SMUGLY",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Flip",
+        "answer": "LOSEIT",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Waiting for support, maybe",
+        "answer": "ONHOLD",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Like untended plots",
+        "answer": "WEEDY",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Funeral ___",
+        "answer": "PYRE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Broad band?",
+        "answer": "OBI",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Royal Australian Air Force insignia",
+        "answer": "KANGAROO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Professor Dumbledore",
+        "answer": "ALBUS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Contest",
+        "answer": "BOUT",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "The world's end, in Norse mythology",
+        "answer": "RAGNAROK",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Mr. or Ms. Right",
+        "answer": "TRUELOVE",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Baby sitter?",
+        "answer": "STROLLER",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Half of a classic rum cocktail's name",
+        "answer": "MAI",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Component of a nautilus shell",
+        "answer": "NACRE",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Eric who wrote and illustrated \"Papa, Please Get the Moon for Me\"",
+        "answer": "CARLE",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Stick by a fireplace",
+        "answer": "MATCH",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Mantra",
+        "answer": "CHANT",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Nearby things",
+        "answer": "THESE",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Like the pope's guards",
+        "answer": "SWISS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Area on which to eat or play cards",
+        "answer": "TABLETOP",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "\"You can absolutely count on me\"",
+        "answer": "IPROMISE",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Great illustrations",
+        "answer": "EPITOMES",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Connected",
+        "answer": "MET",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Sister of Moses",
+        "answer": "MIRIAM",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Worth considering",
+        "answer": "OFNOTE",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Made up",
+        "answer": "ATONED",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Nation dubbed the \"cradle of mankind\"",
+        "answer": "KENYA",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "\"Understood?\"",
+        "answer": "GOTME",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Big break",
+        "answer": "RIFT",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Stack (up)",
+        "answer": "PILE",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Casting need",
+        "answer": "DIE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Short diner order",
+        "answer": "BLT",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Dawdler",
+        "answer": "SLOWPOKE",
+        "direction": "across"
+      },
+      {
+        "number": 9,
+        "clue": "Cuts short",
+        "answer": "ABORTS",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Typical sight in a bank robbery cartoon",
+        "answer": "MONEYBAG",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Kitsch",
+        "answer": "LOWART",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Doing some theater work",
+        "answer": "USHERING",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "One whose beauty is on the inside",
+        "answer": "GEODE",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Whole kit and caboodle",
+        "answer": "GAMUT",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "___-Latin (like some modern coinages)",
+        "answer": "NEO",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Plant that's toxic to cats",
+        "answer": "LILY",
+        "direction": "across"
+      },
+      {
+        "number": 24,
+        "clue": "Some babysitters",
+        "answer": "NANAS",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "A cold one is unexpected (and usually unappreciated)",
+        "answer": "CALL",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Since Jan. 1, on a pay stub",
+        "answer": "YTD",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Tuesday, in French",
+        "answer": "MARDI",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Song commonly performed outdoors",
+        "answer": "CAROL",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Food that can be prepared de canasta",
+        "answer": "TACOS",
+        "direction": "across"
+      },
+      {
+        "number": 30,
+        "clue": "___ Tuesday (end of the pre-Lenten season)",
+        "answer": "SHROVE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "Individually",
+        "answer": "APIECE",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "Editorialize",
+        "answer": "OPINE",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Overly self-assertive",
+        "answer": "BRASH",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Like a good sponge cake",
+        "answer": "MOIST",
+        "direction": "across"
+      },
+      {
+        "number": 39,
+        "clue": "Down Under bird that scientists are working to \"de-extinct\"",
+        "answer": "MOA",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Singular, with or without its first letter",
+        "answer": "LONE",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Origin story family in DC Comics",
+        "answer": "KENTS",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Facility",
+        "answer": "GIFT",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "Certain care provider, for short",
+        "answer": "EMT",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "Re-fresh?",
+        "answer": "RETRO",
+        "direction": "across"
+      },
+      {
+        "number": 47,
+        "clue": "It might be marked with an X",
+        "answer": "PORNO",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "Linked (with)",
+        "answer": "TIEDIN",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Drive",
+        "answer": "AMBITION",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Harden and become resistant to change",
+        "answer": "OSSIFY",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Life partner, perhaps?",
+        "answer": "CELLMATE",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Old coin with a picture of Generalissimo Franco",
+        "answer": "PESETA",
+        "direction": "across"
+      },
+      {
+        "number": 55,
+        "clue": "Treated with respect",
+        "answer": "ESTEEMED",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "How a supervillain might brag",
+        "answer": "SMUGLY",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Flip",
+        "answer": "LOSEIT",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Waiting for support, maybe",
+        "answer": "ONHOLD",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Like untended plots",
+        "answer": "WEEDY",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Funeral ___",
+        "answer": "PYRE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Broad band?",
+        "answer": "OBI",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Royal Australian Air Force insignia",
+        "answer": "KANGAROO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Professor Dumbledore",
+        "answer": "ALBUS",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Contest",
+        "answer": "BOUT",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "The world's end, in Norse mythology",
+        "answer": "RAGNAROK",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Mr. or Ms. Right",
+        "answer": "TRUELOVE",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Baby sitter?",
+        "answer": "STROLLER",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Half of a classic rum cocktail's name",
+        "answer": "MAI",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Component of a nautilus shell",
+        "answer": "NACRE",
+        "direction": "down"
+      },
+      {
+        "number": 25,
+        "clue": "Eric who wrote and illustrated \"Papa, Please Get the Moon for Me\"",
+        "answer": "CARLE",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Stick by a fireplace",
+        "answer": "MATCH",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "Mantra",
+        "answer": "CHANT",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Nearby things",
+        "answer": "THESE",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Like the pope's guards",
+        "answer": "SWISS",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Area on which to eat or play cards",
+        "answer": "TABLETOP",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "\"You can absolutely count on me\"",
+        "answer": "IPROMISE",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Great illustrations",
+        "answer": "EPITOMES",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Connected",
+        "answer": "MET",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Sister of Moses",
+        "answer": "MIRIAM",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "Worth considering",
+        "answer": "OFNOTE",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Made up",
+        "answer": "ATONED",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Nation dubbed the \"cradle of mankind\"",
+        "answer": "KENYA",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "\"Understood?\"",
+        "answer": "GOTME",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Big break",
+        "answer": "RIFT",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Stack (up)",
+        "answer": "PILE",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Casting need",
+        "answer": "DIE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "Short diner order",
+        "answer": "BLT",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 328848,
-      "puzzle_id": 4018,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Response to discovering the theme of a crossword",
-      "answer": "AHA"
-    },
-    {
-      "clue_id": 328849,
-      "puzzle_id": 4018,
-      "number": 4,
-      "direction": "across",
-      "clue_text": "Dashing through the ___ ...",
-      "answer": "SNOW"
-    },
-    {
-      "clue_id": 328850,
-      "puzzle_id": 4018,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Foam on a seashore",
-      "answer": "SURF"
-    },
-    {
-      "clue_id": 328851,
-      "puzzle_id": 4018,
-      "number": 12,
-      "direction": "across",
-      "clue_text": "One who runs, informally",
-      "answer": "POL"
-    },
-    {
-      "clue_id": 328852,
-      "puzzle_id": 4018,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Possible base for a Caesar salad",
-      "answer": "KALE"
-    },
-    {
-      "clue_id": 328853,
-      "puzzle_id": 4018,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Of help",
-      "answer": "UTILE"
-    },
-    {
-      "clue_id": 328854,
-      "puzzle_id": 4018,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Dawdle",
-      "answer": "LOLLYGAG"
-    },
-    {
-      "clue_id": 328855,
-      "puzzle_id": 4018,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Some anxious behavior on one's feet",
-      "answer": "PACING"
-    },
-    {
-      "clue_id": 328856,
-      "puzzle_id": 4018,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Stew (over)",
-      "answer": "OBSESS"
-    },
-    {
-      "clue_id": 328857,
-      "puzzle_id": 4018,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "In a ___ open sleigh ...",
-      "answer": "ONEHORSE"
-    },
-    {
-      "clue_id": 328858,
-      "puzzle_id": 4018,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Where Bart Simpson directs his prank calls",
-      "answer": "MOES"
-    },
-    {
-      "clue_id": 328859,
-      "puzzle_id": 4018,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Buffet stand vessel",
-      "answer": "URN"
-    },
-    {
-      "clue_id": 328860,
-      "puzzle_id": 4018,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Old dagger carried by Scottish Highlanders",
-      "answer": "DIRK"
-    },
-    {
-      "clue_id": 328861,
-      "puzzle_id": 4018,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Michael of \"Barbie\"",
-      "answer": "CERA"
-    },
-    {
-      "clue_id": 328862,
-      "puzzle_id": 4018,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Hits from the side, informally",
-      "answer": "TBONES"
-    },
-    {
-      "clue_id": 328863,
-      "puzzle_id": 4018,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Stretch",
-      "answer": "PERIOD"
-    },
-    {
-      "clue_id": 328864,
-      "puzzle_id": 4018,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Letter after three consecutive rhyming letters",
-      "answer": "IOTA"
-    },
-    {
-      "clue_id": 328865,
-      "puzzle_id": 4018,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Right-eous path?",
-      "answer": "EAST"
-    },
-    {
-      "clue_id": 328866,
-      "puzzle_id": 4018,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "JFK or EWR alternative",
-      "answer": "LGA"
-    },
-    {
-      "clue_id": 328867,
-      "puzzle_id": 4018,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Cable lead-in to TV",
-      "answer": "TRU"
-    },
-    {
-      "clue_id": 328868,
-      "puzzle_id": 4018,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Jump in skates",
-      "answer": "AXEL"
-    },
-    {
-      "clue_id": 328869,
-      "puzzle_id": 4018,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "What's seen \"all the way\" through this puzzle?",
-      "answer": "LAUGHING"
-    },
-    {
-      "clue_id": 328870,
-      "puzzle_id": 4018,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Ryan with swimming gold medals in four straight Olympics",
-      "answer": "LOCHTE"
-    },
-    {
-      "clue_id": 328871,
-      "puzzle_id": 4018,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "\"All that being said ...\"",
-      "answer": "ANDYET"
-    },
-    {
-      "clue_id": 328872,
-      "puzzle_id": 4018,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Ado",
-      "answer": "BROUHAHA"
-    },
-    {
-      "clue_id": 328873,
-      "puzzle_id": 4018,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "\"Yes ___!\"",
-      "answer": "SIREE"
-    },
-    {
-      "clue_id": 328874,
-      "puzzle_id": 4018,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Fashion designer Lange",
-      "answer": "LIZ"
-    },
-    {
-      "clue_id": 328875,
-      "puzzle_id": 4018,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Many a vacation package",
-      "answer": "TOUR"
-    },
-    {
-      "clue_id": 328876,
-      "puzzle_id": 4018,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Transcript ruiners",
-      "answer": "EFFS"
-    },
-    {
-      "clue_id": 328877,
-      "puzzle_id": 4018,
-      "number": 64,
-      "direction": "across",
-      "clue_text": "___ pop (hybrid music genre)",
-      "answer": "EMO"
-    },
-    {
-      "clue_id": 328878,
-      "puzzle_id": 4018,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Chillness",
-      "answer": "APLOMB"
-    },
-    {
-      "clue_id": 328879,
-      "puzzle_id": 4018,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "\"Oh me, oh my!\"",
-      "answer": "HOOBOY"
-    },
-    {
-      "clue_id": 328880,
-      "puzzle_id": 4018,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Ready to go",
-      "answer": "ALLSET"
-    },
-    {
-      "clue_id": 328881,
-      "puzzle_id": 4018,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"___ the Limit\" (posthumous hit for the Notorious B.I.G.)",
-      "answer": "SKYS"
-    },
-    {
-      "clue_id": 328882,
-      "puzzle_id": 4018,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Horses studied by touts",
-      "answer": "NAGS"
-    },
-    {
-      "clue_id": 328883,
-      "puzzle_id": 4018,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Portuguese greeting",
-      "answer": "OLA"
-    },
-    {
-      "clue_id": 328884,
-      "puzzle_id": 4018,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "O'er the fields ___ ...",
-      "answer": "WEGO"
-    },
-    {
-      "clue_id": 328885,
-      "puzzle_id": 4018,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Like many Mormons",
-      "answer": "UTAHN"
-    },
-    {
-      "clue_id": 328886,
-      "puzzle_id": 4018,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "The \"R\" of P.R.",
-      "answer": "RICO"
-    },
-    {
-      "clue_id": 328887,
-      "puzzle_id": 4018,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Sews up",
-      "answer": "ENSURES"
-    },
-    {
-      "clue_id": 328888,
-      "puzzle_id": 4018,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Phil of the Grateful Dead",
-      "answer": "LESH"
-    },
-    {
-      "clue_id": 328889,
-      "puzzle_id": 4018,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Uber-enthusiasts",
-      "answer": "GEEKS"
-    },
-    {
-      "clue_id": 328890,
-      "puzzle_id": 4018,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Someone who might ask \"Mother, may I?\"",
-      "answer": "NUN"
-    },
-    {
-      "clue_id": 328891,
-      "puzzle_id": 4018,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Zoom call issue",
-      "answer": "ECHO"
-    },
-    {
-      "clue_id": 328892,
-      "puzzle_id": 4018,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Pilot who shares a tent with Yossarian in \"Catch-22\"",
-      "answer": "ORR"
-    },
-    {
-      "clue_id": 328893,
-      "puzzle_id": 4018,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Sides of pie slices, essentially",
-      "answer": "RADII"
-    },
-    {
-      "clue_id": 328894,
-      "puzzle_id": 4018,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Ballon ___ (soccer star's award)",
-      "answer": "DOR"
-    },
-    {
-      "clue_id": 328895,
-      "puzzle_id": 4018,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Slangy \"dude\"",
-      "answer": "BRAH"
-    },
-    {
-      "clue_id": 328896,
-      "puzzle_id": 4018,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "White House family of the 1980s",
-      "answer": "REAGANS"
-    },
-    {
-      "clue_id": 328897,
-      "puzzle_id": 4018,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Tax dodger's fear",
-      "answer": "IRSAUDIT"
-    },
-    {
-      "clue_id": 328898,
-      "puzzle_id": 4018,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Loc. ___ (footnote abbr.)",
-      "answer": "CIT"
-    },
-    {
-      "clue_id": 328899,
-      "puzzle_id": 4018,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Very in",
-      "answer": "HOT"
-    },
-    {
-      "clue_id": 328900,
-      "puzzle_id": 4018,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Big name in windows and doors",
-      "answer": "PELLA"
-    },
-    {
-      "clue_id": 328901,
-      "puzzle_id": 4018,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Raider in times past",
-      "answer": "HUN"
-    },
-    {
-      "clue_id": 328902,
-      "puzzle_id": 4018,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "A person",
-      "answer": "EACH"
-    },
-    {
-      "clue_id": 328903,
-      "puzzle_id": 4018,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Go \"Phew!,\" say",
-      "answer": "EXHALE"
-    },
-    {
-      "clue_id": 328904,
-      "puzzle_id": 4018,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Total slimeball",
-      "answer": "SLEAZO"
-    },
-    {
-      "clue_id": 328905,
-      "puzzle_id": 4018,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Intl. org. with 12 stars on its flag",
-      "answer": "THEEU"
-    },
-    {
-      "clue_id": 328906,
-      "puzzle_id": 4018,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Halal cart offering",
-      "answer": "GYRO"
-    },
-    {
-      "clue_id": 328907,
-      "puzzle_id": 4018,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Do pretty much nothing",
-      "answer": "LOAF"
-    },
-    {
-      "clue_id": 328908,
-      "puzzle_id": 4018,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Between you and me",
-      "answer": "OURS"
-    },
-    {
-      "clue_id": 328909,
-      "puzzle_id": 4018,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "At whom you might yell \"Are we watching the same game?!\"",
-      "answer": "REF"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 328848,
-      "puzzle_id": 4018,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Response to discovering the theme of a crossword",
-      "answer": "AHA"
-    },
-    {
-      "clue_id": 328849,
-      "puzzle_id": 4018,
-      "number": 4,
-      "direction": "across",
-      "clue_text": "Dashing through the ___ ...",
-      "answer": "SNOW"
-    },
-    {
-      "clue_id": 328850,
-      "puzzle_id": 4018,
-      "number": 8,
-      "direction": "across",
-      "clue_text": "Foam on a seashore",
-      "answer": "SURF"
-    },
-    {
-      "clue_id": 328851,
-      "puzzle_id": 4018,
-      "number": 12,
-      "direction": "across",
-      "clue_text": "One who runs, informally",
-      "answer": "POL"
-    },
-    {
-      "clue_id": 328852,
-      "puzzle_id": 4018,
-      "number": 13,
-      "direction": "across",
-      "clue_text": "Possible base for a Caesar salad",
-      "answer": "KALE"
-    },
-    {
-      "clue_id": 328853,
-      "puzzle_id": 4018,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "Of help",
-      "answer": "UTILE"
-    },
-    {
-      "clue_id": 328854,
-      "puzzle_id": 4018,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "Dawdle",
-      "answer": "LOLLYGAG"
-    },
-    {
-      "clue_id": 328855,
-      "puzzle_id": 4018,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Some anxious behavior on one's feet",
-      "answer": "PACING"
-    },
-    {
-      "clue_id": 328856,
-      "puzzle_id": 4018,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Stew (over)",
-      "answer": "OBSESS"
-    },
-    {
-      "clue_id": 328857,
-      "puzzle_id": 4018,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "In a ___ open sleigh ...",
-      "answer": "ONEHORSE"
-    },
-    {
-      "clue_id": 328858,
-      "puzzle_id": 4018,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Where Bart Simpson directs his prank calls",
-      "answer": "MOES"
-    },
-    {
-      "clue_id": 328859,
-      "puzzle_id": 4018,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Buffet stand vessel",
-      "answer": "URN"
-    },
-    {
-      "clue_id": 328860,
-      "puzzle_id": 4018,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "Old dagger carried by Scottish Highlanders",
-      "answer": "DIRK"
-    },
-    {
-      "clue_id": 328861,
-      "puzzle_id": 4018,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "Michael of \"Barbie\"",
-      "answer": "CERA"
-    },
-    {
-      "clue_id": 328862,
-      "puzzle_id": 4018,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Hits from the side, informally",
-      "answer": "TBONES"
-    },
-    {
-      "clue_id": 328863,
-      "puzzle_id": 4018,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Stretch",
-      "answer": "PERIOD"
-    },
-    {
-      "clue_id": 328864,
-      "puzzle_id": 4018,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Letter after three consecutive rhyming letters",
-      "answer": "IOTA"
-    },
-    {
-      "clue_id": 328865,
-      "puzzle_id": 4018,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Right-eous path?",
-      "answer": "EAST"
-    },
-    {
-      "clue_id": 328866,
-      "puzzle_id": 4018,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "JFK or EWR alternative",
-      "answer": "LGA"
-    },
-    {
-      "clue_id": 328867,
-      "puzzle_id": 4018,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Cable lead-in to TV",
-      "answer": "TRU"
-    },
-    {
-      "clue_id": 328868,
-      "puzzle_id": 4018,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Jump in skates",
-      "answer": "AXEL"
-    },
-    {
-      "clue_id": 328869,
-      "puzzle_id": 4018,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "What's seen \"all the way\" through this puzzle?",
-      "answer": "LAUGHING"
-    },
-    {
-      "clue_id": 328870,
-      "puzzle_id": 4018,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Ryan with swimming gold medals in four straight Olympics",
-      "answer": "LOCHTE"
-    },
-    {
-      "clue_id": 328871,
-      "puzzle_id": 4018,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "\"All that being said ...\"",
-      "answer": "ANDYET"
-    },
-    {
-      "clue_id": 328872,
-      "puzzle_id": 4018,
-      "number": 57,
-      "direction": "across",
-      "clue_text": "Ado",
-      "answer": "BROUHAHA"
-    },
-    {
-      "clue_id": 328873,
-      "puzzle_id": 4018,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "\"Yes ___!\"",
-      "answer": "SIREE"
-    },
-    {
-      "clue_id": 328874,
-      "puzzle_id": 4018,
-      "number": 61,
-      "direction": "across",
-      "clue_text": "Fashion designer Lange",
-      "answer": "LIZ"
-    },
-    {
-      "clue_id": 328875,
-      "puzzle_id": 4018,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Many a vacation package",
-      "answer": "TOUR"
-    },
-    {
-      "clue_id": 328876,
-      "puzzle_id": 4018,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Transcript ruiners",
-      "answer": "EFFS"
-    },
-    {
-      "clue_id": 328877,
-      "puzzle_id": 4018,
-      "number": 64,
-      "direction": "across",
-      "clue_text": "___ pop (hybrid music genre)",
-      "answer": "EMO"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 328878,
-      "puzzle_id": 4018,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Chillness",
-      "answer": "APLOMB"
-    },
-    {
-      "clue_id": 328879,
-      "puzzle_id": 4018,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "\"Oh me, oh my!\"",
-      "answer": "HOOBOY"
-    },
-    {
-      "clue_id": 328880,
-      "puzzle_id": 4018,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Ready to go",
-      "answer": "ALLSET"
-    },
-    {
-      "clue_id": 328881,
-      "puzzle_id": 4018,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "\"___ the Limit\" (posthumous hit for the Notorious B.I.G.)",
-      "answer": "SKYS"
-    },
-    {
-      "clue_id": 328882,
-      "puzzle_id": 4018,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Horses studied by touts",
-      "answer": "NAGS"
-    },
-    {
-      "clue_id": 328883,
-      "puzzle_id": 4018,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Portuguese greeting",
-      "answer": "OLA"
-    },
-    {
-      "clue_id": 328884,
-      "puzzle_id": 4018,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "O'er the fields ___ ...",
-      "answer": "WEGO"
-    },
-    {
-      "clue_id": 328885,
-      "puzzle_id": 4018,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Like many Mormons",
-      "answer": "UTAHN"
-    },
-    {
-      "clue_id": 328886,
-      "puzzle_id": 4018,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "The \"R\" of P.R.",
-      "answer": "RICO"
-    },
-    {
-      "clue_id": 328887,
-      "puzzle_id": 4018,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Sews up",
-      "answer": "ENSURES"
-    },
-    {
-      "clue_id": 328888,
-      "puzzle_id": 4018,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Phil of the Grateful Dead",
-      "answer": "LESH"
-    },
-    {
-      "clue_id": 328889,
-      "puzzle_id": 4018,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Uber-enthusiasts",
-      "answer": "GEEKS"
-    },
-    {
-      "clue_id": 328890,
-      "puzzle_id": 4018,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "Someone who might ask \"Mother, may I?\"",
-      "answer": "NUN"
-    },
-    {
-      "clue_id": 328891,
-      "puzzle_id": 4018,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Zoom call issue",
-      "answer": "ECHO"
-    },
-    {
-      "clue_id": 328892,
-      "puzzle_id": 4018,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Pilot who shares a tent with Yossarian in \"Catch-22\"",
-      "answer": "ORR"
-    },
-    {
-      "clue_id": 328893,
-      "puzzle_id": 4018,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Sides of pie slices, essentially",
-      "answer": "RADII"
-    },
-    {
-      "clue_id": 328894,
-      "puzzle_id": 4018,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Ballon ___ (soccer star's award)",
-      "answer": "DOR"
-    },
-    {
-      "clue_id": 328895,
-      "puzzle_id": 4018,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "Slangy \"dude\"",
-      "answer": "BRAH"
-    },
-    {
-      "clue_id": 328896,
-      "puzzle_id": 4018,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "White House family of the 1980s",
-      "answer": "REAGANS"
-    },
-    {
-      "clue_id": 328897,
-      "puzzle_id": 4018,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "Tax dodger's fear",
-      "answer": "IRSAUDIT"
-    },
-    {
-      "clue_id": 328898,
-      "puzzle_id": 4018,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Loc. ___ (footnote abbr.)",
-      "answer": "CIT"
-    },
-    {
-      "clue_id": 328899,
-      "puzzle_id": 4018,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Very in",
-      "answer": "HOT"
-    },
-    {
-      "clue_id": 328900,
-      "puzzle_id": 4018,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "Big name in windows and doors",
-      "answer": "PELLA"
-    },
-    {
-      "clue_id": 328901,
-      "puzzle_id": 4018,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Raider in times past",
-      "answer": "HUN"
-    },
-    {
-      "clue_id": 328902,
-      "puzzle_id": 4018,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "A person",
-      "answer": "EACH"
-    },
-    {
-      "clue_id": 328903,
-      "puzzle_id": 4018,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Go \"Phew!,\" say",
-      "answer": "EXHALE"
-    },
-    {
-      "clue_id": 328904,
-      "puzzle_id": 4018,
-      "number": 47,
-      "direction": "down",
-      "clue_text": "Total slimeball",
-      "answer": "SLEAZO"
-    },
-    {
-      "clue_id": 328905,
-      "puzzle_id": 4018,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Intl. org. with 12 stars on its flag",
-      "answer": "THEEU"
-    },
-    {
-      "clue_id": 328906,
-      "puzzle_id": 4018,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "Halal cart offering",
-      "answer": "GYRO"
-    },
-    {
-      "clue_id": 328907,
-      "puzzle_id": 4018,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Do pretty much nothing",
-      "answer": "LOAF"
-    },
-    {
-      "clue_id": 328908,
-      "puzzle_id": 4018,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Between you and me",
-      "answer": "OURS"
-    },
-    {
-      "clue_id": 328909,
-      "puzzle_id": 4018,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "At whom you might yell \"Are we watching the same game?!\"",
-      "answer": "REF"
-    }
-  ]
+  "timestamp": "2025-12-26T04:30:50.359Z"
 }

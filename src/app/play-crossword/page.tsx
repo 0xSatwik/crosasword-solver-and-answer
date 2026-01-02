@@ -30,7 +30,7 @@ export default function NYTCrosswordsPage() {
           {/* Quick Access Card */}
           <div className="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
             <Link
-              href="/nyt-crosswords/random"
+              href="/play-crossword/random"
               className="group flex items-center justify-center rounded-xl bg-white p-6 text-center shadow-lg transition-all hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="flex flex-col items-center">

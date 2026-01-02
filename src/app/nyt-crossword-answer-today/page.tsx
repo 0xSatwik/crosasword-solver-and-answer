@@ -85,7 +85,7 @@ export default async function NytDailyPage() {
                 <p className="text-gray-600">Our system automatically checks for new puzzles at 5am IST daily.</p>
               </div>
               <Link
-                href="/daily/nyt-archive"
+                href="/daily/nyt-crossword-answers"
                 className="inline-flex items-center rounded-full bg-blue-600 px-5 py-2 text-sm font-medium text-white shadow-md transition-all hover:bg-blue-700 hover:shadow-lg"
               >
                 <ArchiveIcon className="mr-2 h-4 w-4" />
@@ -165,7 +165,7 @@ export default async function NytDailyPage() {
           {/* Action Buttons */}
           <div className="mb-8 flex justify-center">
             <Link
-              href="/daily/nyt-archive"
+              href="/daily/nyt-crossword-answers"
               className="flex items-center rounded-full bg-purple-600 px-6 py-3 text-sm font-medium text-white shadow-md transition-all hover:bg-purple-700 hover:shadow-lg"
             >
               <ArchiveIcon className="mr-2 h-4 w-4" />

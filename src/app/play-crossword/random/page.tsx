@@ -6,10 +6,10 @@ export const revalidate = 0;
 
 export default function RandomPuzzlePage() {
   const { year, month, day } = getRandomPuzzleDate();
-  
+
   // Redirect to the random puzzle
-  redirect(`/nyt-crosswords/${year}/${month}/${day}`);
-  
+  redirect(`/play-crossword/${year}/${month}/${day}`);
+
   // This component will never render as it redirects, but Next.js requires a component
   return null;
 } 

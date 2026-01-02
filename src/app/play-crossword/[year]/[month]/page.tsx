@@ -4,10 +4,10 @@ import { notFound } from 'next/navigation';
 import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 
 // Generate metadata for the page
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: { year: string; month: string } 
+export async function generateMetadata({
+  params
+}: {
+  params: { year: string; month: string }
 }): Promise<Metadata> {
   const { year, month } = params;
   const monthName = new Date(parseInt(year), parseInt(month) - 1, 1)
@@ -19,64 +19,64 @@ export async function generateMetadata({
   };
 }
 
-export default function MonthCalendarPage({ 
-  params 
-}: { 
-  params: { year: string; month: string } 
+export default function MonthCalendarPage({
+  params
+}: {
+  params: { year: string; month: string }
 }) {
   const { year, month } = params;
-  
+
   // Validate parameters
   const yearNum = parseInt(year);
   const monthNum = parseInt(month);
-  
+
   if (
-    isNaN(yearNum) || 
-    isNaN(monthNum) || 
-    yearNum < 1977 || 
+    isNaN(yearNum) ||
+    isNaN(monthNum) ||
+    yearNum < 1977 ||
     yearNum > new Date().getFullYear() ||
-    monthNum < 1 || 
+    monthNum < 1 ||
     monthNum > 12
   ) {
     notFound();
   }
-  
+
   // Convert to numbers for date calculations
   const currentYear = yearNum;
   const currentMonth = monthNum - 1; // JavaScript months are 0-indexed
-  
+
   // Get month information
   const firstDay = new Date(currentYear, currentMonth, 1);
   const lastDay = new Date(currentYear, currentMonth + 1, 0);
   const daysInMonth = lastDay.getDate();
   const startDayOfWeek = firstDay.getDay(); // 0 = Sunday, 1 = Monday, etc.
-  
+
   // Check if in a gap period
   const isInGap1978 = (
-    currentYear === 1978 && 
+    currentYear === 1978 &&
     ((currentMonth === 7 && lastDay.getDate() >= 10) || // August
-     currentMonth === 8 || // September
-     currentMonth === 9 || // October
-     (currentMonth === 10 && firstDay.getDate() <= 5)) // November
+      currentMonth === 8 || // September
+      currentMonth === 9 || // October
+      (currentMonth === 10 && firstDay.getDate() <= 5)) // November
   );
-  
+
   const isInGap2015_2016 = (
     (currentYear === 2015 && currentMonth === 7 && lastDay.getDate() >= 30) || // August 2015
     (currentYear === 2015 && currentMonth > 7) || // September-December 2015
     (currentYear === 2016 && currentMonth < 4) || // January-April 2016
     (currentYear === 2016 && currentMonth === 4 && firstDay.getDate() <= 1) // May 1, 2016
   );
-  
+
   // Calculate previous and next months
   const prevMonth = new Date(currentYear, currentMonth - 1, 1);
   const nextMonth = new Date(currentYear, currentMonth + 1, 1);
-  
-  const prevMonthUrl = `/nyt-crosswords/${prevMonth.getFullYear()}/${String(prevMonth.getMonth() + 1).padStart(2, '0')}`;
-  const nextMonthUrl = `/nyt-crosswords/${nextMonth.getFullYear()}/${String(nextMonth.getMonth() + 1).padStart(2, '0')}`;
-  
+
+  const prevMonthUrl = `/play-crossword/${prevMonth.getFullYear()}/${String(prevMonth.getMonth() + 1).padStart(2, '0')}`;
+  const nextMonthUrl = `/play-crossword/${nextMonth.getFullYear()}/${String(nextMonth.getMonth() + 1).padStart(2, '0')}`;
+
   // Month and year names for display
   const monthName = firstDay.toLocaleString('default', { month: 'long' });
-  
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mx-auto max-w-4xl">
@@ -89,7 +89,7 @@ export default function MonthCalendarPage({
             New York Times Crossword Puzzles
           </p>
         </div>
-        
+
         {/* Month Navigation */}
         <div className="mb-6 flex items-center justify-between">
           <Link
@@ -99,14 +99,14 @@ export default function MonthCalendarPage({
             <ChevronLeftIcon className="mr-2 h-4 w-4" />
             Previous Month
           </Link>
-          
+
           <Link
-            href="/nyt-crosswords"
+            href="/play-crossword"
             className="rounded-md bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
           >
             Back to Explorer
           </Link>
-          
+
           <Link
             href={nextMonthUrl}
             className="flex items-center rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50"
@@ -115,7 +115,7 @@ export default function MonthCalendarPage({
             <ChevronRightIcon className="ml-2 h-4 w-4" />
           </Link>
         </div>
-        
+
         {/* Gap Warning */}
         {(isInGap1978 || isInGap2015_2016) && (
           <div className="mb-6 rounded-md bg-yellow-50 p-4">
@@ -139,7 +139,7 @@ export default function MonthCalendarPage({
             </div>
           </div>
         )}
-        
+
         {/* Calendar */}
         <div className="mb-8 overflow-hidden rounded-lg border bg-white shadow">
           {/* Day names */}
@@ -150,55 +150,55 @@ export default function MonthCalendarPage({
               </div>
             ))}
           </div>
-          
+
           {/* Calendar grid */}
           <div className="grid grid-cols-7">
             {/* Empty cells for days before the first of the month */}
             {Array.from({ length: startDayOfWeek }).map((_, index) => (
               <div key={`empty-start-${index}`} className="min-h-[80px] border-b border-r p-2" />
             ))}
-            
+
             {/* Days of the month */}
             {Array.from({ length: daysInMonth }).map((_, index) => {
               const day = index + 1;
               const dateStr = `${year}/${month}/${String(day).padStart(2, '0')}`;
-              
+
               // Check if date is in a gap period
               const isInAugToNovGap1978 = (
-                currentYear === 1978 && 
+                currentYear === 1978 &&
                 ((currentMonth === 7 && day >= 10) || // August
-                 currentMonth === 8 || // September
-                 currentMonth === 9 || // October
-                 (currentMonth === 10 && day <= 5)) // November
+                  currentMonth === 8 || // September
+                  currentMonth === 9 || // October
+                  (currentMonth === 10 && day <= 5)) // November
               );
-              
+
               const isInAug2015ToMay2016Gap = (
                 (currentYear === 2015 && currentMonth === 7 && day >= 30) || // August 2015
                 (currentYear === 2015 && currentMonth > 7) || // September-December 2015
                 (currentYear === 2016 && currentMonth < 4) || // January-April 2016
                 (currentYear === 2016 && currentMonth === 4 && day <= 1) // May 1, 2016
               );
-              
+
               const isAvailable = !isInAugToNovGap1978 && !isInAug2015ToMay2016Gap;
-              
+
               // Check if this date is in the future
               const puzzleDate = new Date(currentYear, currentMonth, day);
               const isInFuture = puzzleDate > new Date();
-              
+
               return (
-                <div 
+                <div
                   key={`day-${day}`}
                   className={`min-h-[80px] border-b border-r p-2 ${(startDayOfWeek + index) % 7 === 0 ? 'border-l' : ''}`}
                 >
                   <div className="font-medium">{day}</div>
-                  
+
                   {isInFuture ? (
                     <div className="mt-2 text-sm text-gray-400">
                       Not yet published
                     </div>
                   ) : isAvailable ? (
                     <Link
-                      href={`/nyt-crosswords/${dateStr}`}
+                      href={`/play-crossword/${dateStr}`}
                       className="mt-2 block rounded bg-blue-50 px-2 py-1 text-sm text-blue-700 transition hover:bg-blue-100"
                     >
                       View Puzzle
@@ -211,7 +211,7 @@ export default function MonthCalendarPage({
                 </div>
               );
             })}
-            
+
             {/* Empty cells for days after the end of the month */}
             {Array.from({ length: (7 - ((startDayOfWeek + daysInMonth) % 7)) % 7 }).map((_, index) => (
               <div key={`empty-end-${index}`} className="min-h-[80px] border-b border-r p-2" />

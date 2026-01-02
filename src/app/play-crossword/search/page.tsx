@@ -20,7 +20,7 @@ export default function SearchPage() {
             Find puzzles by date, author, or editor
           </p>
         </div>
-        
+
         {/* Note: This would be a client component in a real implementation */}
         <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6 shadow-md">
           <div className="mb-6 flex items-center">
@@ -28,19 +28,19 @@ export default function SearchPage() {
               <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                 <SearchIcon className="h-5 w-5 text-gray-400" />
               </div>
-              <input 
-                type="text" 
+              <input
+                type="text"
                 placeholder="Search for puzzles by author, editor, or title..."
                 className="w-full rounded-md border border-gray-300 py-2 pl-10 pr-4 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
               />
             </div>
-            <button 
+            <button
               className="ml-4 rounded-md bg-blue-600 px-4 py-2 text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               Search
             </button>
           </div>
-          
+
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             <div>
               <label htmlFor="author" className="mb-1 block text-sm font-medium text-gray-700">
@@ -57,7 +57,7 @@ export default function SearchPage() {
                 {/* More options would be populated from actual data */}
               </select>
             </div>
-            
+
             <div>
               <label htmlFor="editor" className="mb-1 block text-sm font-medium text-gray-700">
                 Editor
@@ -72,7 +72,7 @@ export default function SearchPage() {
                 {/* More options would be populated from actual data */}
               </select>
             </div>
-            
+
             <div>
               <label htmlFor="day" className="mb-1 block text-sm font-medium text-gray-700">
                 Day of Week
@@ -92,7 +92,7 @@ export default function SearchPage() {
               </select>
             </div>
           </div>
-          
+
           <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
               <label htmlFor="from-date" className="mb-1 block text-sm font-medium text-gray-700">
@@ -106,7 +106,7 @@ export default function SearchPage() {
                 max={new Date().toISOString().split('T')[0]}
               />
             </div>
-            
+
             <div>
               <label htmlFor="to-date" className="mb-1 block text-sm font-medium text-gray-700">
                 To Date
@@ -121,14 +121,14 @@ export default function SearchPage() {
             </div>
           </div>
         </div>
-        
+
         {/* Sample Results */}
         <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6 shadow-md">
           <h2 className="mb-4 text-xl font-semibold">Search Results</h2>
           <p className="mb-6 text-gray-600">
             Search functionality would be implemented with client-side components in a real application. Below are sample results.
           </p>
-          
+
           <div className="divide-y">
             {[
               {
@@ -166,7 +166,7 @@ export default function SearchPage() {
                       </p>
                     </div>
                     <Link
-                      href={`/nyt-crosswords/${year}/${month}/${day}`}
+                      href={`/play-crossword/${year}/${month}/${day}`}
                       className="inline-flex items-center rounded-md bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700 hover:bg-blue-100"
                     >
                       View Puzzle
@@ -176,7 +176,7 @@ export default function SearchPage() {
               );
             })}
           </div>
-          
+
           <div className="mt-6 flex justify-center">
             <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
               <a href="#" className="relative inline-flex items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20">
@@ -201,10 +201,10 @@ export default function SearchPage() {
             </nav>
           </div>
         </div>
-        
+
         <div className="text-center">
-          <Link 
-            href="/nyt-crosswords"
+          <Link
+            href="/play-crossword"
             className="rounded-md bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
           >
             Back to Explorer

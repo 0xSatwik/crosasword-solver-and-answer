@@ -5,17 +5,17 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     const quickLinks = [
-        { href: '/daily', label: 'Daily Solutions' },
+        { href: '/nyt-crossword-answer-today', label: 'Daily Solutions' },
         { href: '/solver', label: 'Solver Tool' },
-        { href: '/nyt-crosswords', label: 'Play Crossword' },
+        { href: '/play-crossword', label: 'Play Crossword' },
         { href: '/guides', label: 'Guides & Tips' },
     ];
 
     const publications = [
-        { href: '/daily/nyt-daily/latest', label: 'NYT Crossword' },
-        { href: '/nyt-crosswords/random', label: 'Random NYT Puzzle' },
-        { href: '/daily/usa-today/latest', label: 'USA Today' },
-        { href: '/daily/la-times/latest', label: 'LA Times' },
+        { href: '/daily/', label: 'NYT Crossword' },
+        { href: '/play-crossword/random', label: 'Random NYT Puzzle' },
+        { href: '/', label: 'USA Today' },
+        { href: '/', label: 'LA Times' },
     ];
 
     const legalLinks = [

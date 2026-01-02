@@ -48,7 +48,7 @@ export default function Home() {
       title: 'Play Crossword',
       abbr: '10K+',
       description: 'Access every New York Times crossword since 1977 in our comprehensive archive.',
-      href: '/nyt-crosswords',
+      href: '/play-crossword',
       color: 'from-purple-500 to-pink-600',
     },
     {
@@ -114,7 +114,7 @@ export default function Home() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/daily"
+              href="/nyt-crossword-answer-today"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/50 px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:bg-white/30 hover:shadow-xl"
             >
               <CalendarDays className="w-5 h-5" />
@@ -124,7 +124,7 @@ export default function Home() {
 
           <div className="mt-8 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <Link
-              href="/nyt-crosswords"
+              href="/play-crossword"
               className="group inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-300"
             >
               <Puzzle className="w-4 h-4" />
@@ -258,7 +258,7 @@ export default function Home() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/nyt-crosswords/random"
+              href="/play-crossword/random"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-white/20 backdrop-blur-sm border-2 border-white/50 px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:bg-white/30 hover:shadow-xl"
             >
               <Puzzle className="w-5 h-5" />

@@ -24,13 +24,13 @@ export default function NotFound() {
           </ul>
           <div className="space-x-4">
             <Link
-              href="/nyt-crosswords"
+              href="/play-crossword"
               className="rounded-md bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700"
             >
               Return to Explorer
             </Link>
             <Link
-              href="/nyt-crosswords/random"
+              href="/play-crossword/random"
               className="rounded-md bg-white px-4 py-2 font-medium text-blue-600 hover:bg-blue-50"
             >
               Try a Random Puzzle

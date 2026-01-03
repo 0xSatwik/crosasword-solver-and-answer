@@ -53,6 +53,10 @@ const nextConfig = {
       {
         source: '/nyt-crossword-answer-for-:date',
         destination: '/nyt-crossword-answer/:date',
+      },
+      {
+        source: '/nyt-mini-crossword-answer-for-:date',
+        destination: '/nyt-mini-crossword-answer/:date',
       }
     ];
   }

@@ -29,26 +29,17 @@ export default function DailyCrosswordsPage() {
       badgeColor: 'bg-amber-500',
     },
     {
-      title: 'NYT Archive',
-      description: 'Browse puzzles from 1977 to present',
-      icon: Calendar,
-      gradient: 'from-emerald-500 to-teal-600',
-      bgGradient: 'from-emerald-50 to-teal-50',
-      href: '/daily/nyt-crossword-answers',
-      badge: '45+ Years',
-      badgeColor: 'bg-emerald-500',
-    },
-    {
-      title: 'Random Puzzle',
-      description: 'Challenge yourself with a random puzzle',
-      icon: Shuffle,
-      gradient: 'from-purple-500 to-pink-600',
-      bgGradient: 'from-purple-50 to-pink-50',
-      href: '/play-crossword/random',
-      badge: '10K+ Puzzles',
-      badgeColor: 'bg-purple-500',
+      title: 'NYT Mini',
+      description: 'Quick 5-minute mini crossword puzzle with answers',
+      icon: Sparkles,
+      gradient: 'from-orange-500 to-amber-500',
+      bgGradient: 'from-orange-50 to-amber-50',
+      href: '/nyt-mini-answer-today',
+      badge: 'Quick Play',
+      badgeColor: 'bg-orange-500',
     },
   ];
+
 
   const stats = [
     { icon: Trophy, value: '45+', label: 'Years of Archives', color: 'text-amber-500' },
@@ -80,7 +71,7 @@ export default function DailyCrosswordsPage() {
           </div>
 
           {/* Crossword Sources Grid */}
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-16">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 mb-16">
             {crosswordSources.map((source, index) => {
               const Icon = source.icon;
               return (

@@ -112,8 +112,8 @@ export default function Footer() {
                             Publications
                         </h3>
                         <ul className="space-y-3">
-                            {publications.map((link) => (
-                                <li key={link.href}>
+                            {publications.map((link, index) => (
+                                <li key={`${link.href}-${index}`}>
                                     <Link
                                         href={link.href}
                                         className="text-gray-400 hover:text-white transition-colors duration-300 hover:translate-x-1 inline-block"

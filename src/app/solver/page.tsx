@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Search, X, Plus, Minus, Calendar, Sparkles, ArrowRight, Lightbulb } from 'lucide-react';
 import { fetchCrosswordAnswers, generatePattern } from '../../lib/crosswordNexusApi';
 import { searchClueHistory, FormattedClueHistoryItem } from '../../lib/crosswordArchiveApi';
+import { searchMiniClues, MiniClueMatch, formatMiniDate } from '../../lib/nytMiniApi';
 
 export default function SolverPage() {
   // State for the solver
@@ -15,7 +16,9 @@ export default function SolverPage() {
   const [error, setError] = useState('');
   const [showAll, setShowAll] = useState(false);
   const [clueHistory, setClueHistory] = useState<FormattedClueHistoryItem[]>([]);
+  const [miniHistory, setMiniHistory] = useState<MiniClueMatch[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
+  const [miniHistoryLoading, setMiniHistoryLoading] = useState(false);
   const [usingFallback, setUsingFallback] = useState(false);
 
   // References
@@ -59,7 +62,7 @@ export default function SolverPage() {
     return [results[0]];
   };
 
-  // Search for historical clue data
+  // Search for historical clue data (NYT Crossword)
   const fetchClueHistory = async (clueText: string) => {
     setHistoryLoading(true);
     try {
@@ -74,6 +77,24 @@ export default function SolverPage() {
       setClueHistory([]);
     } finally {
       setHistoryLoading(false);
+    }
+  };
+
+  // Search for historical clue data (NYT Mini)
+  const fetchMiniHistory = async (clueText: string) => {
+    setMiniHistoryLoading(true);
+    try {
+      const response = await searchMiniClues(clueText);
+      if (response?.success && response.matches && response.matches.length > 0) {
+        setMiniHistory(response.matches);
+      } else {
+        setMiniHistory([]);
+      }
+    } catch (error) {
+      console.error('Error fetching mini history:', error);
+      setMiniHistory([]);
+    } finally {
+      setMiniHistoryLoading(false);
     }
   };
 
@@ -136,10 +157,12 @@ export default function SolverPage() {
     setError('');
     setLoading(true);
     setClueHistory([]);
+    setMiniHistory([]);
     setUsingFallback(false);
 
-    // Fetch historical clue data
+    // Fetch historical clue data from both sources
     fetchClueHistory(clue);
+    fetchMiniHistory(clue);
 
     try {
       // First try Crossword Nexus API (via our Cloudflare Worker)
@@ -405,7 +428,7 @@ export default function SolverPage() {
                     Historical Data
                   </h2>
                   <span className="text-xs text-blue-600 bg-blue-100 px-3 py-1 rounded-full font-medium">
-                    Crossword Archive
+                    NYT Crossword
                   </span>
                 </div>
 
@@ -431,6 +454,55 @@ export default function SolverPage() {
                     </div>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {/* NYT Mini Historical Results */}
+            {!loading && miniHistory.length > 0 && (
+              <div className="mb-6 rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50 to-amber-50 p-5">
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-lg font-bold text-orange-900 flex items-center gap-2">
+                    <Sparkles className="w-5 h-5" />
+                    Historical Data
+                  </h2>
+                  <span className="text-xs text-orange-600 bg-orange-100 px-3 py-1 rounded-full font-medium">
+                    NYT Mini
+                  </span>
+                </div>
+
+                <div className="space-y-3 max-h-60 overflow-y-auto">
+                  {miniHistory.map((item, index) => {
+                    const { formatted } = formatMiniDate(item.date);
+                    return (
+                      <div
+                        key={index}
+                        className="bg-white rounded-xl border border-orange-100 p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between shadow-sm hover:shadow-md transition-shadow"
+                      >
+                        <div className="mb-2 sm:mb-0">
+                          <div className="text-xl font-bold text-orange-700">{item.answer}</div>
+                          <div className="text-sm text-gray-500 flex items-center gap-1">
+                            <Calendar className="h-3 w-3" />
+                            {formatted}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <div className="text-xs bg-orange-100 px-2 py-1 rounded-full font-medium text-orange-700">
+                            {item.number}{item.direction === 'Across' ? 'A' : 'D'}
+                          </div>
+                          <div className="text-sm font-medium text-gray-700">{item.clue}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Mini History Loading indicator */}
+            {miniHistoryLoading && !loading && (
+              <div className="my-4 flex items-center justify-center">
+                <div className="h-6 w-6 animate-spin rounded-full border-4 border-orange-500 border-t-transparent" />
+                <span className="ml-3 text-sm text-orange-700">Loading Mini historical data...</span>
               </div>
             )}
 

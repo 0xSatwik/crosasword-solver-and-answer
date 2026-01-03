@@ -3,15 +3,15 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Calendar, Wrench, Puzzle, BookOpen, Search, X, Menu } from 'lucide-react';
+import { Home, Calendar, Wrench, Puzzle, BookOpen, Search, X, Menu, Sparkles, Archive } from 'lucide-react';
 import { createPortal } from 'react-dom';
 
 const menuItems = [
   { href: '/', label: 'Home', icon: Home, description: 'Back to homepage' },
   { href: "/daily", label: 'Daily Crosswords', icon: Calendar, description: 'Today\'s puzzles' },
   { href: '/solver', label: 'Solver Tool', icon: Wrench, description: 'Find answers' },
-  { href: "/play-crossword", label: 'Play Crossword', icon: Puzzle, description: 'Interactive puzzles' },
-  { href: '/guides', label: 'Guides', icon: BookOpen, description: 'Tips & tricks' }
+  { href: "/nyt-mini-solver", label: 'NYT Mini Solver', icon: Sparkles, description: 'Solve mini clues' },
+  { href: '/archive', label: 'Archive', icon: Archive, description: 'All puzzles' }
 ];
 
 function MobileMenuPortal({ children }: { children: React.ReactNode }) {

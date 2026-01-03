@@ -9,8 +9,8 @@ export default function Navigation() {
   const navItems = [
     { href: '/daily', label: 'Daily Crosswords' },
     { href: '/solver', label: 'Solver Tool' },
-    { href: '/play-crossword', label: 'Play Crossword' },
-    { href: '/guides', label: 'Guides' }
+    { href: '/nyt-mini-solver', label: 'NYT Mini Solver' },
+    { href: '/archive', label: 'Archive' }
   ];
 
   return (

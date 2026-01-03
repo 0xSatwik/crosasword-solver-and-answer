@@ -7,8 +7,9 @@ export default function Footer() {
     const quickLinks = [
         { href: '/nyt-crossword-answer-today', label: 'Daily Solutions' },
         { href: '/solver', label: 'Solver Tool' },
-        { href: '/play-crossword', label: 'Play Crossword' },
-        { href: '/guides', label: 'Guides & Tips' },
+        { href: '/nyt-mini-solver', label: 'NYT Mini Solver' },
+        { href: '/archive', label: 'Archive' },
+        { href: '/nyt-mini-answer-today', label: 'Mini Crossword Today' },
     ];
 
     const publications = [

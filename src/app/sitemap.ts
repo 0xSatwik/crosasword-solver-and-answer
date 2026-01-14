@@ -32,7 +32,7 @@ function getDates(days: number) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://crossword-solver.io';
+    const baseUrl = 'https://crosswordsolver.online';
     const last100Days = getDates(100);
 
     // Static Routes

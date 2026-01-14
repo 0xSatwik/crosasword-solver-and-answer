@@ -161,8 +161,6 @@ export default async function MiniCrosswordAnswerPage({ params }: PageProps) {
         answer: (clue as { clue: string; answer: string }).answer
     })).sort((a, b) => parseInt(a.number) - parseInt(b.number));
 
-    const { year, month, day } = parsed;
-
     // Schema Data
     const appUrl = "https://crossword-solver.io";
     const personName = "NYT Mini Constructor"; // Can be specific if API returns author for mini, usually Joel Fagliano but generic fallback is safer if unknown

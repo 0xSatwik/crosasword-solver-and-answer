@@ -70,7 +70,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         const dateStr = `${monthNames[parsed.month - 1]} ${parsed.day}, ${parsed.year}`;
         return {
             title: `NYT Mini Crossword Answer for ${dateStr}`,
-            description: `Get the NYT Mini crossword puzzle answers for ${dateStr} - all clues and solutions.`,
+            description: `Get the NYT Mini crossword puzzle answers for ${dateStr}. Complete solutions for all 5x5 Across and Down clues.`,
+            keywords: [
+                `NYT Mini Crossword Answer for ${dateStr}`,
+                `NYT Mini Crossword Solution ${parsed.year}`,
+                `Mini Crossword Answer Today`,
+                `NYT Mini Answer ${parsed.month}/${parsed.day}/${parsed.year}`
+            ],
+            openGraph: {
+                title: `NYT Mini Crossword Answer for ${dateStr}`,
+                description: `Get the NYT Mini crossword puzzle answers for ${dateStr}. Complete solutions for all 5x5 Across and Down clues.`,
+                type: 'article',
+                publishedTime: `${parsed.year}-${parsed.month.toString().padStart(2, '0')}-${parsed.day.toString().padStart(2, '0')}`,
+            }
         };
     }
     return {
@@ -149,8 +161,97 @@ export default async function MiniCrosswordAnswerPage({ params }: PageProps) {
         answer: (clue as { clue: string; answer: string }).answer
     })).sort((a, b) => parseInt(a.number) - parseInt(b.number));
 
+    const { year, month, day } = parsed;
+
+    // Schema Data
+    const appUrl = "https://crossword-solver.io";
+    const personName = "NYT Mini Constructor"; // Can be specific if API returns author for mini, usually Joel Fagliano but generic fallback is safer if unknown
+
+    // FAQ Schema
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": `What are the answers for the NYT Mini Crossword on ${displayDate}?`,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": `The answers for the NYT Mini Crossword on ${displayDate} are provided here. We have solutions for all 5x5 clues.`
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I solve the NYT Mini Crossword?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The NYT Mini is a 5x5 grid. Read the clues for Across and Down and fill in the corresponding squares. It's designed to be solved in a few minutes."
+                }
+            }
+        ]
+    };
+
+    // Article/NewsArticle Schema
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": `NYT Mini Crossword Answer for ${displayDate}`,
+        "datePublished": apiDate,
+        "dateModified": apiDate,
+        "author": {
+            "@type": "Person",
+            "name": personName
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Crossword Solver",
+            "logo": {
+                "@type": "ImageObject",
+                "url": `${appUrl}/logo.png`
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `${appUrl}/nyt-mini-crossword-answer-for-${canonicalSlug}`
+        }
+    };
+
+    // Breadcrumb Schema
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${appUrl}/`
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Mini Answers",
+            "item": `${appUrl}/daily/nyt-mini-crossword-answers`
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": `Answer for ${displayDate}`,
+            "item": `${appUrl}/nyt-mini-crossword-answer-for-${canonicalSlug}`
+        }]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-orange-50 via-amber-50 to-white py-12">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
             <div className="container mx-auto px-4">
                 <div className="mx-auto max-w-4xl">
                     {/* Back link */}
@@ -177,7 +278,7 @@ export default async function MiniCrosswordAnswerPage({ params }: PageProps) {
                             </div>
 
                             <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                                Mini Puzzle Solution
+                                NYT Mini Crossword Answer for {displayDate}
                             </h1>
 
                             <div className="flex flex-wrap items-center gap-4 text-white/90">
@@ -201,6 +302,16 @@ export default async function MiniCrosswordAnswerPage({ params }: PageProps) {
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    {/* SEO Paragraph */}
+                    <div className="mb-10 rounded-2xl bg-white p-6 shadow-lg border border-orange-100">
+                        <h2 className="text-xl font-bold text-gray-900 mb-3">NYT Mini Crossword Answers for {displayDate}</h2>
+                        <p className="text-gray-700 leading-relaxed">
+                            Complete solutions for the <strong>New York Times Mini Crossword</strong> released on {displayDate}.
+                            If you're stuck on a 5x5 grid, we have all the Across and Down answers you need to keep your streak alive.
+                            The Mini is a quick, daily puzzle that's perfect for a short break. Check below for today's fully solved grid.
+                        </p>
                     </div>
 
                     {/* Clues Grid */}

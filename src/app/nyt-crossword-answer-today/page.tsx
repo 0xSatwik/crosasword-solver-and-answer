@@ -53,9 +53,10 @@ function formatDate(dateString: string) {
   });
 }
 
+
 export const metadata: Metadata = {
-  title: 'NYT Daily Crossword | Crossword Solver',
-  description: 'Today\'s New York Times crossword puzzle with solutions - updated daily at 5am IST.',
+  title: 'NYT Crossword Answer Today | New York Times Crossword Solutions',
+  description: 'Get the daily New York Times crossword answer today. Complete solutions for all Across and Down clues, updated daily.',
 };
 
 export default async function NytDailyPage() {
@@ -104,8 +105,108 @@ export default async function NytDailyPage() {
   // Format dates for display
   const displayDate = formatDate(puzzle.date);
 
+  // Custom date format for H1: Month Day, Year (e.g. January 1, 2026)
+  const dateObj = new Date(puzzle.date);
+  const monthName = dateObj.toLocaleDateString('en-US', { month: 'long' });
+  const day = dateObj.getDate();
+  const year = dateObj.getFullYear();
+  const h1Date = `${monthName} ${day}, ${year}`;
+
+  // SEO Meta generation for current data - technically metadata export handles static, but we can't easily dynamic it here without layout changes or generateMetadata export with data fetching duplication (which is fine). 
+  // Since I replaced the static export metadata at the top, let's leave it generic there or if I can use generateMetadata with async. 
+  // Next.js allows generateMetadata. I should probably switch to it for better SEO if I want the date in title.
+  // But for now keeping the generic one and focusing on on-page elements as requested.
+
+  // Schema Data
+  const appUrl = "https://crossword-solver.io";
+  const personName = puzzle.author || "NYT Crossword Constructor";
+
+  // FAQ Schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `What is the NYT Crossword answer today (${h1Date})?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `The answers for the New York Times crossword today, ${h1Date}, are listed below. We provide solutions for all across and down clues.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When does the next NYT Crossword come out?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The New York Times Crossword is available daily at 10 PM EST weekdays and 6 PM EST weekends."
+        }
+      }
+    ]
+  };
+
+  // Article/NewsArticle Schema
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `Nyt crossword answer today (${h1Date})`,
+    "datePublished": puzzle.date,
+    "dateModified": puzzle.date,
+    "author": {
+      "@type": "Person",
+      "name": personName
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Crossword Solver",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${appUrl}/logo.png`
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${appUrl}/nyt-crossword-answer-today`
+    }
+  };
+
+  // Breadcrumb Schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": `${appUrl}/`
+    }, {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Daily Answers",
+      "item": `${appUrl}/daily/nyt-crossword-answers`
+    }, {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Today's Answer",
+      "item": `${appUrl}/nyt-crossword-answer-today`
+    }]
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-5xl">
           {/* Back to Daily */}
@@ -132,9 +233,12 @@ export default async function NytDailyPage() {
               <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-0.5 text-sm font-medium text-blue-800">
                 New York Times
               </span>
+
+              {/* Requested H1 Format */}
               <h1 className="mt-3 text-3xl font-bold text-gray-900 md:text-4xl">
-                {puzzle.title}
+                Nyt crossword answer today ({h1Date})
               </h1>
+
               <div className="mt-2 flex items-center justify-center text-gray-600">
                 <CalendarIcon className="mr-2 h-5 w-5" />
                 <span className="font-medium">{displayDate}</span>
@@ -162,6 +266,19 @@ export default async function NytDailyPage() {
             </div>
           </div>
 
+          {/* SEO Paragraph */}
+          <div className="mb-8 rounded-lg bg-white p-6 shadow-md">
+            <h2 className="mb-3 text-xl font-semibold text-gray-900">
+              Today's NYT Crossword Answers - {h1Date}
+            </h2>
+            <p className="text-gray-700 leading-relaxed">
+              Looking for the solution to today's <strong>New York Times Crossword</strong>? You've come to the right place.
+              Below you will find the complete list of answers for the <strong>Nyt crossword answer today ({h1Date})</strong>.
+              We update our database daily to provide you with the most accurate solutions for all Across and Down clues.
+              Solve your puzzle with confidence and check back every day for the latest answers.
+            </p>
+          </div>
+
           {/* Action Buttons */}
           <div className="mb-8 flex justify-center">
             <Link
@@ -177,9 +294,10 @@ export default async function NytDailyPage() {
           <div className="mb-8 grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* Across Clues */}
             <div className="rounded-lg bg-blue-50 p-4 shadow-inner">
-              <h3 className="mb-4 border-b border-blue-200 pb-2 text-xl font-semibold text-blue-900">
-                Across
-              </h3>
+              {/* H2 Correctly */}
+              <h2 className="mb-4 border-b border-blue-200 pb-2 text-xl font-semibold text-blue-900">
+                Across Clues & Answers
+              </h2>
               <div className="space-y-3">
                 {across.map((clue: { number: number; clue_text: string; answer?: string }, idx: number) => (
                   <div key={`across-${idx}`} className="rounded-md bg-white p-3 shadow-sm transition-all hover:shadow-md">
@@ -205,9 +323,10 @@ export default async function NytDailyPage() {
 
             {/* Down Clues */}
             <div className="rounded-lg bg-green-50 p-4 shadow-inner">
-              <h3 className="mb-4 border-b border-green-200 pb-2 text-xl font-semibold text-green-900">
-                Down
-              </h3>
+              {/* H2 Correctly */}
+              <h2 className="mb-4 border-b border-green-200 pb-2 text-xl font-semibold text-green-900">
+                Down Clues & Answers
+              </h2>
               <div className="space-y-3">
                 {down.map((clue: { number: number; clue_text: string; answer?: string }, idx: number) => (
                   <div key={`down-${idx}`} className="rounded-md bg-white p-3 shadow-sm transition-all hover:shadow-md">
@@ -230,6 +349,7 @@ export default async function NytDailyPage() {
                 ))}
               </div>
             </div>
+
           </div>
 
           {/* Footer Info */}

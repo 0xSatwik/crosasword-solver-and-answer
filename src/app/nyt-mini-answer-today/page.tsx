@@ -11,8 +11,9 @@ import {
 import { fetchMiniToday, formatMiniDate } from '../../lib/nytMiniApi';
 
 export const metadata: Metadata = {
-    title: "Today's NYT Mini Crossword Answer | Quick Puzzle Solutions",
-    description: "Get today's New York Times Mini crossword puzzle answers - a quick 5-minute brain exercise with all clues and solutions.",
+    title: "NYT Mini Crossword Answer Today | Daily Solutions & Hints",
+    description: "Get today's New York Times Mini crossword puzzle answers. Complete solutions for all 5x5 Across and Down clues, updated daily.",
+    keywords: ["NYT Mini Crossword Answer Today", "Today's Mini Crossword Solution", "NYT Mini Answers", "Daily Mini Crossword"],
 };
 
 export default async function NytMiniTodayPage() {
@@ -52,8 +53,95 @@ export default async function NytMiniTodayPage() {
         answer: (clue as { clue: string; answer: string }).answer
     })).sort((a, b) => parseInt(a.number) - parseInt(b.number));
 
+    // Schema Data
+    const appUrl = "https://crossword-solver.io";
+    const personName = "NYT Mini Constructor";
+
+    // FAQ Schema
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": `What is the NYT Mini Crossword answer today (${displayDate})?`,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": `The answers for the New York Times Mini crossword today, ${displayDate}, are listed below. We provide solutions for all 5x5 clues.`
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When does the next NYT Mini Crossword come out?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The New York Times Mini Crossword is available daily at 10 PM EST weekdays and 6 PM EST weekends."
+                }
+            }
+        ]
+    };
+
+    // Article/NewsArticle Schema
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": `NYT Mini Crossword Answer Today (${displayDate})`,
+        "datePublished": data.date,
+        "dateModified": data.date,
+        "author": {
+            "@type": "Person",
+            "name": personName
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Crossword Solver",
+            "logo": {
+                "@type": "ImageObject",
+                "url": `${appUrl}/logo.png`
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `${appUrl}/nyt-mini-answer-today`
+        }
+    };
+
+    // Breadcrumb Schema
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${appUrl}/`
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Daily Answers",
+            "item": `${appUrl}/daily`
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Mini Answer Today",
+            "item": `${appUrl}/nyt-mini-answer-today`
+        }]
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-orange-50 via-amber-50 to-white py-12">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
             <div className="container mx-auto px-4">
                 <div className="mx-auto max-w-4xl">
                     {/* Back link */}
@@ -81,7 +169,7 @@ export default async function NytMiniTodayPage() {
                             </div>
 
                             <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                                Today's Mini Puzzle
+                                NYT Mini Crossword Answer Today ({displayDate})
                             </h1>
 
                             <div className="flex flex-wrap items-center gap-4 text-white/90">
@@ -162,6 +250,16 @@ export default async function NytMiniTodayPage() {
                                 ))}
                             </div>
                         </div>
+                    </div>
+
+                    {/* SEO Paragraph */}
+                    <div className="mb-10 rounded-2xl bg-white p-6 shadow-lg border border-orange-100">
+                        <h2 className="text-xl font-bold text-gray-900 mb-3">Today's NYT Mini Crossword Answers - {displayDate}</h2>
+                        <p className="text-gray-700 leading-relaxed">
+                            Need help with today's <strong>New York Times Mini Crossword</strong>? You've found the right place.
+                            We provide the complete solutions for the NYT Mini released on {displayDate}.
+                            Whether you're looking for a specific clue or the entire solved grid, our daily updated answers will help you finish the puzzle in record time.
+                        </p>
                     </div>
 
                     {/* Quick Links */}

@@ -1,2259 +1,956 @@
 {
-  "puzzle": {
-    "puzzle_id": 4051,
-    "date": "2026-01-25",
-    "formatted_date": "Sunday, January 25, 2026",
-    "title": "New York Times, Sunday, January 25, 2026",
-    "author": "",
-    "editor": "",
-    "day_of_week": "Sunday",
-    "permalink": "",
-    "created_at": "2026-01-25 00:00:53"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2026-01-26",
+      "formatted_date": "Monday, January 26, 2026",
+      "day_of_week": "Monday",
+      "title": "New York Times, Monday, January 26, 2026",
+      "author": "",
+      "editor": ""
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Pie nut",
+        "answer": "PECAN",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Boring task",
+        "answer": "SLOG",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "\"I want to be in the loop on this email\"",
+        "answer": "CCME",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Love, Italian-style",
+        "answer": "AMORE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Walking stick",
+        "answer": "CANE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Sounds of inspiration",
+        "answer": "AHAS",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Classic flowering locale adjacent to the White House [baseball star]",
+        "answer": "ROSEGARDEN",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Get gooey, maybe",
+        "answer": "MELT",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Backstreets",
+        "answer": "ALLEYS",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Spooky",
+        "answer": "EERIE",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "___ one and only",
+        "answer": "THE",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Itinerary calculation, in brief",
+        "answer": "ETA",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Connections",
+        "answer": "INS",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Purple yam used to flavor desserts",
+        "answer": "UBE",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Grammy Award that's good for laughs? [1960s rock musician]",
+        "answer": "BESTCOMEDYALBUM",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Truffle pigs' assets",
+        "answer": "SNOUTS",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Connection between topics",
+        "answer": "SEGUE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"Over here!\"",
+        "answer": "PSST",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "___ Vicious",
+        "answer": "SID",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Increase",
+        "answer": "GOUP",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"Do the Right ___\" (Spike Lee film)",
+        "answer": "THING",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Food court pizza chain",
+        "answer": "SBARRO",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "North Carolina educational institution [former \"S.N.L.\" cast member]",
+        "answer": "DAVIDSONCOLLEGE",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Allhallows ___",
+        "answer": "EVE",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Cut, as grass",
+        "answer": "MOW",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Beverage that may come in a pint",
+        "answer": "ALE",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Cry between \"Ready\" and \"Go!\"",
+        "answer": "SET",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Parisian thanks",
+        "answer": "MERCI",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Waiter or waitress",
+        "answer": "SERVER",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "\"Do ___ others …\"",
+        "answer": "UNTO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Athletic trifectas … or a phonetic hint to the starts of 17-, 29- and 46-Across",
+        "answer": "THREEPEATS",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Wishes undone",
+        "answer": "RUES",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Fireplace fuel",
+        "answer": "LOGS",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Jadedness",
+        "answer": "ENNUI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Send an eggplant or taco emoji, say",
+        "answer": "SEXT",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Ones appointed by corp. boards",
+        "answer": "CEOS",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "No-nos",
+        "answer": "DONTS",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Number on a golf card",
+        "answer": "PAR",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Music genre influenced by the Smiths and the Cure",
+        "answer": "EMO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Modern lead-in to play",
+        "answer": "COS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Space",
+        "answer": "AREA",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Fail to take care of",
+        "answer": "NEGLECT",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "\"Aiiiiieeeee!,\" e.g.",
+        "answer": "SCREAM",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Noblewoman",
+        "answer": "LADY",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Like a biased presentation",
+        "answer": "ONESIDED",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Lead-in to X, Y, Z or Alpha",
+        "answer": "GEN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Arrived",
+        "answer": "CAME",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Winged figure in Raphael's \"Sistine Madonna\"",
+        "answer": "CHERUB",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Beach city west of Los Angeles",
+        "answer": "MALIBU",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Think highly of",
+        "answer": "ESTEEM",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Stevie Nicks and Karen Carpenter, vocally",
+        "answer": "ALTOS",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Jacob's brother in the Bible",
+        "answer": "ESAU",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Baker's meas.",
+        "answer": "TBSP",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Mothers of barnyard chicks",
+        "answer": "HENS",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Those, in Spanish",
+        "answer": "ESOS",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "N.F.L. team at MetLife Stadium, as shown on scoreboards",
+        "answer": "NYG",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "___-frutti",
+        "answer": "TUTTI",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Endorse digitally",
+        "answer": "ESIGN",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Corporate department that handles contracts",
+        "answer": "LEGAL",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Oversize article of winter footwear",
+        "answer": "SNOWSHOE",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Metals that miners mine",
+        "answer": "ORES",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Egg (on)",
+        "answer": "URGE",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "T.S. Eliot or W.H. Auden",
+        "answer": "POET",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Kind of port in A/V",
+        "answer": "HDMI",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Prefix with -metric or -morphic",
+        "answer": "ISO",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Puzzle out",
+        "answer": "SOLVE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Censored, as on an audiotape",
+        "answer": "BLEEPED",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Takes exception",
+        "answer": "DEMURS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Fifth or Madison, in Manhattan",
+        "answer": "AVENUE",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Point of a polygon",
+        "answer": "VERTEX",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Stroke lovingly",
+        "answer": "CARESS",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "\"It'll ___ ya\"",
+        "answer": "COST",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Thus",
+        "answer": "ERGO",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Nevada city near Lake Tahoe",
+        "answer": "RENO",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "Extra attention, in brief",
+        "answer": "TLC",
+        "direction": "down"
+      },
+      {
+        "number": 61,
+        "clue": "Journalist Curry",
+        "answer": "ANN",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Famed Egyptian king, for short",
+        "answer": "TUT",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Bro's sibling",
+        "answer": "SIS",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Pie nut",
+        "answer": "PECAN",
+        "direction": "across"
+      },
+      {
+        "number": 6,
+        "clue": "Boring task",
+        "answer": "SLOG",
+        "direction": "across"
+      },
+      {
+        "number": 10,
+        "clue": "\"I want to be in the loop on this email\"",
+        "answer": "CCME",
+        "direction": "across"
+      },
+      {
+        "number": 14,
+        "clue": "Love, Italian-style",
+        "answer": "AMORE",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "Walking stick",
+        "answer": "CANE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Sounds of inspiration",
+        "answer": "AHAS",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "Classic flowering locale adjacent to the White House [baseball star]",
+        "answer": "ROSEGARDEN",
+        "direction": "across"
+      },
+      {
+        "number": 19,
+        "clue": "Get gooey, maybe",
+        "answer": "MELT",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "Backstreets",
+        "answer": "ALLEYS",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "Spooky",
+        "answer": "EERIE",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "___ one and only",
+        "answer": "THE",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Itinerary calculation, in brief",
+        "answer": "ETA",
+        "direction": "across"
+      },
+      {
+        "number": 26,
+        "clue": "Connections",
+        "answer": "INS",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Purple yam used to flavor desserts",
+        "answer": "UBE",
+        "direction": "across"
+      },
+      {
+        "number": 29,
+        "clue": "Grammy Award that's good for laughs? [1960s rock musician]",
+        "answer": "BESTCOMEDYALBUM",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Truffle pigs' assets",
+        "answer": "SNOUTS",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Connection between topics",
+        "answer": "SEGUE",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"Over here!\"",
+        "answer": "PSST",
+        "direction": "across"
+      },
+      {
+        "number": 36,
+        "clue": "___ Vicious",
+        "answer": "SID",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Increase",
+        "answer": "GOUP",
+        "direction": "across"
+      },
+      {
+        "number": 41,
+        "clue": "\"Do the Right ___\" (Spike Lee film)",
+        "answer": "THING",
+        "direction": "across"
+      },
+      {
+        "number": 44,
+        "clue": "Food court pizza chain",
+        "answer": "SBARRO",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "North Carolina educational institution [former \"S.N.L.\" cast member]",
+        "answer": "DAVIDSONCOLLEGE",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Allhallows ___",
+        "answer": "EVE",
+        "direction": "across"
+      },
+      {
+        "number": 51,
+        "clue": "Cut, as grass",
+        "answer": "MOW",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Beverage that may come in a pint",
+        "answer": "ALE",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Cry between \"Ready\" and \"Go!\"",
+        "answer": "SET",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Parisian thanks",
+        "answer": "MERCI",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Waiter or waitress",
+        "answer": "SERVER",
+        "direction": "across"
+      },
+      {
+        "number": 59,
+        "clue": "\"Do ___ others …\"",
+        "answer": "UNTO",
+        "direction": "across"
+      },
+      {
+        "number": 60,
+        "clue": "Athletic trifectas … or a phonetic hint to the starts of 17-, 29- and 46-Across",
+        "answer": "THREEPEATS",
+        "direction": "across"
+      },
+      {
+        "number": 64,
+        "clue": "Wishes undone",
+        "answer": "RUES",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Fireplace fuel",
+        "answer": "LOGS",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "Jadedness",
+        "answer": "ENNUI",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "Send an eggplant or taco emoji, say",
+        "answer": "SEXT",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Ones appointed by corp. boards",
+        "answer": "CEOS",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "No-nos",
+        "answer": "DONTS",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Number on a golf card",
+        "answer": "PAR",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Music genre influenced by the Smiths and the Cure",
+        "answer": "EMO",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Modern lead-in to play",
+        "answer": "COS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Space",
+        "answer": "AREA",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Fail to take care of",
+        "answer": "NEGLECT",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "\"Aiiiiieeeee!,\" e.g.",
+        "answer": "SCREAM",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Noblewoman",
+        "answer": "LADY",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Like a biased presentation",
+        "answer": "ONESIDED",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Lead-in to X, Y, Z or Alpha",
+        "answer": "GEN",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "Arrived",
+        "answer": "CAME",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Winged figure in Raphael's \"Sistine Madonna\"",
+        "answer": "CHERUB",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Beach city west of Los Angeles",
+        "answer": "MALIBU",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Think highly of",
+        "answer": "ESTEEM",
+        "direction": "down"
+      },
+      {
+        "number": 18,
+        "clue": "Stevie Nicks and Karen Carpenter, vocally",
+        "answer": "ALTOS",
+        "direction": "down"
+      },
+      {
+        "number": 21,
+        "clue": "Jacob's brother in the Bible",
+        "answer": "ESAU",
+        "direction": "down"
+      },
+      {
+        "number": 22,
+        "clue": "Baker's meas.",
+        "answer": "TBSP",
+        "direction": "down"
+      },
+      {
+        "number": 23,
+        "clue": "Mothers of barnyard chicks",
+        "answer": "HENS",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Those, in Spanish",
+        "answer": "ESOS",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "N.F.L. team at MetLife Stadium, as shown on scoreboards",
+        "answer": "NYG",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "___-frutti",
+        "answer": "TUTTI",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Endorse digitally",
+        "answer": "ESIGN",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Corporate department that handles contracts",
+        "answer": "LEGAL",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Oversize article of winter footwear",
+        "answer": "SNOWSHOE",
+        "direction": "down"
+      },
+      {
+        "number": 38,
+        "clue": "Metals that miners mine",
+        "answer": "ORES",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "Egg (on)",
+        "answer": "URGE",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "T.S. Eliot or W.H. Auden",
+        "answer": "POET",
+        "direction": "down"
+      },
+      {
+        "number": 42,
+        "clue": "Kind of port in A/V",
+        "answer": "HDMI",
+        "direction": "down"
+      },
+      {
+        "number": 43,
+        "clue": "Prefix with -metric or -morphic",
+        "answer": "ISO",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Puzzle out",
+        "answer": "SOLVE",
+        "direction": "down"
+      },
+      {
+        "number": 45,
+        "clue": "Censored, as on an audiotape",
+        "answer": "BLEEPED",
+        "direction": "down"
+      },
+      {
+        "number": 46,
+        "clue": "Takes exception",
+        "answer": "DEMURS",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Fifth or Madison, in Manhattan",
+        "answer": "AVENUE",
+        "direction": "down"
+      },
+      {
+        "number": 48,
+        "clue": "Point of a polygon",
+        "answer": "VERTEX",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Stroke lovingly",
+        "answer": "CARESS",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "\"It'll ___ ya\"",
+        "answer": "COST",
+        "direction": "down"
+      },
+      {
+        "number": 57,
+        "clue": "Thus",
+        "answer": "ERGO",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Nevada city near Lake Tahoe",
+        "answer": "RENO",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "Extra attention, in brief",
+        "answer": "TLC",
+        "direction": "down"
+      },
+      {
+        "number": 61,
+        "clue": "Journalist Curry",
+        "answer": "ANN",
+        "direction": "down"
+      },
+      {
+        "number": 62,
+        "clue": "Famed Egyptian king, for short",
+        "answer": "TUT",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Bro's sibling",
+        "answer": "SIS",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 331506,
-      "puzzle_id": 4051,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Baggage accessory",
-      "answer": "IDTAG"
-    },
-    {
-      "clue_id": 331507,
-      "puzzle_id": 4051,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Apple TV comedy that received 20 Emmy nominations for its first season",
-      "answer": "TEDLASSO"
-    },
-    {
-      "clue_id": 331508,
-      "puzzle_id": 4051,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "In which baby spiders develop",
-      "answer": "EGGSAC"
-    },
-    {
-      "clue_id": 331509,
-      "puzzle_id": 4051,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Home of Diego Velázquez's \"Las Meninas\"",
-      "answer": "PRADO"
-    },
-    {
-      "clue_id": 331510,
-      "puzzle_id": 4051,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "\"I want to hear about that!\"",
-      "answer": "CLUEMEIN"
-    },
-    {
-      "clue_id": 331511,
-      "puzzle_id": 4051,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Makeshift replacement for a Kleenex",
-      "answer": "SLEEVE"
-    },
-    {
-      "clue_id": 331512,
-      "puzzle_id": 4051,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "\"That cabinet with plates looks awfully full\"",
-      "answer": "OUTOFDISKSPACE"
-    },
-    {
-      "clue_id": 331513,
-      "puzzle_id": 4051,
-      "number": 25,
-      "direction": "across",
-      "clue_text": "Triangular sail",
-      "answer": "LATEEN"
-    },
-    {
-      "clue_id": 331514,
-      "puzzle_id": 4051,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Food court pizzeria",
-      "answer": "SBARRO"
-    },
-    {
-      "clue_id": 331515,
-      "puzzle_id": 4051,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Some M.I.T. grads, for short",
-      "answer": "EES"
-    },
-    {
-      "clue_id": 331516,
-      "puzzle_id": 4051,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Resort amenity",
-      "answer": "SPA"
-    },
-    {
-      "clue_id": 331517,
-      "puzzle_id": 4051,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Bob who hosted \"America's Funniest Home Videos\" ",
-      "answer": "SAGET"
-    },
-    {
-      "clue_id": 331518,
-      "puzzle_id": 4051,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "A noble gas",
-      "answer": "NEON"
-    },
-    {
-      "clue_id": 331519,
-      "puzzle_id": 4051,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "It's good for the long haul",
-      "answer": "SEMI"
-    },
-    {
-      "clue_id": 331520,
-      "puzzle_id": 4051,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Sphere of creativity",
-      "answer": "ARTSCENE"
-    },
-    {
-      "clue_id": 331521,
-      "puzzle_id": 4051,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Private investigator, informally",
-      "answer": "TEC"
-    },
-    {
-      "clue_id": 331522,
-      "puzzle_id": 4051,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Cheese in a wax coating",
-      "answer": "EDAM"
-    },
-    {
-      "clue_id": 331523,
-      "puzzle_id": 4051,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "\"It's saying you completed the marathon in under two hours, which can't be right\"",
-      "answer": "RUNTIMEERROR"
-    },
-    {
-      "clue_id": 331524,
-      "puzzle_id": 4051,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Persian Gulf nation",
-      "answer": "IRAQ"
-    },
-    {
-      "clue_id": 331525,
-      "puzzle_id": 4051,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Sneaker brand that popularized cantilever heels",
-      "answer": "AVIA"
-    },
-    {
-      "clue_id": 331526,
-      "puzzle_id": 4051,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Mix up",
-      "answer": "STIR"
-    },
-    {
-      "clue_id": 331527,
-      "puzzle_id": 4051,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Actress Edebiri of \"The Bear\"",
-      "answer": "AYO"
-    },
-    {
-      "clue_id": 331528,
-      "puzzle_id": 4051,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "\"Is that a cough I hear?\"",
-      "answer": "VIRUSDETECTED"
-    },
-    {
-      "clue_id": 331529,
-      "puzzle_id": 4051,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Event for V.I.P. customers",
-      "answer": "PRESALE"
-    },
-    {
-      "clue_id": 331530,
-      "puzzle_id": 4051,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "The planets in our solar system, e.g.",
-      "answer": "OCTET"
-    },
-    {
-      "clue_id": 331531,
-      "puzzle_id": 4051,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Sci-fi princess",
-      "answer": "LEIA"
-    },
-    {
-      "clue_id": 331532,
-      "puzzle_id": 4051,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Stretchy material",
-      "answer": "LYCRA"
-    },
-    {
-      "clue_id": 331533,
-      "puzzle_id": 4051,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Freight barge",
-      "answer": "SCOW"
-    },
-    {
-      "clue_id": 331534,
-      "puzzle_id": 4051,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Not fantastical",
-      "answer": "REAL"
-    },
-    {
-      "clue_id": 331535,
-      "puzzle_id": 4051,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "La Città Eterna",
-      "answer": "ROMA"
-    },
-    {
-      "clue_id": 331536,
-      "puzzle_id": 4051,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Haunted house sound",
-      "answer": "HOWL"
-    },
-    {
-      "clue_id": 331537,
-      "puzzle_id": 4051,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Something to use on your break?",
-      "answer": "CUE"
-    },
-    {
-      "clue_id": 331538,
-      "puzzle_id": 4051,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "\"Sorry, we'll have to put the old panes back in\"",
-      "answer": "WINDOWSUPDATEFAILED"
-    },
-    {
-      "clue_id": 331539,
-      "puzzle_id": 4051,
-      "number": 75,
-      "direction": "across",
-      "clue_text": "Group of humpbacks",
-      "answer": "POD"
-    },
-    {
-      "clue_id": 331540,
-      "puzzle_id": 4051,
-      "number": 76,
-      "direction": "across",
-      "clue_text": "___ Bora (embattled Afghan region)",
-      "answer": "TORA"
-    },
-    {
-      "clue_id": 331541,
-      "puzzle_id": 4051,
-      "number": 77,
-      "direction": "across",
-      "clue_text": "Tel ___",
-      "answer": "AVIV"
-    },
-    {
-      "clue_id": 331542,
-      "puzzle_id": 4051,
-      "number": 78,
-      "direction": "across",
-      "clue_text": "Designer Saint Laurent",
-      "answer": "YVES"
-    },
-    {
-      "clue_id": 331543,
-      "puzzle_id": 4051,
-      "number": 79,
-      "direction": "across",
-      "clue_text": "Little bits of energy",
-      "answer": "ERGS"
-    },
-    {
-      "clue_id": 331544,
-      "puzzle_id": 4051,
-      "number": 81,
-      "direction": "across",
-      "clue_text": "New Zealanders, familiarly",
-      "answer": "KIWIS"
-    },
-    {
-      "clue_id": 331545,
-      "puzzle_id": 4051,
-      "number": 84,
-      "direction": "across",
-      "clue_text": "Color of undyed linen",
-      "answer": "ECRU"
-    },
-    {
-      "clue_id": 331546,
-      "puzzle_id": 4051,
-      "number": 86,
-      "direction": "across",
-      "clue_text": "Course that doesn’t require much studying",
-      "answer": "EASYA"
-    },
-    {
-      "clue_id": 331547,
-      "puzzle_id": 4051,
-      "number": 89,
-      "direction": "across",
-      "clue_text": "\"Gimme, gimme!\"",
-      "answer": "INEEDIT"
-    },
-    {
-      "clue_id": 331548,
-      "puzzle_id": 4051,
-      "number": 91,
-      "direction": "across",
-      "clue_text": "\"Those pancakes are piled way too high!\"",
-      "answer": "STACKOVERFLOW"
-    },
-    {
-      "clue_id": 331549,
-      "puzzle_id": 4051,
-      "number": 94,
-      "direction": "across",
-      "clue_text": "Boxy transport",
-      "answer": "VAN"
-    },
-    {
-      "clue_id": 331550,
-      "puzzle_id": 4051,
-      "number": 95,
-      "direction": "across",
-      "clue_text": "Part of a bouquet, in Bogotá",
-      "answer": "FLOR"
-    },
-    {
-      "clue_id": 331551,
-      "puzzle_id": 4051,
-      "number": 96,
-      "direction": "across",
-      "clue_text": "Like close-fitting clothes",
-      "answer": "SNUG"
-    },
-    {
-      "clue_id": 331552,
-      "puzzle_id": 4051,
-      "number": 97,
-      "direction": "across",
-      "clue_text": "It's just under a foot",
-      "answer": "SOLE"
-    },
-    {
-      "clue_id": 331553,
-      "puzzle_id": 4051,
-      "number": 98,
-      "direction": "across",
-      "clue_text": "\"Your emery board will never fit in this tiny toiletry bag\"",
-      "answer": "FILETOOLARGE"
-    },
-    {
-      "clue_id": 331554,
-      "puzzle_id": 4051,
-      "number": 103,
-      "direction": "across",
-      "clue_text": "Undesirable roommate",
-      "answer": "SLOB"
-    },
-    {
-      "clue_id": 331555,
-      "puzzle_id": 4051,
-      "number": 105,
-      "direction": "across",
-      "clue_text": "Word found in all but four state constitutions, but not the U.S. Constitution",
-      "answer": "GOD"
-    },
-    {
-      "clue_id": 331556,
-      "puzzle_id": 4051,
-      "number": 106,
-      "direction": "across",
-      "clue_text": "Part of M.O.",
-      "answer": "OPERANDI"
-    },
-    {
-      "clue_id": 331557,
-      "puzzle_id": 4051,
-      "number": 107,
-      "direction": "across",
-      "clue_text": "Symbol of transformation in \"The Silence of the Lambs\" ",
-      "answer": "MOTH"
-    },
-    {
-      "clue_id": 331558,
-      "puzzle_id": 4051,
-      "number": 109,
-      "direction": "across",
-      "clue_text": "Isn't feeling great",
-      "answer": "AILS"
-    },
-    {
-      "clue_id": 331559,
-      "puzzle_id": 4051,
-      "number": 111,
-      "direction": "across",
-      "clue_text": "Large flightless birds",
-      "answer": "RHEAS"
-    },
-    {
-      "clue_id": 331560,
-      "puzzle_id": 4051,
-      "number": 112,
-      "direction": "across",
-      "clue_text": "National Poetry Mo.",
-      "answer": "APR"
-    },
-    {
-      "clue_id": 331561,
-      "puzzle_id": 4051,
-      "number": 114,
-      "direction": "across",
-      "clue_text": "\"That ship ___ sailed\"",
-      "answer": "HAS"
-    },
-    {
-      "clue_id": 331562,
-      "puzzle_id": 4051,
-      "number": 116,
-      "direction": "across",
-      "clue_text": "Beverage brewed outside using natural heat",
-      "answer": "SUNTEA"
-    },
-    {
-      "clue_id": 331563,
-      "puzzle_id": 4051,
-      "number": 120,
-      "direction": "across",
-      "clue_text": "___ beef",
-      "answer": "CORNED"
-    },
-    {
-      "clue_id": 331564,
-      "puzzle_id": 4051,
-      "number": 122,
-      "direction": "across",
-      "clue_text": "\"Your waiter's nowhere to be seen!\"",
-      "answer": "SERVERNOTFOUND"
-    },
-    {
-      "clue_id": 331565,
-      "puzzle_id": 4051,
-      "number": 126,
-      "direction": "across",
-      "clue_text": "Passes",
-      "answer": "ENACTS"
-    },
-    {
-      "clue_id": 331566,
-      "puzzle_id": 4051,
-      "number": 127,
-      "direction": "across",
-      "clue_text": "Chips may go into it",
-      "answer": "ONIONDIP"
-    },
-    {
-      "clue_id": 331567,
-      "puzzle_id": 4051,
-      "number": 128,
-      "direction": "across",
-      "clue_text": "Jane who received a Screen Actors Guild Life Achievement Award",
-      "answer": "FONDA"
-    },
-    {
-      "clue_id": 331568,
-      "puzzle_id": 4051,
-      "number": 129,
-      "direction": "across",
-      "clue_text": "Have no stomach for",
-      "answer": "DETEST"
-    },
-    {
-      "clue_id": 331569,
-      "puzzle_id": 4051,
-      "number": 130,
-      "direction": "across",
-      "clue_text": "Doesn't care for",
-      "answer": "NEGLECTS"
-    },
-    {
-      "clue_id": 331570,
-      "puzzle_id": 4051,
-      "number": 131,
-      "direction": "across",
-      "clue_text": "Unexpected jerk",
-      "answer": "SPASM"
-    },
-    {
-      "clue_id": 331571,
-      "puzzle_id": 4051,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Major N.Y.S.E. events",
-      "answer": "IPOS"
-    },
-    {
-      "clue_id": 331572,
-      "puzzle_id": 4051,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Beat handily",
-      "answer": "DRUB"
-    },
-    {
-      "clue_id": 331573,
-      "puzzle_id": 4051,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "\"See ya later!\"",
-      "answer": "TATA"
-    },
-    {
-      "clue_id": 331574,
-      "puzzle_id": 4051,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Deck out",
-      "answer": "ADORN"
-    },
-    {
-      "clue_id": 331575,
-      "puzzle_id": 4051,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Walk",
-      "answer": "GOFREE"
-    },
-    {
-      "clue_id": 331576,
-      "puzzle_id": 4051,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Cable co. that was purchased by AT&T in 1999",
-      "answer": "TCI"
-    },
-    {
-      "clue_id": 331577,
-      "puzzle_id": 4051,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "\"What ___?\"",
-      "answer": "ELSE"
-    },
-    {
-      "clue_id": 331578,
-      "puzzle_id": 4051,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "William, Edward and Harry, e.g.",
-      "answer": "DUKES"
-    },
-    {
-      "clue_id": 331579,
-      "puzzle_id": 4051,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "To a ___ degree",
-      "answer": "LESSER"
-    },
-    {
-      "clue_id": 331580,
-      "puzzle_id": 4051,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Stage booster",
-      "answer": "AMP"
-    },
-    {
-      "clue_id": 331581,
-      "puzzle_id": 4051,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Domain for salty dogs",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 331582,
-      "puzzle_id": 4051,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Urges to attack, with \"on\" ",
-      "answer": "SICS"
-    },
-    {
-      "clue_id": 331583,
-      "puzzle_id": 4051,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "What this hand has: AAKQ6",
-      "answer": "ONEPAIR"
-    },
-    {
-      "clue_id": 331584,
-      "puzzle_id": 4051,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Fluency-building subj.",
-      "answer": "ESL"
-    },
-    {
-      "clue_id": 331585,
-      "puzzle_id": 4051,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Prosthetic facial feature of Peter Falk",
-      "answer": "GLASSEYE"
-    },
-    {
-      "clue_id": 331586,
-      "puzzle_id": 4051,
-      "number": 16,
-      "direction": "down",
-      "clue_text": "Convey",
-      "answer": "GETACROSS"
-    },
-    {
-      "clue_id": 331587,
-      "puzzle_id": 4051,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Pete who co-wrote \"If I Had a Hammer\"",
-      "answer": "SEEGER"
-    },
-    {
-      "clue_id": 331588,
-      "puzzle_id": 4051,
-      "number": 18,
-      "direction": "down",
-      "clue_text": "Skin care company",
-      "answer": "AVEENO"
-    },
-    {
-      "clue_id": 331589,
-      "puzzle_id": 4051,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Football snapper",
-      "answer": "CENTER"
-    },
-    {
-      "clue_id": 331590,
-      "puzzle_id": 4051,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Thingamabob",
-      "answer": "DOODAD"
-    },
-    {
-      "clue_id": 331591,
-      "puzzle_id": 4051,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Either side of a cheerleader's \"A\"",
-      "answer": "ARM"
-    },
-    {
-      "clue_id": 331592,
-      "puzzle_id": 4051,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Kind of orange",
-      "answer": "NAVEL"
-    },
-    {
-      "clue_id": 331593,
-      "puzzle_id": 4051,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "It's not optional",
-      "answer": "MUST"
-    },
-    {
-      "clue_id": 331594,
-      "puzzle_id": 4051,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Silicon Valley giant",
-      "answer": "INTEL"
-    },
-    {
-      "clue_id": 331595,
-      "puzzle_id": 4051,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Easily detached",
-      "answer": "TEARAWAY"
-    },
-    {
-      "clue_id": 331596,
-      "puzzle_id": 4051,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Pioneering DVR brand",
-      "answer": "TIVO"
-    },
-    {
-      "clue_id": 331597,
-      "puzzle_id": 4051,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "George Orwell's first name at birth",
-      "answer": "ERIC"
-    },
-    {
-      "clue_id": 331598,
-      "puzzle_id": 4051,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Purchase for the Atari 2600 ",
-      "answer": "CARTRIDGE"
-    },
-    {
-      "clue_id": 331599,
-      "puzzle_id": 4051,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "One cutting corners",
-      "answer": "MITERSAW"
-    },
-    {
-      "clue_id": 331600,
-      "puzzle_id": 4051,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Neat",
-      "answer": "TIDY"
-    },
-    {
-      "clue_id": 331601,
-      "puzzle_id": 4051,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "One of Adolf Anderssen's sacrifices in the \"Immortal Game\" against Lionel Kieseritzky",
-      "answer": "QUEEN"
-    },
-    {
-      "clue_id": 331602,
-      "puzzle_id": 4051,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "\"Trade discount\" quintet",
-      "answer": "AEIOU"
-    },
-    {
-      "clue_id": 331603,
-      "puzzle_id": 4051,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "German for \"city\" ",
-      "answer": "STADT"
-    },
-    {
-      "clue_id": 331604,
-      "puzzle_id": 4051,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Something to pitch",
-      "answer": "CAMP"
-    },
-    {
-      "clue_id": 331605,
-      "puzzle_id": 4051,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Univ. worker",
-      "answer": "PROF"
-    },
-    {
-      "clue_id": 331606,
-      "puzzle_id": 4051,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Site-seeing list?",
-      "answer": "ACCESSLOG"
-    },
-    {
-      "clue_id": 331607,
-      "puzzle_id": 4051,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Forte",
-      "answer": "LOUD"
-    },
-    {
-      "clue_id": 331608,
-      "puzzle_id": 4051,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Animal whose name sounds like a pronoun",
-      "answer": "EWE"
-    },
-    {
-      "clue_id": 331609,
-      "puzzle_id": 4051,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "V-shaped designs ",
-      "answer": "CHEVRONS"
-    },
-    {
-      "clue_id": 331610,
-      "puzzle_id": 4051,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Visit, as for a safety check",
-      "answer": "LOOKINON"
-    },
-    {
-      "clue_id": 331611,
-      "puzzle_id": 4051,
-      "number": 66,
-      "direction": "down",
-      "clue_text": "Mathematician Lovelace",
-      "answer": "ADA"
-    },
-    {
-      "clue_id": 331612,
-      "puzzle_id": 4051,
-      "number": 68,
-      "direction": "down",
-      "clue_text": "Human organ with the ability to regenerate itself",
-      "answer": "LIVER"
-    },
-    {
-      "clue_id": 331613,
-      "puzzle_id": 4051,
-      "number": 70,
-      "direction": "down",
-      "clue_text": "Frayed",
-      "answer": "WORN"
-    },
-    {
-      "clue_id": 331614,
-      "puzzle_id": 4051,
-      "number": 71,
-      "direction": "down",
-      "clue_text": "Court order",
-      "answer": "WRIT"
-    },
-    {
-      "clue_id": 331615,
-      "puzzle_id": 4051,
-      "number": 72,
-      "direction": "down",
-      "clue_text": "With, in Oise",
-      "answer": "AVEC"
-    },
-    {
-      "clue_id": 331616,
-      "puzzle_id": 4051,
-      "number": 73,
-      "direction": "down",
-      "clue_text": "Exam marks",
-      "answer": "TICKS"
-    },
-    {
-      "clue_id": 331617,
-      "puzzle_id": 4051,
-      "number": 74,
-      "direction": "down",
-      "clue_text": "N.H.L. team with the longest Stanley Cup drought, familiarly",
-      "answer": "LEAFS"
-    },
-    {
-      "clue_id": 331618,
-      "puzzle_id": 4051,
-      "number": 75,
-      "direction": "down",
-      "clue_text": "Smallest Canadian prov.",
-      "answer": "PEI"
-    },
-    {
-      "clue_id": 331619,
-      "puzzle_id": 4051,
-      "number": 80,
-      "direction": "down",
-      "clue_text": "Canning package?",
-      "answer": "SEVERANCE"
-    },
-    {
-      "clue_id": 331620,
-      "puzzle_id": 4051,
-      "number": 82,
-      "direction": "down",
-      "clue_text": "Mallorca, por ejemplo",
-      "answer": "ISLA"
-    },
-    {
-      "clue_id": 331621,
-      "puzzle_id": 4051,
-      "number": 83,
-      "direction": "down",
-      "clue_text": "Reason for turbulence",
-      "answer": "STORM"
-    },
-    {
-      "clue_id": 331622,
-      "puzzle_id": 4051,
-      "number": 85,
-      "direction": "down",
-      "clue_text": "Anatomical appendage that only humans and gorillas have",
-      "answer": "UVULA"
-    },
-    {
-      "clue_id": 331623,
-      "puzzle_id": 4051,
-      "number": 87,
-      "direction": "down",
-      "clue_text": "Modern \"seize the day\"",
-      "answer": "YOLO"
-    },
-    {
-      "clue_id": 331624,
-      "puzzle_id": 4051,
-      "number": 88,
-      "direction": "down",
-      "clue_text": "Stunned",
-      "answer": "AWED"
-    },
-    {
-      "clue_id": 331625,
-      "puzzle_id": 4051,
-      "number": 90,
-      "direction": "down",
-      "clue_text": "Computer model inputs",
-      "answer": "DATASETS"
-    },
-    {
-      "clue_id": 331626,
-      "puzzle_id": 4051,
-      "number": 92,
-      "direction": "down",
-      "clue_text": "Ship that transported the Golden Fleece",
-      "answer": "ARGO"
-    },
-    {
-      "clue_id": 331627,
-      "puzzle_id": 4051,
-      "number": 93,
-      "direction": "down",
-      "clue_text": "Hardly a team player",
-      "answer": "EGOIST"
-    },
-    {
-      "clue_id": 331628,
-      "puzzle_id": 4051,
-      "number": 95,
-      "direction": "down",
-      "clue_text": "Betrays, in a way",
-      "answer": "FLIPSON"
-    },
-    {
-      "clue_id": 331629,
-      "puzzle_id": 4051,
-      "number": 98,
-      "direction": "down",
-      "clue_text": "Like an unnatural smile",
-      "answer": "FORCED"
-    },
-    {
-      "clue_id": 331630,
-      "puzzle_id": 4051,
-      "number": 99,
-      "direction": "down",
-      "clue_text": "Tech debut of 2007",
-      "answer": "IPHONE"
-    },
-    {
-      "clue_id": 331631,
-      "puzzle_id": 4051,
-      "number": 100,
-      "direction": "down",
-      "clue_text": "Examine creepily",
-      "answer": "LEERAT"
-    },
-    {
-      "clue_id": 331632,
-      "puzzle_id": 4051,
-      "number": 101,
-      "direction": "down",
-      "clue_text": "___ Mae Brown (Whoopi's role in \"Ghost\")",
-      "answer": "ODA"
-    },
-    {
-      "clue_id": 331633,
-      "puzzle_id": 4051,
-      "number": 102,
-      "direction": "down",
-      "clue_text": "World's most-produced organic compound",
-      "answer": "ETHENE"
-    },
-    {
-      "clue_id": 331634,
-      "puzzle_id": 4051,
-      "number": 104,
-      "direction": "down",
-      "clue_text": "Puts up a false front",
-      "answer": "BLUFFS"
-    },
-    {
-      "clue_id": 331635,
-      "puzzle_id": 4051,
-      "number": 108,
-      "direction": "down",
-      "clue_text": "Property of curium, but not cerium",
-      "answer": "HARDC"
-    },
-    {
-      "clue_id": 331636,
-      "puzzle_id": 4051,
-      "number": 110,
-      "direction": "down",
-      "clue_text": "Eavesdrop, e.g.",
-      "answer": "SNOOP"
-    },
-    {
-      "clue_id": 331637,
-      "puzzle_id": 4051,
-      "number": 113,
-      "direction": "down",
-      "clue_text": "Surrealist Magritte",
-      "answer": "RENE"
-    },
-    {
-      "clue_id": 331638,
-      "puzzle_id": 4051,
-      "number": 115,
-      "direction": "down",
-      "clue_text": "Fit of irritation",
-      "answer": "SNIT"
-    },
-    {
-      "clue_id": 331639,
-      "puzzle_id": 4051,
-      "number": 117,
-      "direction": "down",
-      "clue_text": "Fish in niçoise salad",
-      "answer": "TUNA"
-    },
-    {
-      "clue_id": 331640,
-      "puzzle_id": 4051,
-      "number": 118,
-      "direction": "down",
-      "clue_text": "Cuts off",
-      "answer": "ENDS"
-    },
-    {
-      "clue_id": 331641,
-      "puzzle_id": 4051,
-      "number": 119,
-      "direction": "down",
-      "clue_text": "Actor Brody of \"The O.C.\"",
-      "answer": "ADAM"
-    },
-    {
-      "clue_id": 331642,
-      "puzzle_id": 4051,
-      "number": 121,
-      "direction": "down",
-      "clue_text": "\"Spring forward\" hrs.",
-      "answer": "DST"
-    },
-    {
-      "clue_id": 331643,
-      "puzzle_id": 4051,
-      "number": 123,
-      "direction": "down",
-      "clue_text": "Illegally interfere with, as an election",
-      "answer": "RIG"
-    },
-    {
-      "clue_id": 331644,
-      "puzzle_id": 4051,
-      "number": 124,
-      "direction": "down",
-      "clue_text": "Remote abbr.",
-      "answer": "VOL"
-    },
-    {
-      "clue_id": 331645,
-      "puzzle_id": 4051,
-      "number": 125,
-      "direction": "down",
-      "clue_text": "Special ___",
-      "answer": "OPS"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 331506,
-      "puzzle_id": 4051,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "Baggage accessory",
-      "answer": "IDTAG"
-    },
-    {
-      "clue_id": 331507,
-      "puzzle_id": 4051,
-      "number": 6,
-      "direction": "across",
-      "clue_text": "Apple TV comedy that received 20 Emmy nominations for its first season",
-      "answer": "TEDLASSO"
-    },
-    {
-      "clue_id": 331508,
-      "puzzle_id": 4051,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "In which baby spiders develop",
-      "answer": "EGGSAC"
-    },
-    {
-      "clue_id": 331509,
-      "puzzle_id": 4051,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Home of Diego Velázquez's \"Las Meninas\"",
-      "answer": "PRADO"
-    },
-    {
-      "clue_id": 331510,
-      "puzzle_id": 4051,
-      "number": 21,
-      "direction": "across",
-      "clue_text": "\"I want to hear about that!\"",
-      "answer": "CLUEMEIN"
-    },
-    {
-      "clue_id": 331511,
-      "puzzle_id": 4051,
-      "number": 22,
-      "direction": "across",
-      "clue_text": "Makeshift replacement for a Kleenex",
-      "answer": "SLEEVE"
-    },
-    {
-      "clue_id": 331512,
-      "puzzle_id": 4051,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "\"That cabinet with plates looks awfully full\"",
-      "answer": "OUTOFDISKSPACE"
-    },
-    {
-      "clue_id": 331513,
-      "puzzle_id": 4051,
-      "number": 25,
-      "direction": "across",
-      "clue_text": "Triangular sail",
-      "answer": "LATEEN"
-    },
-    {
-      "clue_id": 331514,
-      "puzzle_id": 4051,
-      "number": 26,
-      "direction": "across",
-      "clue_text": "Food court pizzeria",
-      "answer": "SBARRO"
-    },
-    {
-      "clue_id": 331515,
-      "puzzle_id": 4051,
-      "number": 27,
-      "direction": "across",
-      "clue_text": "Some M.I.T. grads, for short",
-      "answer": "EES"
-    },
-    {
-      "clue_id": 331516,
-      "puzzle_id": 4051,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Resort amenity",
-      "answer": "SPA"
-    },
-    {
-      "clue_id": 331517,
-      "puzzle_id": 4051,
-      "number": 30,
-      "direction": "across",
-      "clue_text": "Bob who hosted \"America's Funniest Home Videos\" ",
-      "answer": "SAGET"
-    },
-    {
-      "clue_id": 331518,
-      "puzzle_id": 4051,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "A noble gas",
-      "answer": "NEON"
-    },
-    {
-      "clue_id": 331519,
-      "puzzle_id": 4051,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "It's good for the long haul",
-      "answer": "SEMI"
-    },
-    {
-      "clue_id": 331520,
-      "puzzle_id": 4051,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Sphere of creativity",
-      "answer": "ARTSCENE"
-    },
-    {
-      "clue_id": 331521,
-      "puzzle_id": 4051,
-      "number": 38,
-      "direction": "across",
-      "clue_text": "Private investigator, informally",
-      "answer": "TEC"
-    },
-    {
-      "clue_id": 331522,
-      "puzzle_id": 4051,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "Cheese in a wax coating",
-      "answer": "EDAM"
-    },
-    {
-      "clue_id": 331523,
-      "puzzle_id": 4051,
-      "number": 43,
-      "direction": "across",
-      "clue_text": "\"It's saying you completed the marathon in under two hours, which can't be right\"",
-      "answer": "RUNTIMEERROR"
-    },
-    {
-      "clue_id": 331524,
-      "puzzle_id": 4051,
-      "number": 45,
-      "direction": "across",
-      "clue_text": "Persian Gulf nation",
-      "answer": "IRAQ"
-    },
-    {
-      "clue_id": 331525,
-      "puzzle_id": 4051,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Sneaker brand that popularized cantilever heels",
-      "answer": "AVIA"
-    },
-    {
-      "clue_id": 331526,
-      "puzzle_id": 4051,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Mix up",
-      "answer": "STIR"
-    },
-    {
-      "clue_id": 331527,
-      "puzzle_id": 4051,
-      "number": 50,
-      "direction": "across",
-      "clue_text": "Actress Edebiri of \"The Bear\"",
-      "answer": "AYO"
-    },
-    {
-      "clue_id": 331528,
-      "puzzle_id": 4051,
-      "number": 51,
-      "direction": "across",
-      "clue_text": "\"Is that a cough I hear?\"",
-      "answer": "VIRUSDETECTED"
-    },
-    {
-      "clue_id": 331529,
-      "puzzle_id": 4051,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Event for V.I.P. customers",
-      "answer": "PRESALE"
-    },
-    {
-      "clue_id": 331530,
-      "puzzle_id": 4051,
-      "number": 58,
-      "direction": "across",
-      "clue_text": "The planets in our solar system, e.g.",
-      "answer": "OCTET"
-    },
-    {
-      "clue_id": 331531,
-      "puzzle_id": 4051,
-      "number": 59,
-      "direction": "across",
-      "clue_text": "Sci-fi princess",
-      "answer": "LEIA"
-    },
-    {
-      "clue_id": 331532,
-      "puzzle_id": 4051,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Stretchy material",
-      "answer": "LYCRA"
-    },
-    {
-      "clue_id": 331533,
-      "puzzle_id": 4051,
-      "number": 62,
-      "direction": "across",
-      "clue_text": "Freight barge",
-      "answer": "SCOW"
-    },
-    {
-      "clue_id": 331534,
-      "puzzle_id": 4051,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Not fantastical",
-      "answer": "REAL"
-    },
-    {
-      "clue_id": 331535,
-      "puzzle_id": 4051,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "La Città Eterna",
-      "answer": "ROMA"
-    },
-    {
-      "clue_id": 331536,
-      "puzzle_id": 4051,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Haunted house sound",
-      "answer": "HOWL"
-    },
-    {
-      "clue_id": 331537,
-      "puzzle_id": 4051,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "Something to use on your break?",
-      "answer": "CUE"
-    },
-    {
-      "clue_id": 331538,
-      "puzzle_id": 4051,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "\"Sorry, we'll have to put the old panes back in\"",
-      "answer": "WINDOWSUPDATEFAILED"
-    },
-    {
-      "clue_id": 331539,
-      "puzzle_id": 4051,
-      "number": 75,
-      "direction": "across",
-      "clue_text": "Group of humpbacks",
-      "answer": "POD"
-    },
-    {
-      "clue_id": 331540,
-      "puzzle_id": 4051,
-      "number": 76,
-      "direction": "across",
-      "clue_text": "___ Bora (embattled Afghan region)",
-      "answer": "TORA"
-    },
-    {
-      "clue_id": 331541,
-      "puzzle_id": 4051,
-      "number": 77,
-      "direction": "across",
-      "clue_text": "Tel ___",
-      "answer": "AVIV"
-    },
-    {
-      "clue_id": 331542,
-      "puzzle_id": 4051,
-      "number": 78,
-      "direction": "across",
-      "clue_text": "Designer Saint Laurent",
-      "answer": "YVES"
-    },
-    {
-      "clue_id": 331543,
-      "puzzle_id": 4051,
-      "number": 79,
-      "direction": "across",
-      "clue_text": "Little bits of energy",
-      "answer": "ERGS"
-    },
-    {
-      "clue_id": 331544,
-      "puzzle_id": 4051,
-      "number": 81,
-      "direction": "across",
-      "clue_text": "New Zealanders, familiarly",
-      "answer": "KIWIS"
-    },
-    {
-      "clue_id": 331545,
-      "puzzle_id": 4051,
-      "number": 84,
-      "direction": "across",
-      "clue_text": "Color of undyed linen",
-      "answer": "ECRU"
-    },
-    {
-      "clue_id": 331546,
-      "puzzle_id": 4051,
-      "number": 86,
-      "direction": "across",
-      "clue_text": "Course that doesn’t require much studying",
-      "answer": "EASYA"
-    },
-    {
-      "clue_id": 331547,
-      "puzzle_id": 4051,
-      "number": 89,
-      "direction": "across",
-      "clue_text": "\"Gimme, gimme!\"",
-      "answer": "INEEDIT"
-    },
-    {
-      "clue_id": 331548,
-      "puzzle_id": 4051,
-      "number": 91,
-      "direction": "across",
-      "clue_text": "\"Those pancakes are piled way too high!\"",
-      "answer": "STACKOVERFLOW"
-    },
-    {
-      "clue_id": 331549,
-      "puzzle_id": 4051,
-      "number": 94,
-      "direction": "across",
-      "clue_text": "Boxy transport",
-      "answer": "VAN"
-    },
-    {
-      "clue_id": 331550,
-      "puzzle_id": 4051,
-      "number": 95,
-      "direction": "across",
-      "clue_text": "Part of a bouquet, in Bogotá",
-      "answer": "FLOR"
-    },
-    {
-      "clue_id": 331551,
-      "puzzle_id": 4051,
-      "number": 96,
-      "direction": "across",
-      "clue_text": "Like close-fitting clothes",
-      "answer": "SNUG"
-    },
-    {
-      "clue_id": 331552,
-      "puzzle_id": 4051,
-      "number": 97,
-      "direction": "across",
-      "clue_text": "It's just under a foot",
-      "answer": "SOLE"
-    },
-    {
-      "clue_id": 331553,
-      "puzzle_id": 4051,
-      "number": 98,
-      "direction": "across",
-      "clue_text": "\"Your emery board will never fit in this tiny toiletry bag\"",
-      "answer": "FILETOOLARGE"
-    },
-    {
-      "clue_id": 331554,
-      "puzzle_id": 4051,
-      "number": 103,
-      "direction": "across",
-      "clue_text": "Undesirable roommate",
-      "answer": "SLOB"
-    },
-    {
-      "clue_id": 331555,
-      "puzzle_id": 4051,
-      "number": 105,
-      "direction": "across",
-      "clue_text": "Word found in all but four state constitutions, but not the U.S. Constitution",
-      "answer": "GOD"
-    },
-    {
-      "clue_id": 331556,
-      "puzzle_id": 4051,
-      "number": 106,
-      "direction": "across",
-      "clue_text": "Part of M.O.",
-      "answer": "OPERANDI"
-    },
-    {
-      "clue_id": 331557,
-      "puzzle_id": 4051,
-      "number": 107,
-      "direction": "across",
-      "clue_text": "Symbol of transformation in \"The Silence of the Lambs\" ",
-      "answer": "MOTH"
-    },
-    {
-      "clue_id": 331558,
-      "puzzle_id": 4051,
-      "number": 109,
-      "direction": "across",
-      "clue_text": "Isn't feeling great",
-      "answer": "AILS"
-    },
-    {
-      "clue_id": 331559,
-      "puzzle_id": 4051,
-      "number": 111,
-      "direction": "across",
-      "clue_text": "Large flightless birds",
-      "answer": "RHEAS"
-    },
-    {
-      "clue_id": 331560,
-      "puzzle_id": 4051,
-      "number": 112,
-      "direction": "across",
-      "clue_text": "National Poetry Mo.",
-      "answer": "APR"
-    },
-    {
-      "clue_id": 331561,
-      "puzzle_id": 4051,
-      "number": 114,
-      "direction": "across",
-      "clue_text": "\"That ship ___ sailed\"",
-      "answer": "HAS"
-    },
-    {
-      "clue_id": 331562,
-      "puzzle_id": 4051,
-      "number": 116,
-      "direction": "across",
-      "clue_text": "Beverage brewed outside using natural heat",
-      "answer": "SUNTEA"
-    },
-    {
-      "clue_id": 331563,
-      "puzzle_id": 4051,
-      "number": 120,
-      "direction": "across",
-      "clue_text": "___ beef",
-      "answer": "CORNED"
-    },
-    {
-      "clue_id": 331564,
-      "puzzle_id": 4051,
-      "number": 122,
-      "direction": "across",
-      "clue_text": "\"Your waiter's nowhere to be seen!\"",
-      "answer": "SERVERNOTFOUND"
-    },
-    {
-      "clue_id": 331565,
-      "puzzle_id": 4051,
-      "number": 126,
-      "direction": "across",
-      "clue_text": "Passes",
-      "answer": "ENACTS"
-    },
-    {
-      "clue_id": 331566,
-      "puzzle_id": 4051,
-      "number": 127,
-      "direction": "across",
-      "clue_text": "Chips may go into it",
-      "answer": "ONIONDIP"
-    },
-    {
-      "clue_id": 331567,
-      "puzzle_id": 4051,
-      "number": 128,
-      "direction": "across",
-      "clue_text": "Jane who received a Screen Actors Guild Life Achievement Award",
-      "answer": "FONDA"
-    },
-    {
-      "clue_id": 331568,
-      "puzzle_id": 4051,
-      "number": 129,
-      "direction": "across",
-      "clue_text": "Have no stomach for",
-      "answer": "DETEST"
-    },
-    {
-      "clue_id": 331569,
-      "puzzle_id": 4051,
-      "number": 130,
-      "direction": "across",
-      "clue_text": "Doesn't care for",
-      "answer": "NEGLECTS"
-    },
-    {
-      "clue_id": 331570,
-      "puzzle_id": 4051,
-      "number": 131,
-      "direction": "across",
-      "clue_text": "Unexpected jerk",
-      "answer": "SPASM"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 331571,
-      "puzzle_id": 4051,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Major N.Y.S.E. events",
-      "answer": "IPOS"
-    },
-    {
-      "clue_id": 331572,
-      "puzzle_id": 4051,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Beat handily",
-      "answer": "DRUB"
-    },
-    {
-      "clue_id": 331573,
-      "puzzle_id": 4051,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "\"See ya later!\"",
-      "answer": "TATA"
-    },
-    {
-      "clue_id": 331574,
-      "puzzle_id": 4051,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Deck out",
-      "answer": "ADORN"
-    },
-    {
-      "clue_id": 331575,
-      "puzzle_id": 4051,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Walk",
-      "answer": "GOFREE"
-    },
-    {
-      "clue_id": 331576,
-      "puzzle_id": 4051,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Cable co. that was purchased by AT&T in 1999",
-      "answer": "TCI"
-    },
-    {
-      "clue_id": 331577,
-      "puzzle_id": 4051,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "\"What ___?\"",
-      "answer": "ELSE"
-    },
-    {
-      "clue_id": 331578,
-      "puzzle_id": 4051,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "William, Edward and Harry, e.g.",
-      "answer": "DUKES"
-    },
-    {
-      "clue_id": 331579,
-      "puzzle_id": 4051,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "To a ___ degree",
-      "answer": "LESSER"
-    },
-    {
-      "clue_id": 331580,
-      "puzzle_id": 4051,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Stage booster",
-      "answer": "AMP"
-    },
-    {
-      "clue_id": 331581,
-      "puzzle_id": 4051,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "Domain for salty dogs",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 331582,
-      "puzzle_id": 4051,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "Urges to attack, with \"on\" ",
-      "answer": "SICS"
-    },
-    {
-      "clue_id": 331583,
-      "puzzle_id": 4051,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "What this hand has: AAKQ6",
-      "answer": "ONEPAIR"
-    },
-    {
-      "clue_id": 331584,
-      "puzzle_id": 4051,
-      "number": 14,
-      "direction": "down",
-      "clue_text": "Fluency-building subj.",
-      "answer": "ESL"
-    },
-    {
-      "clue_id": 331585,
-      "puzzle_id": 4051,
-      "number": 15,
-      "direction": "down",
-      "clue_text": "Prosthetic facial feature of Peter Falk",
-      "answer": "GLASSEYE"
-    },
-    {
-      "clue_id": 331586,
-      "puzzle_id": 4051,
-      "number": 16,
-      "direction": "down",
-      "clue_text": "Convey",
-      "answer": "GETACROSS"
-    },
-    {
-      "clue_id": 331587,
-      "puzzle_id": 4051,
-      "number": 17,
-      "direction": "down",
-      "clue_text": "Pete who co-wrote \"If I Had a Hammer\"",
-      "answer": "SEEGER"
-    },
-    {
-      "clue_id": 331588,
-      "puzzle_id": 4051,
-      "number": 18,
-      "direction": "down",
-      "clue_text": "Skin care company",
-      "answer": "AVEENO"
-    },
-    {
-      "clue_id": 331589,
-      "puzzle_id": 4051,
-      "number": 19,
-      "direction": "down",
-      "clue_text": "Football snapper",
-      "answer": "CENTER"
-    },
-    {
-      "clue_id": 331590,
-      "puzzle_id": 4051,
-      "number": 24,
-      "direction": "down",
-      "clue_text": "Thingamabob",
-      "answer": "DOODAD"
-    },
-    {
-      "clue_id": 331591,
-      "puzzle_id": 4051,
-      "number": 29,
-      "direction": "down",
-      "clue_text": "Either side of a cheerleader's \"A\"",
-      "answer": "ARM"
-    },
-    {
-      "clue_id": 331592,
-      "puzzle_id": 4051,
-      "number": 32,
-      "direction": "down",
-      "clue_text": "Kind of orange",
-      "answer": "NAVEL"
-    },
-    {
-      "clue_id": 331593,
-      "puzzle_id": 4051,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "It's not optional",
-      "answer": "MUST"
-    },
-    {
-      "clue_id": 331594,
-      "puzzle_id": 4051,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "Silicon Valley giant",
-      "answer": "INTEL"
-    },
-    {
-      "clue_id": 331595,
-      "puzzle_id": 4051,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Easily detached",
-      "answer": "TEARAWAY"
-    },
-    {
-      "clue_id": 331596,
-      "puzzle_id": 4051,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Pioneering DVR brand",
-      "answer": "TIVO"
-    },
-    {
-      "clue_id": 331597,
-      "puzzle_id": 4051,
-      "number": 39,
-      "direction": "down",
-      "clue_text": "George Orwell's first name at birth",
-      "answer": "ERIC"
-    },
-    {
-      "clue_id": 331598,
-      "puzzle_id": 4051,
-      "number": 40,
-      "direction": "down",
-      "clue_text": "Purchase for the Atari 2600 ",
-      "answer": "CARTRIDGE"
-    },
-    {
-      "clue_id": 331599,
-      "puzzle_id": 4051,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "One cutting corners",
-      "answer": "MITERSAW"
-    },
-    {
-      "clue_id": 331600,
-      "puzzle_id": 4051,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Neat",
-      "answer": "TIDY"
-    },
-    {
-      "clue_id": 331601,
-      "puzzle_id": 4051,
-      "number": 46,
-      "direction": "down",
-      "clue_text": "One of Adolf Anderssen's sacrifices in the \"Immortal Game\" against Lionel Kieseritzky",
-      "answer": "QUEEN"
-    },
-    {
-      "clue_id": 331602,
-      "puzzle_id": 4051,
-      "number": 48,
-      "direction": "down",
-      "clue_text": "\"Trade discount\" quintet",
-      "answer": "AEIOU"
-    },
-    {
-      "clue_id": 331603,
-      "puzzle_id": 4051,
-      "number": 52,
-      "direction": "down",
-      "clue_text": "German for \"city\" ",
-      "answer": "STADT"
-    },
-    {
-      "clue_id": 331604,
-      "puzzle_id": 4051,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Something to pitch",
-      "answer": "CAMP"
-    },
-    {
-      "clue_id": 331605,
-      "puzzle_id": 4051,
-      "number": 54,
-      "direction": "down",
-      "clue_text": "Univ. worker",
-      "answer": "PROF"
-    },
-    {
-      "clue_id": 331606,
-      "puzzle_id": 4051,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "Site-seeing list?",
-      "answer": "ACCESSLOG"
-    },
-    {
-      "clue_id": 331607,
-      "puzzle_id": 4051,
-      "number": 56,
-      "direction": "down",
-      "clue_text": "Forte",
-      "answer": "LOUD"
-    },
-    {
-      "clue_id": 331608,
-      "puzzle_id": 4051,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Animal whose name sounds like a pronoun",
-      "answer": "EWE"
-    },
-    {
-      "clue_id": 331609,
-      "puzzle_id": 4051,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "V-shaped designs ",
-      "answer": "CHEVRONS"
-    },
-    {
-      "clue_id": 331610,
-      "puzzle_id": 4051,
-      "number": 64,
-      "direction": "down",
-      "clue_text": "Visit, as for a safety check",
-      "answer": "LOOKINON"
-    },
-    {
-      "clue_id": 331611,
-      "puzzle_id": 4051,
-      "number": 66,
-      "direction": "down",
-      "clue_text": "Mathematician Lovelace",
-      "answer": "ADA"
-    },
-    {
-      "clue_id": 331612,
-      "puzzle_id": 4051,
-      "number": 68,
-      "direction": "down",
-      "clue_text": "Human organ with the ability to regenerate itself",
-      "answer": "LIVER"
-    },
-    {
-      "clue_id": 331613,
-      "puzzle_id": 4051,
-      "number": 70,
-      "direction": "down",
-      "clue_text": "Frayed",
-      "answer": "WORN"
-    },
-    {
-      "clue_id": 331614,
-      "puzzle_id": 4051,
-      "number": 71,
-      "direction": "down",
-      "clue_text": "Court order",
-      "answer": "WRIT"
-    },
-    {
-      "clue_id": 331615,
-      "puzzle_id": 4051,
-      "number": 72,
-      "direction": "down",
-      "clue_text": "With, in Oise",
-      "answer": "AVEC"
-    },
-    {
-      "clue_id": 331616,
-      "puzzle_id": 4051,
-      "number": 73,
-      "direction": "down",
-      "clue_text": "Exam marks",
-      "answer": "TICKS"
-    },
-    {
-      "clue_id": 331617,
-      "puzzle_id": 4051,
-      "number": 74,
-      "direction": "down",
-      "clue_text": "N.H.L. team with the longest Stanley Cup drought, familiarly",
-      "answer": "LEAFS"
-    },
-    {
-      "clue_id": 331618,
-      "puzzle_id": 4051,
-      "number": 75,
-      "direction": "down",
-      "clue_text": "Smallest Canadian prov.",
-      "answer": "PEI"
-    },
-    {
-      "clue_id": 331619,
-      "puzzle_id": 4051,
-      "number": 80,
-      "direction": "down",
-      "clue_text": "Canning package?",
-      "answer": "SEVERANCE"
-    },
-    {
-      "clue_id": 331620,
-      "puzzle_id": 4051,
-      "number": 82,
-      "direction": "down",
-      "clue_text": "Mallorca, por ejemplo",
-      "answer": "ISLA"
-    },
-    {
-      "clue_id": 331621,
-      "puzzle_id": 4051,
-      "number": 83,
-      "direction": "down",
-      "clue_text": "Reason for turbulence",
-      "answer": "STORM"
-    },
-    {
-      "clue_id": 331622,
-      "puzzle_id": 4051,
-      "number": 85,
-      "direction": "down",
-      "clue_text": "Anatomical appendage that only humans and gorillas have",
-      "answer": "UVULA"
-    },
-    {
-      "clue_id": 331623,
-      "puzzle_id": 4051,
-      "number": 87,
-      "direction": "down",
-      "clue_text": "Modern \"seize the day\"",
-      "answer": "YOLO"
-    },
-    {
-      "clue_id": 331624,
-      "puzzle_id": 4051,
-      "number": 88,
-      "direction": "down",
-      "clue_text": "Stunned",
-      "answer": "AWED"
-    },
-    {
-      "clue_id": 331625,
-      "puzzle_id": 4051,
-      "number": 90,
-      "direction": "down",
-      "clue_text": "Computer model inputs",
-      "answer": "DATASETS"
-    },
-    {
-      "clue_id": 331626,
-      "puzzle_id": 4051,
-      "number": 92,
-      "direction": "down",
-      "clue_text": "Ship that transported the Golden Fleece",
-      "answer": "ARGO"
-    },
-    {
-      "clue_id": 331627,
-      "puzzle_id": 4051,
-      "number": 93,
-      "direction": "down",
-      "clue_text": "Hardly a team player",
-      "answer": "EGOIST"
-    },
-    {
-      "clue_id": 331628,
-      "puzzle_id": 4051,
-      "number": 95,
-      "direction": "down",
-      "clue_text": "Betrays, in a way",
-      "answer": "FLIPSON"
-    },
-    {
-      "clue_id": 331629,
-      "puzzle_id": 4051,
-      "number": 98,
-      "direction": "down",
-      "clue_text": "Like an unnatural smile",
-      "answer": "FORCED"
-    },
-    {
-      "clue_id": 331630,
-      "puzzle_id": 4051,
-      "number": 99,
-      "direction": "down",
-      "clue_text": "Tech debut of 2007",
-      "answer": "IPHONE"
-    },
-    {
-      "clue_id": 331631,
-      "puzzle_id": 4051,
-      "number": 100,
-      "direction": "down",
-      "clue_text": "Examine creepily",
-      "answer": "LEERAT"
-    },
-    {
-      "clue_id": 331632,
-      "puzzle_id": 4051,
-      "number": 101,
-      "direction": "down",
-      "clue_text": "___ Mae Brown (Whoopi's role in \"Ghost\")",
-      "answer": "ODA"
-    },
-    {
-      "clue_id": 331633,
-      "puzzle_id": 4051,
-      "number": 102,
-      "direction": "down",
-      "clue_text": "World's most-produced organic compound",
-      "answer": "ETHENE"
-    },
-    {
-      "clue_id": 331634,
-      "puzzle_id": 4051,
-      "number": 104,
-      "direction": "down",
-      "clue_text": "Puts up a false front",
-      "answer": "BLUFFS"
-    },
-    {
-      "clue_id": 331635,
-      "puzzle_id": 4051,
-      "number": 108,
-      "direction": "down",
-      "clue_text": "Property of curium, but not cerium",
-      "answer": "HARDC"
-    },
-    {
-      "clue_id": 331636,
-      "puzzle_id": 4051,
-      "number": 110,
-      "direction": "down",
-      "clue_text": "Eavesdrop, e.g.",
-      "answer": "SNOOP"
-    },
-    {
-      "clue_id": 331637,
-      "puzzle_id": 4051,
-      "number": 113,
-      "direction": "down",
-      "clue_text": "Surrealist Magritte",
-      "answer": "RENE"
-    },
-    {
-      "clue_id": 331638,
-      "puzzle_id": 4051,
-      "number": 115,
-      "direction": "down",
-      "clue_text": "Fit of irritation",
-      "answer": "SNIT"
-    },
-    {
-      "clue_id": 331639,
-      "puzzle_id": 4051,
-      "number": 117,
-      "direction": "down",
-      "clue_text": "Fish in niçoise salad",
-      "answer": "TUNA"
-    },
-    {
-      "clue_id": 331640,
-      "puzzle_id": 4051,
-      "number": 118,
-      "direction": "down",
-      "clue_text": "Cuts off",
-      "answer": "ENDS"
-    },
-    {
-      "clue_id": 331641,
-      "puzzle_id": 4051,
-      "number": 119,
-      "direction": "down",
-      "clue_text": "Actor Brody of \"The O.C.\"",
-      "answer": "ADAM"
-    },
-    {
-      "clue_id": 331642,
-      "puzzle_id": 4051,
-      "number": 121,
-      "direction": "down",
-      "clue_text": "\"Spring forward\" hrs.",
-      "answer": "DST"
-    },
-    {
-      "clue_id": 331643,
-      "puzzle_id": 4051,
-      "number": 123,
-      "direction": "down",
-      "clue_text": "Illegally interfere with, as an election",
-      "answer": "RIG"
-    },
-    {
-      "clue_id": 331644,
-      "puzzle_id": 4051,
-      "number": 124,
-      "direction": "down",
-      "clue_text": "Remote abbr.",
-      "answer": "VOL"
-    },
-    {
-      "clue_id": 331645,
-      "puzzle_id": 4051,
-      "number": 125,
-      "direction": "down",
-      "clue_text": "Special ___",
-      "answer": "OPS"
-    }
-  ]
+  "timestamp": "2026-01-26T00:00:48.547Z"
 }

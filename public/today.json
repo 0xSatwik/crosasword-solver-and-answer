@@ -1,1267 +1,992 @@
 {
-  "puzzle": {
-    "puzzle_id": 4059,
-    "date": "2026-02-02",
-    "formatted_date": "Monday, February 2, 2026",
-    "title": "New York Times, Monday, February 2, 2026",
-    "author": "",
-    "editor": "",
-    "day_of_week": "Monday",
-    "permalink": "",
-    "created_at": "2026-02-02 00:00:39"
+  "success": true,
+  "data": {
+    "puzzle": {
+      "date": "2026-02-03",
+      "formatted_date": "Tuesday, February 3, 2026",
+      "day_of_week": "Tuesday",
+      "title": "New York Times, Tuesday, February 3, 2026",
+      "author": "",
+      "editor": ""
+    },
+    "clues": [
+      {
+        "number": 1,
+        "clue": "Daytona 500 org.",
+        "answer": "NASCAR",
+        "direction": "across"
+      },
+      {
+        "number": 7,
+        "clue": "Cloth shopping bags",
+        "answer": "TOTES",
+        "direction": "across"
+      },
+      {
+        "number": 12,
+        "clue": "Advanced to the next round of musical chairs, say",
+        "answer": "SAT",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "\"Their exact words were …\"",
+        "answer": "IQUOTE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Toy company behind Frisbees and Hula Hoops",
+        "answer": "WHAMO",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "\"Sex and the City\" network",
+        "answer": "HBO",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Narrow, focused perspective",
+        "answer": "TUNNELVISION",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"___ for one and one for ___!\"",
+        "answer": "ALL",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "E, on a compass",
+        "answer": "EAST",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Villain in Shakespeare's \"Othello\" and Disney's \"Aladdin\"",
+        "answer": "IAGO",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Assigned a job",
+        "answer": "TASKED",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Pizzeria fixtures",
+        "answer": "OVENS",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Blackjack player's request",
+        "answer": "HITME",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Magazine for the small screen since 1953",
+        "answer": "TVGUIDE",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Parent's curt response to a kid's \"But why?\"",
+        "answer": "BECAUSE",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Ballet dancer's handrail",
+        "answer": "BARRE",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Unaccompanied",
+        "answer": "SOLO",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"You can say ___ again!\"",
+        "answer": "THAT",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Place for a seaweed body wrap",
+        "answer": "SPA",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Sign near a freshly applied coat",
+        "answer": "WETPAINT",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Number represented by candles on a cake",
+        "answer": "AGE",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Toe treatment, in brief",
+        "answer": "PEDI",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "___ of the Horse (2026 in the Chinese zodiac)",
+        "answer": "YEAR",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "\"You win! I give up!\"",
+        "answer": "UNCLE",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "One might be sworn to it",
+        "answer": "SECRECY",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Golf count",
+        "answer": "STROKES",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Dog harness attachment",
+        "answer": "LEASH",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Beyond well-done",
+        "answer": "BURNT",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Maker of skintight swimwear",
+        "answer": "SPEEDO",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Exceptionally good, in Gen Z slang",
+        "answer": "FIRE",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "\"Very funny!\"",
+        "answer": "HAHA",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Dallas N.B.A. player, for short",
+        "answer": "MAV",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "What children should use at the library … and a literal description of the circled letters in this puzzle",
+        "answer": "INSIDEVOICES",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Any number raised to the 0th power",
+        "answer": "ONE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "\"Say cheese!\"",
+        "answer": "SMILE",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "People with custody of things, typically",
+        "answer": "OWNERS",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Toothpaste type",
+        "answer": "GEL",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Evil spells",
+        "answer": "HEXES",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "Feel remorse about",
+        "answer": "REGRET",
+        "direction": "across"
+      },
+      {
+        "number": 1,
+        "clue": "Evening, in ads",
+        "answer": "NITE",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Blue-green hue",
+        "answer": "AQUA",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Pair orbited by the fictional planet Tatooine",
+        "answer": "SUNS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Use makeup to sculpt and define, as facial features",
+        "answer": "CONTOUR",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Had a meal",
+        "answer": "ATE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Depended (on)",
+        "answer": "RELIED",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Tiny tree branches",
+        "answer": "TWIGS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Very",
+        "answer": "OHSO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Word before chi or after mai",
+        "answer": "TAI",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "8-) or ;-P",
+        "answer": "EMOTICON",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Beethoven's \"Moonlight ___\"",
+        "answer": "SONATA",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Burger chain with custard-based drinks",
+        "answer": "SHAKESHACK",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Ready, willing and ___",
+        "answer": "ABLE",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Spilled the beans",
+        "answer": "TOLD",
+        "direction": "down"
+      },
+      {
+        "number": 19,
+        "clue": "Rooftop accessory often shaped like a rooster atop an arrow",
+        "answer": "VANE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Salacious material",
+        "answer": "SMUT",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Oceanfront room feature",
+        "answer": "VIEW",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Prefix with pad or port",
+        "answer": "HELI",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "One of eight in a stick of butter: Abbr.",
+        "answer": "TBSP",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Uses an e-cigarette",
+        "answer": "VAPES",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Stage of education",
+        "answer": "GRADELEVEL",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Tusked swine",
+        "answer": "BOAR",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Bird on Mexico's flag",
+        "answer": "EAGLE",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Fix, at the vet's",
+        "answer": "SPAY",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Some concert souvenirs",
+        "answer": "TEES",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "\"Look this way, class\"",
+        "answer": "EYESONME",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "The \"T\" in STEM, informally",
+        "answer": "TECH",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Go sour, as milk",
+        "answer": "TURN",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Slurpee alternative",
+        "answer": "ICEE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Potentially suspicious response to \"What are you doing?\"",
+        "answer": "NOTHING",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Red bit in a salad",
+        "answer": "RADISH",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "\"You betcha!\"",
+        "answer": "SURE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "The ___ Project (mental health organization for LGBTQ+ youth)",
+        "answer": "TREVOR",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "___ one's time (waits patiently)",
+        "answer": "BIDES",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Skyline haze",
+        "answer": "SMOG",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Window section",
+        "answer": "PANE",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Submit one's taxes",
+        "answer": "FILE",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Taiwanese PC maker",
+        "answer": "ACER",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "\"Present!\"",
+        "answer": "HERE",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "The \"A\" in T.A.: Abbr.",
+        "answer": "ASST",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Highest roll of a standard die",
+        "answer": "SIX",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Have debts",
+        "answer": "OWE",
+        "direction": "down"
+      }
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Daytona 500 org.",
+        "answer": "NASCAR",
+        "direction": "across"
+      },
+      {
+        "number": 7,
+        "clue": "Cloth shopping bags",
+        "answer": "TOTES",
+        "direction": "across"
+      },
+      {
+        "number": 12,
+        "clue": "Advanced to the next round of musical chairs, say",
+        "answer": "SAT",
+        "direction": "across"
+      },
+      {
+        "number": 15,
+        "clue": "\"Their exact words were …\"",
+        "answer": "IQUOTE",
+        "direction": "across"
+      },
+      {
+        "number": 16,
+        "clue": "Toy company behind Frisbees and Hula Hoops",
+        "answer": "WHAMO",
+        "direction": "across"
+      },
+      {
+        "number": 17,
+        "clue": "\"Sex and the City\" network",
+        "answer": "HBO",
+        "direction": "across"
+      },
+      {
+        "number": 18,
+        "clue": "Narrow, focused perspective",
+        "answer": "TUNNELVISION",
+        "direction": "across"
+      },
+      {
+        "number": 20,
+        "clue": "\"___ for one and one for ___!\"",
+        "answer": "ALL",
+        "direction": "across"
+      },
+      {
+        "number": 21,
+        "clue": "E, on a compass",
+        "answer": "EAST",
+        "direction": "across"
+      },
+      {
+        "number": 22,
+        "clue": "Villain in Shakespeare's \"Othello\" and Disney's \"Aladdin\"",
+        "answer": "IAGO",
+        "direction": "across"
+      },
+      {
+        "number": 23,
+        "clue": "Assigned a job",
+        "answer": "TASKED",
+        "direction": "across"
+      },
+      {
+        "number": 25,
+        "clue": "Pizzeria fixtures",
+        "answer": "OVENS",
+        "direction": "across"
+      },
+      {
+        "number": 27,
+        "clue": "Blackjack player's request",
+        "answer": "HITME",
+        "direction": "across"
+      },
+      {
+        "number": 28,
+        "clue": "Magazine for the small screen since 1953",
+        "answer": "TVGUIDE",
+        "direction": "across"
+      },
+      {
+        "number": 31,
+        "clue": "Parent's curt response to a kid's \"But why?\"",
+        "answer": "BECAUSE",
+        "direction": "across"
+      },
+      {
+        "number": 33,
+        "clue": "Ballet dancer's handrail",
+        "answer": "BARRE",
+        "direction": "across"
+      },
+      {
+        "number": 34,
+        "clue": "Unaccompanied",
+        "answer": "SOLO",
+        "direction": "across"
+      },
+      {
+        "number": 35,
+        "clue": "\"You can say ___ again!\"",
+        "answer": "THAT",
+        "direction": "across"
+      },
+      {
+        "number": 37,
+        "clue": "Place for a seaweed body wrap",
+        "answer": "SPA",
+        "direction": "across"
+      },
+      {
+        "number": 38,
+        "clue": "Sign near a freshly applied coat",
+        "answer": "WETPAINT",
+        "direction": "across"
+      },
+      {
+        "number": 42,
+        "clue": "Number represented by candles on a cake",
+        "answer": "AGE",
+        "direction": "across"
+      },
+      {
+        "number": 43,
+        "clue": "Toe treatment, in brief",
+        "answer": "PEDI",
+        "direction": "across"
+      },
+      {
+        "number": 45,
+        "clue": "___ of the Horse (2026 in the Chinese zodiac)",
+        "answer": "YEAR",
+        "direction": "across"
+      },
+      {
+        "number": 46,
+        "clue": "\"You win! I give up!\"",
+        "answer": "UNCLE",
+        "direction": "across"
+      },
+      {
+        "number": 48,
+        "clue": "One might be sworn to it",
+        "answer": "SECRECY",
+        "direction": "across"
+      },
+      {
+        "number": 50,
+        "clue": "Golf count",
+        "answer": "STROKES",
+        "direction": "across"
+      },
+      {
+        "number": 52,
+        "clue": "Dog harness attachment",
+        "answer": "LEASH",
+        "direction": "across"
+      },
+      {
+        "number": 53,
+        "clue": "Beyond well-done",
+        "answer": "BURNT",
+        "direction": "across"
+      },
+      {
+        "number": 54,
+        "clue": "Maker of skintight swimwear",
+        "answer": "SPEEDO",
+        "direction": "across"
+      },
+      {
+        "number": 56,
+        "clue": "Exceptionally good, in Gen Z slang",
+        "answer": "FIRE",
+        "direction": "across"
+      },
+      {
+        "number": 57,
+        "clue": "\"Very funny!\"",
+        "answer": "HAHA",
+        "direction": "across"
+      },
+      {
+        "number": 61,
+        "clue": "Dallas N.B.A. player, for short",
+        "answer": "MAV",
+        "direction": "across"
+      },
+      {
+        "number": 62,
+        "clue": "What children should use at the library … and a literal description of the circled letters in this puzzle",
+        "answer": "INSIDEVOICES",
+        "direction": "across"
+      },
+      {
+        "number": 65,
+        "clue": "Any number raised to the 0th power",
+        "answer": "ONE",
+        "direction": "across"
+      },
+      {
+        "number": 66,
+        "clue": "\"Say cheese!\"",
+        "answer": "SMILE",
+        "direction": "across"
+      },
+      {
+        "number": 67,
+        "clue": "People with custody of things, typically",
+        "answer": "OWNERS",
+        "direction": "across"
+      },
+      {
+        "number": 68,
+        "clue": "Toothpaste type",
+        "answer": "GEL",
+        "direction": "across"
+      },
+      {
+        "number": 69,
+        "clue": "Evil spells",
+        "answer": "HEXES",
+        "direction": "across"
+      },
+      {
+        "number": 70,
+        "clue": "Feel remorse about",
+        "answer": "REGRET",
+        "direction": "across"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Evening, in ads",
+        "answer": "NITE",
+        "direction": "down"
+      },
+      {
+        "number": 2,
+        "clue": "Blue-green hue",
+        "answer": "AQUA",
+        "direction": "down"
+      },
+      {
+        "number": 3,
+        "clue": "Pair orbited by the fictional planet Tatooine",
+        "answer": "SUNS",
+        "direction": "down"
+      },
+      {
+        "number": 4,
+        "clue": "Use makeup to sculpt and define, as facial features",
+        "answer": "CONTOUR",
+        "direction": "down"
+      },
+      {
+        "number": 5,
+        "clue": "Had a meal",
+        "answer": "ATE",
+        "direction": "down"
+      },
+      {
+        "number": 6,
+        "clue": "Depended (on)",
+        "answer": "RELIED",
+        "direction": "down"
+      },
+      {
+        "number": 7,
+        "clue": "Tiny tree branches",
+        "answer": "TWIGS",
+        "direction": "down"
+      },
+      {
+        "number": 8,
+        "clue": "Very",
+        "answer": "OHSO",
+        "direction": "down"
+      },
+      {
+        "number": 9,
+        "clue": "Word before chi or after mai",
+        "answer": "TAI",
+        "direction": "down"
+      },
+      {
+        "number": 10,
+        "clue": "8-) or ;-P",
+        "answer": "EMOTICON",
+        "direction": "down"
+      },
+      {
+        "number": 11,
+        "clue": "Beethoven's \"Moonlight ___\"",
+        "answer": "SONATA",
+        "direction": "down"
+      },
+      {
+        "number": 12,
+        "clue": "Burger chain with custard-based drinks",
+        "answer": "SHAKESHACK",
+        "direction": "down"
+      },
+      {
+        "number": 13,
+        "clue": "Ready, willing and ___",
+        "answer": "ABLE",
+        "direction": "down"
+      },
+      {
+        "number": 14,
+        "clue": "Spilled the beans",
+        "answer": "TOLD",
+        "direction": "down"
+      },
+      {
+        "number": 19,
+        "clue": "Rooftop accessory often shaped like a rooster atop an arrow",
+        "answer": "VANE",
+        "direction": "down"
+      },
+      {
+        "number": 24,
+        "clue": "Salacious material",
+        "answer": "SMUT",
+        "direction": "down"
+      },
+      {
+        "number": 26,
+        "clue": "Oceanfront room feature",
+        "answer": "VIEW",
+        "direction": "down"
+      },
+      {
+        "number": 27,
+        "clue": "Prefix with pad or port",
+        "answer": "HELI",
+        "direction": "down"
+      },
+      {
+        "number": 28,
+        "clue": "One of eight in a stick of butter: Abbr.",
+        "answer": "TBSP",
+        "direction": "down"
+      },
+      {
+        "number": 29,
+        "clue": "Uses an e-cigarette",
+        "answer": "VAPES",
+        "direction": "down"
+      },
+      {
+        "number": 30,
+        "clue": "Stage of education",
+        "answer": "GRADELEVEL",
+        "direction": "down"
+      },
+      {
+        "number": 31,
+        "clue": "Tusked swine",
+        "answer": "BOAR",
+        "direction": "down"
+      },
+      {
+        "number": 32,
+        "clue": "Bird on Mexico's flag",
+        "answer": "EAGLE",
+        "direction": "down"
+      },
+      {
+        "number": 34,
+        "clue": "Fix, at the vet's",
+        "answer": "SPAY",
+        "direction": "down"
+      },
+      {
+        "number": 36,
+        "clue": "Some concert souvenirs",
+        "answer": "TEES",
+        "direction": "down"
+      },
+      {
+        "number": 39,
+        "clue": "\"Look this way, class\"",
+        "answer": "EYESONME",
+        "direction": "down"
+      },
+      {
+        "number": 40,
+        "clue": "The \"T\" in STEM, informally",
+        "answer": "TECH",
+        "direction": "down"
+      },
+      {
+        "number": 41,
+        "clue": "Go sour, as milk",
+        "answer": "TURN",
+        "direction": "down"
+      },
+      {
+        "number": 44,
+        "clue": "Slurpee alternative",
+        "answer": "ICEE",
+        "direction": "down"
+      },
+      {
+        "number": 47,
+        "clue": "Potentially suspicious response to \"What are you doing?\"",
+        "answer": "NOTHING",
+        "direction": "down"
+      },
+      {
+        "number": 49,
+        "clue": "Red bit in a salad",
+        "answer": "RADISH",
+        "direction": "down"
+      },
+      {
+        "number": 50,
+        "clue": "\"You betcha!\"",
+        "answer": "SURE",
+        "direction": "down"
+      },
+      {
+        "number": 51,
+        "clue": "The ___ Project (mental health organization for LGBTQ+ youth)",
+        "answer": "TREVOR",
+        "direction": "down"
+      },
+      {
+        "number": 53,
+        "clue": "___ one's time (waits patiently)",
+        "answer": "BIDES",
+        "direction": "down"
+      },
+      {
+        "number": 54,
+        "clue": "Skyline haze",
+        "answer": "SMOG",
+        "direction": "down"
+      },
+      {
+        "number": 55,
+        "clue": "Window section",
+        "answer": "PANE",
+        "direction": "down"
+      },
+      {
+        "number": 56,
+        "clue": "Submit one's taxes",
+        "answer": "FILE",
+        "direction": "down"
+      },
+      {
+        "number": 58,
+        "clue": "Taiwanese PC maker",
+        "answer": "ACER",
+        "direction": "down"
+      },
+      {
+        "number": 59,
+        "clue": "\"Present!\"",
+        "answer": "HERE",
+        "direction": "down"
+      },
+      {
+        "number": 60,
+        "clue": "The \"A\" in T.A.: Abbr.",
+        "answer": "ASST",
+        "direction": "down"
+      },
+      {
+        "number": 63,
+        "clue": "Highest roll of a standard die",
+        "answer": "SIX",
+        "direction": "down"
+      },
+      {
+        "number": 64,
+        "clue": "Have debts",
+        "answer": "OWE",
+        "direction": "down"
+      }
+    ]
   },
-  "clues": [
-    {
-      "clue_id": 332226,
-      "puzzle_id": 4059,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "That girl's",
-      "answer": "HERS"
-    },
-    {
-      "clue_id": 332227,
-      "puzzle_id": 4059,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "\"___ is more\" (paradoxical aphorism)",
-      "answer": "LESS"
-    },
-    {
-      "clue_id": 332228,
-      "puzzle_id": 4059,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Receded, as the tide",
-      "answer": "EBBED"
-    },
-    {
-      "clue_id": 332229,
-      "puzzle_id": 4059,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "With, in French",
-      "answer": "AVEC"
-    },
-    {
-      "clue_id": 332230,
-      "puzzle_id": 4059,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "English boarding school attended by many royals",
-      "answer": "ETON"
-    },
-    {
-      "clue_id": 332231,
-      "puzzle_id": 4059,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "First word in two U.S. state names",
-      "answer": "NORTH"
-    },
-    {
-      "clue_id": 332232,
-      "puzzle_id": 4059,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Clownfish in a 2003 Pixar film",
-      "answer": "NEMO"
-    },
-    {
-      "clue_id": 332233,
-      "puzzle_id": 4059,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Rights advocacy org.",
-      "answer": "ACLU"
-    },
-    {
-      "clue_id": 332234,
-      "puzzle_id": 4059,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Makeup of a reef",
-      "answer": "CORAL"
-    },
-    {
-      "clue_id": 332235,
-      "puzzle_id": 4059,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Cult classic co-starring Bill Murray and Andie MacDowell",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332236,
-      "puzzle_id": 4059,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Houston baseball players",
-      "answer": "ASTROS"
-    },
-    {
-      "clue_id": 332237,
-      "puzzle_id": 4059,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Painting the town red, so to speak",
-      "answer": "ONAJAG"
-    },
-    {
-      "clue_id": 332238,
-      "puzzle_id": 4059,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Eggs in a sushi roll",
-      "answer": "ROE"
-    },
-    {
-      "clue_id": 332239,
-      "puzzle_id": 4059,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Addams Family cousin",
-      "answer": "ITT"
-    },
-    {
-      "clue_id": 332240,
-      "puzzle_id": 4059,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "One arguing in court: Abbr.",
-      "answer": "ATT"
-    },
-    {
-      "clue_id": 332241,
-      "puzzle_id": 4059,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "End of a school's web address",
-      "answer": "EDU"
-    },
-    {
-      "clue_id": 332242,
-      "puzzle_id": 4059,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Inspiration for a 2017 Tony-nominated musical",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332243,
-      "puzzle_id": 4059,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Bring home, as money",
-      "answer": "EARN"
-    },
-    {
-      "clue_id": 332244,
-      "puzzle_id": 4059,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Great blue expanse",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 332245,
-      "puzzle_id": 4059,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Goals",
-      "answer": "AIMS"
-    },
-    {
-      "clue_id": 332246,
-      "puzzle_id": 4059,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "1993 film that featured \"I Got You Babe\"",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332247,
-      "puzzle_id": 4059,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "In the manner of",
-      "answer": "ALA"
-    },
-    {
-      "clue_id": 332248,
-      "puzzle_id": 4059,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Actress Claire of \"The Crown\"",
-      "answer": "FOY"
-    },
-    {
-      "clue_id": 332249,
-      "puzzle_id": 4059,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Goddess of the dawn",
-      "answer": "EOS"
-    },
-    {
-      "clue_id": 332250,
-      "puzzle_id": 4059,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Letters before Enterprise or Intrepid",
-      "answer": "USS"
-    },
-    {
-      "clue_id": 332251,
-      "puzzle_id": 4059,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "Uncle of Huey, Dewey and Louie",
-      "answer": "DONALD"
-    },
-    {
-      "clue_id": 332252,
-      "puzzle_id": 4059,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Bad odor",
-      "answer": "STENCH"
-    },
-    {
-      "clue_id": 332253,
-      "puzzle_id": 4059,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Film about which Harold Ramis said \"He goes from being a prisoner of that time and place to being master of that time and place\"",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332254,
-      "puzzle_id": 4059,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Gaze intently",
-      "answer": "STARE"
-    },
-    {
-      "clue_id": 332255,
-      "puzzle_id": 4059,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Red, in Spanish",
-      "answer": "ROJO"
-    },
-    {
-      "clue_id": 332256,
-      "puzzle_id": 4059,
-      "number": 64,
-      "direction": "across",
-      "clue_text": "Part in a movie",
-      "answer": "ROLE"
-    },
-    {
-      "clue_id": 332257,
-      "puzzle_id": 4059,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Sharp, on a TV, informally",
-      "answer": "HIDEF"
-    },
-    {
-      "clue_id": 332258,
-      "puzzle_id": 4059,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Fat in a bird feeder",
-      "answer": "SUET"
-    },
-    {
-      "clue_id": 332259,
-      "puzzle_id": 4059,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Farthest points",
-      "answer": "ENDS"
-    },
-    {
-      "clue_id": 332260,
-      "puzzle_id": 4059,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Takes the edge off",
-      "answer": "EASES"
-    },
-    {
-      "clue_id": 332261,
-      "puzzle_id": 4059,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "No ifs, ___ or buts",
-      "answer": "ANDS"
-    },
-    {
-      "clue_id": 332262,
-      "puzzle_id": 4059,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Student's hurdle",
-      "answer": "TEST"
-    },
-    {
-      "clue_id": 332263,
-      "puzzle_id": 4059,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Building where airplanes are stored",
-      "answer": "HANGAR"
-    },
-    {
-      "clue_id": 332264,
-      "puzzle_id": 4059,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Really, really",
-      "answer": "EVERSO"
-    },
-    {
-      "clue_id": 332265,
-      "puzzle_id": 4059,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Like off-site employees",
-      "answer": "REMOTE"
-    },
-    {
-      "clue_id": 332266,
-      "puzzle_id": 4059,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Scrub",
-      "answer": "SCOUR"
-    },
-    {
-      "clue_id": 332267,
-      "puzzle_id": 4059,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Results in",
-      "answer": "LEADSTO"
-    },
-    {
-      "clue_id": 332268,
-      "puzzle_id": 4059,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Engrave",
-      "answer": "ETCH"
-    },
-    {
-      "clue_id": 332269,
-      "puzzle_id": 4059,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Duet minus one",
-      "answer": "SOLO"
-    },
-    {
-      "clue_id": 332270,
-      "puzzle_id": 4059,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Like the proverbial bug in a rug",
-      "answer": "SNUG"
-    },
-    {
-      "clue_id": 332271,
-      "puzzle_id": 4059,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Animated film featuring the song \"We Don't Talk About Bruno\"",
-      "answer": "ENCANTO"
-    },
-    {
-      "clue_id": 332272,
-      "puzzle_id": 4059,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Triumphant cry",
-      "answer": "BOOYA"
-    },
-    {
-      "clue_id": 332273,
-      "puzzle_id": 4059,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "[I'm f-f-freezing!]",
-      "answer": "BRR"
-    },
-    {
-      "clue_id": 332274,
-      "puzzle_id": 4059,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "When a flight is due to land, for short",
-      "answer": "ETA"
-    },
-    {
-      "clue_id": 332275,
-      "puzzle_id": 4059,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Alternative to UPS or FedEx",
-      "answer": "DHL"
-    },
-    {
-      "clue_id": 332276,
-      "puzzle_id": 4059,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "Dark crime genre",
-      "answer": "NOIR"
-    },
-    {
-      "clue_id": 332277,
-      "puzzle_id": 4059,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "\"How ___ the little busy bee ...\"",
-      "answer": "DOTH"
-    },
-    {
-      "clue_id": 332278,
-      "puzzle_id": 4059,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "___ Knight (\"Star Wars\" fighter)",
-      "answer": "JEDI"
-    },
-    {
-      "clue_id": 332279,
-      "puzzle_id": 4059,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Actor Scott or Driver",
-      "answer": "ADAM"
-    },
-    {
-      "clue_id": 332280,
-      "puzzle_id": 4059,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Fellas",
-      "answer": "GUYS"
-    },
-    {
-      "clue_id": 332281,
-      "puzzle_id": 4059,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Rear end, informally",
-      "answer": "TUSHY"
-    },
-    {
-      "clue_id": 332282,
-      "puzzle_id": 4059,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Common saying",
-      "answer": "ADAGE"
-    },
-    {
-      "clue_id": 332283,
-      "puzzle_id": 4059,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "African grazer",
-      "answer": "GNU"
-    },
-    {
-      "clue_id": 332284,
-      "puzzle_id": 4059,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "\"The Matrix\" character whose name, aptly, is an anagram of ONE",
-      "answer": "NEO"
-    },
-    {
-      "clue_id": 332285,
-      "puzzle_id": 4059,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "The \"G\" of LGBTQ+",
-      "answer": "GAY"
-    },
-    {
-      "clue_id": 332286,
-      "puzzle_id": 4059,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "\"Holy Moses!\"",
-      "answer": "EGAD"
-    },
-    {
-      "clue_id": 332287,
-      "puzzle_id": 4059,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Folk singer Guthrie",
-      "answer": "ARLO"
-    },
-    {
-      "clue_id": 332288,
-      "puzzle_id": 4059,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Horse with a reddish coat",
-      "answer": "ROAN"
-    },
-    {
-      "clue_id": 332289,
-      "puzzle_id": 4059,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Pro gridiron officials, informally",
-      "answer": "NFLREFS"
-    },
-    {
-      "clue_id": 332290,
-      "puzzle_id": 4059,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Bird that scientists are trying to bring back from extinction",
-      "answer": "DODO"
-    },
-    {
-      "clue_id": 332291,
-      "puzzle_id": 4059,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Have a round of tequila, perhaps",
-      "answer": "DOSHOTS"
-    },
-    {
-      "clue_id": 332292,
-      "puzzle_id": 4059,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Regarding",
-      "answer": "ASTO"
-    },
-    {
-      "clue_id": 332293,
-      "puzzle_id": 4059,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Not tied, as shoelaces",
-      "answer": "UNDONE"
-    },
-    {
-      "clue_id": 332294,
-      "puzzle_id": 4059,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Burns with liquid",
-      "answer": "SCALDS"
-    },
-    {
-      "clue_id": 332295,
-      "puzzle_id": 4059,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Least likely to start a conversation with a stranger, say",
-      "answer": "SHYEST"
-    },
-    {
-      "clue_id": 332296,
-      "puzzle_id": 4059,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Have the same opinion",
-      "answer": "AGREE"
-    },
-    {
-      "clue_id": 332297,
-      "puzzle_id": 4059,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "White heron",
-      "answer": "EGRET"
-    },
-    {
-      "clue_id": 332298,
-      "puzzle_id": 4059,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Bear in constellation names",
-      "answer": "URSA"
-    },
-    {
-      "clue_id": 332299,
-      "puzzle_id": 4059,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "A proper one is capitalized",
-      "answer": "NOUN"
-    },
-    {
-      "clue_id": 332300,
-      "puzzle_id": 4059,
-      "number": 59,
-      "direction": "down",
-      "clue_text": "Spun records, for short",
-      "answer": "DJED"
-    },
-    {
-      "clue_id": 332301,
-      "puzzle_id": 4059,
-      "number": 60,
-      "direction": "down",
-      "clue_text": "That girl",
-      "answer": "SHE"
-    },
-    {
-      "clue_id": 332302,
-      "puzzle_id": 4059,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "___ Maria (coffee liqueur)",
-      "answer": "TIA"
-    },
-    {
-      "clue_id": 332303,
-      "puzzle_id": 4059,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Things eliminated with YouTube Premium",
-      "answer": "ADS"
-    }
-  ],
-  "across": [
-    {
-      "clue_id": 332226,
-      "puzzle_id": 4059,
-      "number": 1,
-      "direction": "across",
-      "clue_text": "That girl's",
-      "answer": "HERS"
-    },
-    {
-      "clue_id": 332227,
-      "puzzle_id": 4059,
-      "number": 5,
-      "direction": "across",
-      "clue_text": "\"___ is more\" (paradoxical aphorism)",
-      "answer": "LESS"
-    },
-    {
-      "clue_id": 332228,
-      "puzzle_id": 4059,
-      "number": 9,
-      "direction": "across",
-      "clue_text": "Receded, as the tide",
-      "answer": "EBBED"
-    },
-    {
-      "clue_id": 332229,
-      "puzzle_id": 4059,
-      "number": 14,
-      "direction": "across",
-      "clue_text": "With, in French",
-      "answer": "AVEC"
-    },
-    {
-      "clue_id": 332230,
-      "puzzle_id": 4059,
-      "number": 15,
-      "direction": "across",
-      "clue_text": "English boarding school attended by many royals",
-      "answer": "ETON"
-    },
-    {
-      "clue_id": 332231,
-      "puzzle_id": 4059,
-      "number": 16,
-      "direction": "across",
-      "clue_text": "First word in two U.S. state names",
-      "answer": "NORTH"
-    },
-    {
-      "clue_id": 332232,
-      "puzzle_id": 4059,
-      "number": 17,
-      "direction": "across",
-      "clue_text": "Clownfish in a 2003 Pixar film",
-      "answer": "NEMO"
-    },
-    {
-      "clue_id": 332233,
-      "puzzle_id": 4059,
-      "number": 18,
-      "direction": "across",
-      "clue_text": "Rights advocacy org.",
-      "answer": "ACLU"
-    },
-    {
-      "clue_id": 332234,
-      "puzzle_id": 4059,
-      "number": 19,
-      "direction": "across",
-      "clue_text": "Makeup of a reef",
-      "answer": "CORAL"
-    },
-    {
-      "clue_id": 332235,
-      "puzzle_id": 4059,
-      "number": 20,
-      "direction": "across",
-      "clue_text": "Cult classic co-starring Bill Murray and Andie MacDowell",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332236,
-      "puzzle_id": 4059,
-      "number": 23,
-      "direction": "across",
-      "clue_text": "Houston baseball players",
-      "answer": "ASTROS"
-    },
-    {
-      "clue_id": 332237,
-      "puzzle_id": 4059,
-      "number": 24,
-      "direction": "across",
-      "clue_text": "Painting the town red, so to speak",
-      "answer": "ONAJAG"
-    },
-    {
-      "clue_id": 332238,
-      "puzzle_id": 4059,
-      "number": 28,
-      "direction": "across",
-      "clue_text": "Eggs in a sushi roll",
-      "answer": "ROE"
-    },
-    {
-      "clue_id": 332239,
-      "puzzle_id": 4059,
-      "number": 29,
-      "direction": "across",
-      "clue_text": "Addams Family cousin",
-      "answer": "ITT"
-    },
-    {
-      "clue_id": 332240,
-      "puzzle_id": 4059,
-      "number": 31,
-      "direction": "across",
-      "clue_text": "One arguing in court: Abbr.",
-      "answer": "ATT"
-    },
-    {
-      "clue_id": 332241,
-      "puzzle_id": 4059,
-      "number": 32,
-      "direction": "across",
-      "clue_text": "End of a school's web address",
-      "answer": "EDU"
-    },
-    {
-      "clue_id": 332242,
-      "puzzle_id": 4059,
-      "number": 33,
-      "direction": "across",
-      "clue_text": "Inspiration for a 2017 Tony-nominated musical",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332243,
-      "puzzle_id": 4059,
-      "number": 36,
-      "direction": "across",
-      "clue_text": "Bring home, as money",
-      "answer": "EARN"
-    },
-    {
-      "clue_id": 332244,
-      "puzzle_id": 4059,
-      "number": 39,
-      "direction": "across",
-      "clue_text": "Great blue expanse",
-      "answer": "SEA"
-    },
-    {
-      "clue_id": 332245,
-      "puzzle_id": 4059,
-      "number": 40,
-      "direction": "across",
-      "clue_text": "Goals",
-      "answer": "AIMS"
-    },
-    {
-      "clue_id": 332246,
-      "puzzle_id": 4059,
-      "number": 41,
-      "direction": "across",
-      "clue_text": "1993 film that featured \"I Got You Babe\"",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332247,
-      "puzzle_id": 4059,
-      "number": 46,
-      "direction": "across",
-      "clue_text": "In the manner of",
-      "answer": "ALA"
-    },
-    {
-      "clue_id": 332248,
-      "puzzle_id": 4059,
-      "number": 47,
-      "direction": "across",
-      "clue_text": "Actress Claire of \"The Crown\"",
-      "answer": "FOY"
-    },
-    {
-      "clue_id": 332249,
-      "puzzle_id": 4059,
-      "number": 48,
-      "direction": "across",
-      "clue_text": "Goddess of the dawn",
-      "answer": "EOS"
-    },
-    {
-      "clue_id": 332250,
-      "puzzle_id": 4059,
-      "number": 49,
-      "direction": "across",
-      "clue_text": "Letters before Enterprise or Intrepid",
-      "answer": "USS"
-    },
-    {
-      "clue_id": 332251,
-      "puzzle_id": 4059,
-      "number": 52,
-      "direction": "across",
-      "clue_text": "Uncle of Huey, Dewey and Louie",
-      "answer": "DONALD"
-    },
-    {
-      "clue_id": 332252,
-      "puzzle_id": 4059,
-      "number": 54,
-      "direction": "across",
-      "clue_text": "Bad odor",
-      "answer": "STENCH"
-    },
-    {
-      "clue_id": 332253,
-      "puzzle_id": 4059,
-      "number": 56,
-      "direction": "across",
-      "clue_text": "Film about which Harold Ramis said \"He goes from being a prisoner of that time and place to being master of that time and place\"",
-      "answer": "GROUNDHOGDAY"
-    },
-    {
-      "clue_id": 332254,
-      "puzzle_id": 4059,
-      "number": 60,
-      "direction": "across",
-      "clue_text": "Gaze intently",
-      "answer": "STARE"
-    },
-    {
-      "clue_id": 332255,
-      "puzzle_id": 4059,
-      "number": 63,
-      "direction": "across",
-      "clue_text": "Red, in Spanish",
-      "answer": "ROJO"
-    },
-    {
-      "clue_id": 332256,
-      "puzzle_id": 4059,
-      "number": 64,
-      "direction": "across",
-      "clue_text": "Part in a movie",
-      "answer": "ROLE"
-    },
-    {
-      "clue_id": 332257,
-      "puzzle_id": 4059,
-      "number": 65,
-      "direction": "across",
-      "clue_text": "Sharp, on a TV, informally",
-      "answer": "HIDEF"
-    },
-    {
-      "clue_id": 332258,
-      "puzzle_id": 4059,
-      "number": 66,
-      "direction": "across",
-      "clue_text": "Fat in a bird feeder",
-      "answer": "SUET"
-    },
-    {
-      "clue_id": 332259,
-      "puzzle_id": 4059,
-      "number": 67,
-      "direction": "across",
-      "clue_text": "Farthest points",
-      "answer": "ENDS"
-    },
-    {
-      "clue_id": 332260,
-      "puzzle_id": 4059,
-      "number": 68,
-      "direction": "across",
-      "clue_text": "Takes the edge off",
-      "answer": "EASES"
-    },
-    {
-      "clue_id": 332261,
-      "puzzle_id": 4059,
-      "number": 69,
-      "direction": "across",
-      "clue_text": "No ifs, ___ or buts",
-      "answer": "ANDS"
-    },
-    {
-      "clue_id": 332262,
-      "puzzle_id": 4059,
-      "number": 70,
-      "direction": "across",
-      "clue_text": "Student's hurdle",
-      "answer": "TEST"
-    }
-  ],
-  "down": [
-    {
-      "clue_id": 332263,
-      "puzzle_id": 4059,
-      "number": 1,
-      "direction": "down",
-      "clue_text": "Building where airplanes are stored",
-      "answer": "HANGAR"
-    },
-    {
-      "clue_id": 332264,
-      "puzzle_id": 4059,
-      "number": 2,
-      "direction": "down",
-      "clue_text": "Really, really",
-      "answer": "EVERSO"
-    },
-    {
-      "clue_id": 332265,
-      "puzzle_id": 4059,
-      "number": 3,
-      "direction": "down",
-      "clue_text": "Like off-site employees",
-      "answer": "REMOTE"
-    },
-    {
-      "clue_id": 332266,
-      "puzzle_id": 4059,
-      "number": 4,
-      "direction": "down",
-      "clue_text": "Scrub",
-      "answer": "SCOUR"
-    },
-    {
-      "clue_id": 332267,
-      "puzzle_id": 4059,
-      "number": 5,
-      "direction": "down",
-      "clue_text": "Results in",
-      "answer": "LEADSTO"
-    },
-    {
-      "clue_id": 332268,
-      "puzzle_id": 4059,
-      "number": 6,
-      "direction": "down",
-      "clue_text": "Engrave",
-      "answer": "ETCH"
-    },
-    {
-      "clue_id": 332269,
-      "puzzle_id": 4059,
-      "number": 7,
-      "direction": "down",
-      "clue_text": "Duet minus one",
-      "answer": "SOLO"
-    },
-    {
-      "clue_id": 332270,
-      "puzzle_id": 4059,
-      "number": 8,
-      "direction": "down",
-      "clue_text": "Like the proverbial bug in a rug",
-      "answer": "SNUG"
-    },
-    {
-      "clue_id": 332271,
-      "puzzle_id": 4059,
-      "number": 9,
-      "direction": "down",
-      "clue_text": "Animated film featuring the song \"We Don't Talk About Bruno\"",
-      "answer": "ENCANTO"
-    },
-    {
-      "clue_id": 332272,
-      "puzzle_id": 4059,
-      "number": 10,
-      "direction": "down",
-      "clue_text": "Triumphant cry",
-      "answer": "BOOYA"
-    },
-    {
-      "clue_id": 332273,
-      "puzzle_id": 4059,
-      "number": 11,
-      "direction": "down",
-      "clue_text": "[I'm f-f-freezing!]",
-      "answer": "BRR"
-    },
-    {
-      "clue_id": 332274,
-      "puzzle_id": 4059,
-      "number": 12,
-      "direction": "down",
-      "clue_text": "When a flight is due to land, for short",
-      "answer": "ETA"
-    },
-    {
-      "clue_id": 332275,
-      "puzzle_id": 4059,
-      "number": 13,
-      "direction": "down",
-      "clue_text": "Alternative to UPS or FedEx",
-      "answer": "DHL"
-    },
-    {
-      "clue_id": 332276,
-      "puzzle_id": 4059,
-      "number": 21,
-      "direction": "down",
-      "clue_text": "Dark crime genre",
-      "answer": "NOIR"
-    },
-    {
-      "clue_id": 332277,
-      "puzzle_id": 4059,
-      "number": 22,
-      "direction": "down",
-      "clue_text": "\"How ___ the little busy bee ...\"",
-      "answer": "DOTH"
-    },
-    {
-      "clue_id": 332278,
-      "puzzle_id": 4059,
-      "number": 25,
-      "direction": "down",
-      "clue_text": "___ Knight (\"Star Wars\" fighter)",
-      "answer": "JEDI"
-    },
-    {
-      "clue_id": 332279,
-      "puzzle_id": 4059,
-      "number": 26,
-      "direction": "down",
-      "clue_text": "Actor Scott or Driver",
-      "answer": "ADAM"
-    },
-    {
-      "clue_id": 332280,
-      "puzzle_id": 4059,
-      "number": 27,
-      "direction": "down",
-      "clue_text": "Fellas",
-      "answer": "GUYS"
-    },
-    {
-      "clue_id": 332281,
-      "puzzle_id": 4059,
-      "number": 30,
-      "direction": "down",
-      "clue_text": "Rear end, informally",
-      "answer": "TUSHY"
-    },
-    {
-      "clue_id": 332282,
-      "puzzle_id": 4059,
-      "number": 31,
-      "direction": "down",
-      "clue_text": "Common saying",
-      "answer": "ADAGE"
-    },
-    {
-      "clue_id": 332283,
-      "puzzle_id": 4059,
-      "number": 33,
-      "direction": "down",
-      "clue_text": "African grazer",
-      "answer": "GNU"
-    },
-    {
-      "clue_id": 332284,
-      "puzzle_id": 4059,
-      "number": 34,
-      "direction": "down",
-      "clue_text": "\"The Matrix\" character whose name, aptly, is an anagram of ONE",
-      "answer": "NEO"
-    },
-    {
-      "clue_id": 332285,
-      "puzzle_id": 4059,
-      "number": 35,
-      "direction": "down",
-      "clue_text": "The \"G\" of LGBTQ+",
-      "answer": "GAY"
-    },
-    {
-      "clue_id": 332286,
-      "puzzle_id": 4059,
-      "number": 36,
-      "direction": "down",
-      "clue_text": "\"Holy Moses!\"",
-      "answer": "EGAD"
-    },
-    {
-      "clue_id": 332287,
-      "puzzle_id": 4059,
-      "number": 37,
-      "direction": "down",
-      "clue_text": "Folk singer Guthrie",
-      "answer": "ARLO"
-    },
-    {
-      "clue_id": 332288,
-      "puzzle_id": 4059,
-      "number": 38,
-      "direction": "down",
-      "clue_text": "Horse with a reddish coat",
-      "answer": "ROAN"
-    },
-    {
-      "clue_id": 332289,
-      "puzzle_id": 4059,
-      "number": 42,
-      "direction": "down",
-      "clue_text": "Pro gridiron officials, informally",
-      "answer": "NFLREFS"
-    },
-    {
-      "clue_id": 332290,
-      "puzzle_id": 4059,
-      "number": 43,
-      "direction": "down",
-      "clue_text": "Bird that scientists are trying to bring back from extinction",
-      "answer": "DODO"
-    },
-    {
-      "clue_id": 332291,
-      "puzzle_id": 4059,
-      "number": 44,
-      "direction": "down",
-      "clue_text": "Have a round of tequila, perhaps",
-      "answer": "DOSHOTS"
-    },
-    {
-      "clue_id": 332292,
-      "puzzle_id": 4059,
-      "number": 45,
-      "direction": "down",
-      "clue_text": "Regarding",
-      "answer": "ASTO"
-    },
-    {
-      "clue_id": 332293,
-      "puzzle_id": 4059,
-      "number": 49,
-      "direction": "down",
-      "clue_text": "Not tied, as shoelaces",
-      "answer": "UNDONE"
-    },
-    {
-      "clue_id": 332294,
-      "puzzle_id": 4059,
-      "number": 50,
-      "direction": "down",
-      "clue_text": "Burns with liquid",
-      "answer": "SCALDS"
-    },
-    {
-      "clue_id": 332295,
-      "puzzle_id": 4059,
-      "number": 51,
-      "direction": "down",
-      "clue_text": "Least likely to start a conversation with a stranger, say",
-      "answer": "SHYEST"
-    },
-    {
-      "clue_id": 332296,
-      "puzzle_id": 4059,
-      "number": 53,
-      "direction": "down",
-      "clue_text": "Have the same opinion",
-      "answer": "AGREE"
-    },
-    {
-      "clue_id": 332297,
-      "puzzle_id": 4059,
-      "number": 55,
-      "direction": "down",
-      "clue_text": "White heron",
-      "answer": "EGRET"
-    },
-    {
-      "clue_id": 332298,
-      "puzzle_id": 4059,
-      "number": 57,
-      "direction": "down",
-      "clue_text": "Bear in constellation names",
-      "answer": "URSA"
-    },
-    {
-      "clue_id": 332299,
-      "puzzle_id": 4059,
-      "number": 58,
-      "direction": "down",
-      "clue_text": "A proper one is capitalized",
-      "answer": "NOUN"
-    },
-    {
-      "clue_id": 332300,
-      "puzzle_id": 4059,
-      "number": 59,
-      "direction": "down",
-      "clue_text": "Spun records, for short",
-      "answer": "DJED"
-    },
-    {
-      "clue_id": 332301,
-      "puzzle_id": 4059,
-      "number": 60,
-      "direction": "down",
-      "clue_text": "That girl",
-      "answer": "SHE"
-    },
-    {
-      "clue_id": 332302,
-      "puzzle_id": 4059,
-      "number": 61,
-      "direction": "down",
-      "clue_text": "___ Maria (coffee liqueur)",
-      "answer": "TIA"
-    },
-    {
-      "clue_id": 332303,
-      "puzzle_id": 4059,
-      "number": 62,
-      "direction": "down",
-      "clue_text": "Things eliminated with YouTube Premium",
-      "answer": "ADS"
-    }
-  ]
+  "timestamp": "2026-02-03T04:30:31.184Z"
 }

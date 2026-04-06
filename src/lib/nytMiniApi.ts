@@ -145,9 +145,12 @@ export async function fetchMiniList(page: number = 1, limit: number = 50): Promi
 /**
  * Search for clues matching a query
  */
-export async function searchMiniClues(query: string): Promise<MiniClueSearchResponse | null> {
+export async function searchMiniClues(
+    query: string,
+    mode: 'contains' | 'exact' = 'contains'
+): Promise<MiniClueSearchResponse | null> {
     try {
-        const response = await fetch(`${API_URL}/clue?q=${encodeURIComponent(query)}`);
+        const response = await fetch(`${API_URL}/clue?q=${encodeURIComponent(query)}&mode=${mode}`);
 
         if (!response.ok) {
             throw new Error('Failed to search mini clues');

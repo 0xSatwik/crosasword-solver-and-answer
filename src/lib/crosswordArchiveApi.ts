@@ -7,12 +7,13 @@ const API_URL = 'https://crossword-archive-worker.mitomat.workers.dev';
 export interface ClueHistoryItem {
   clue_id: number;
   puzzle_id: number;
-  number: number;
+  number: number | null;
   direction: string;
   clue_text: string;
   answer: string;
   date: string;
   title: string;
+  source?: string;
 }
 
 // Add formatted fields for display
@@ -75,11 +76,10 @@ export async function searchClueHistory(
   exactMatch: boolean = true
 ): Promise<ClueHistoryResponse> {
   try {
-    // Build the URL with query parameters
     const url = new URL(`${API_URL}/api/search/clue`);
     url.searchParams.append('q', clueText);
+    url.searchParams.append('mode', exactMatch ? 'exact' : 'contains');
 
-    // Make the request
     const response = await fetch(url.toString());
 
     if (!response.ok) {
@@ -96,15 +96,11 @@ export async function searchClueHistory(
       };
     }
 
-    // Get results from the nested structure
     let results = rawData.data.results;
 
-    // Filter to exact matches if requested
-    if (exactMatch) {
+    if (!exactMatch) {
       const normalizedQuery = normalizeClueText(clueText);
-      results = results.filter(item =>
-        normalizeClueText(item.clue_text) === normalizedQuery
-      );
+      results = results.filter(item => normalizeClueText(item.clue_text).includes(normalizedQuery));
     }
 
     // Format the results with readable dates

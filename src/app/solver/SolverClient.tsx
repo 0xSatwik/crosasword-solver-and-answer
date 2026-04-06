@@ -1,33 +1,26 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Search, X, Plus, Minus, Calendar, Sparkles, ArrowRight, Lightbulb } from 'lucide-react';
-import { fetchCrosswordAnswers, generatePattern } from '../../lib/crosswordNexusApi';
-import { searchClueHistory, FormattedClueHistoryItem } from '../../lib/crosswordArchiveApi';
-import { searchMiniClues, MiniClueMatch, formatMiniDate } from '../../lib/nytMiniApi';
+import { FormattedClueHistoryItem } from '../../lib/crosswordArchiveApi';
+import { MiniClueMatch, formatMiniDate } from '../../lib/nytMiniApi';
+import { solveCrosswordClue, SolverAnswer } from '../../lib/crosswordSolverApi';
 
 export default function SolverClient() {
-    // State for the solver
     const [clue, setClue] = useState('');
     const [selectedLength, setSelectedLength] = useState<number | null>(null);
     const [letterBoxes, setLetterBoxes] = useState<string[]>([]);
-    const [results, setResults] = useState<any[]>([]);
+    const [results, setResults] = useState<SolverAnswer[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [showAll, setShowAll] = useState(false);
     const [clueHistory, setClueHistory] = useState<FormattedClueHistoryItem[]>([]);
     const [miniHistory, setMiniHistory] = useState<MiniClueMatch[]>([]);
-    const [historyLoading, setHistoryLoading] = useState(false);
-    const [miniHistoryLoading, setMiniHistoryLoading] = useState(false);
     const [usingFallback, setUsingFallback] = useState(false);
+    const [solverSource, setSolverSource] = useState<'internal' | 'crosswordnexus' | 'datamuse'>('internal');
 
-    // References
     const clueInputRef = useRef<HTMLInputElement>(null);
 
-    // API URLs
-    const DATAMUSE_API_URL = 'https://api.datamuse.com/words';
-
-    // Schema for SoftwareApplication
     const softwareSchema = {
         "@context": "https://schema.org",
         "@type": "WebApplication",
@@ -43,7 +36,6 @@ export default function SolverClient() {
         }
     };
 
-    // Update letter boxes when length changes
     useEffect(() => {
         if (selectedLength) {
             setLetterBoxes(Array(selectedLength).fill(''));
@@ -52,168 +44,13 @@ export default function SolverClient() {
         }
     }, [selectedLength]);
 
-    // Handle letter input change
-    const handleLetterChange = (index: number, value: string) => {
-        const newLetterBoxes = [...letterBoxes];
-        newLetterBoxes[index] = value.toLowerCase();
-        setLetterBoxes(newLetterBoxes);
-    };
-
-    // Convert letter boxes to pattern
-    const getPatternFromLetters = () => {
-        return letterBoxes.map(letter => letter || '?').join('');
-    };
-
-    // Find top-rated results
-    const getTopRatedResults = (results: any[], isNexusData: boolean = true) => {
-        if (results.length === 0) return [];
-
-        // For Crossword Nexus results, find all with the highest rating
-        if (isNexusData) {
-            const maxRating = Math.max(...results.map(r => r.rating || Math.floor(r.score / 100)));
-            return results.filter(r => (r.rating || Math.floor(r.score / 100)) === maxRating);
-        }
-
-        // For Datamuse, just return the top result
-        return [results[0]];
-    };
-
-    // Search for historical clue data (NYT Crossword)
-    const fetchClueHistory = async (clueText: string) => {
-        setHistoryLoading(true);
-        try {
-            const response = await searchClueHistory(clueText);
-            if (response.success && response.data.length > 0) {
-                setClueHistory(response.data);
-            } else {
-                setClueHistory([]);
-            }
-        } catch (error) {
-            console.error('Error fetching clue history:', error);
-            setClueHistory([]);
-        } finally {
-            setHistoryLoading(false);
-        }
-    };
-
-    // Search for historical clue data (NYT Mini)
-    const fetchMiniHistory = async (clueText: string) => {
-        setMiniHistoryLoading(true);
-        try {
-            const response = await searchMiniClues(clueText);
-            if (response?.success && response.matches && response.matches.length > 0) {
-                setMiniHistory(response.matches);
-            } else {
-                setMiniHistory([]);
-            }
-        } catch (error) {
-            console.error('Error fetching mini history:', error);
-            setMiniHistory([]);
-        } finally {
-            setMiniHistoryLoading(false);
-        }
-    };
-
-    // Try Datamuse as a fallback
-    const tryDatamuseFallback = async () => {
-        try {
-            // Build the API URL
-            let apiUrl = `${DATAMUSE_API_URL}?ml=${encodeURIComponent(clue)}&max=100`;
-
-            // Add pattern parameter if we have letter boxes
-            if (letterBoxes.length > 0 && !showAll && selectedLength) {
-                const pattern = getPatternFromLetters();
-                apiUrl += `&sp=${encodeURIComponent(pattern)}`;
-            }
-
-            // Make API request to Datamuse
-            const response = await fetch(apiUrl);
-
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-
-            const data = await response.json();
-            setLoading(false);
-            setUsingFallback(true);
-
-            if (data && data.length > 0) {
-                // Filter by length if needed and remove multi-word answers
-                let filteredResults = data.filter((item: any) => !item.word.includes(' ') && !item.word.includes('-'));
-
-                if (selectedLength && !showAll) {
-                    filteredResults = filteredResults.filter((item: any) => item.word.length === selectedLength);
-                }
-
-                // Sort results by score (higher first)
-                filteredResults.sort((a: any, b: any) => b.score - a.score);
-
-                // Set results
-                setResults(filteredResults);
-            } else {
-                setResults([]);
-                setError('No matching words found. Try a different clue or letter pattern.');
-            }
-        } catch (error) {
-            setLoading(false);
-            setError('Error fetching results: ' + (error instanceof Error ? error.message : 'Unknown error'));
-            console.error('Error:', error);
-        }
-    };
-
-    // Search function
-    const searchCrossword = async () => {
-        // Validate input
-        if (!clue) {
-            setError('Please enter a clue');
-            return;
-        }
-
-        // Clear previous error and state
-        setError('');
-        setLoading(true);
-        setClueHistory([]);
-        setMiniHistory([]);
-        setUsingFallback(false);
-
-        // Fetch historical clue data from both sources
-        fetchClueHistory(clue);
-        fetchMiniHistory(clue);
-
-        try {
-            // First try Crossword Nexus API (via our Cloudflare Worker)
-            const pattern = selectedLength && !showAll ? getPatternFromLetters() : '';
-            const response = await fetchCrosswordAnswers(clue, pattern);
-
-            if (response.success && response.answers.length > 0) {
-                setLoading(false);
-
-                // Map the response to match our expected format but preserve rating
-                const formattedResults = response.answers.map(answer => ({
-                    word: answer.word,
-                    score: answer.rating * 100, // Store rating as score * 100 for consistency
-                    rating: answer.rating // Keep original rating
-                }));
-
-                setResults(formattedResults);
-            } else {
-                // If no results from Crossword Nexus, try Datamuse as fallback
-                await tryDatamuseFallback();
-            }
-        } catch (error) {
-            // If an error occurred with Crossword Nexus, try Datamuse
-            await tryDatamuseFallback();
-        }
-    };
-
-    // Handle clicking outside of input
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
             if (
                 clueInputRef.current &&
                 !clueInputRef.current.contains(e.target as Node)
             ) {
-                // Handle any click outside of input if needed
+                // Reserved for future UI polish.
             }
         };
 
@@ -223,7 +60,66 @@ export default function SolverClient() {
         };
     }, []);
 
-    // Increment/decrement selected length
+    const handleLetterChange = (index: number, value: string) => {
+        const newLetterBoxes = [...letterBoxes];
+        newLetterBoxes[index] = value.toLowerCase();
+        setLetterBoxes(newLetterBoxes);
+    };
+
+    const getPatternFromLetters = () => {
+        return letterBoxes.map(letter => letter || '?').join('');
+    };
+
+    const getTopRatedResults = (items: SolverAnswer[], usesStarRatings: boolean) => {
+        if (items.length === 0) return [];
+
+        if (!usesStarRatings) {
+            return [items[0]];
+        }
+
+        const maxRating = Math.max(...items.map(item => item.rating || Math.floor(item.score / 100)));
+        return items.filter(item => (item.rating || Math.floor(item.score / 100)) === maxRating);
+    };
+
+    const searchCrossword = async () => {
+        if (!clue.trim()) {
+            setError('Please enter a clue');
+            return;
+        }
+
+        setError('');
+        setLoading(true);
+        setResults([]);
+        setClueHistory([]);
+        setMiniHistory([]);
+        setUsingFallback(false);
+        setSolverSource('internal');
+
+        try {
+            const pattern = selectedLength && !showAll ? getPatternFromLetters() : '';
+            const response = await solveCrosswordClue(clue, pattern);
+
+            if (!response.success) {
+                throw new Error(response.error || 'Unable to fetch solver results');
+            }
+
+            setResults(response.answers || []);
+            setClueHistory(response.history?.daily || []);
+            setMiniHistory(response.history?.mini || []);
+            setUsingFallback(response.used_fallback);
+            setSolverSource(response.source || 'internal');
+
+            if (!response.answers || response.answers.length === 0) {
+                setError('No matching words found. Try a different clue or letter pattern.');
+            }
+        } catch (searchError) {
+            console.error('Error fetching solver results:', searchError);
+            setError('Error fetching results: ' + (searchError instanceof Error ? searchError.message : 'Unknown error'));
+        } finally {
+            setLoading(false);
+        }
+    };
+
     const incrementLength = () => {
         if (selectedLength === null) {
             setSelectedLength(1);
@@ -240,12 +136,10 @@ export default function SolverClient() {
         setShowAll(false);
     };
 
-    // Length options for the first screenshot style
     const lengthOptions = [2, 3, 4, 5, 6, 7, 8, 9, '10+'];
 
-    // Group results by word length
     const groupResultsByLength = () => {
-        const grouped: { [key: number]: any[] } = {};
+        const grouped: { [key: number]: SolverAnswer[] } = {};
 
         results.forEach(result => {
             const length = result.word.length;
@@ -259,7 +153,8 @@ export default function SolverClient() {
     };
 
     const groupedResults = groupResultsByLength();
-    const topResults = getTopRatedResults(results, !usingFallback);
+    const usesStarRatings = solverSource !== 'datamuse';
+    const topResults = getTopRatedResults(results, usesStarRatings);
 
     return (
         <div className="min-h-screen py-8 md:py-12">
@@ -268,7 +163,6 @@ export default function SolverClient() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
             />
             <div className="container mx-auto px-4">
-                {/* Page Header */}
                 <div className="text-center mb-10">
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
                         Crossword <span className="text-gradient">Solver</span>
@@ -278,11 +172,8 @@ export default function SolverClient() {
                     </p>
                 </div>
 
-                {/* Main Solver Card */}
                 <div className="mx-auto max-w-2xl">
                     <div className="card-glass p-6 md:p-8 rounded-3xl border border-white/50 shadow-2xl">
-
-                        {/* Clue input */}
                         <div className="mb-6">
                             <label htmlFor="clue" className="mb-2 block text-sm font-semibold text-gray-700">
                                 Enter Your Clue
@@ -315,7 +206,6 @@ export default function SolverClient() {
                             </div>
                         </div>
 
-                        {/* Show All Toggle */}
                         <div className="mb-6">
                             <button
                                 className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${showAll ? 'text-blue-600' : 'text-gray-500 hover:text-gray-700'
@@ -336,11 +226,9 @@ export default function SolverClient() {
                             </button>
                         </div>
 
-                        {/* Letter Boxes or Length Selection */}
                         {!showAll && (
                             <div className="mb-6">
                                 {selectedLength ? (
-                                    /* Letter Boxes */
                                     <div>
                                         <label className="mb-3 block text-sm font-semibold text-gray-700">
                                             Enter Known Letters (? for unknown)
@@ -376,7 +264,6 @@ export default function SolverClient() {
                                         </div>
                                     </div>
                                 ) : (
-                                    /* Length Selection */
                                     <div>
                                         <label className="mb-3 block text-sm font-semibold text-gray-700">
                                             Select Word Length
@@ -404,7 +291,6 @@ export default function SolverClient() {
                             </div>
                         )}
 
-                        {/* Search button */}
                         <div className="mb-6">
                             <button
                                 className="w-full btn-primary py-4 text-lg flex items-center justify-center gap-3"
@@ -416,22 +302,21 @@ export default function SolverClient() {
                             </button>
                         </div>
 
-                        {/* Data source indicator (only shown when fallback is used) */}
                         {usingFallback && results.length > 0 && (
                             <div className="mb-4 rounded-xl bg-amber-50 border border-amber-200 p-4 text-amber-700 text-sm flex items-center gap-2">
                                 <Lightbulb className="w-5 h-5" />
-                                Using alternative data source for results
+                                {solverSource === 'crosswordnexus'
+                                    ? 'Using CrosswordNexus fallback results for this clue'
+                                    : 'Using alternative word-association fallback results'}
                             </div>
                         )}
 
-                        {/* Error message */}
                         {error && (
                             <div className="mb-4 rounded-xl bg-red-50 border border-red-200 p-4 text-red-700 text-sm">
                                 {error}
                             </div>
                         )}
 
-                        {/* Loading indicator */}
                         {loading && (
                             <div className="my-8 flex flex-col items-center justify-center gap-3">
                                 <div className="h-10 w-10 animate-spin rounded-full border-4 border-blue-500 border-t-transparent" />
@@ -439,7 +324,6 @@ export default function SolverClient() {
                             </div>
                         )}
 
-                        {/* Crossword Archive Results */}
                         {!loading && clueHistory.length > 0 && (
                             <div className="mb-6 rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-5">
                                 <div className="flex items-center justify-between mb-4">
@@ -467,7 +351,7 @@ export default function SolverClient() {
                                             </div>
                                             <div className="flex items-center gap-2">
                                                 <div className="text-xs bg-gray-100 px-2 py-1 rounded-full font-medium">
-                                                    {item.number}{item.direction === 'across' ? 'A' : 'D'}
+                                                    {item.number != null ? `${item.number}${item.direction === 'across' ? 'A' : 'D'}` : 'Archive'}
                                                 </div>
                                                 <div className="text-sm font-medium text-gray-700">{item.title}</div>
                                             </div>
@@ -477,7 +361,6 @@ export default function SolverClient() {
                             </div>
                         )}
 
-                        {/* NYT Mini Historical Results */}
                         {!loading && miniHistory.length > 0 && (
                             <div className="mb-6 rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50 to-amber-50 p-5">
                                 <div className="flex items-center justify-between mb-4">
@@ -518,23 +401,6 @@ export default function SolverClient() {
                             </div>
                         )}
 
-                        {/* Mini History Loading indicator */}
-                        {miniHistoryLoading && !loading && (
-                            <div className="my-4 flex items-center justify-center">
-                                <div className="h-6 w-6 animate-spin rounded-full border-4 border-orange-500 border-t-transparent" />
-                                <span className="ml-3 text-sm text-orange-700">Loading Mini historical data...</span>
-                            </div>
-                        )}
-
-                        {/* History Loading indicator */}
-                        {historyLoading && !loading && (
-                            <div className="my-4 flex items-center justify-center">
-                                <div className="h-6 w-6 animate-spin rounded-full border-4 border-blue-500 border-t-transparent" />
-                                <span className="ml-3 text-sm text-blue-700">Loading historical data...</span>
-                            </div>
-                        )}
-
-                        {/* Results */}
                         {!loading && results.length > 0 && (
                             <div className="rounded-2xl border border-gray-200 bg-white p-5">
                                 <h2 className="mb-4 text-lg font-bold text-gray-900 flex items-center gap-2">
@@ -542,20 +408,19 @@ export default function SolverClient() {
                                     Possible Answers
                                 </h2>
 
-                                {/* Top Results */}
                                 {topResults.length > 0 && (
                                     <div className="mb-6">
                                         <div className="text-sm text-gray-500 mb-2 font-medium">
-                                            {topResults.length > 1 ? '⭐ Best Matches' : '⭐ Best Match'}
+                                            {topResults.length > 1 ? 'Best Matches' : 'Best Match'}
                                         </div>
                                         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                                             {topResults.map((result, index) => (
                                                 <div key={index} className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-300 rounded-xl p-4 text-center shadow-sm">
                                                     <span className="text-2xl font-bold text-amber-700 tracking-wide">{result.word}</span>
                                                     <div className="text-sm text-gray-500 mt-2">
-                                                        {!usingFallback ? (
+                                                        {usesStarRatings ? (
                                                             <div className="flex justify-center">
-                                                                {Array('rating' in result ? result.rating : Math.floor(result.score / 100))
+                                                                {Array(result.rating || Math.max(1, Math.floor(result.score / 100)))
                                                                     .fill(0)
                                                                     .map((_, i) => (
                                                                         <span key={i} className="text-yellow-500 text-lg">★</span>
@@ -571,11 +436,10 @@ export default function SolverClient() {
                                     </div>
                                 )}
 
-                                {/* Results by Length */}
                                 <div className="space-y-4">
                                     {Object.keys(groupedResults)
                                         .map(Number)
-                                        .sort((a, b) => b - a) // Sort by length in descending order
+                                        .sort((a, b) => b - a)
                                         .map(length => (
                                             <div key={length} className="border-t pt-4">
                                                 <h3 className="text-md font-semibold text-gray-800 mb-3">
@@ -588,9 +452,9 @@ export default function SolverClient() {
                                                             className="rounded-xl border border-gray-200 bg-gray-50 p-3 text-center hover:bg-blue-50 hover:border-blue-200 transition-colors cursor-pointer"
                                                         >
                                                             <span className="font-semibold text-gray-800">{result.word}</span>
-                                                            {!usingFallback && (
+                                                            {usesStarRatings && (
                                                                 <div className="flex justify-center mt-1">
-                                                                    {Array('rating' in result ? result.rating : Math.floor(result.score / 100))
+                                                                    {Array(result.rating || Math.max(1, Math.floor(result.score / 100)))
                                                                         .fill(0)
                                                                         .map((_, i) => (
                                                                             <span key={i} className="text-yellow-500 text-sm">★</span>
@@ -607,7 +471,6 @@ export default function SolverClient() {
                         )}
                     </div>
 
-                    {/* Tips Section */}
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
                         {[
                             { title: 'Use Wildcards', desc: 'Enter ? for unknown letters to narrow results' },
